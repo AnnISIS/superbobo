@@ -11,10 +11,10 @@
     "自有AI模型": "YouAI Model",
     "自有模型": "YouAI Model",
     "联系我们": "Contact Us",
-    "超级球球首页": "BiiBuu home",
+    "超级球球首页": "Chio Chio home",
     "APP 下载二维码": "App download QR code",
     "深圳南山区粤海街道高新南九道39号 清华大学研究院新大楼A栋13层A08": "A08, 13F, Building A, Tsinghua Research Institute New Building, No. 39 Gaoxin South 9th Road, Yuehai Subdistrict, Nanshan District, Shenzhen",
-    "扫码下载 BiiBuu APP。": "Scan to download the BiiBuu app.",
+    "扫码下载 Chio Chio APP。": "Scan to download the Chio Chio app.",
     "扫码添加微信": "Scan to add WeChat",
     "有爱AI": "YouAI",
     "品牌资讯": "News",
@@ -23,10 +23,10 @@
     "扫码下载 APP": "Scan to download",
     "二维码素材待替换": "QR code to be replaced",
     "支持 iOS / Android": "iOS / Android supported",
-    "超级有爱": "BiiBuu",
-    "超级球球": "BiiBuu",
-    "超级球球 BiiBuu": "BiiBuu",
-    "超级有爱首页": "BiiBuu home",
+    "超级有爱": "Chio Chio",
+    "超级球球": "Chio Chio",
+    "超级球球 Chio Chio": "Chio Chio",
+    "超级有爱首页": "Chio Chio home",
     "超级有爱（杭州）智能科技有限公司": "Super YouAI (Hangzhou) Intelligent Technology Co., Ltd.",
     "浙江省杭州市余杭区余杭街道文一西路1818-2号9幢415-5室": "Room 415-5, Building 9, No. 1818-2 Wenyi West Road, Yuhang District, Hangzhou, Zhejiang",
     "网站备案号：": "ICP filing: ",
@@ -49,27 +49,27 @@
     "让每个孩子，": "Give every child,",
     "都有一个随时回应的温暖存在": "a warm presence that always responds",
     "我们相信，科技的价值在于回应人的根本需求。超级有爱把人工智能、物联网科技与心理学理论融合，让高质量的倾听、理解与陪伴不再是少数人的奢侈品。": "We believe technology matters when it answers human needs. Super YouAI combines AI, IoT, and psychology so high-quality listening, understanding, and companionship are no longer a luxury.",
-    "了解超级球球": "Explore BiiBuu",
+    "了解超级球球": "Explore Chio Chio",
     "成为合作伙伴": "Become a Partner",
-    "超级球球是谁？": "Who is BiiBuu?",
+    "超级球球是谁？": "Who is Chio Chio?",
     "它是一款疗愈级 AI 机器人，也是孩子愿意抱着、愿意说话、能长期陪伴的情绪小伙伴。": "It is a therapeutic AI robot and an emotional companion children want to hug, talk to, and keep close over time.",
     "专业内核": "Professional Core",
     "生命感": "Lifelike Presence",
     "长期记忆": "Long-Term Memory",
     "随时回应": "Always Responsive",
     "治愈、可抱、懂情绪的 AI 小伙伴": "A healing, huggable AI companion that understands emotions",
-    "从睡前聊天到学习压力，球球用温和回应把心理支持变成孩子愿意靠近的日常关系。": "From bedtime talks to study stress, BiiBuu turns psychological support into a warm daily relationship children want to approach.",
+    "从睡前聊天到学习压力，球球用温和回应把心理支持变成孩子愿意靠近的日常关系。": "From bedtime talks to study stress, Chio Chio turns psychological support into a warm daily relationship children want to approach.",
     "专注力": "Focus",
     "情绪力": "Emotional Skills",
     "抗挫力": "Resilience",
     "表达力": "Expression",
     "以 AI 技术与心理学专业，构建有温度的成长陪伴品牌": "Building a warm growth-companion brand with AI and psychology",
     "超级有爱智能科技有限公司是深耕人工智能在情绪健康与心理陪伴领域的创新型企业，使命是让每个生命的情绪陪伴触手可及。": "Super YouAI is an innovation company focused on AI for emotional health and psychological companionship, with a mission to make emotional support within reach for every life.",
-    "超级有爱核心优势": "BiiBuu core strengths",
+    "超级有爱核心优势": "Chio Chio core strengths",
     "AI × 心理学复合团队": "AI × Psychology Team",
     "五博士研发与管理团队，覆盖人工智能、心理学、硬件和国际品牌管理。": "A five-PhD research and management team spanning AI, psychology, hardware, and international brand management.",
     "产品已进入量产阶段": "Product Entering Mass Production",
-    "自主研发 AI 陪伴机器人“超级球球”，面向儿童情绪识别与温和疏导场景。": "Our self-developed AI companion robot BiiBuu is designed for children’s emotion recognition and gentle support.",
+    "自主研发 AI 陪伴机器人“超级球球”，面向儿童情绪识别与温和疏导场景。": "Our self-developed AI companion robot Chio Chio is designed for children’s emotion recognition and gentle support.",
     "面向全球渠道布局": "Global Channel Roadmap",
     "计划于 2026 年美国 CES 全球首发，销售网络覆盖北美、欧洲、东南亚及国内核心市场。": "Planned for a global debut at CES 2026, with sales networks across North America, Europe, Southeast Asia, and key domestic markets.",
     "博士研发与管理团队": "PhD R&D and management team",
@@ -78,9 +78,9 @@
     "2026 年美国 CES 全球首发计划": "Planned CES 2026 global debut",
     "四种性格陪伴": "Four Character Companions",
     "把成长问题变成孩子听得懂的朋友": "Turn growth challenges into friends children understand",
-    "四大性格球球，陪孩子养成一生受用的好性格": "Four BiiBuu characters help children build lifelong strengths",
-    "球球的核心差异": "What Makes BiiBuu Different",
-    "超级球球不是把 AI 放进玩具，而是把专业心理陪伴、生命感硬件和长期关系放进孩子的日常。": "BiiBuu is not AI placed inside a toy. It brings professional emotional support, lifelike hardware, and lasting relationships into daily life.",
+    "四大性格球球，陪孩子养成一生受用的好性格": "Four Chio Chio characters help children build lifelong strengths",
+    "球球的核心差异": "What Makes Chio Chio Different",
+    "超级球球不是把 AI 放进玩具，而是把专业心理陪伴、生命感硬件和长期关系放进孩子的日常。": "Chio Chio is not AI placed inside a toy. It brings professional emotional support, lifelike hardware, and lasting relationships into daily life.",
     "专业心理内核": "Psychological Core",
     "AI 疗愈模型": "AI Healing Model",
     "基于心理学经验构建，让回应不止于聊天。": "Built on psychological experience, so responses go beyond chat.",
@@ -96,40 +96,40 @@
     "两种产品": "Two Product Forms",
     "陪伴孩子不同场景": "For Different Moments of a Child's Day",
     "围绕孩子成长中最常见的四类问题，把陪伴变成孩子听得懂、愿意靠近的性格 IP。": "Based on four common growth challenges, companionship becomes a character IP children understand and want to approach.",
-    "不拖拉球球": "Start-Now BiiBuu",
+    "不拖拉球球": "Start-Now Chio Chio",
     "专注力与自律力": "Focus & Self-Discipline",
     "陪孩子从“等一下”走向“先开始”。": "Helps children move from “later” to “let’s start.”",
-    "不暴躁球球": "Calm BiiBuu",
+    "不暴躁球球": "Calm Chio Chio",
     "情绪识别与管理力": "Emotion Recognition & Regulation",
     "先接住情绪，再学会好好表达。": "First holds the emotion, then helps children express it well.",
-    "小坚强球球": "Brave BiiBuu",
+    "小坚强球球": "Brave Chio Chio",
     "抗挫力与乐观心态": "Resilience & Optimism",
     "失败和批评面前，练习恢复力。": "Practices recovery in the face of setbacks and criticism.",
-    "小话唠球球": "Expressive BiiBuu",
+    "小话唠球球": "Expressive Chio Chio",
     "表达力与社交力": "Expression & Social Skills",
     "鼓励内向孩子开口、分享、沟通。": "Encourages quiet children to speak, share, and connect.",
-    "超级球球户外场景": "BiiBuu outdoor scene",
-    "四款超级球球在森林里的合影": "Four BiiBuu characters in a forest",
-    "从家里到户外，球球都能成为孩子愿意带着走的陪伴": "From home to outdoors, BiiBuu becomes a companion children want to take along",
-    "柔软可抱、可挂可携带的形态，让 AI 陪伴从屏幕里走出来，变成孩子熟悉、亲近、愿意分享心事的小伙伴。": "Soft, huggable, and portable, BiiBuu brings AI companionship out of the screen and into a familiar friend children trust.",
-    "为什么超级球球值得信任": "Why Families Can Trust BiiBuu",
+    "超级球球户外场景": "Chio Chio outdoor scene",
+    "四款超级球球在森林里的合影": "Four Chio Chio characters in a forest",
+    "从家里到户外，球球都能成为孩子愿意带着走的陪伴": "From home to outdoors, Chio Chio becomes a companion children want to take along",
+    "柔软可抱、可挂可携带的形态，让 AI 陪伴从屏幕里走出来，变成孩子熟悉、亲近、愿意分享心事的小伙伴。": "Soft, huggable, and portable, Chio Chio brings AI companionship out of the screen and into a familiar friend children trust.",
+    "为什么超级球球值得信任": "Why Families Can Trust Chio Chio",
     "超级有爱以 AI 情绪疗愈为核心，把人工智能、物联网科技与专业心理学理论融合，打造让用户感受到爱的 AI 伙伴。": "Super YouAI centers on AI emotional healing, combining AI, IoT, and psychology to create AI companions that make users feel loved.",
     "核心团队覆盖人工智能、心理学、物联网、硬件和国际品牌管理。": "The core team spans AI, psychology, IoT, hardware, and international brand management.",
     "真实心理服务经验": "Real Psychological Service Experience",
     "创始团队长期参与公益心理服务，把技术理想落到真实人的需求里。": "The founding team has long participated in public-interest psychological services, grounding technical ideals in real human needs.",
     "产品进入量产阶段，计划于 2026 年美国 CES 全球首发。": "The product is entering mass production and is planned for a CES 2026 global debut.",
     "越来越多家庭愿意留下的温暖陪伴": "Warm companionship more families choose to keep",
-    "首批家庭测试显示，超级球球不只是短暂的新鲜玩具，而是在持续互动中成为孩子愿意靠近、愿意倾诉的伙伴。": "Early family tests show BiiBuu is more than a short-lived novelty; through ongoing interaction, it becomes a companion children approach and confide in.",
-    "这些数字说明，球球不是只被新鲜地玩一次，而是在日常互动里被孩子反复靠近。": "These numbers suggest BiiBuu is not played with once for novelty, but repeatedly approached by children in everyday interaction.",
-    "首批真实家庭付费测试显示，超级球球不依赖短期新鲜感，而是通过持续的情绪价值与孩子建立关系。": "Early paid family tests show that BiiBuu is not just novelty; it builds relationships through sustained emotional value.",
+    "首批家庭测试显示，超级球球不只是短暂的新鲜玩具，而是在持续互动中成为孩子愿意靠近、愿意倾诉的伙伴。": "Early family tests show Chio Chio is more than a short-lived novelty; through ongoing interaction, it becomes a companion children approach and confide in.",
+    "这些数字说明，球球不是只被新鲜地玩一次，而是在日常互动里被孩子反复靠近。": "These numbers suggest Chio Chio is not played with once for novelty, but repeatedly approached by children in everyday interaction.",
+    "首批真实家庭付费测试显示，超级球球不依赖短期新鲜感，而是通过持续的情绪价值与孩子建立关系。": "Early paid family tests show that Chio Chio is not just novelty; it builds relationships through sustained emotional value.",
     "真实家庭持续追踪测试": "families in ongoing tracking tests",
     "21 日对话留存率": "21-day conversation retention",
     "日均互动时长": "average daily interaction",
     "家长满意度反馈": "parent satisfaction score",
-    "把超级球球带进更多孩子的日常": "Bring BiiBuu into more children’s daily lives",
-    "让球球走进更多孩子的日常": "Bring BiiBuu into more children’s everyday life",
+    "把超级球球带进更多孩子的日常": "Bring Chio Chio into more children’s daily lives",
+    "让球球走进更多孩子的日常": "Bring Chio Chio into more children’s everyday life",
     "我们正在寻找理解亲子消费、教育场景与礼赠渠道的伙伴，一起把有温度的 AI 情绪陪伴带到更多家庭。": "We are looking for partners who understand parent-child consumption, education scenarios, and gifting channels to bring warm AI companionship to more families.",
-    "超级球球在儿童活动空间陈列": "BiiBuu displayed in a children’s activity space",
+    "超级球球在儿童活动空间陈列": "Chio Chio displayed in a children’s activity space",
     "新品类更好讲清楚": "A Clear New Category",
     "聚焦儿童情绪陪伴与性格养成，和常规玩具、教具形成差异化，方便伙伴建立推荐理由。": "Focused on emotional companionship and character building, it stands apart from ordinary toys and teaching aids.",
     "聚焦儿童情绪陪伴与性格养成，和常规玩具、教具形成差异化。": "Focused on emotional companionship and character building, distinct from ordinary toys or teaching aids.",
@@ -148,10 +148,10 @@
     "孩子愿意说，\n父母看得见": "Children Open Up,\nParents See More",
     "孩子愿意说，": "Children Open Up,",
     "父母看得见": "Parents See More",
-    "超级球球用 AI 情绪陪伴，帮助孩子表达情绪、疏导压力、养成好性格。": "BiiBuu uses AI emotional companionship to help children express feelings, ease stress, and build strong character.",
+    "超级球球用 AI 情绪陪伴，帮助孩子表达情绪、疏导压力、养成好性格。": "Chio Chio uses AI emotional companionship to help children express feelings, ease stress, and build strong character.",
     "了解产品": "Explore Product",
     "不是多一个屏幕，是一个愿意听孩子说话的伙伴": "Not another screen, but a companion willing to listen",
-    "超级球球把“倾听、共情、正向引导、正向强化”放进柔软可抱的陪伴机器人里。孩子愿意靠近，父母也更容易看见真实的情绪变化。": "BiiBuu puts listening, empathy, positive guidance, and reinforcement into a soft companion robot children want to approach.",
+    "超级球球把“倾听、共情、正向引导、正向强化”放进柔软可抱的陪伴机器人里。孩子愿意靠近，父母也更容易看见真实的情绪变化。": "Chio Chio puts listening, empathy, positive guidance, and reinforcement into a soft companion robot children want to approach.",
     "孩子愿意亲近": "Children Want to Approach",
     "柔软、有眼神、可拥抱。": "Soft, expressive, and huggable.",
     "父母更易理解": "Parents Understand More Easily",
@@ -159,26 +159,26 @@
     "习惯慢慢养成": "Habits Grow Gradually",
     "四类性格能力日常练习。": "Daily practice for four character strengths.",
     "一套产品，两种陪伴": "One Product Family, Two Companion Forms",
-    "大球球适合家庭里的长期陪伴，小球球适合孩子带出门。一个建立深关系，一个延续安全感。": "The larger BiiBuu supports long-term companionship at home; the smaller one travels with children, extending a sense of safety.",
-    "经典款 · 大球球": "Classic · Big BiiBuu",
+    "大球球适合家庭里的长期陪伴，小球球适合孩子带出门。一个建立深关系，一个延续安全感。": "The larger Chio Chio supports long-term companionship at home; the smaller one travels with children, extending a sense of safety.",
+    "经典款 · 大球球": "Classic · Big Chio Chio",
     "放在书桌和床边，成为孩子每天都见得到的陪伴": "Place it by the desk or bed as an everyday companion",
     "面向居家陪伴、睡前安抚、学习压力和亲子沟通场景，承担更完整的 AI 情绪陪伴与性格养成体验。": "Designed for home companionship, bedtime comfort, study pressure, and parent-child communication.",
-    "精灵版 · 小球球": "Sprite · Mini BiiBuu",
+    "精灵版 · 小球球": "Sprite · Mini Chio Chio",
     "挂在书包上，把熟悉的安心感带到外面": "Clip it to a backpack and bring familiar comfort outside",
     "更轻巧、更适合礼赠和日常携带，让“口袋里的情绪小伙伴”进入校园、出游和社交场景。": "Lighter and easier to gift or carry, it brings a pocket-sized emotional companion into school, travel, and social scenes.",
     "四个颜色，四种孩子需要的成长力量": "Four Colors, Four Growth Strengths",
     "它不是一只“万能球球”，而是把孩子最常见的成长挑战拆成四个清晰选择，让购买理由、孩子偏爱和 IP 记忆点同时成立。": "It is not one all-purpose character; it turns common growth challenges into four clear choices with distinct reasons to love and remember.",
-    "每个孩子都有自己的节奏。四只球球用不同的性格陪在身边，帮孩子慢慢练习专注、表达、勇敢和好好说话。": "Every child has their own pace. Four BiiBuu personalities stay close and gently help children practice focus, expression, courage, and kind communication.",
-    "玉兔白 · 不拖拉球球": "Moon White\nStart-Now BiiBuu",
+    "每个孩子都有自己的节奏。四只球球用不同的性格陪在身边，帮孩子慢慢练习专注、表达、勇敢和好好说话。": "Every child has their own pace. Four Chio Chio personalities stay close and gently help children practice focus, expression, courage, and kind communication.",
+    "玉兔白 · 不拖拉球球": "Moon White\nStart-Now Chio Chio",
     "你不拖拉，我不拖拉，咱们都不拖拉": "No more putting things off, together.",
     "适合磨蹭、作业拖延、起床困难和习惯养成，陪孩子从“等一下”走向“先开始”。": "For dawdling, homework delay, hard mornings, and habit building.",
-    "治愈粉 · 不暴躁球球": "Healing Pink\nCalm BiiBuu",
+    "治愈粉 · 不暴躁球球": "Healing Pink\nCalm Chio Chio",
     "遇事不暴躁，温柔好好说": "Stay gentle, speak kindly.",
     "适合急躁、哭闹、顶嘴和冲动表达，帮助孩子先认识情绪，再好好说话。": "For impatience, crying, arguing, and impulsive expression.",
-    "不蕉绿 · 小坚强球球": "Banana Green\nBrave BiiBuu",
+    "不蕉绿 · 小坚强球球": "Banana Green\nBrave Chio Chio",
     "勇敢不害怕，做个小坚强": "Be brave and grow resilient.",
     "适合怕失败、怕批评、受挫后退缩，陪孩子练习勇敢、自信和恢复力。": "For fear of failure, criticism, and retreat after setbacks.",
-    "仙女蓝 · 小话唠球球": "Fairy Blue\nExpressive BiiBuu",
+    "仙女蓝 · 小话唠球球": "Fairy Blue\nExpressive Chio Chio",
     "敢开口，爱表达，快乐交朋友": "Speak up, express, and make friends.",
     "适合内向、胆小、不敢表达，陪孩子完成社交破冰和表达练习。": "For shy or quiet children who need support starting conversations.",
     "8个陪伴动作，把情绪支持放进日常": "Eight companion actions bring emotional support into daily life",
@@ -210,14 +210,14 @@
     "随身礼赠": "Portable Gift",
     "可挂可带，适合开学礼、生日礼、节日礼和亲子消费场景。": "Portable and giftable for school openings, birthdays, holidays, and family consumption.",
     "AI硬件是入口，治愈成长 IP 是长期资产": "AI hardware is the entry point; healing growth IP is the long-term asset",
-    "超级球球不只卖一个硬件，而是以“原创治愈成长 AI 亲子 IP”为核心，连接家庭陪伴、校园文创、亲子消费和品牌联名。": "BiiBuu is more than hardware; it is an original healing-growth AI family IP connecting home companionship, campus culture, family consumption, and brand collaborations.",
+    "超级球球不只卖一个硬件，而是以“原创治愈成长 AI 亲子 IP”为核心，连接家庭陪伴、校园文创、亲子消费和品牌联名。": "Chio Chio is more than hardware; it is an original healing-growth AI family IP connecting home companionship, campus culture, family consumption, and brand collaborations.",
     "AI 成长陪伴硬件": "AI growth companion hardware",
     "挂件与随身周边": "Clips and portable accessories",
     "礼盒与联名授权": "Gift boxes and co-brand licensing",
 
-    "有爱AI让球球更懂孩子：先陪孩子愿意开口，再把日常互动里的情绪线索温和地反馈给家庭，帮助父母更早看见孩子的需要。": "YouAI helps BiiBuu understand children better: first helping them open up, then gently turning everyday emotional cues into insights families can notice earlier.",
+    "有爱AI让球球更懂孩子：先陪孩子愿意开口，再把日常互动里的情绪线索温和地反馈给家庭，帮助父母更早看见孩子的需要。": "YouAI helps Chio Chio understand children better: first helping them open up, then gently turning everyday emotional cues into insights families can notice earlier.",
     "自研面向心理陪伴场景的 AI 系统，以儿童家庭为首个落地场景，连接硬件陪伴、情绪感知、个性化反馈、家长协同与风险预警，构建长期情绪支持闭环。": "Our proprietary AI system for psychological companionship begins with children and families, connecting hardware, emotion sensing, personalization, parent collaboration, and risk alerts.",
-    "有爱AI让球球更懂孩子：先陪孩子愿意开口，再把日常互动里的情绪线索温和地反馈给家庭，帮助父母更早看见孩子的需要。": "YouAI helps BiiBuu understand children better: first helping them feel willing to speak, then gently reflecting emotional cues from daily interactions back to the family.",
+    "有爱AI让球球更懂孩子：先陪孩子愿意开口，再把日常互动里的情绪线索温和地反馈给家庭，帮助父母更早看见孩子的需要。": "YouAI helps Chio Chio understand children better: first helping them feel willing to speak, then gently reflecting emotional cues from daily interactions back to the family.",
     "有爱AI能力闭环": "YouAI capability loop",
     "硬件陪伴": "Hardware Companion",
     "情绪感知": "Emotion Sensing",
@@ -331,8 +331,8 @@
     "根据孩子后续的情绪变化和互动反馈，不断优化陪伴方式。": "It keeps improving companionship based on emotional changes and interaction feedback.",
     "从“情绪描述”到“状态计算”": "From Emotional Description to State Computation",
     "有爱AI把一次对话中的语义、语气、行为场景和长期记忆映射到心理状态空间，再根据孩子当下可承受的改变半径，生成更温和、更可执行的陪伴策略。": "YouAI maps semantics, tone, behavior context, and long-term memory into psychological state space, then generates gentler and more actionable companionship strategies based on what a child can bear at that moment.",
-    "超级球球，是有爱AI在儿童家庭场景的第一款产品": "BiiBuu is the first YouAI product for children and families",
-    "面向 5-12 岁儿童，超级球球把自然语音对话、智能情绪识别、积极陪伴、负面情绪疏导、优秀性格养成、长期记忆、眼神互动和触感回应整合为日常可感知的陪伴体验。": "For children aged 5 to 12, BiiBuu integrates voice dialogue, emotion recognition, positive companionship, emotional support, character building, memory, eye interaction, and touch feedback.",
+    "超级球球，是有爱AI在儿童家庭场景的第一款产品": "Chio Chio is the first YouAI product for children and families",
+    "面向 5-12 岁儿童，超级球球把自然语音对话、智能情绪识别、积极陪伴、负面情绪疏导、优秀性格养成、长期记忆、眼神互动和触感回应整合为日常可感知的陪伴体验。": "For children aged 5 to 12, Chio Chio integrates voice dialogue, emotion recognition, positive companionship, emotional support, character building, memory, eye interaction, and touch feedback.",
     "孩子愿意说": "Children Open Up",
     "具象化、拟人化、可触摸的硬件形态，降低表达门槛，让孩子更愿意主动倾诉。": "A tangible, personified, touchable form lowers the barrier to expression.",
     "家长更早懂": "Parents Understand Earlier",
@@ -342,10 +342,10 @@
     "边界更清晰": "Clearer Boundaries",
     "产品目标不是替代父母或治疗，而是成为家庭情绪支持的轻量级基础设施。": "The product does not replace parents or therapy; it is lightweight emotional-support infrastructure for families.",
 
-    "成为超级球球合作伙伴": "Become a BiiBuu Partner",
-    "超级球球兼具 AI 陪伴价值、可爱 IP 形象和礼赠属性，适合亲子、教育、礼品、潮玩零售与区域渠道共同拓展。": "BiiBuu combines AI companionship, a lovable IP, and giftability, making it suitable for family, education, gifting, retail, and regional channels.",
-    "为什么选择超级球球？": "Why BiiBuu?",
-    "儿童情绪陪伴与性格养成正在成为家庭刚需，超级球球用可爱 IP、AI 心理模型和全场景礼赠属性，帮助伙伴切入更稀缺、更有复购潜力的亲子消费赛道。": "Children’s emotional companionship and character building are becoming family essentials. BiiBuu helps partners enter a scarce and repeatable family-consumption category.",
+    "成为超级球球合作伙伴": "Become a Chio Chio Partner",
+    "超级球球兼具 AI 陪伴价值、可爱 IP 形象和礼赠属性，适合亲子、教育、礼品、潮玩零售与区域渠道共同拓展。": "Chio Chio combines AI companionship, a lovable IP, and giftability, making it suitable for family, education, gifting, retail, and regional channels.",
+    "为什么选择超级球球？": "Why Chio Chio?",
+    "儿童情绪陪伴与性格养成正在成为家庭刚需，超级球球用可爱 IP、AI 心理模型和全场景礼赠属性，帮助伙伴切入更稀缺、更有复购潜力的亲子消费赛道。": "Children’s emotional companionship and character building are becoming family essentials. Chio Chio helps partners enter a scarce and repeatable family-consumption category.",
     "AI 与心理学能力支撑": "AI and Psychology Capability",
     "自研有爱 AI 心理陪伴系统，结合情绪识别、共情对话和长期记忆，形成产品体验壁垒。": "The proprietary YouAI system combines emotion recognition, empathic dialogue, and long-term memory.",
     "总部合作支持": "Headquarters Support",
@@ -356,10 +356,10 @@
     "传播支持": "Communication Support",
     "配合线上线下传播、展会活动、达人内容和品牌联合营销。": "Online/offline campaigns, exhibitions, creator content, and co-marketing.",
     "诚邀全国合作伙伴": "Inviting Partners Nationwide",
-    "超级球球面向儿童心理健康与成长陪伴赛道，适合有本地资源、亲子客群、礼赠渠道或社群影响力的伙伴共同拓展。": "BiiBuu is for partners with local resources, family audiences, gifting channels, or community influence.",
+    "超级球球面向儿童心理健康与成长陪伴赛道，适合有本地资源、亲子客群、礼赠渠道或社群影响力的伙伴共同拓展。": "Chio Chio is for partners with local resources, family audiences, gifting channels, or community influence.",
     "我们寻找的不是短期铺货，而是长期共建": "We are not looking for short-term distribution, but long-term co-building",
     "适合拥有亲子客群、教育资源、礼赠渠道、区域服务能力或品牌联合资源的伙伴。": "Ideal for partners with family audiences, education resources, gifting channels, regional service capability, or co-branding resources.",
-    "Partner with BiiBuu": "Partner with BiiBuu",
+    "Partner with Chio Chio": "Partner with Chio Chio",
     "新消费品类窗口": "A New Consumer Category Window",
     "儿童情绪陪伴与性格养成正在成为家庭刚需，合作伙伴可以更早占位一个有复购、有内容、有故事的新赛道。": "Children’s emotional companionship and character building are becoming family essentials; partners can enter a repeatable, content-rich, story-driven category earlier.",
     "可被陈列的高感知产品": "A High-Perception Product for Display",
@@ -384,22 +384,22 @@
 
     "产品进展、行业活动、媒体关注与合作动态。": "Product progress, industry events, media attention, and partnership updates.",
     "超级有爱受邀参加芯生万象生态大会，分享 AIoT 如何赋能心理健康行业": "Super YouAI invited to the Xinsheng Wanxiang ecosystem conference to share how AIoT empowers mental health",
-    "记录超级球球走向更多家庭的每一步，也分享我们对 AI 陪伴与儿童成长的持续探索。": "Follow BiiBuu’s steps toward more families, and our ongoing exploration of AI companionship and child growth.",
+    "记录超级球球走向更多家庭的每一步，也分享我们对 AI 陪伴与儿童成长的持续探索。": "Follow Chio Chio’s steps toward more families, and our ongoing exploration of AI companionship and child growth.",
     "产品进展、行业活动、媒体关注与合作动态。": "Product progress, industry events, media coverage, and partnership updates.",
     "聚焦 AIoT、情绪健康与心理陪伴场景，呈现超级有爱在行业生态中的最新声音。": "A look at Super YouAI’s latest voice in AIoT, emotional health, and psychological companionship.",
     "阅读全文": "Read More",
     "更多动态": "More Stories",
-    "AI情绪疗愈机器人“超级球球”参展第八届进博会，获多位中外贵宾亲身体验": "AI emotional-healing robot BiiBuu appears at the 8th CIIE and is experienced by Chinese and international guests",
-    "英国驻华贸易副使节 Sohail Shaikh：“每个人都需要一台超级球球！”": "UK Deputy Trade Commissioner Sohail Shaikh: “Everyone needs a BiiBuu!”",
-    "“超级球球”晋级 AI Agent 2025 大赛线下半决赛，并荣获“最具人文温度奖”！": "BiiBuu advances to the AI Agent 2025 offline semi-final and wins the Most Humane Warmth Award",
-    "“超级球球”走进宜城市青年教师心理素养培训班": "BiiBuu enters Yicheng’s young teacher psychological literacy training",
+    "AI情绪疗愈机器人“超级球球”参展第八届进博会，获多位中外贵宾亲身体验": "AI emotional-healing robot Chio Chio appears at the 8th CIIE and is experienced by Chinese and international guests",
+    "英国驻华贸易副使节 Sohail Shaikh：“每个人都需要一台超级球球！”": "UK Deputy Trade Commissioner Sohail Shaikh: “Everyone needs a Chio Chio!”",
+    "“超级球球”晋级 AI Agent 2025 大赛线下半决赛，并荣获“最具人文温度奖”！": "Chio Chio advances to the AI Agent 2025 offline semi-final and wins the Most Humane Warmth Award",
+    "“超级球球”走进宜城市青年教师心理素养培训班": "Chio Chio enters Yicheng’s young teacher psychological literacy training",
     "超级有爱荣获“2025值得关注的AI创变者”": "Super YouAI named a 2025 AI Changemaker to Watch",
     "超级有爱与深度求解达成战略合作": "Super YouAI reaches strategic partnership with DeepTackle",
-    "“超级球球”成为 AI Agent 2025 大赛官方推荐项目！": "BiiBuu becomes an official recommended project of AI Agent 2025",
-    "“超级球球”疗愈级 AI 机器人亮相 IOTE 深圳物联网展，引线上线下围观潮": "BiiBuu healing AI robot debuts at IOTE Shenzhen, drawing online and offline attention",
-    "“超级球球”团队受邀参加 AI Agent 2025 全球专项赛启动仪式": "BiiBuu team invited to the AI Agent 2025 Global Special Competition launch",
+    "“超级球球”成为 AI Agent 2025 大赛官方推荐项目！": "Chio Chio becomes an official recommended project of AI Agent 2025",
+    "“超级球球”疗愈级 AI 机器人亮相 IOTE 深圳物联网展，引线上线下围观潮": "Chio Chio healing AI robot debuts at IOTE Shenzhen, drawing online and offline attention",
+    "“超级球球”团队受邀参加 AI Agent 2025 全球专项赛启动仪式": "Chio Chio team invited to the AI Agent 2025 Global Special Competition launch",
     "超级有爱智能科技创始人元晓帅博士拜访清华大学未来实验室": "Founder Dr. Yuan Xiaoshuai visits Tsinghua University Future Laboratory",
-    "“超级球球”团队获得「文三×光圈 AI TED」创赛路演第一名！": "BiiBuu team wins first place at the Wensan × Light Cone AI TED startup roadshow",
+    "“超级球球”团队获得「文三×光圈 AI TED」创赛路演第一名！": "Chio Chio team wins first place at the Wensan × Light Cone AI TED startup roadshow",
     "超级有爱智能科技正式落户杭州未来科技城！": "Super YouAI officially settles in Hangzhou Future Sci-Tech City",
     "超级有爱受邀参加亚马逊云与亿极中国联合主办的 Agentic AI 研讨": "Super YouAI invited to an Agentic AI seminar co-hosted by AWS and EGG China",
     "客服、售后、投资合作与渠道合作，都可以从这里找到我们。": "Customer care, after-sales support, investment, strategic partnerships, and channel cooperation all start here.",
@@ -421,7 +421,7 @@
     "客服支持": "Customer Support",
     "产品咨询、售后与合作转接": "Product inquiries, after-sales support, and partnership routing",
     "邮箱待定": "Email to be confirmed",
-    "扫码下载 BiiBuu APP，或通过邮箱联系我们咨询合作。": "Scan to download the BiiBuu app, or contact us by email for partnership inquiries.",
+    "扫码下载 Chio Chio APP，或通过邮箱联系我们咨询合作。": "Scan to download the Chio Chio app, or contact us by email for partnership inquiries.",
     "APP 下载": "App Download",
     "请将正式二维码图片放入 assets 目录后替换占位二维码。": "Place the official QR image in the assets folder to replace this placeholder.",
     "合作方向：渠道代理、城市合伙、IP 联名、产品与供应链合作、媒体合作。": "Cooperation areas: channel agency, city partnership, IP co-branding, product and supply-chain partnership, and media cooperation.",
@@ -446,8 +446,8 @@
 
   Object.assign(TEXT_EN, {
     "深圳南山区清华大学研究院新大楼A栋13层A08": "A08, 13F, Building A, Tsinghua Research Institute New Building, Nanshan District, Shenzhen",
-    "超级球球，\n送孩子一生好性格": "BiiBuu,\nA Lifelong Character Companion",
-    "超级球球，": "BiiBuu,",
+    "超级球球，\n送孩子一生好性格": "Chio Chio,\nA Lifelong Character Companion",
+    "超级球球，": "Chio Chio,",
     "送孩子一生好性格": "A Lifelong Character Companion",
     "它是一款 AI 儿童成长陪伴机器人，培养孩子的抗挫力、社交力、好心态和专注力。": "An AI growth companion robot for children, helping build resilience, social skills, a positive mindset, and focus.",
     "把拖延、急躁、怕挫折和不敢表达，变成孩子听得懂的成长伙伴": "Turn procrastination, impatience, fear of setbacks, and difficulty expressing into growth companions children understand.",
@@ -457,7 +457,7 @@
     "两种产品，陪伴孩子不同场景": "Two Products for Different Companion Moments",
     "两种产品\n陪伴孩子不同场景": "Two Products\nDifferent Companion Moments",
     "四大附加能力": "Four Added Capabilities",
-    "不止情绪陪伴，也把听、说、看、玩、学习成长覆盖进孩子每天的生活。": "Beyond emotional companionship, BiiBuu also supports listening, speaking, watching, play, and learning in daily life.",
+    "不止情绪陪伴，也把听、说、看、玩、学习成长覆盖进孩子每天的生活。": "Beyond emotional companionship, Chio Chio also supports listening, speaking, watching, play, and learning in daily life.",
     "英语智能陪练": "Smart English Practice",
     "沉浸式口语互动，纠正发音，在趣味场景里轻松练习表达。": "Immersive spoken interaction and pronunciation support through playful scenarios.",
     "趣味故事畅听": "Story Listening",
@@ -466,16 +466,16 @@
     "儿歌、轻音乐和经典曲目随心播放，舒缓身心，陶冶情操。": "Play nursery rhymes, light music, and classics to soothe the body and mind.",
     "全维认知探索": "Full-Spectrum Exploration",
     "一站式听、说、看、玩体验，拓宽孩子对世界的好奇心。": "An integrated listen, speak, watch, and play experience that expands curiosity.",
-    "真实成长场景里，球球帮孩子把情绪说出来": "In Real Growth Moments, BiiBuu Helps Children Name Their Feelings",
-    "从社交受挫、亲子沟通、睡前放松到考试失利，超级球球先接住孩子的感受，再给出温和的下一步。": "From social setbacks and family communication to bedtime and exam disappointment, BiiBuu first receives the feeling, then offers a gentle next step.",
+    "真实成长场景里，球球帮孩子把情绪说出来": "In Real Growth Moments, Chio Chio Helps Children Name Their Feelings",
+    "从社交受挫、亲子沟通、睡前放松到考试失利，超级球球先接住孩子的感受，再给出温和的下一步。": "From social setbacks and family communication to bedtime and exam disappointment, Chio Chio first receives the feeling, then offers a gentle next step.",
     "高情商社交伙伴": "Social-Emotional Companion",
-    "被冷落、想加入小组却害怕被拒绝时，球球先共情，再陪孩子练习更自然的表达。": "When children feel left out or fear rejection, BiiBuu empathizes first, then helps practice natural expression.",
+    "被冷落、想加入小组却害怕被拒绝时，球球先共情，再陪孩子练习更自然的表达。": "When children feel left out or fear rejection, Chio Chio empathizes first, then helps practice natural expression.",
     "亲子关系沟通使者": "Parent-Child Communication Bridge",
-    "作业、拖延、冲突后的僵局里，球球帮双方先降温，再把情绪翻译成能被理解的话。": "In moments of homework conflict or procrastination, BiiBuu helps cool things down and translate feelings into understandable words.",
+    "作业、拖延、冲突后的僵局里，球球帮双方先降温，再把情绪翻译成能被理解的话。": "In moments of homework conflict or procrastination, Chio Chio helps cool things down and translate feelings into understandable words.",
     "健康哄睡陪伴": "Healthy Bedtime Companion",
     "用语音聊天、故事和温暖声音替代睡前屏幕，让孩子更安心地进入睡眠。": "Voice chats, stories, and warm sound replace bedtime screens and help children sleep more peacefully.",
     "受挫后的信心加油站": "Confidence After Setbacks",
-    "考试失利、比赛落选或被同伴排斥时，球球给孩子无条件接纳和过程化肯定。": "After exams, competitions, or peer rejection, BiiBuu offers unconditional acceptance and process-based encouragement.",
+    "考试失利、比赛落选或被同伴排斥时，球球给孩子无条件接纳和过程化肯定。": "After exams, competitions, or peer rejection, Chio Chio offers unconditional acceptance and process-based encouragement.",
     "有温度的礼赠选择": "A Warm Gift Choice",
     "适合开学礼、生日礼、节日礼和亲子渠道，把陪伴价值带进真实家庭。": "A thoughtful gift for school openings, birthdays, holidays, and family channels.",
     "获得国家级大奖": "National-Level Awards",
@@ -490,7 +490,7 @@
     "系统把语义、语气、触摸、行为场景和长期记忆映射到孩子的心理状态空间，再计算更合适的回应方式。孩子感受到的是一句安慰、一次鼓励或一个提醒，背后是持续学习的陪伴策略。": "The system maps meaning, tone, touch, context, and long-term memory into a child’s psychological state space, then calculates a better response strategy.",
     "从状态识别到陪伴策略": "From State Recognition to Companion Strategy",
     "持续优化下一次回应": "Continuously Optimize the Next Response",
-    "成为超级球球合作伙伴，一起改变世界": "Become a BiiBuu Partner and Change the World Together",
+    "成为超级球球合作伙伴，一起改变世界": "Become a Chio Chio Partner and Change the World Together",
     "提供产品话术、销售异议处理、门店导购培训和渠道启动内容。": "Provides product scripts, objection handling, store guide training, and channel launch content.",
     "陈列支持": "Display Support",
     "提供空间陈列建议、样机体验方案、亲子活动脚本和本地化展示参考。": "Provides display guidance, demo experience plans, family event scripts, and local showcase references.",
@@ -499,6 +499,11 @@
     "提供客服承接、问题反馈、产品使用指引和持续迭代信息同步。": "Provides customer service handoff, issue feedback, usage guidance, and product iteration updates.",
     "灵活合作模式": "Flexible Partnership Models",
     "渠道代理、城市合伙、礼赠团购、亲子活动、教育场景和品牌联名都可以展开沟通。": "Channel agency, city partnership, gifting group buys, family events, education scenarios, and co-branding are all open for discussion.",
+    "喜讯！超级有爱荣获 CFS2026 高成长价值企业称号": "Good News: Super YouAI Named a CFS 2026 High-Growth Value Enterprise",
+    "超级有爱荣获 CFS2026 高成长价值企业称号": "Super YouAI Named a CFS 2026 High-Growth Value Enterprise",
+    "凭借儿童情绪陪伴 AI 硬件方向的技术创新、产品落地与长期成长潜力，超级有爱获得第十五届财经峰会组委会认可。": "Recognized by the 15th China Finance Summit for innovation, product execution, and long-term growth potential in AI hardware for children’s emotional companionship.",
+    "CFS2026 第十五届财经峰会获评通知": "CFS 2026 Award Notification from the 15th China Finance Summit",
+    "超级球球 AI 陪伴机器人产品能力展示": "Chio Chio AI companion robot capability showcase",
     "感谢你愿意花时间告诉我们真实感受。": "Thank you for taking the time to share what you really feel.",
     "无论是合作咨询、产品建议、体验反馈或投诉，我们都会认真倾听并尽快回应。": "Whether it is a partnership inquiry, product suggestion, experience feedback, or complaint, we will listen carefully and respond as soon as we can.",
     "感谢你愿意花时间告诉我们真实感受。\n无论是合作咨询、产品建议、体验反馈或投诉，我们都会认真倾听并尽快回应。": "Thank you for sharing what you really feel.\nFor partnerships, product suggestions, feedback, or complaints, we listen carefully and respond as soon as we can.",
@@ -512,54 +517,67 @@
   });
 
   const ARTICLE_EN = {
+    "20260707": {
+      title: "Good News: Super YouAI Named a CFS 2026 High-Growth Value Enterprise",
+      summary: "Recognized by the 15th China Finance Summit for innovation, product execution, and long-term growth potential in AI hardware for children’s emotional companionship.",
+      body: [
+        "Recently, the organizing committee of the 15th China Finance Summit issued its award notification, naming Super YouAI (Hangzhou) Intelligent Technology Co., Ltd. a “2026 High-Growth Value Enterprise.” With the theme “Global Vision, China’s Resilience,” this year’s summit brings together more than a thousand representatives from business, academia, and government, with outstanding companies across industries participating in the selection.",
+        "The evaluation considered multiple dimensions including core technology, R&D innovation, market implementation, and long-term growth potential. Since its founding, Super YouAI has focused on AI hardware for children’s emotional companionship, putting independent R&D at the center of its development and continuing to build differentiated parent-child intelligent products.",
+        "Previously, the company’s core product Chio Chio appeared at the Luohu AI Intelligent Hardware Innovation Day and won both the Best Design Award and the Best Experience Award after live voting by guests who experienced the product firsthand. The result further validated the team’s strengths in product design and human-computer interaction.",
+        "This authoritative recognition highlights Super YouAI’s innovation and growth value. Founded more than ten years ago, the CFS China Finance Summit has gathered hundreds of mainstream media outlets and influential speakers, continuously witnessing the development of innovative Chinese enterprises. In this selection, the committee placed particular emphasis on intellectual-property reserves, sustained R&D investment, and the real-world implementation of innovative products.",
+        "Standing out among many participating companies and receiving the “High-Growth Value Enterprise” title is both an affirmation of Super YouAI’s technology path and business model, and a recognition from the market and capital ecosystem of the potential of children’s AI hardware and the company’s core competitiveness.",
+        "Honor is a milestone; innovation is the enduring foundation. Going forward, Super YouAI will continue to deepen its work in children’s intelligent hardware, increase investment in artificial intelligence, child-computer interaction, and smart hardware, improve product experience, strengthen its intellectual-property portfolio, and use self-developed core technologies to create AI companionship products better suited to the needs of families.",
+        "We will stay true to the original intention of technological innovation, support the development of new quality productive forces through solid R&D capability, and continue building warm, technically capable intelligent products for children."
+      ]
+    },
     "8854015": {
       title: "Super YouAI invited to Xinsheng Wanxiang ecosystem conference to share how AIoT empowers mental health",
       summary: "A look at Super YouAI’s latest thinking on AIoT, emotional health, and psychological companionship.",
       body: [
         "On November 28, Super YouAI was invited to the 2025 TPUNB Technology Ecosystem Conference hosted by its strategic partner Gixin Technology. Founder Dr. Yuan Xiaoshuai delivered a keynote titled “From the Internet of Everything to Empathy of Everything: How AIoT Will Reshape Mental Health.”",
-        "Gixin Technology is a leading domestic IoT company and a national-level specialized and innovative enterprise. BiiBuu, Super YouAI’s first AI emotional-healing robot, uses Gixin’s IoT chip and has the potential to connect with more smart devices without relying on a network, opening new possibilities for AIoT-based emotional support.",
-        "In his keynote, Dr. Yuan used BiiBuu as an example to discuss four core AIoT scenarios for psychological services, explaining how the combination of AI and IoT can reshape the mental-health industry.",
+        "Gixin Technology is a leading domestic IoT company and a national-level specialized and innovative enterprise. Chio Chio, Super YouAI’s first AI emotional-healing robot, uses Gixin’s IoT chip and has the potential to connect with more smart devices without relying on a network, opening new possibilities for AIoT-based emotional support.",
+        "In his keynote, Dr. Yuan used Chio Chio as an example to discuss four core AIoT scenarios for psychological services, explaining how the combination of AI and IoT can reshape the mental-health industry.",
         "He noted that IoT gives AI a richer set of sensory touchpoints, turning abstract care into companionship users can truly feel. Together, AI and IoT can move mental-health services from subjective questionnaires to precise sensing, from appointment-based waiting to instant companionship, from therapist-only work to human-machine collaboration, and finally toward healing within daily life.",
         "The vision was well received by experts and business leaders at the conference. Super YouAI will continue working with ecosystem partners such as Gixin Technology to deepen AIoT applications in mental health and build warmer intelligent psychological services."
       ]
     },
     "8831625": {
-      title: "AI emotional-healing robot BiiBuu appears at the 8th CIIE and is experienced by Chinese and international guests",
-      summary: "BiiBuu showcased AI emotional healing and companionship at the China International Import Expo.",
+      title: "AI emotional-healing robot Chio Chio appears at the 8th CIIE and is experienced by Chinese and international guests",
+      summary: "Chio Chio showcased AI emotional healing and companionship at the China International Import Expo.",
       body: [
-        "On November 5, the 8th China International Import Expo opened at the National Exhibition and Convention Center in Shanghai. BiiBuu, the first AI emotional-healing robot developed by Super YouAI, attracted strong interest from domestic and international visitors.",
-        "BiiBuu features a plush exterior, touch interaction, and voice conversation. Powered by a healing model trained by psychology experts with more than 20 years of experience and AI specialists, it can recognize emotions through dialogue, offer understanding and empathy, and help users move through emotional distress.",
-        "Many visitors were drawn in by its soft and adorable appearance. After learning that BiiBuu can help people ease negative emotions through conversation, many asked about purchase channels and expressed interest in future availability.",
-        "On November 6, UK Deputy Trade Commissioner Sohail Shaikh visited the BiiBuu booth, spoke with the team, and experienced the product. When BiiBuu introduced itself in English and said it could help chase away bad moods, he smiled and said, “Everyone needs BiiBuu!”",
+        "On November 5, the 8th China International Import Expo opened at the National Exhibition and Convention Center in Shanghai. Chio Chio, the first AI emotional-healing robot developed by Super YouAI, attracted strong interest from domestic and international visitors.",
+        "Chio Chio features a plush exterior, touch interaction, and voice conversation. Powered by a healing model trained by psychology experts with more than 20 years of experience and AI specialists, it can recognize emotions through dialogue, offer understanding and empathy, and help users move through emotional distress.",
+        "Many visitors were drawn in by its soft and adorable appearance. After learning that Chio Chio can help people ease negative emotions through conversation, many asked about purchase channels and expressed interest in future availability.",
+        "On November 6, UK Deputy Trade Commissioner Sohail Shaikh visited the Chio Chio booth, spoke with the team, and experienced the product. When Chio Chio introduced itself in English and said it could help chase away bad moods, he smiled and said, “Everyone needs Chio Chio!”",
         "Several local leaders also visited the booth to learn about the application of AI in real-world scenarios. The team’s goal of helping more people reduce emotional distress and improve well-being received recognition and encouragement."
       ]
     },
     "8831624": {
-      title: "UK Deputy Trade Commissioner Sohail Shaikh: “Everyone needs a BiiBuu!”",
-      summary: "International guests experienced BiiBuu and its English conversation ability at CIIE.",
+      title: "UK Deputy Trade Commissioner Sohail Shaikh: “Everyone needs a Chio Chio!”",
+      summary: "International guests experienced Chio Chio and its English conversation ability at CIIE.",
       body: [
-        "During the 8th China International Import Expo, UK Deputy Trade Commissioner Sohail Shaikh visited the BiiBuu booth and exchanged ideas with the team.",
-        "Founder Dr. Yuan Xiaoshuai introduced BiiBuu as an AI emotional-healing robot designed to help people ease negative emotions, reduce stress, and feel better through warm conversation.",
-        "Dr. Yuan then asked BiiBuu to introduce itself in English. With its childlike voice, BiiBuu immediately began speaking and explained that it could help people chase away bad moods.",
-        "After listening, Mr. Shaikh smiled and said, “Everyone needs BiiBuu!” The moment showed how naturally the product’s emotional companionship can cross language and cultural boundaries."
+        "During the 8th China International Import Expo, UK Deputy Trade Commissioner Sohail Shaikh visited the Chio Chio booth and exchanged ideas with the team.",
+        "Founder Dr. Yuan Xiaoshuai introduced Chio Chio as an AI emotional-healing robot designed to help people ease negative emotions, reduce stress, and feel better through warm conversation.",
+        "Dr. Yuan then asked Chio Chio to introduce itself in English. With its childlike voice, Chio Chio immediately began speaking and explained that it could help people chase away bad moods.",
+        "After listening, Mr. Shaikh smiled and said, “Everyone needs Chio Chio!” The moment showed how naturally the product’s emotional companionship can cross language and cultural boundaries."
       ]
     },
     "8831623": {
-      title: "BiiBuu advances to the AI Agent 2025 offline semi-final and wins the Most Humane Warmth Award",
-      summary: "BiiBuu received recognition for both technical capability and human-centered warmth.",
+      title: "Chio Chio advances to the AI Agent 2025 offline semi-final and wins the Most Humane Warmth Award",
+      summary: "Chio Chio received recognition for both technical capability and human-centered warmth.",
       body: [
-        "According to AI Agent 2025 competition updates, Super YouAI’s BiiBuu project advanced from the first online points round to the offline semi-final on October 27.",
-        "BiiBuu also received the special Most Humane Warmth Award, recognizing its focus on emotional support, companionship, and practical care for users.",
+        "According to AI Agent 2025 competition updates, Super YouAI’s Chio Chio project advanced from the first online points round to the offline semi-final on October 27.",
+        "Chio Chio also received the special Most Humane Warmth Award, recognizing its focus on emotional support, companionship, and practical care for users.",
         "The project combines AI, psychology, hardware, and a tangible companion form. Its goal is not only to demonstrate technology, but to make psychological support more accessible, private, and emotionally acceptable.",
         "For Super YouAI, the award validates the team’s long-term direction: building AI products that are technically credible and deeply human."
       ]
     },
     "8790613": {
-      title: "BiiBuu enters Yicheng’s young teacher psychological literacy training",
-      summary: "BiiBuu explored how AI companionship can support education and teacher well-being.",
+      title: "Chio Chio enters Yicheng’s young teacher psychological literacy training",
+      summary: "Chio Chio explored how AI companionship can support education and teacher well-being.",
       body: [
         "At a psychological literacy training session for newly appointed young teachers in Yicheng, Super YouAI co-founder and psychology expert Dr. Guo Kaiyan gave a lecture on mental-health adjustment for teachers in the AI era.",
-        "Dr. Guo introduced BiiBuu and demonstrated how AI tools can be used in teaching and emotional-support scenarios.",
+        "Dr. Guo introduced Chio Chio and demonstrated how AI tools can be used in teaching and emotional-support scenarios.",
         "The training, hosted by the Yicheng Education Bureau, served 100 young teachers and explored how AI may help educators respond to stress, communicate with students, and build healthier classroom relationships."
       ]
     },
@@ -578,35 +596,35 @@
       body: [
         "Super YouAI and Hubei DeepTackle Technology Development Co., Ltd. signed a business cooperation agreement and strategic framework agreement.",
         "Both sides will combine their resources to focus on interdisciplinary AI + psychology applications, exploring the innovation and boundaries of intelligent emotional-companionship technology.",
-        "The collaboration will begin with BiiBuu, continuing through technology optimization, product refinement, and applied research."
+        "The collaboration will begin with Chio Chio, continuing through technology optimization, product refinement, and applied research."
       ]
     },
     "8790610": {
-      title: "BiiBuu becomes an official recommended project of AI Agent 2025",
-      summary: "BiiBuu was selected for its core value and potential industry impact.",
+      title: "Chio Chio becomes an official recommended project of AI Agent 2025",
+      summary: "Chio Chio was selected for its core value and potential industry impact.",
       body: [
-        "On October 7, the AI Agent 2025 Global Special Competition announced its first group of 34 official recommended projects. BiiBuu was selected for its core value and disruptive potential.",
-        "Earlier, the BiiBuu team had joined the competition as part of the Navigator Program and became the host project of the Mind Repairer track.",
+        "On October 7, the AI Agent 2025 Global Special Competition announced its first group of 34 official recommended projects. Chio Chio was selected for its core value and disruptive potential.",
+        "Earlier, the Chio Chio team had joined the competition as part of the Navigator Program and became the host project of the Mind Repairer track.",
         "The recommendation reflects the competition’s recognition of AI emotional companionship as an important application direction for agent technologies."
       ]
     },
     "8715309": {
-      title: "BiiBuu healing AI robot debuts at IOTE Shenzhen, drawing online and offline attention",
-      summary: "At IOTE Shenzhen, BiiBuu showed a new form of AIoT psychological companionship.",
+      title: "Chio Chio healing AI robot debuts at IOTE Shenzhen, drawing online and offline attention",
+      summary: "At IOTE Shenzhen, Chio Chio showed a new form of AIoT psychological companionship.",
       body: [
-        "On August 27, IOTE 2025 opened at the Shenzhen World Exhibition & Convention Center. BiiBuu, developed by Super YouAI, made its first public appearance as a healing AI robot.",
-        "Its plush appearance, touch interaction, and warm voice attracted many visitors. Some deliberately tested its healing ability by saying they were in a bad mood, and BiiBuu responded with empathy and encouragement.",
+        "On August 27, IOTE 2025 opened at the Shenzhen World Exhibition & Convention Center. Chio Chio, developed by Super YouAI, made its first public appearance as a healing AI robot.",
+        "Its plush appearance, touch interaction, and warm voice attracted many visitors. Some deliberately tested its healing ability by saying they were in a bad mood, and Chio Chio responded with empathy and encouragement.",
         "The team introduced the exhibition version as a preview before official release, with another round of user testing and optimization planned before final market launch.",
         "The response from visitors gave the team confidence that a soft, approachable AI companion can meet real emotional-support needs."
       ]
     },
     "8696210": {
-      title: "BiiBuu team invited to the AI Agent 2025 Global Special Competition launch",
+      title: "Chio Chio team invited to the AI Agent 2025 Global Special Competition launch",
       summary: "The team joined the competition launch and received a participation certificate.",
       body: [
         "On August 16, the AI Agent 2025 Global Special Competition launch ceremony was held at the Hong Kong University of Science and Technology (Guangzhou).",
-        "The BiiBuu team was invited to attend and received a commemorative certificate as a participating team.",
-        "The competition brings together top AI teams from around the world, and BiiBuu will compete as part of the Navigator Program."
+        "The Chio Chio team was invited to attend and received a commemorative certificate as a participating team.",
+        "The competition brings together top AI teams from around the world, and Chio Chio will compete as part of the Navigator Program."
       ]
     },
     "8696207": {
@@ -619,10 +637,10 @@
       ]
     },
     "8696205": {
-      title: "BiiBuu team wins first place at Wensan × Light Cone AI TED startup roadshow",
-      summary: "The roadshow provided strong validation for BiiBuu’s product and demand.",
+      title: "Chio Chio team wins first place at Wensan × Light Cone AI TED startup roadshow",
+      summary: "The roadshow provided strong validation for Chio Chio’s product and demand.",
       body: [
-        "On May 4, at the Wensan × Light Cone AI TED open roadshow hosted by the Hangzhou West Lake Science and Technology Bureau, the BiiBuu team won the Most Popular Award with the highest audience score.",
+        "On May 4, at the Wensan × Light Cone AI TED open roadshow hosted by the Hangzhou West Lake Science and Technology Bureau, the Chio Chio team won the Most Popular Award with the highest audience score.",
         "Founder Dr. Yuan Xiaoshuai presented the team’s original intention, product functions, business model, and healing AI robot concept in a seven-minute pitch.",
         "The result provided valuable validation for the product’s appeal and demand, laying a strong foundation for further development."
       ]
@@ -655,6 +673,43 @@
     return value.replace(/\s+/g, " ").trim();
   }
 
+  function normalizePunctuation(value) {
+    return normalize(value)
+      .replace(/[：]/g, ":")
+      .replace(/[，、]/g, ",")
+      .replace(/[！]/g, "!")
+      .replace(/[？]/g, "?")
+      .replace(/[；]/g, ";")
+      .replace(/[｜]/g, "|")
+      .replace(/[（]/g, "(")
+      .replace(/[）]/g, ")")
+      .replace(/\s*([:,.!?;|])\s*/g, "$1");
+  }
+
+  function dynamicTextEn() {
+    return window.NEWS_TEXT_EN || {};
+  }
+
+  function dynamicArticleEn() {
+    return window.NEWS_ARTICLE_EN || {};
+  }
+
+  function translationKeys(value) {
+    const raw = normalize(value);
+    const punctuated = normalizePunctuation(raw);
+    return [...new Set([raw, punctuated])];
+  }
+
+  function lookupTranslation(value) {
+    const dictionaries = [TEXT_EN, dynamicTextEn()];
+    for (const key of translationKeys(value)) {
+      for (const dictionary of dictionaries) {
+        if (dictionary[key]) return dictionary[key];
+      }
+    }
+    return "";
+  }
+
   function getArticleId() {
     const match = location.pathname.match(/\/(?:newsinfo|news)\/(\d+)\.html$/);
     return match ? match[1] : null;
@@ -667,11 +722,11 @@
       node.nodeValue = original;
       return;
     }
-    const key = normalize(original);
-    if (TEXT_EN[key]) {
+    const translated = lookupTranslation(original);
+    if (translated) {
       const leading = original.match(/^\s*/)?.[0] || "";
       const trailing = original.match(/\s*$/)?.[0] || "";
-      node.nodeValue = leading + TEXT_EN[key] + trailing;
+      node.nodeValue = leading + translated + trailing;
     }
   }
 
@@ -687,8 +742,8 @@
           el.setAttribute(attr, saved[attr]);
           return;
         }
-        const value = normalize(saved[attr]);
-        if (TEXT_EN[value]) el.setAttribute(attr, TEXT_EN[value]);
+        const translated = lookupTranslation(saved[attr]);
+        if (translated) el.setAttribute(attr, translated);
       });
     });
   }
@@ -709,10 +764,104 @@
     translateAttributes(document.body, lang);
   }
 
+  function escapeHTML(value) {
+    return String(value).replace(/[&<>"']/g, (char) => ({
+      "&": "&amp;",
+      "<": "&lt;",
+      ">": "&gt;",
+      "\"": "&quot;",
+      "'": "&#39;"
+    }[char]));
+  }
+
+  function translateCloneText(node) {
+    const walker = document.createTreeWalker(node, NodeFilter.SHOW_TEXT, {
+      acceptNode(textNode) {
+        const parent = textNode.parentElement;
+        if (!parent || ["SCRIPT", "STYLE", "NOSCRIPT"].includes(parent.tagName)) return NodeFilter.FILTER_REJECT;
+        return normalize(textNode.nodeValue) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+      }
+    });
+    const textNodes = [];
+    while (walker.nextNode()) textNodes.push(walker.currentNode);
+    textNodes.forEach((textNode) => {
+      const original = textNode.nodeValue;
+      const translated = lookupTranslation(original);
+      if (translated) {
+        const leading = original.match(/^\s*/)?.[0] || "";
+        const trailing = original.match(/\s*$/)?.[0] || "";
+        textNode.nodeValue = leading + translated + trailing;
+      } else if (/[\u4e00-\u9fff]/.test(original)) {
+        textNode.nodeValue = "";
+      }
+    });
+    translateAttributes(node, "en");
+  }
+
+  function renderTranslatedArticleBlocks(html) {
+    const holder = document.createElement("div");
+    holder.innerHTML = html || "";
+    const blocks = [];
+    holder.childNodes.forEach((child) => {
+      if (child.nodeType === Node.TEXT_NODE) {
+        const text = normalize(child.nodeValue || "");
+        const translated = lookupTranslation(text);
+        if (translated) blocks.push(`<p class="article-en-paragraph">${escapeHTML(translated)}</p>`);
+        return;
+      }
+      if (child.nodeType !== Node.ELEMENT_NODE) return;
+      const clone = child.cloneNode(true);
+      translateCloneText(clone);
+      const text = normalize(clone.textContent || "");
+      const hasMedia = clone.querySelector("img, video, iframe");
+      if (text || hasMedia) blocks.push(clone.outerHTML);
+    });
+    return blocks.join("");
+  }
+
+  function renderEnglishArticleBody(body, data) {
+    if (!body || !data || !Array.isArray(data.body) || !data.body.length) return;
+    if (!body.dataset.zhHtml) body.dataset.zhHtml = body.innerHTML;
+    const manualBodyLength = data.body.join(" ").length;
+    const hasDetailedManualBody = data.body.length >= 6 || manualBodyLength > 1200;
+    if (hasDetailedManualBody) {
+      const media = renderTranslatedArticleBlocks(body.dataset.zhHtml).match(/<figure[\s\S]*?<\/figure>/g) || [];
+      let nextMediaIndex = 0;
+      const hasMediaTokens = data.body.some((text) => /^\[\[media:(next|\d+)\]\]$/i.test(String(text || "").trim()));
+      const paragraphs = data.body.map((text) => {
+        const trimmed = String(text || "").trim();
+        if (!trimmed) return "";
+        const mediaToken = trimmed.match(/^\[\[media:(next|\d+)\]\]$/i);
+        if (mediaToken) {
+          if (mediaToken[1].toLowerCase() === "next") return media[nextMediaIndex++] || "";
+          const mediaIndex = Number(mediaToken[1]) - 1;
+          nextMediaIndex = Math.max(nextMediaIndex, mediaIndex + 1);
+          return media[mediaIndex] || "";
+        }
+        const qaLine = /^(A|Q)\s*[:：]/i.test(trimmed);
+        return `<p class="${qaLine ? "qa-line " : ""}article-en-paragraph">${escapeHTML(trimmed)}</p>`;
+      }).join("");
+      body.innerHTML = `<div class="article-translated-body">${paragraphs}${hasMediaTokens ? "" : media.join("")}</div>`;
+      return;
+    }
+    const translatedBlocks = renderTranslatedArticleBlocks(body.dataset.zhHtml);
+    if (translatedBlocks && translatedBlocks.length > 120) {
+      body.innerHTML = `<div class="article-translated-body">${translatedBlocks}</div>`;
+      return;
+    }
+    const paragraphs = data.body.map((text) => {
+      const trimmed = String(text || "").trim();
+      if (!trimmed) return "";
+      const qaLine = /^(A|Q)\s*[:：]/i.test(trimmed);
+      return `<p class="${qaLine ? "qa-line " : ""}article-en-paragraph">${escapeHTML(trimmed)}</p>`;
+    }).join("");
+    body.innerHTML = `<div class="article-translated-body">${paragraphs}</div>`;
+  }
+
   function applyArticle(lang) {
     const id = getArticleId();
-    if (!id || !ARTICLE_EN[id]) return;
-    const data = ARTICLE_EN[id];
+    const data = id ? (dynamicArticleEn()[id] || ARTICLE_EN[id]) : null;
+    if (!id || !data) return;
     const body = document.querySelector(".article-body");
     if (body && !body.dataset.zhHtml) body.dataset.zhHtml = body.innerHTML;
     const title = document.querySelector(".article-header h1");
@@ -730,8 +879,8 @@
       if (lead) lead.textContent = data.summary;
       if (crumb) crumb.textContent = data.title;
       if (heroImg) heroImg.alt = data.title;
-      if (body) body.innerHTML = data.body.map((p) => `<p>${p}</p>`).join("");
-      document.title = `${data.title} | News | BiiBuu`;
+      renderEnglishArticleBody(body, data);
+      document.title = `${data.title} | News | Chio Chio`;
     } else {
       if (title?.dataset.zhText) title.textContent = title.dataset.zhText;
       if (lead?.dataset.zhText) lead.textContent = lead.dataset.zhText;
@@ -742,12 +891,26 @@
     }
   }
 
+  function translateArticleNav(lang) {
+    document.querySelectorAll(".article-nav strong").forEach((el) => {
+      if (!el.dataset.zhText) el.dataset.zhText = el.textContent;
+      if (lang === "zh") {
+        el.textContent = el.dataset.zhText;
+        return;
+      }
+      const translated = lookupTranslation(el.dataset.zhText);
+      if (translated) el.textContent = translated;
+    });
+  }
+
   function setLanguage(lang) {
     const next = lang === "en" ? "en" : "zh";
     document.documentElement.lang = next === "en" ? "en" : "zh-CN";
     document.body.classList.add("is-language-switching");
     applyArticle(next);
+    translateArticleNav(next);
     walkAndTranslate(next);
+    translateArticleNav(next);
     updateToggle(next);
     localStorage.setItem(STORAGE_KEY, next);
     setTimeout(() => document.body.classList.remove("is-language-switching"), 260);
@@ -804,13 +967,15 @@
       ".product-form-card",
       ".usecase-card",
       ".system-panel",
-      ".gallery-grid figure",
-      ".article-layout",
-      ".article-nav",
-      ".article-back"
+      ".gallery-grid figure"
     ].join(",");
 
     const items = [...document.querySelectorAll(revealSelector)];
+    if (document.body.classList.contains("article-page")) {
+      document.querySelectorAll(".article-layout, .article-nav, .article-back").forEach((el) => {
+        el.classList.add("is-visible");
+      });
+    }
     items.forEach((el, index) => {
       el.classList.add("motion-reveal");
       el.style.setProperty("--reveal-delay", `${Math.min(index % 6, 5) * 45}ms`);
@@ -826,6 +991,11 @@
         });
       }, { threshold: 0.12, rootMargin: "0px 0px -8% 0px" });
       items.forEach((el) => observer.observe(el));
+      window.setTimeout(() => {
+        items.forEach((el) => {
+          if (!el.classList.contains("is-visible")) el.classList.add("is-visible");
+        });
+      }, 700);
     } else {
       items.forEach((el) => el.classList.add("is-visible"));
     }

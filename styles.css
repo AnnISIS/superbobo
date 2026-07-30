@@ -2190,8 +2190,9 @@ h3 {
 
 .article-hero-image img {
   width: 100%;
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
+  display: block;
 }
 
 .article-body {
@@ -2206,6 +2207,71 @@ h3 {
 
 .article-body p {
   margin: 0 0 28px;
+}
+
+.article-inline-image {
+  width: min(100%, 860px);
+  margin: 40px auto;
+  overflow: hidden;
+  border-radius: 8px;
+  background: rgba(255, 254, 250, 0.82);
+  border: 1px solid rgba(47, 90, 85, 0.12);
+  box-shadow: 0 26px 70px rgba(47, 72, 88, 0.1);
+}
+
+.article-inline-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.article-body .qa-block span {
+  display: block;
+}
+
+.article-body .qa-block span + span {
+  margin-top: 12px;
+}
+
+.article-source-layout {
+  max-width: 980px;
+  margin: 0 auto 56px;
+}
+
+.article-source-layout h2 {
+  margin: 0 0 10px;
+  color: #1f2f43;
+  font-size: clamp(28px, 4vw, 44px);
+  line-height: 1.12;
+  letter-spacing: 0;
+}
+
+.article-source-layout > p {
+  margin: 0 0 24px;
+  color: rgba(63, 77, 95, 0.74);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.article-source-pages {
+  display: grid;
+  gap: 22px;
+}
+
+.article-source-page {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #fffefa;
+  border: 1px solid rgba(47, 90, 85, 0.12);
+  box-shadow: 0 26px 70px rgba(47, 72, 88, 0.1);
+}
+
+.article-source-page img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .article-body strong,
@@ -4020,6 +4086,16 @@ body:has(.home-screen) .hero-product p {
   transform: translate3d(0, 0, 0);
 }
 
+.article-page .article-layout,
+.article-page .article-nav,
+.article-page .article-back,
+.article-page .article-layout.motion-reveal,
+.article-page .article-nav.motion-reveal,
+.article-page .article-back.motion-reveal {
+  opacity: 1;
+  transform: none;
+}
+
 .button,
 .header-action,
 .language-toggle button,
@@ -4179,7 +4255,7 @@ html[lang="en"] .article-header h1 {
   }
 }
 
-/* Brand detail update: BiiBuu naming, compact footer, richer imagery. */
+/* Brand detail update: Chio Chio naming, compact footer, richer imagery. */
 .site-header {
   top: 18px;
   width: min(1460px, calc(100% - 56px));
