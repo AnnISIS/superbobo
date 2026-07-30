@@ -1000,3 +1000,71 @@ Object.assign(window.NEWS_ARTICLE_EN, {
   }
 });
 // END JULY_NEWS_TRANSLATION_OVERRIDES
+
+// BEGIN LATE_JULY_NEWS_TRANSLATION_OVERRIDES
+Object.assign(window.NEWS_TEXT_EN, {
+  "当三国国风遇见AI科技｜超级球球亮相三国奇兵・机甲觉醒亲子冒险营": "When Three Kingdoms Style Meets AI: Chio Chio Appears at the Three Kingdoms Warriors: Mecha Awakening Family Adventure Camp",
+  "三国文化与机器人科技在成都碰撞，超级球球受邀入驻亲子冒险营，以软萌治愈的情感AI陪伴带来暑期亲子研学新体验。": "Three Kingdoms culture meets robotics in Chengdu as Chio Chio joins a family adventure camp, bringing warm emotional AI companionship to a new summer learning experience.",
+  "夏遇温情｜壹基金星宝夏意手作活动落地阿里总部，超级球球暖心相伴": "Summer Warmth: One Foundation's Handicraft Event for Children with Autism Comes to Alibaba Headquarters, with Chio Chio by Their Side",
+  "三国奇兵・机甲觉醒亲子冒险营入口": "Entrance to the Three Kingdoms Warriors: Mecha Awakening family adventure camp",
+  "赛博国风的三国主题空间": "Cyber-inspired Three Kingdoms themed space",
+  "三国机甲演武场现场": "The Three Kingdoms mecha arena",
+  "超级球球在活动展区亮相": "Chio Chio on display at the event",
+  "小朋友体验超级球球": "Children experience Chio Chio",
+  "亲子家庭与超级球球互动": "Families interact with Chio Chio",
+  "家长现场了解超级球球": "A parent learns about Chio Chio at the event",
+  "星宝夏意手作活动集体合影": "Group photo from the summer handicraft event for children with autism",
+  "家长们在活动现场了解超级球球": "Parents learn about Chio Chio at the event",
+  "孩子在活动中与超级球球互动": "A child interacts with Chio Chio during the event",
+  "孩子抱着超级球球": "A child hugs Chio Chio",
+  "孩子与不同配色的超级球球互动": "A child interacts with Chio Chio companions in different colors",
+  "爱心": "Heart"
+});
+
+Object.assign(window.NEWS_ARTICLE_EN, {
+  "2026072801": {
+    title: "When Three Kingdoms Style Meets AI: Chio Chio Appears at the Three Kingdoms Warriors: Mecha Awakening Family Adventure Camp",
+    summary: "Three Kingdoms culture meets robotics in Chengdu as Chio Chio brings warm emotional AI companionship to a summer family adventure.",
+    body: [
+      "From July 23 to August 31, Three Kingdoms Warriors: Mecha Awakening, the country's first Three Kingdoms-themed family adventure, will take place at the Chengdu Media New Oriental Exhibition Center in Chengdu Intangible Cultural Heritage Park. Centered on Three Kingdoms culture and robotics, the summer carnival combines an immersive storyline, real robot interaction, educational exploration, and traditional Chinese photo spots, giving families in Southwest China an indoor summer destination with both cultural depth and technological excitement.",
+      "[[media:1]]",
+      "[[media:2]]",
+      "Stepping into the venue feels like entering a cyber-inspired Three Kingdoms world. Giant mecha installations and neon corridors create an immediate sense of immersion. In the arena, quadruped robots perform in rotation, drawing children and parents who stop to experience the appeal of advanced robotics.",
+      "[[media:3]]",
+      "Chio Chio, the AI child growth companion robot, was invited to join the carnival and quickly became a popular photo and experience spot. Chio Chio companions with different personalities appeared together, winning over young visitors with their soft plush forms and intelligent emotional interaction.",
+      "[[media:4]]",
+      "Chio Chio is an AI companion robot focused on children's emotional growth. It is powered by Super YouAI's child-focused psychological AI model, developed with doctoral teams from Tsinghua University and Beijing Normal University alongside child psychology experts.",
+      "Its core capabilities include intelligent emotion recognition, deeply empathetic dialogue, long-term memory, and risk alerts. Chio Chio can notice changes in a child's emotions, listen patiently, and help relieve negative feelings. Its screen-free plush design is gentle on eyesight, while hugs and touch trigger interaction. It also offers story reading, spoken-English practice, bedtime relaxation, and positive character guidance. More than a playmate, Chio Chio gives children a safe place to share their feelings and supports the development of a stable, healthy inner world.",
+      "[[media:5]]",
+      "[[media:6]]",
+      "Many parents stopped to learn more about this AI companion for children's emotional growth. Compared with traditional educational toys, Chio Chio uses Super YouAI's in-house psychological companionship system to listen to children, ease emotional pressure, and support positive character development, earning recognition from many families at the event.",
+      "[[media:7]]",
+      "The energy of Three Kingdoms mecha technology and the gentle warmth of an emotional AI companion give this educational journey two distinct kinds of delight.",
+      "This summer, families are invited to experience an adventure where traditional Chinese style meets technology, with an immersive Three Kingdoms storyline, mecha robot performances, and the warm companionship of Chio Chio.",
+      "Event information",
+      "Event: Three Kingdoms Warriors: Mecha Awakening",
+      "Dates: July 23-August 31",
+      "Venue: Chengdu Media New Oriental Exhibition Center, Chengdu Intangible Cultural Heritage Park"
+    ]
+  },
+  "2026072301": {
+    title: "Summer Warmth: One Foundation's Handicraft Event for Children with Autism Comes to Alibaba Headquarters, with Chio Chio by Their Side",
+    summary: "Children with autism and their families gathered at Alibaba headquarters for a warm One Foundation handicraft event, accompanied by Chio Chio's gentle emotional AI interaction.",
+    body: [
+      "Summer days are long, and kindness travels with us. On July 19, One Foundation held a summer handicraft event for children with autism at Alibaba's national headquarters. Children and parents gathered for a relaxed and comforting creative experience, while the Chio Chio AI child growth companion robot joined them and listened to the children's thoughts and feelings.",
+      "The event was part of the 2026 One Foundation Ocean Heaven Program and the Alipay Philanthropy Star Community Family Support Center series. It created an offline space for families of children with autism to connect. Because many children have limited access to relaxed social settings in everyday life, the hands-on activities offered a playful way for them to feel at ease while parents exchanged experiences and supported one another.",
+      "[[media:1]]",
+      "The venue was filled with warmth, and the soft, lovable Chio Chio companions drew the attention of both children and adults. Parents held Chio Chio and learned about this AI companion designed with children with special needs in mind. Through emotional interaction technology, Chio Chio listens patiently and responds gently, offering children a low-pressure channel for expression.",
+      "[[media:2]]",
+      "Many children approached Chio Chio on their own. Its expressive eyes, gentle voice, and unhurried, pressure-free communication encouraged them to come closer. The children focused on their interactions with Chio Chio and enjoyed an easy, comfortable moment together.",
+      "[[media:3]]",
+      "[[media:4]]",
+      "During breaks from the handicraft activities, children curiously explored Chio Chio companions in different colors. The soft, skin-friendly plush exterior and calm interaction design are well suited to sensory needs, while the lightweight, screen-free form makes Chio Chio easy to carry in everyday life.",
+      "[[media:5]]",
+      "Laughter filled the event. The sight of children smiling with Chio Chio in their arms reflected the public-interest initiative's original purpose.",
+      "Summer may end, but kindness continues. Super YouAI will keep working with One Foundation and other public-interest organizations to support the mental health of children with autism and use warm emotional AI to help every child with special needs grow with greater confidence and ease.",
+      "[[media:6]]"
+    ]
+  }
+});
+// END LATE_JULY_NEWS_TRANSLATION_OVERRIDES
