@@ -1190,3 +1190,129 @@ window.NEWS_TEXT_DA = {
   "超级有爱智能科技创始人元晓帅博士拜访清华大学未来实验室": "Super YouAI-grundlægger Dr. 元晓帅 besøger Tsinghua University Future Laboratory",
   "超级有爱受邀参加亚马逊云与亿极中国联合主办的Agentic AI研讨": "Super YouAI deltager i Agentic AI-seminar arrangeret af AWS og EGG China"
 };
+
+Object.assign(window.NEWS_TEXT_JA, {
+  "三国奇兵・机甲觉醒亲子冒险营入口": "「三国奇兵・機甲覚醒」親子アドベンチャーキャンプ入口",
+  "赛博国风的三国主题空间": "サイバー中国風の三国志テーマ空間",
+  "三国机甲演武场现场": "三国メカ演武場",
+  "超级球球在活动展区亮相": "イベント会場に展示されたChio Chio",
+  "小朋友体验超级球球": "Chio Chioを体験する子ども",
+  "亲子家庭与超级球球互动": "Chio Chioと交流する親子",
+  "家长现场了解超级球球": "会場でChio Chioの説明を聞く保護者",
+  "星宝夏意手作活动集体合影": "夏の手作りイベント集合写真",
+  "家长们在活动现场了解超级球球": "会場でChio Chioについて知る保護者",
+  "孩子在活动中与超级球球互动": "イベントでChio Chioと交流する子ども",
+  "孩子抱着超级球球": "Chio Chioを抱く子ども",
+  "孩子与不同配色的超级球球互动": "色の異なるChio Chioと交流する子ども",
+  "爱心": "ハート"
+});
+
+Object.assign(window.NEWS_TEXT_DA, {
+  "三国奇兵・机甲觉醒亲子冒险营入口": "Indgangen til familieeventet Mecha Awakening",
+  "赛博国风的三国主题空间": "Cyberinspireret område med tema fra De Tre Kongedømmer",
+  "三国机甲演武场现场": "Mecha-arenaen med tema fra De Tre Kongedømmer",
+  "超级球球在活动展区亮相": "Chio Chio udstillet på eventet",
+  "小朋友体验超级球球": "Et barn prøver Chio Chio",
+  "亲子家庭与超级球球互动": "En familie bruger Chio Chio sammen",
+  "家长现场了解超级球球": "En forælder hører om Chio Chio på eventet",
+  "星宝夏意手作活动集体合影": "Gruppefoto fra sommerens kreative familieevent",
+  "家长们在活动现场了解超级球球": "Forældre hører om Chio Chio på eventet",
+  "孩子在活动中与超级球球互动": "Et barn bruger Chio Chio under eventet",
+  "孩子抱着超级球球": "Et barn krammer Chio Chio",
+  "孩子与不同配色的超级球球互动": "Et barn oplever Chio Chio i forskellige farver",
+  "爱心": "Hjerte"
+});
+
+window.NEWS_ARTICLE_JA = {
+  "2026072801": {
+    title: "三国志の世界とAIが出会う——Chio Chioが「三国奇兵・機甲覚醒」親子アドベンチャーキャンプに登場",
+    summary: "成都で三国志文化とロボット技術が融合。Chio Chioが、夏休みの親子体験に温かなAIによる寄り添いを届けました。",
+    body: [
+      "7月23日から8月31日まで、中国初の三国志をテーマにした親子アドベンチャーイベント「三国奇兵・機甲覚醒」が、成都無形文化遺産博覧園内の成都メディア・新東方会展センターで開催されます。三国志文化とロボット技術を軸に、没入型ストーリー、実機との交流、学習体験、中国風の撮影スポットを組み合わせた夏の親子向けイベントです。",
+      "[[media:1]]",
+      "[[media:2]]",
+      "会場に入ると、巨大な三国メカのセットやネオンの通路が、サイバー感のある三国志の世界を演出します。演武場では四足歩行ロボットが次々と実演を行い、子どもから大人まで多くの来場者が足を止めました。",
+      "[[media:3]]",
+      "AI子ども成長パートナーのChio Chioも展示エリアに登場し、人気の体験スポットになりました。異なる個性を持つChio Chioが並び、柔らかなぬいぐるみの姿と、気持ちに応えるインタラクションが子どもたちの関心を集めました。",
+      "[[media:4]]",
+      "Chio Chioは、子どもの心の成長に寄り添うAIパートナーロボットです。清華大学、北京師範大学の博士号取得者を含むチームと、児童心理学の専門家が共同で開発したYouAIモデルを基盤としています。",
+      "言葉や声の調子などから気持ちの変化を捉え、共感的な対話、長期記憶、注意が必要な兆候への気づきなどを通じて、子どもの話を聴きます。画面のない柔らかなデザインで、抱いたり触れたりすると反応します。物語、英会話練習、就寝前のリラックス、前向きな心の力を育む声かけなども備えています。Chio Chioは単なる会話玩具ではなく、子どもが安心して気持ちを話せる身近な仲間を目指しています。",
+      "[[media:5]]",
+      "[[media:6]]",
+      "多くの保護者も足を止め、子どもの心の成長に寄り添うAIについて説明を聞きました。一般的な知育玩具とは異なり、独自開発のYouAIシステムを通じて子どもの話を聴き、気持ちを整える手助けをし、日々の心の成長を支える点に関心が寄せられました。",
+      "[[media:7]]",
+      "力強い三国メカの世界と、やさしく寄り添うAIパートナーが組み合わさり、この学習体験に二つの魅力を加えています。",
+      "この夏、三国志の没入型ストーリー、メカロボットの実演、Chio Chioとの交流を通じて、中国風の文化とテクノロジーが出会う親子アドベンチャーを体験できます。",
+      "イベント情報",
+      "イベント名：三国奇兵・機甲覚醒",
+      "開催期間：7月23日〜8月31日",
+      "会場：成都メディア・新東方会展センター（成都無形文化遺産博覧園）"
+    ]
+  },
+  "2026072301": {
+    title: "夏の温かなひととき——壹基金の手作りイベントがアリババ本社で開催、Chio Chioも参加",
+    summary: "自閉スペクトラム症の子どもたちと家族がアリババ本社に集い、手作り体験とChio Chioとの穏やかな交流を楽しみました。",
+    body: [
+      "7月19日、壹基金が主催する夏の手作りイベントがアリババ中国本社で開かれました。自閉スペクトラム症の子どもたちと保護者が集まり、落ち着いた雰囲気の中で創作と交流を楽しみました。AI子ども成長パートナーのChio Chioも会場を訪れ、子どもたちの小さな声に耳を傾けました。",
+      "この催しは、2026年壹基金海洋天堂計画とAlipay公益星コミュニティ家族支援センターによる一連の活動の一つです。日常では気軽に交流できる場が限られる家庭に、安心して参加できる場を提供しました。子どもたちは手作りを通じて自然に過ごし、保護者同士も経験を共有しました。",
+      "[[media:1]]",
+      "会場では、柔らかく親しみやすいChio Chioが子どもと大人の目を引きました。保護者は実際に手に取り、支援を必要とする子どもにも配慮したAIパートナーについて説明を聞きました。Chio Chioは穏やかに話を聴いて応え、子どもが負担を感じにくい形で気持ちを表せるよう支えます。",
+      "[[media:2]]",
+      "多くの子どもが自分からChio Chioに近づきました。表情豊かな目、やさしい声、急かさない交流が安心感につながり、子どもたちはそれぞれのペースでChio Chioとの時間を楽しみました。",
+      "[[media:3]]",
+      "[[media:4]]",
+      "手作りの合間には、色の異なるChio Chioを興味深そうに眺める姿も見られました。柔らかな手触り、落ち着いた反応、軽量で画面のない形は、感覚への配慮が必要な子どもにも使いやすく、日常的に持ち歩けます。",
+      "[[media:5]]",
+      "会場には笑顔と笑い声が広がりました。Chio Chioを抱く子どもたちの表情は、この公益活動が大切にする温かなつながりを映していました。",
+      "夏は終わっても、支え合う気持ちは続きます。Super YouAIは今後も壹基金などの公益団体と連携し、自閉スペクトラム症を含む、より丁寧な支援を必要とする子どもたちの心の健康と、自分らしい成長を支えていきます。",
+      "[[media:6]]"
+    ]
+  }
+};
+
+window.NEWS_ARTICLE_DA = {
+  "2026072801": {
+    title: "Når De Tre Kongedømmer møder AI: Chio Chio på familieeventet Mecha Awakening",
+    summary: "Kultur fra De Tre Kongedømmer møder robotteknologi i Chengdu, hvor Chio Chio bringer varmt AI-nærvær til en sommeroplevelse for familier.",
+    body: [
+      "Fra 23. juli til 31. august afholdes Kinas første familieevent med tema fra De Tre Kongedømmer, Three Kingdoms Warriors: Mecha Awakening, i Chengdu Media New Oriental Exhibition Center i Chengdu Intangible Cultural Heritage Park. Eventet forener kultur, robotteknologi, en interaktiv fortælling, møder med virkelige robotter, læringsaktiviteter og kinesiske fotomiljøer.",
+      "[[media:1]]",
+      "[[media:2]]",
+      "Ved indgangen møder gæsterne store mecha-installationer og neonkorridorer, der skaber en cyberinspireret verden fra De Tre Kongedømmer. I arenaen demonstreres firbenede robotter på skift, og både børn og voksne standser for at opleve teknologien.",
+      "[[media:3]]",
+      "AI-ledsageren Chio Chio blev inviteret med i udstillingsområdet og blev hurtigt et populært sted at prøve produktet og tage billeder. Flere Chio Chio-personligheder stod samlet, og den bløde form og følelsesmæssigt opmærksomme interaktion vakte børnenes interesse.",
+      "[[media:4]]",
+      "Chio Chio er en AI-ledsagerrobot med fokus på børns følelsesmæssige udvikling. Den bygger på YouAI-modellen, som er udviklet sammen med ph.d.-uddannede fagpersoner fra Tsinghua University og Beijing Normal University samt eksperter i børnepsykologi.",
+      "Chio Chio bruger blandt andet sproglige og stemmemæssige signaler til at opfange ændringer i barnets følelser og tilbyder empatisk dialog, langtidshukommelse og opmærksomhed på tegn, der kan kræve opfølgning. Den skærmfri, bløde form reagerer på kram og berøring. Derudover findes historier, engelsk samtaletræning, ro ved sengetid og positiv støtte til personlige styrker. Målet er at være mere end et samtalelegetøj: en tryg ven, som barnet kan dele sine tanker med.",
+      "[[media:5]]",
+      "[[media:6]]",
+      "Mange forældre standsede for at høre om denne AI-ledsager til børns følelsesmæssige udvikling. I modsætning til almindeligt læringslegetøj bruger Chio Chio det egenudviklede YouAI-system til at lytte, hjælpe barnet med at håndtere pres og støtte udviklingen af personlige styrker. Det vakte interesse blandt familierne på eventet.",
+      "[[media:7]]",
+      "Kraftfuld mecha-teknologi fra De Tre Kongedømmer og en blød AI-ledsager giver læringsoplevelsen to meget forskellige kvaliteter.",
+      "Denne sommer kan familier opleve en rejse, hvor kinesisk kultur møder teknologi, med en interaktiv fortælling, robotopvisninger og mødet med Chio Chio.",
+      "Eventinformation",
+      "Event: Three Kingdoms Warriors: Mecha Awakening",
+      "Periode: 23. juli til 31. august",
+      "Sted: Chengdu Media New Oriental Exhibition Center, Chengdu Intangible Cultural Heritage Park"
+    ]
+  },
+  "2026072301": {
+    title: "En varm sommerdag: One Foundations kreative familieevent hos Alibaba med Chio Chio",
+    summary: "Børn med autisme og deres familier mødtes hos Alibaba til et roligt, kreativt One Foundation-event med Chio Chio.",
+    body: [
+      "Den 19. juli afholdt One Foundation et kreativt sommerarrangement på Alibabas hovedkontor i Kina. Børn med autisme og deres forældre samledes om en rolig og varm kreativ oplevelse. AI-ledsageren Chio Chio deltog også og gav plads til børnenes egne tanker og følelser.",
+      "Eventet var en del af One Foundation Ocean Heaven Program 2026 og Alipay Philanthropy Star Community Family Support Center. Det skabte et uformelt mødested for familier, som ikke altid har let adgang til afslappede sociale miljøer. De kreative aktiviteter gav børnene mulighed for at deltage i deres eget tempo, mens forældrene kunne udveksle erfaringer.",
+      "[[media:1]]",
+      "Den bløde og venlige Chio Chio vakte interesse hos både børn og voksne. Forældre tog produktet i hænderne og hørte om denne AI-ledsager, som også er udviklet med hensyn til børn med særlige behov. Chio Chio lytter og svarer roligt og tilbyder en måde at udtrykke sig på med lavt pres.",
+      "[[media:2]]",
+      "Flere børn gik selv hen til Chio Chio. De levende øjne, den rolige stemme og samspillet uden hastværk eller krav gjorde det lettere at nærme sig. Børnene fordybede sig i mødet med Chio Chio og nød den afslappede stund.",
+      "[[media:3]]",
+      "[[media:4]]",
+      "I pauserne mellem aktiviteterne undersøgte børnene nysgerrigt Chio Chio i forskellige farver. Den bløde overflade og rolige interaktion tager hensyn til forskellige sansebehov, og den lette, skærmfri form er nem at have med i hverdagen.",
+      "[[media:5]]",
+      "Smil og latter fyldte eventet. Billederne af børn med Chio Chio i armene afspejlede formålet med initiativet: at skabe en varm og inkluderende oplevelse.",
+      "Sommeren slutter, men omsorgen fortsætter. Super YouAI vil fortsat samarbejde med One Foundation og andre almennyttige organisationer om at støtte trivsel og fri udvikling for børn med autisme og andre børn, der har brug for særlig opmærksomhed.",
+      "[[media:6]]"
+    ]
+  }
+};
