@@ -1406,6 +1406,82 @@ Object.assign(window.NEWS_ARTICLE_DA, {
 });
 
 Object.assign(window.NEWS_ARTICLE_JA, {
+  "2026071505": {
+    title: "WAIC 2026上海で会いましょう——Chio Chioが世界人工知能大会に登場",
+    summary: "柔らかなぬいぐるみの姿とAIによる対話を備えたChio Chioが、WAIC 2026上海会場で来場者を迎えます。",
+    body: [
+      "柔らかなぬいぐるみの姿とAIによる対話を組み合わせたChio Chioは、子どもと会話し、つらい気持ちを落ち着かせる手助けをします。会場では実機を体験できます。",
+      "[[media:1]]",
+      "開催期間：2026年7月17日〜20日",
+      "会場：上海世博展覧館 B1",
+      "ブース：W8-1〜W8-3、W9-1〜W9-3",
+      "柔らかな姿にAI技術——子ども向けAIパートナーChio Chioの主な特長",
+      "3〜18歳の子どもを想定した軽量スマートデバイスとして、Chio Chioは一般的な子ども向けタブレットや大型学習端末とは異なる、球形のぬいぐるみと一連のAI対話体験を組み合わせています。主な特長は次の5点です。",
+      "1. 持ち歩ける親しみやすいデザイン。しずく形の柔らかな本体に、肌に触れやすい環境配慮型の生地、動く大きな目、頬のライト、携帯用ストラップを備えています。通学かばんに付けたり持ち歩いたりでき、AIロボットと安心して抱けるぬいぐるみ、ギフトとしての魅力を組み合わせています。",
+      "2. さまざまな場面での双方向音声対話。独自開発の子ども向け音声モデルが、発音がまだ明瞭でない子どもの声にも対応し、物語、二言語会話、質問への回答、知識探索、気持ちを整える声かけなどを提供します。画面を使わないため、長時間の画面視聴を避けられます。",
+      "3. 年齢に合わせたAI学習体験。幼児向けには童謡、就寝前の物語、生活習慣の声かけを、学齢期向けには漢詩、英語、科学知識などを用意しています。交流の傾向をもとに内容を提案し、楽しさと学びを両立します。",
+      "4. 複数の安全設計。本体は鋭い角を避け、子ども向けの環境配慮型生地を使用しています。年齢に配慮したコンテンツを備え、保護者向け機能から利用時間やコンテンツ権限を確認・設定できます。",
+      "5. 軽量で多様な販売チャネルに対応。小型で量産しやすく、キャラクターとの共同企画、法人ギフト、チャネル向けカスタマイズなどに対応します。母子用品店、子ども向け施設、教育機関、文化・キャラクター雑貨、ギフト、量販店、観光商品などでの展開を想定しています。",
+      "WAIC 2026、上海世博展覧館 W8-1〜W8-3、W9-1〜W9-3でお待ちしています。",
+      "[[media:2]]"
+    ]
+  },
+  "2026070225": {
+    title: "Super YouAI、CFS 2026「高成長価値企業」に選出",
+    summary: "Super YouAIが、技術開発、製品展開、将来性などを評価するCFS 2026の「高成長価値企業」に選ばれました。",
+    body: [
+      "[[media:1]]",
+      "今回の選考では、中核技術、研究開発と革新性、市場での実績、長期的な成長可能性などが総合的に評価されました。Super YouAIは創業以来、子どもの心に寄り添うAIハードウェアに取り組み、独自研究を軸に親子向けの製品開発を続けています。",
+      "これに先立ち、主力製品Chio Chioは羅湖AIスマートハードウェア・イノベーションデーに出展し、来場者による体験投票でベストデザイン賞とベスト体験賞を受賞しました。製品デザインと人と機器の交流に対する評価につながりました。",
+      "CFS財経サミットは10年以上にわたり、中国の革新的な企業を紹介してきました。300社を超える主要メディアと200人を超える講演者が参加し、幅広い業界の企業やテクノロジー企業が選考対象になります。今回の審査では、独自の知的財産、継続的な研究開発投資、革新的な製品の実用化が重視されました。",
+      "多数の候補企業の中から「高成長価値企業」に選ばれたことは、審査関係者がSuper YouAIの技術方針と事業モデルに関心を寄せた結果であり、子ども向けAIハードウェア分野の可能性と同社の取り組みへの評価でもあります。",
+      "今回の受賞を一つの節目として、Super YouAIは子ども向けスマートハードウェア、AI、子どもと機器の交流に関する研究開発を継続します。製品体験と知的財産の整備を進め、家庭のさまざまなニーズに合うAIパートナーを開発し、技術と温かさを備えた製品を着実に届けていきます。",
+      "[[media:2]]",
+      "[[media:3]]",
+      "[[media:4]]"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_DA, {
+  "2026071505": {
+    title: "Mød Chio Chio på World Artificial Intelligence Conference 2026 i Shanghai",
+    summary: "Chio Chio kommer til WAIC 2026 i Shanghai med sin bløde form og interaktive AI-oplevelse for børn, familier og partnere.",
+    body: [
+      "Chio Chio kombinerer en blød plysform med interaktiv AI. Den kan tale med børn og hjælpe dem med at finde ro i svære følelser. Besøgende kan prøve den fysiske enhed på standen.",
+      "[[media:1]]",
+      "Dato: 17.-20. juli 2026",
+      "Sted: Shanghai World Expo Exhibition & Convention Center, hal B1",
+      "Stand: W8-1 til W8-3 og W9-1 til W9-3",
+      "Blød teknologi med AI: centrale egenskaber ved Chio Chio",
+      "Chio Chio er udviklet som en let intelligent ledsager til børn fra 3 til 18 år. I stedet for en traditionel tablet eller stor læringsmaskine kombinerer produktet en rund plysform med sammenhængende AI-interaktion. Det har fem centrale egenskaber.",
+      "1. Et venligt design, barnet kan tage med. Den dråbeformede krop bruger blødt, hudvenligt og miljøbevidst tekstil og har bevægelige øjne, diskret lys i kinderne og en bærerem. Den kan sættes på en skoletaske eller bæres i lommen og forener en AI-robot, et trygt krammedyr og en gaveoplevelse.",
+      "2. Tovejs stemmeinteraktion i mange situationer. Den egenudviklede stemmemodel til børn kan håndtere mindre tydelig børnetale og tilbyder historier, tosproget dialog, spørgsmål og svar, viden og beroligende samtale. Da produktet ikke har en skærm, undgår barnet langvarig skærmtid.",
+      "3. Alderstilpasset AI-læring. Til yngre børn findes børnesange, godnathistorier og støtte til vaner. Skolebørn kan møde klassisk kinesisk poesi, engelsk og naturvidenskabelig viden. Indhold kan foreslås ud fra barnets brugsmønster og kombinerer leg og læring.",
+      "4. Flere lag af sikkerhed. Produktet undgår skarpe hjørner og bruger børneegnede, miljøbevidste materialer. Det har et alderspasset indholdsbibliotek, og forældrefunktioner giver mulighed for at se brugstid og styre indholdstilladelser og tidsrum.",
+      "5. Let format til flere salgskanaler. Den kompakte form er egnet til serieproduktion, karakter- og brandsamarbejder, firmagaver og kanaltilpassede funktioner. Mulige miljøer omfatter familiebutikker, børneaktiviteter, uddannelse, design- og karakterprodukter, gaveæsker, detailhandel og turisme.",
+      "Vi ses på WAIC 2026 i Shanghai, stand W8-1 til W8-3 og W9-1 til W9-3.",
+      "[[media:2]]"
+    ]
+  },
+  "2026070225": {
+    title: "Super YouAI kåret som virksomhed med høj vækstværdi ved CFS 2026",
+    summary: "CFS 2026 har anerkendt Super YouAI ud fra blandt andet teknologi, udvikling, produktresultater og langsigtet potentiale.",
+    body: [
+      "[[media:1]]",
+      "Bedømmelsen omfattede virksomhedens kerneteknologi, forskning og innovation, resultater på markedet og langsigtede vækstmuligheder. Siden etableringen har Super YouAI arbejdet med AI-hardware til følelsesmæssigt nærvær for børn og gjort egen forskning til et centralt grundlag for differentierede familieprodukter.",
+      "Tidligere deltog kerneproduktet Chio Chio i Luohu AI Smart Hardware Innovation Day. Efter at gæsterne havde prøvet produkterne og stemt, modtog Chio Chio både prisen for bedste design og bedste oplevelse, hvilket gav ekstern anerkendelse af produktdesign og menneske-maskine-interaktion.",
+      "CFS Finance Summit har i mere end ti år fulgt udviklingen blandt kinesiske innovationsvirksomheder. Over 300 førende medier og mere end 200 talere deltager, og kandidaterne kommer fra mange brancher. Ved denne vurdering lagde komitéen særlig vægt på egen intellektuel ejendom, løbende investering i udvikling og dokumenteret anvendelse af nye produkter.",
+      "Udvælgelsen som virksomhed med høj vækstværdi blandt mange kandidater afspejler bedømmernes interesse for Super YouAIs tekniske retning og forretningsmodel samt markedets opmærksomhed på AI-hardware til børn.",
+      "Prisen er en milepæl, mens udviklingsarbejdet fortsætter. Super YouAI vil investere videre i AI, interaktion mellem børn og teknologi samt intelligent hardware, forbedre produktoplevelsen og udbygge porteføljen af immaterielle rettigheder. Målet er at skabe AI-ledsagere, der passer til forskellige familiers behov, og levere produkter med både teknisk kvalitet og menneskelig omtanke.",
+      "[[media:2]]",
+      "[[media:3]]",
+      "[[media:4]]"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_JA, {
   "2026071626": {
     title: "国際パラリンピック委員会会長アンドリュー・パーソンズ氏が融愛センターを訪問、Chio Chioの子ども支援に注目",
     summary: "IPC会長アンドリュー・パーソンズ氏がChio Chioの英語での対話を体験し、障害や特別な支援ニーズのある子どもへの温かな価値に関心を寄せました。",
