@@ -1406,6 +1406,104 @@ Object.assign(window.NEWS_ARTICLE_DA, {
 });
 
 Object.assign(window.NEWS_ARTICLE_JA, {
+  "2026030830": {
+    title: "Super YouAI創業者の元晓帅博士、深圳ベンチャーキャピタル協会の国際女性デー特別イベントで講演",
+    summary: "元晓帅博士が、AI時代における女性の共感力と、心に寄り添う技術を開発するSuper YouAIの考え方を紹介しました。",
+    body: [
+      "[[media:1]]",
+      "元博士は、AIが急速に発展する今、女性の共感力、包摂性、粘り強さはテクノロジー起業に重要な強みになると述べました。さらに『愛』を設計の基盤に置く考え方を説明し、チームが日常的な心への寄り添いを目指すAIパートナーChio Chioを開発していることを紹介しました。Chio Chioは医療や心理専門職の代替ではなく、技術と人への配慮を結ぶ補助的な存在です。講演は会場参加者の共感を集めました。",
+      "[[media:2]]",
+      "投資、企業、法律の分野から50人を超える女性が集まり、それぞれの実務経験と人生で得た学びを共有しました。会場は温かく活発な雰囲気に包まれました。",
+      "[[media:3]]",
+      "[[media:4]]",
+      "今回の招待は、Super YouAIとAIパートナーChio Chioへの業界の関心だけでなく、科学技術革新で女性の力が高まっていることも示しました。元晓帅博士をはじめとする女性の技術者や起業家は、やさしさと強さをもって社会に役立つ技術を切り開いています。Super YouAIは今後も心への寄り添いを中核に、AIと心理分野の研究、製品改善、安全で利用しやすい体験づくりを続けます。",
+      "[[media:5]]"
+    ]
+  },
+  "2026030735": {
+    title: "AIの新しい未来を読み解く——Super YouAIが杭州の国際女性デー116周年記念式典に登場",
+    summary: "杭州の国際女性デー記念イベントで、Super YouAIが子どもとChio Chioによる温かなAI対話を披露しました。",
+    body: [
+      "[[media:1]]",
+      "余杭区のAI企業として、Super YouAIは『子どもの言葉でAIと対話し、温かさを身近に』をテーマに交流形式の発表を行いました。営業責任者の高麗春が6歳の子どもと登壇し、AIパートナーChio Chioとの会話を実演しました。",
+      "[[media:2]]",
+      "『AI＋家庭サービス』の展示・体験では、『武林大媽』体験チームもChio Chioを詳しく試しました。AIを取り入れた柔らかなパートナーが、穏やかな交流を通じて家庭に新しい寄り添い方を提案しました。",
+      "[[media:3]]",
+      "[[media:4]]",
+      "参加者は、AIが家庭生活にどのような温かさを加えられるかを体験しました。杭州市婦女連合会主催のイベントは杭州テレビでも報道され、市の関係者らが出席しました。来場者はChio Chioのブランドの方向性、技術、利用体験について意見を交わしました。",
+      "[[media:5]]",
+      "杭州ではUnitree Robotics、BrainCo、DeepSeekなどのAI企業が育っています。心への寄り添いと家庭サービスに取り組むSuper YouAIも、AIの専門的な応用を深め、より多くの人の日常に配慮と温かさを届けることを目指します。製品は医療や専門的な心理支援の代替ではありません。",
+      "[[media:6]]",
+      "[[media:7]]"
+    ]
+  },
+  "2026022707": {
+    title: "Chio Chioが海珠区高品質発展大会に登場、心に寄り添うAIの新たな成果を紹介",
+    summary: "海珠区高品質発展大会で、来場者がChio Chioを体験し、技術の特徴と実際の利用場面について意見を交わしました。",
+    body: [
+      "[[media:1]]",
+      "大会では14社が新しい技術と製品を展示しました。心に寄り添うAIの取り組みとしてChio Chioも紹介され、来場者の関心を集めました。中国国家革新・発展戦略研究会学術委員会常務副主席の黄奇帆、海珠区党委書記の蔡澍、区長の毛松柏、区の各部門関係者らが展示を体験し、開発チームと技術の特徴や利用場面について意見を交わしました。",
+      "[[media:2]]",
+      "[[media:3]]",
+      "広東省テレビも大会を報道し、Chio Chioの取り組みがより広く紹介されました。",
+      "[[media:4]]",
+      "Super YouAIは、AI、IoT、心理学の知見を組み合わせ、人が大切にされていると感じられるAIパートナーを目指しています。今後も技術と製品を改善し、より多くの場面でChio Chioを活用できるよう取り組みます。これは医療診断や専門家による支援の代替ではありません。",
+      "[[media:5]]",
+      "[[media:6]]"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_DA, {
+  "2026030830": {
+    title: "Super YouAI-grundlægger Dr. 元晓帅 taler ved Shenzhen Venture Capital Associations kvindedagsarrangement",
+    summary: "Dr. 元晓帅 fortalte om kvinders empati i AI-tiden og Super YouAIs arbejde med teknologi, der møder mennesker med følelsesmæssig omtanke.",
+    body: [
+      "[[media:1]]",
+      "Dr. 元晓帅 fremhævede, at kvinders empati, rummelighed og robusthed er vigtige styrker i en tid med hurtig AI-udvikling og i teknologisk iværksætteri. Hun forklarede desuden tanken om at gøre kærlighed til et grundprincip i designet og præsenterede teamets AI-ledsager Chio Chio, som skal gøre følelsesmæssigt nærvær mere tilgængeligt i hverdagen. Produktet erstatter ikke sundhedspersonale eller psykologer, men er et supplement, der forbinder teknologi og menneskelig omtanke. Oplægget skabte genklang blandt deltagerne.",
+      "[[media:2]]",
+      "Mere end 50 kvinder fra investering, erhvervsliv og jura mødtes og delte erfaringer fra deres arbejdsliv og personlige udvikling. Stemningen var både varm og engageret.",
+      "[[media:3]]",
+      "[[media:4]]",
+      "Invitationen viste både branchens interesse for Super YouAI og Chio Chio og kvinders voksende betydning i teknologisk innovation. Kvindelige teknologer og iværksættere som Dr. 元晓帅 er med til at udvikle samfundsnyttig teknologi med både nænsomhed og styrke. Super YouAI vil fortsætte forskningen i AI og psykologi, forbedre produktet og udvikle sikre, tilgængelige oplevelser med følelsesmæssigt nærvær som kerne.",
+      "[[media:5]]"
+    ]
+  },
+  "2026030735": {
+    title: "En ny AI-fremtid: Super YouAI ved Hangzhous markering af 116-årsdagen for kvindernes internationale kampdag",
+    summary: "Ved Hangzhous kvindedagsarrangement viste Super YouAI en varm AI-dialog mellem et barn og Chio Chio.",
+    body: [
+      "[[media:1]]",
+      "Som AI-virksomhed fra Yuhang præsenterede Super YouAI temaet Børns ord møder AI, varme inden for rækkevidde gennem en interaktiv optræden. Salgsdirektør Gao Lichun gik på scenen med et seksårigt barn og demonstrerede en samtale med AI-ledsageren Chio Chio.",
+      "[[media:2]]",
+      "I udstillingen om AI og familieservice prøvede oplevelsesteamet Wulin Dama også Chio Chio i dybden. Den bløde AI-ledsager viste en ny form for rolig interaktion i familielivet.",
+      "[[media:3]]",
+      "[[media:4]]",
+      "Deltagerne fik et konkret indtryk af, hvordan AI kan tilføre hverdagen mere menneskelig varme. Eventet var arrangeret af Hangzhous kvindeforbund, blev dækket af Hangzhou TV og havde deltagelse af flere kommunale repræsentanter. Gæsterne drøftede Chio Chios positionering, teknologi og brugeroplevelse.",
+      "[[media:5]]",
+      "Hangzhou har fostret AI-virksomheder som Unitree Robotics, BrainCo og DeepSeek. Med fokus på følelsesmæssigt nærvær og familieservice vil Super YouAI fortsætte udviklingen af specialiserede AI-løsninger og bringe omtanke og varme til flere mennesker. Produktet erstatter ikke lægehjælp eller professionel psykologisk støtte.",
+      "[[media:6]]",
+      "[[media:7]]"
+    ]
+  },
+  "2026022707": {
+    title: "Chio Chio på Haizhus konference for kvalitetsudvikling med nye resultater inden for følelsesmæssigt opmærksom AI",
+    summary: "Ved Haizhus udviklingskonference prøvede gæsterne Chio Chio og drøftede teknologiens egenskaber og praktiske anvendelser med teamet.",
+    body: [
+      "[[media:1]]",
+      "På konferencen præsenterede 14 virksomheder nye teknologier og produkter. Chio Chio vakte interesse som et eksempel på AI med følelsesmæssig omtanke. Huang Qifan fra China Institute for Innovation and Development Strategy, Haizhus partisekretær Cai Shu, distriktschef Mao Songbai og repræsentanter fra distriktets afdelinger prøvede produktet og drøftede tekniske egenskaber og praktiske anvendelser med udviklingsteamet.",
+      "[[media:2]]",
+      "[[media:3]]",
+      "Guangdong TV dækkede også konferencen og gav Chio Chios arbejde større synlighed.",
+      "[[media:4]]",
+      "Super YouAI kombinerer AI, IoT og psykologisk viden med målet om at skabe AI-ledsagere, der får brugeren til at føle sig mødt. Virksomheden vil fortsætte den tekniske og produktmæssige udvikling og undersøge flere relevante anvendelser for Chio Chio. Produktet stiller ikke diagnoser og erstatter ikke professionel støtte.",
+      "[[media:5]]",
+      "[[media:6]]"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_JA, {
   "2026041048": {
     title: "Chio Chioがハミ開物大会に登場、AIによる心への寄り添いとOPCの新たな可能性を探る",
     summary: "ハミ開物大会でChio Chioが、日常に寄り添うAIと一人会社（OPC）時代の心の安定について紹介しました。",
