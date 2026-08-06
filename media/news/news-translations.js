@@ -1406,6 +1406,110 @@ Object.assign(window.NEWS_ARTICLE_DA, {
 });
 
 Object.assign(window.NEWS_ARTICLE_JA, {
+  "2025113039": {
+    title: "Super YouAIが『芯生万象』エコシステム大会に参加、AIoTによる心の健康支援を紹介",
+    summary: "元晓帅博士がChio Chioを例に、AIとIoTを組み合わせた日常的な心の健康支援の可能性を紹介しました。",
+    body: [
+      "[[media:1]]",
+      "講演で元晓帅博士はChio Chioを例に、AIoTが心理支援を補助できる四つの場面を紹介し、AIとIoTの組み合わせが業界に与える可能性を説明しました。",
+      "IoTはAIにより多様な状況情報を提供し、抽象的な配慮を利用者が感じられる交流へ変えられると述べました。構想には、自己申告だけに頼らない手がかりの把握、予約を待たずに利用できる日常的な対話、専門家の業務補助、複数のスマート機器との連携が含まれます。これらは診断や治療を自動化するものではなく、専門家の判断と利用者の同意が必要です。",
+      "参加した専門家や企業関係者は、AIoTがさまざまな機器を通じて人の状態に配慮する新しい機会を生み得るという展望について意見を交わしました。同時に、実用化には安全性、プライバシー、効果検証が欠かせません。",
+      "この構想には産業全体の協力が必要です。Super YouAIは技象科技などのパートナーと連携し、AIoTを心の健康分野へ安全かつ実用的に応用する方法を探り、利用者に配慮したサービスづくりを進めます。",
+      "[[media:2]]"
+    ]
+  },
+  "2025112811": {
+    title: "Chio Chioが北京の高齢者ケアステーションに導入",
+    summary: "北京の高齢者ケア施設で、Chio Chioが一人暮らしの高齢者に会話の新しい選択肢を提供しました。",
+    body: [
+      "[[media:1]]",
+      "体験した女性は、『家で一人でスマートフォンを見るより、これと話すほうがずっと楽しい。人には言いにくい気持ちも、これになら話しやすい』と笑顔で話しました。",
+      "技術の目的は人の生活に役立つことです。高齢者ケアステーションへの導入は、温かなAIを高齢者支援へ応用する第一歩です。今後、話を聴いてもらう機会を必要とする人へ、補助的な交流手段を届けたいと考えています。Chio Chioは家族、介護者、医療・緊急サービスの代替ではありません。",
+      "[[media:2]]"
+    ]
+  },
+  "2025112508": {
+    title: "Chio Chioが湖北省心理カウンセラー協会2025年学術大会に登場",
+    summary: "心理学の専門家とカウンセラーがChio Chioの共感的な対話を体験し、専門分野との連携可能性を議論しました。",
+    body: [
+      "中米精神心理研究所教授でトランスパーソナル心理学・心理療法の専門家、張宝蕊博士がChio Chioプロジェクトの説明を受け、Super YouAI営業責任者の高麗春と記念撮影しました。心に寄り添うAI製品として、多くの参加者がChio Chioを体験しました。",
+      "[[media:1]]",
+      "創業者の元晓帅博士と高麗春が、専門家とカウンセラーへChio Chioを紹介しました。中核となるのは、会話を通じて利用者がつらい気持ちを言葉にし、落ち着きを取り戻すことを補助する機能です。そのため、共感的な応答と適切な声かけが特に注目されました。",
+      "体験したカウンセラーからは、応答に心理学的な方法が反映されているという評価や、共同研究・活用についてさらに話し合いたいという声がありました。",
+      "現場の専門家から得た意見は、製品の考え方を検討する重要な材料になりました。AIと心理学の連携は、利用しやすく個人に合った心の健康支援を補助する可能性がありますが、継続的な検証と専門家の監督が必要です。",
+      "今後も心理学界や研究機関との協力を深め、Chio Chioを温かなAIパートナーであると同時に、専門家の仕事を安全に補助できる道具へ育てます。",
+      "[[media:2]]"
+    ]
+  },
+  "2025111906": {
+    title: "Chio Chioが杭州市余杭区の世界子どもの日イベントに登場",
+    summary: "余杭区の世界子どもの日イベントで、Chio Chioが子どもの宿題の悩みに共感し、課題を小分けにする方法を提案しました。",
+    body: [
+      "[[media:1]]",
+      "ある子どもが『宿題が多すぎて、全然終わらない』と悩みを話すと、Chio Chioは『多すぎると大変だよね。プレッシャーを感じているんだね。一緒にリストを作って、一つずつ進めてみよう』と答えました。",
+      "[[media:2]]",
+      "心に寄り添うAIを初めて知った保護者からは、チームの説明を聞いた後、『Chio Chioと話すほうが、子どもがスマートフォンだけで遊ぶより安心できる』という声がありました。",
+      "[[media:3]]",
+      "[[media:4]]",
+      "杭州余杭未来科技城に拠点を置くSuper YouAIは、子どもと若者の心の健康に継続して関心を寄せています。余杭区婦女連合会の招待で世界子どもの日イベントに参加したことは、製品を紹介すると同時に、社会に役立つ技術を地域で実践する機会になりました。",
+      "今後も『AIに愛を』という使命のもと、行政や地域の関係者と協力し、技術と心の健康支援を安全に結び付ける方法を探ります。温かなAI製品を通じ、より調和のある家庭と地域づくりを補助することを目指します。"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_DA, {
+  "2025113039": {
+    title: "Super YouAI inviteret til Xinsheng Wanxiang-økosystemkonferencen med oplæg om AIoT og mental trivsel",
+    summary: "Dr. 元晓帅 brugte Chio Chio som eksempel på mulighederne for at kombinere AI og IoT i lettilgængelig støtte til mental trivsel.",
+    body: [
+      "[[media:1]]",
+      "I sit oplæg brugte Dr. 元晓帅 Chio Chio til at beskrive fire områder, hvor AIoT kan supplere psykologiske tilbud, og forklarede hvordan kombinationen af AI og IoT kan påvirke branchen.",
+      "IoT kan give AI adgang til flere typer situationsdata og gøre abstrakt omsorg til kontakt, som brugeren konkret kan opleve. Visionen omfatter signaler ud over selvrapporterede spørgeskemaer, daglig dialog uden ventetid, støtte til fagpersoners arbejde og samspil med andre intelligente enheder. Det automatiserer ikke diagnose eller behandling og kræver faglig vurdering og brugerens samtykke.",
+      "Eksperter og virksomhedsledere drøftede perspektivet i, at AIoT kan lade flere enheder tage hensyn til menneskers tilstand. Sikkerhed, privatliv og dokumentation af virkninger er samtidig nødvendige forudsætninger for praktisk anvendelse.",
+      "Visionen kræver samarbejde på tværs af værdikæden. Super YouAI vil arbejde med Jixiang Technology og andre partnere om sikker og praktisk anvendelse af AIoT inden for mental trivsel og udvikle tjenester med omtanke for brugeren.",
+      "[[media:2]]"
+    ]
+  },
+  "2025112811": {
+    title: "Chio Chio flytter ind på et plejecenter for ældre i Beijing",
+    summary: "På et ældrecenter i Beijing gav Chio Chio mennesker, der bor alene, endnu en mulighed for samtale i hverdagen.",
+    body: [
+      "[[media:1]]",
+      "En kvinde sagde glad efter oplevelsen: »Det er meget sjovere at tale med den end at sidde alene hjemme med telefonen. Hvis noget går mig på og er svært at sige til andre, er det rart at kunne fortælle den om det.«",
+      "Teknologi skal i sidste ende tjene mennesker. Besøget på ældrecentret er et første skridt i Super YouAIs anvendelse af varm AI i ældreomsorgen. Målet er at give flere mennesker, der savner nogen at tale med, en supplerende kontaktmulighed. Chio Chio erstatter ikke familie, plejepersonale, læger eller akuttjenester.",
+      "[[media:2]]"
+    ]
+  },
+  "2025112508": {
+    title: "Chio Chio på Hubei Association of Psychological Counselors' årskonference 2025",
+    summary: "Psykologiske eksperter og rådgivere prøvede Chio Chios empatiske dialog og drøftede muligheder for fagligt samarbejde.",
+    body: [
+      "Professor og psykoterapiekspert Dr. Zhang Baorui fra det kinesisk-amerikanske institut for psykiatri og psykologi fik en introduktion til Chio Chio og blev fotograferet med Super YouAIs salgsdirektør Gao Lichun. Som et nyt produkt med følelsesmæssigt opmærksom AI tiltrak Chio Chio mange deltagere.",
+      "[[media:1]]",
+      "Grundlægger Dr. 元晓帅 og Gao Lichun præsenterede Chio Chio for eksperter og rådgivere. Kernefunktionen er at hjælpe brugeren med at sætte ord på svære følelser og finde mere ro gennem samtale. Derfor fik den empatiske respons og vejledning særlig opmærksomhed.",
+      "Efter oplevelsen vurderede nogle rådgivere, at svarene afspejlede psykologiske metoder, og flere ønskede en nærmere dialog om forskning og samarbejde.",
+      "Feedbacken fra fagfolk var vigtig for vurderingen af produktets idé. Kombinationen af AI og psykologi kan supplere mere tilgængelig og individuelt tilpasset støtte, men kræver fortsat dokumentation og fagligt tilsyn.",
+      "Super YouAI vil uddybe samarbejdet med psykologiske miljøer og forskningsinstitutioner, så Chio Chio både er en varm AI-ledsager og et sikkert redskab, der kan supplere fagpersoners arbejde.",
+      "[[media:2]]"
+    ]
+  },
+  "2025111906": {
+    title: "Chio Chio ved verdens børnedag i Yuhang, Hangzhou",
+    summary: "Ved verdens børnedag i Yuhang mødte Chio Chio et barns bekymring over lektier med empati og et forslag om at dele opgaven i mindre trin.",
+    body: [
+      "[[media:1]]",
+      "Et barn fortalte: »Chio Chio, jeg har så mange lektier, at jeg aldrig bliver færdig.« Chio Chio svarede: »Det kan virkelig være frustrerende med så mange lektier. Jeg kan mærke, at du er presset. Skal vi lave en liste sammen og tage én ting ad gangen?«",
+      "[[media:2]]",
+      "Nogle forældre hørte for første gang om en AI-ledsager med fokus på følelser. Efter teamets introduktion sagde de, at samtaler med Chio Chio føltes tryggere end blot at lade barnet lege med en telefon.",
+      "[[media:3]]",
+      "[[media:4]]",
+      "Super YouAI har base i Future Sci-Tech City i Yuhang og følger løbende børn og unges mentale trivsel. Invitationen fra Yuhangs kvindeforbund til verdens børnedag var både en fysisk produktpræsentation og et skridt i virksomhedens lokale arbejde med teknologi til gavn for samfundet.",
+      "Med missionen AI med kærlighed vil Super YouAI fortsat samarbejde med myndigheder og lokale aktører og undersøge sikker integration af teknologi og støtte til mental trivsel. Målet er at supplere arbejdet for mere harmoniske familier og lokalsamfund med varme AI-produkter."
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_JA, {
   "2025121910": {
     title: "Chio Chioが襄陽市児童福祉院を訪問、職員と特別な状況にある子どもの心の健康に寄り添う",
     summary: "襄陽市児童福祉院で、Chio Chioが職員の負担と子どもの日常的な交流を補助する可能性を紹介しました。",
