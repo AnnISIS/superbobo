@@ -1399,6 +1399,79 @@ Object.assign(window.NEWS_ARTICLE_DA, {
   }
 });
 
+// Overseas launch normalization: keep personal names and verified event/partner
+// names consistent across every article, including earlier translation batches.
+function normalizeOverseasNewsNames() {
+  const enNames = [
+    ["Dr. Yuan Xiaoshuai", "Dr. XIAOSHUAI YUAN"], ["Yuan Xiaoshuai", "XIAOSHUAI YUAN"],
+    ["Dr. Guo Kaiyan", "Dr. KAIYAN GUO"], ["Guo Kaiyan", "KAIYAN GUO"], ["Gao Lichun", "LICHUN GAO"],
+    ["He Changyao", "CHANGYAO HE"], ["Xuan Guowei", "GUOWEI XUAN"], ["Yang Yuxuan", "YUXUAN YANG"],
+    ["Zhang Haiyan", "HAIYAN ZHANG"], ["Zhang Baorui", "BAORUI ZHANG"], ["Qian Jun", "JUN QIAN"],
+    ["Lu Chengkuan", "CHENGKUAN LU"], ["Huang Qifan", "QIFAN HUANG"], ["Cai Shu", "SHU CAI"],
+    ["Mao Songbai", "SONGBAI MAO"], ["Gan Yongkang", "YONGKANG GAN"], ["Fang Jian", "JIAN FANG"],
+    ["Chen Yan", "YAN CHEN"], ["Ma Xiaoqiu", "XIAOQIU MA"], ["Chen Weiqiang", "WEIQIANG CHEN"],
+    ["Lu Xiaguang", "XIAGUANG LU"], ["Chen Rugen", "RUGEN CHEN"], ["Yu Guojuan", "GUOJUAN YU"]
+  ];
+  const jaNames = [
+    ["元晓帅博士", "XIAOSHUAI YUAN博士"], ["元博士", "XIAOSHUAI YUAN博士"], ["元晓帅", "XIAOSHUAI YUAN"],
+    ["郭凱燕博士", "KAIYAN GUO博士"], ["郭凯燕博士", "KAIYAN GUO博士"], ["郭凱燕", "KAIYAN GUO"], ["郭凯燕", "KAIYAN GUO"],
+    ["高麗春", "LICHUN GAO"], ["高丽春", "LICHUN GAO"], ["何昌耀", "CHANGYAO HE"], ["禤国威", "GUOWEI XUAN"],
+    ["楊昱軒", "YUXUAN YANG"], ["杨昱轩", "YUXUAN YANG"], ["張海燕博士", "HAIYAN ZHANG博士"], ["张海燕博士", "HAIYAN ZHANG博士"],
+    ["張宝蕊博士", "BAORUI ZHANG博士"], ["张宝蕊博士", "BAORUI ZHANG博士"], ["銭軍", "JUN QIAN"], ["钱军", "JUN QIAN"],
+    ["陸城寬", "CHENGKUAN LU"], ["陆城宽", "CHENGKUAN LU"], ["黄奇帆", "QIFAN HUANG"], ["蔡澍", "SHU CAI"],
+    ["毛松柏", "SONGBAI MAO"], ["甘永康", "YONGKANG GAN"], ["方鍵", "JIAN FANG"], ["方键", "JIAN FANG"],
+    ["陳焰", "YAN CHEN"], ["陈焰", "YAN CHEN"], ["馬小秋", "XIAOQIU MA"], ["马小秋", "XIAOQIU MA"],
+    ["陳衛強", "WEIQIANG CHEN"], ["陈卫强", "WEIQIANG CHEN"], ["魯霞光", "XIAGUANG LU"], ["鲁霞光", "XIAGUANG LU"],
+    ["陳如根", "RUGEN CHEN"], ["陈如根", "RUGEN CHEN"], ["俞國娟", "GUOJUAN YU"], ["俞国娟", "GUOJUAN YU"],
+    ["老譚", "LAO TAN"], ["老谭", "LAO TAN"], ["大白", "DABAI"], ["心羽先生", "XINYU先生"], ["心羽老師", "XINYU先生"]
+  ];
+  const daNames = [
+    ["Dr. 元晓帅", "Dr. XIAOSHUAI YUAN"], ["Dr. Yuan Xiaoshuai", "Dr. XIAOSHUAI YUAN"], ["Yuan Xiaoshuai", "XIAOSHUAI YUAN"], ["元晓帅", "XIAOSHUAI YUAN"],
+    ["Dr. Guo Kaiyan", "Dr. KAIYAN GUO"], ["Guo Kaiyan", "KAIYAN GUO"], ["郭凱燕", "KAIYAN GUO"], ["郭凯燕", "KAIYAN GUO"],
+    ["Gao Lichun", "LICHUN GAO"], ["高麗春", "LICHUN GAO"], ["高丽春", "LICHUN GAO"], ["何昌耀", "CHANGYAO HE"], ["禤国威", "GUOWEI XUAN"],
+    ["Yang Yuxuan", "YUXUAN YANG"], ["楊昱軒", "YUXUAN YANG"], ["杨昱轩", "YUXUAN YANG"], ["Zhang Haiyan", "HAIYAN ZHANG"], ["张海燕", "HAIYAN ZHANG"],
+    ["Zhang Baorui", "BAORUI ZHANG"], ["张宝蕊", "BAORUI ZHANG"], ["Qian Jun", "JUN QIAN"], ["钱军", "JUN QIAN"],
+    ["Lu Chengkuan", "CHENGKUAN LU"], ["陆城宽", "CHENGKUAN LU"], ["Huang Qifan", "QIFAN HUANG"], ["黄奇帆", "QIFAN HUANG"],
+    ["Cai Shu", "SHU CAI"], ["蔡澍", "SHU CAI"], ["Mao Songbai", "SONGBAI MAO"], ["毛松柏", "SONGBAI MAO"],
+    ["Gan Yongkang", "YONGKANG GAN"], ["甘永康", "YONGKANG GAN"], ["Fang Jian", "JIAN FANG"], ["方键", "JIAN FANG"],
+    ["Chen Yan", "YAN CHEN"], ["陈焰", "YAN CHEN"], ["Ma Xiaoqiu", "XIAOQIU MA"], ["马小秋", "XIAOQIU MA"],
+    ["Chen Weiqiang", "WEIQIANG CHEN"], ["陈卫强", "WEIQIANG CHEN"], ["Lu Xiaguang", "XIAGUANG LU"], ["鲁霞光", "XIAGUANG LU"],
+    ["Chen Rugen", "RUGEN CHEN"], ["陈如根", "RUGEN CHEN"], ["Yu Guojuan", "GUOJUAN YU"], ["俞国娟", "GUOJUAN YU"],
+    ["Lao Tan", "LAO TAN"], ["老譚", "LAO TAN"], ["老谭", "LAO TAN"], ["Dabai", "DABAI"], ["læreren Xinyu", "XINYU"]
+  ];
+  function normalizeArticle(article, replacements) {
+    if (!article) return;
+    const replace = (value) => replacements.reduce((text, [from, to]) => text.split(from).join(to), String(value || ""))
+      .replaceAll("EGG China", "EGO China")
+      .replaceAll("Rongai Center", "Yuhang Rong’ai Center");
+    article.title = replace(article.title);
+    article.summary = replace(article.summary);
+    article.body = article.body.map(replace);
+  }
+  Object.values(window.NEWS_ARTICLE_EN || {}).forEach((article) => normalizeArticle(article, enNames));
+  Object.keys(window.NEWS_TEXT_EN || {}).forEach((key) => {
+    window.NEWS_TEXT_EN[key] = enNames
+      .reduce((value, [from, to]) => value.split(from).join(to), window.NEWS_TEXT_EN[key])
+      .replaceAll("EGG China", "EGO China")
+      .replaceAll("Rongai Center", "Yuhang Rong’ai Center");
+  });
+  Object.values(window.NEWS_ARTICLE_JA || {}).forEach((article) => normalizeArticle(article, jaNames));
+  Object.values(window.NEWS_ARTICLE_DA || {}).forEach((article) => normalizeArticle(article, daNames));
+  Object.values(window.NEWS_ARTICLE_DA || {}).forEach((article) => {
+    article.title = article.title.replaceAll("Shanghais 5. maj-shoppingfestival", "Shanghai Double Five Shopping Festival");
+    article.summary = article.summary.replaceAll("Shanghais 5. maj-shoppingfestival", "Shanghai Double Five Shopping Festival");
+    article.body = article.body.map((text) => text.replaceAll("Shanghais 5. maj-shoppingfestival", "Shanghai Double Five Shopping Festival"));
+    article.body = article.body.map((text) => text
+      .replaceAll("超级球球AI疗愈", "Chio Chio AI Emotional Support")
+      .replaceAll("超级球球", "Chio Chio"));
+  });
+  Object.values(window.NEWS_ARTICLE_JA || {}).forEach((article) => {
+    article.title = article.title.replaceAll("融愛センター", "余杭融愛センター");
+    article.summary = article.summary.replaceAll("融愛センター", "余杭融愛センター");
+    article.body = article.body.map((text) => text.replaceAll("融愛センター", "余杭融愛センター"));
+  });
+}
+
 Object.assign(window.NEWS_ARTICLE_JA, {
   "2025082436": {
     title: "本気です——私たちは、あなたを大切にするAIロボットをつくりたい",
@@ -1732,7 +1805,7 @@ Object.assign(window.NEWS_ARTICLE_JA, {
     body: [
       "Q：郭凱燕博士、ご経歴を教えてください。A：私は応用心理学の博士号を持ち、心理カウンセリングに20年間携わってきました。心理学を発信するオンラインアカウントには約200万人のフォロワーがいます。また17歳、9歳、7歳半の3人の子どもの母親でもあり、保護者としての経験が子どもの気持ちを理解する助けになっています。仕事の多くは家庭教育と青少年の心の健康に関わるものです。感染症流行期にはボランティアチームと心理支援を行い、チームと個人として女性・子ども・家庭支援に関する表彰を受けました。",
       "Q：この仕事を20年続ける原点は何ですか。A：2011年6月17日に山間部の留守児童学校を訪ねた経験が転機でした。生活物資や家族の愛情が十分でない中でも懸命に成長する子どもたちを見て、心理学で人の心を照らし、子どもを温めたいと決めました。それ以来、学生や若者の自己価値と自信を支える活動を続け、近年は学校へ行くことが難しくなった子どもが自信と生活への希望を取り戻す過程にも寄り添ってきました。",
-      "Q：経験あるカウンセラーが、なぜChio ChioというAIパートナーの開発に加わったのですか。A：専門家一人が一日に支援できる人数には限界があり、成熟したカウンセラーを育てるにも長い時間がかかります。私は約6,000人のカウンセラー受講生を指導し、そのうち約500人が2〜3年の体系的な訓練を受けましたが、それでも支援できる人数は限られます。より多くの人へ、必要なときに利用できる補助的な支援を届ける方法を考え続けてきました。娘が12歳のときに思い描いた『気持ちのスーパーマーケット』のような構想も、その願いの一部です。2025年5月に元晓帅、共同創業者の老譚らと出会い、同じ方向へ進むチームだと感じました。AIが心理カウンセラーを置き換えるかについて考えは変化してきましたが、現在はAIが一定の支援を提供できる水準へ進む可能性を感じています。ただしAIは専門家を一律に置き換えるものではなく、安全性、限界、必要時の人への引き継ぎが重要です。だからこそ、心理学の知見を持つ立場から開発に参加することを決めました。",
+      "Q：経験豊富なカウンセラーが、なぜChio ChioというAIパートナーの開発に加わったのですか。A：成熟したカウンセラーを育てるには長い時間がかかり、一人が対応できるのは一日2〜3件、多くても5件ほどです。一方で支援を必要とする人は非常に多く、私は長年、どうすればより多くの人に手を差し伸べられるかを考えてきました。これまで約6,000人のカウンセラー受講生を指導し、そのうち約500人が2〜3年の体系的な訓練を受けましたが、それでも対応できる人数には限界があります。北京師範大学の博士課程へ進んだ年には、悩みを抱えた人がいつでも支援を得られる『常時オンラインの心理相談員』のようなサービスを実現したいと願いました。2012年、当時12歳だった長女が思い描いた、つらい気持ちのときに立ち寄って元気を取り戻せる『カラフルな気持ちのスーパーマーケット』という構想にも影響を受けています。2025年5月にXIAOSHUAI YUAN、共同創業者のLAO TANらと出会い、同じ目標に向かう仲間をようやく見つけたと感じました。AIが心理カウンセラーを置き換えるかについて、私の考えも変化しました。2023年には職業訓練校程度、2024年には短期大学程度と感じていたAIが、2025年には大学院生に近い水準へ進んだと実感しています。ただし、これはAIが専門家を一律に置き換えるという意味ではありません。安全性、能力の限界、必要なときに人へ確実に引き継ぐ仕組みが不可欠です。AIが信頼できる補助的支援を担えるよう、心理学の専門知識を開発へ生かしたいと考え、チームへの参加を決めました。",
       "Q：チーム内の呼び名『提灯を持つ人』にはどんな意味がありますか。A：カウンセラーは、迷いや不安の中にいる人の道を小さな灯りで照らし、本人が自分の力で進めるよう支える存在だと考えています。チームでは私と心羽先生が実務経験を持つ心理専門家として、利用者のニーズを中心に対話や支援の方向を照らす役割を担っています。すべての技術は人に役立つべきです。Chio Chioを単なる技術製品ではなく、利用者を理解し、温かく応答する補助的な心のパートナーにすることが目標です。",
       "Q：加入後の3か月で何を行い、どんな課題がありましたか。A：主にChio Chioの対話エージェントを訓練し、利用者が安心して話したいと思えるよう、傾聴、共感、声かけ、前向きな強化の流れを整えました。心理学の理論をAIが実行できる対話ロジックへ変えるのは難しく、指示やプロンプトを長時間調整しても期待どおりにならないことがあります。技術メンバーやAI研究者から学び、チーム内で何度も議論と試行を重ねました。互いを消耗させず励まし合う文化が、失敗から立ち上がる力になっています。教育や行政との過去の協力関係を生かし、実地での活用検討も進めました。",
       "Q：チームと製品の将来をどう見ていますか。A：AIを具体的な場面へ応用する段階が進む中、ソフトウェアとハードウェアを組み合わせたChio Chioには社会的な可能性があります。人々は利用しやすく手頃な心への支えを求めていますが、経済的価値以上に、子どもや若者が理解され、希望を感じられる社会的価値を重視しています。社会心理サービスの整備という政策の方向とも重なります。一方、AIだけで心理的危機を防げると保証することはできません。自傷や自殺を示唆する発言、いじめ、深刻な不調には、直ちに保護者、学校、専門家、医療・緊急サービスが対応すべきです。Chio Chioは早く気持ちを言葉にする入口や、助けを求めるきっかけを補助する存在を目指します。",
@@ -1759,7 +1832,7 @@ Object.assign(window.NEWS_ARTICLE_DA, {
     title: "Super YouAI-teamet: Hvorfor en erfaren psykologisk rådgiver valgte at udvikle en AI-ledsager",
     summary: "Psykolog Dr. Guo Kaiyan fortæller, hvorfor hun bruger 20 års erfaring i udviklingen af Chio Chios dialog, og hvad hendes arbejde i teamet består i.",
     body: [
-      "Spørgsmål: Dr. Guo Kaiyan, vil du præsentere din baggrund? Svar: Jeg har en ph.d. i anvendt psykologi og 20 års praktisk erfaring med psykologisk rådgivning. Mine psykologiske kanaler på nettet har omkring to millioner følgere. Jeg er også mor til tre børn på 17, 9 og 7½ år, og erfaringen som forælder hjælper mig med at forstå børn. En stor del af mit arbejde har handlet om familieuddannelse og unges mentale trivsel. Under pandemien ledede jeg et frivilligt støtteteam, og både teamet og jeg modtog anerkendelser for arbejdet med kvinder, børn og familier.",
+      "Spørgsmål: Dr. Guo Kaiyan, vil du præsentere din baggrund? Svar: Jeg har en ph.d. i anvendt psykologi og 20 års praktisk erfaring med psykologisk rådgivning. Mine psykologiske kanaler på nettet har omkring to millioner følgere. Jeg er også mor til tre børn på 17, 9 og 7½ år, og erfaringen som forælder hjælper mig med at forstå børn. En stor del af mit arbejde har handlet om forældrerådgivning, familieliv og unges mentale trivsel. Under pandemien ledede jeg et frivilligt støtteteam, og både teamet og jeg modtog anerkendelser for arbejdet med kvinder, børn og familier.",
       "Spørgsmål: Hvad fik dig til at arbejde med familie og mental trivsel i 20 år? Svar: Et besøg på en skole for børn af migrantarbejdere i et bjergområde den 17. juni 2011 blev et vendepunkt. Børnene manglede både materielle ressourcer og nærhed fra deres familier, men arbejdede alligevel hårdt på at udvikle sig. Jeg besluttede at bruge psykologi til at bringe lys og varme til børn. Siden har jeg arbejdet med elevers og studerendes selvværd og selvtillid og fulgt børn, der havde svært ved at gå i skole, på vejen tilbage til tro på sig selv og livet.",
       "Spørgsmål: Hvorfor gik en erfaren rådgiver ind i udviklingen af Chio Chio? Svar: Én fagperson kan kun hjælpe få mennesker om dagen, og det tager lang tid at uddanne en erfaren rådgiver. Jeg har undervist næsten 6.000 rådgivere, hvoraf omkring 500 har gennemført to til tre års systematisk træning, men kapaciteten er stadig begrænset. Derfor har jeg længe tænkt over, hvordan flere kan få et supplement, når behovet opstår. Min datters idé som 12-årig om et farverigt humørsupermarked var også en del af visionen. I maj 2025 mødte jeg 元晓帅, medstifter Lao Tan og resten af teamet og oplevede, at de arbejdede mod samme mål. Mit syn på, om AI vil erstatte rådgivere, har ændret sig, og jeg tror nu, at AI kan udvikle sig til at yde en vis pålidelig støtte. Men AI kan ikke ukritisk erstatte fagpersoner; sikkerhed, tydelige grænser og overgang til menneskelig hjælp er afgørende. Netop derfor valgte jeg at bidrage med psykologisk faglighed.",
       "Spørgsmål: Hvad betyder dit kaldenavn Lygtebæreren? Svar: Jeg ser rådgiveren som en person, der bærer et lille lys for mennesker, som er faret vild i uro og hjælpeløshed, og støtter dem i selv at finde en vej videre. I teamet har læreren Xinyu og jeg stor praktisk psykologisk erfaring. Vi skal holde fokus på brugerens behov og belyse retningen for dialog og støtte. Al teknologi skal i sidste ende tjene mennesker. Målet er, at Chio Chio ikke blot er et teknologiprodukt, men et supplement, der forstår brugeren og svarer varmt.",
@@ -2422,7 +2495,7 @@ Object.assign(window.NEWS_ARTICLE_DA, {
     ]
   },
   "2026030735": {
-    title: "En ny AI-fremtid: Super YouAI ved Hangzhous markering af 116-årsdagen for kvindernes internationale kampdag",
+    title: "En ny AI-fremtid: Super YouAI ved Hangzhous markering af den internationale kvindedag",
     summary: "Ved Hangzhous kvindedagsarrangement viste Super YouAI en varm AI-dialog mellem et barn og Chio Chio.",
     body: [
       "[[media:1]]",
@@ -2684,7 +2757,7 @@ Object.assign(window.NEWS_ARTICLE_DA, {
       "Superbot mini findes i fire positive personligheder: Kom-i-gang, Rolig, Modig og Snakkeglad. De passer til forskellige behov og kan med deres håndholdte størrelse følge barnet hjemme, på tur og i skole.",
       "[[media:2]]",
       "[[media:3]]",
-      "DEL 02 Teknologi og priser. I modsætning til underholdningslegetøj med generelle sprogmodeller bruger Chio Chio en YouAI-model udviklet af psykologifaglig Dr. Guo Kaiyan og et team med ph.d.-uddannede forskere fra blandt andet Tsinghua University. Modellen kombinerer følelsesmæssige signaler, empatisk dialog og personlig langtidshukommelse og forbinder opmærksomhed, forståelse, positiv støtte og tegn, der kan kræve opfølgning. Produktet har modtaget tredjepræmie og prisen for det mest menneskelige projekt ved AI Agent 2025.",
+      "DEL 02 Teknologi og priser. I modsætning til underholdningslegetøj med generelle sprogmodeller bruger Chio Chio en YouAI-model udviklet af psykolog Dr. Guo Kaiyan og et team med ph.d.-uddannede forskere fra blandt andet Tsinghua University. Modellen kombinerer følelsesmæssige signaler, empatisk dialog og personlig langtidshukommelse og forbinder opmærksomhed, forståelse, positiv støtte og tegn, der kan kræve opfølgning. Produktet har modtaget tredjepræmie og prisen for det mest menneskelige projekt ved AI Agent 2025.",
       "[[media:4]]",
       "[[media:5]]",
       "[[media:6]]",
@@ -3115,7 +3188,7 @@ Object.assign(window.NEWS_ARTICLE_JA, {
 Object.assign(window.NEWS_ARTICLE_DA, {
   "2026071626": {
     title: "IPC-præsident Andrew Parsons besøger Rongai Center og fremhæver Chio Chios støtte til børn med særlige behov",
-    summary: "IPC-præsident Andrew Parsons oplevede Chio Chios engelske AI-dialog og viste interesse for produktets varme værdi for børn med handicap og særlige støttebehov.",
+    summary: "IPC-præsident Andrew Parsons oplevede Chio Chios engelske AI-dialog og viste interesse for produktets menneskelige værdi for børn med handicap og særlige støttebehov.",
     body: [
       "[[media:1]]",
       "Under besøget demonstrerede medarbejdere en række virksomheders kerneteknologier for IPC-præsident Andrew Parsons og delegationen. De omfattede en blød AI-ledsagerrobot, AR-briller til mobilitet for mennesker med synshandicap og hjerne-computer-baseret rehabiliteringsudstyr til støtte for neurologisk udvikling.",
@@ -3144,3 +3217,5 @@ Object.assign(window.NEWS_ARTICLE_DA, {
     ]
   }
 });
+
+normalizeOverseasNewsNames();
