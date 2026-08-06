@@ -1,6 +1,115 @@
 (() => {
   const STORAGE_KEY = "superbobo-language";
   const DEFAULT_LANG = "zh";
+  const SUPPORTED_LANGS = ["zh", "en", "ja", "da"];
+
+  // Japanese and Danish dictionaries are populated in staged translation passes.
+  // Keeping them separate from English makes omissions visible instead of silently
+  // presenting English copy under another language label.
+  const TEXT_JA = {
+    "首页": "ホーム",
+    "热卖产品": "製品",
+    "产品": "製品",
+    "自有模型": "独自AIモデル",
+    "品牌资讯": "ニュース",
+    "商业合作": "ビジネス提携",
+    "联系我们": "お問い合わせ",
+    "APP下载": "アプリをダウンロード",
+    "一个爱你的AI伙伴": "あなたを想うAIパートナー",
+    "超级球球首页": "Chio Chio ホーム",
+    "超级球球": "Chio Chio",
+    "超级有爱": "Super YouAI",
+    "超级球球 Chio Chio": "Chio Chio",
+    "有爱AI": "YouAI",
+    "主导航": "メインナビゲーション",
+    "扫码下载 APP": "QRコードからアプリをダウンロード",
+    "支持 iOS / Android": "iOS / Android 対応",
+    "了解超级球球": "Chio Chioについて",
+    "成为合作伙伴": "パートナーになる",
+    "超级球球是谁？": "Chio Chioとは？",
+    "专业内核": "専門性の高い基盤",
+    "生命感": "生き生きとした存在感",
+    "长期记忆": "長期記憶",
+    "随时回应": "いつでも応答",
+    "专注力": "集中力",
+    "情绪力": "感情を扱う力",
+    "抗挫力": "レジリエンス",
+    "表达力": "表現力",
+    "四种性格陪伴": "4つの個性を持つ仲間",
+    "两种产品": "2つの製品タイプ",
+    "了解产品": "製品を見る",
+    "查看更多资讯": "ニュースをもっと見る",
+    "返回品牌资讯": "ニュース一覧へ戻る",
+    "上一篇": "前の記事",
+    "下一篇": "次の記事",
+    "联系合作、简历投递": "提携・採用に関するお問い合わせ",
+    "版权所有 © 超级有爱（杭州）智能科技有限公司": "Copyright © Super YouAI (Hangzhou) Intelligent Technology Co., Ltd.",
+    "投资、战略合作": "投資・戦略提携",
+    "渠道合作": "販売チャネル提携",
+    "创始人": "創業者",
+    "销售总监": "セールスディレクター",
+    "扫码添加微信": "QRコードからWeChatを追加",
+    "最新资讯": "最新ニュース",
+    "全部资讯": "すべてのニュース",
+    "了解合作方式": "提携について詳しく見る",
+    "我们的合作伙伴": "パートナー",
+    "联系我们，开启合作": "お問い合わせから提携を始める",
+    "让孩子愿意说，\n让陪伴更有温度": "子どもが話したくなる、\nもっと温かな寄り添いを",
+    "让孩子愿意说， 让陪伴更有温度": "子どもが話したくなる、もっと温かな寄り添いを",
+    "让每个孩子，\n都有一个随时回应的温暖存在": "すべての子どもに、\nいつでも応えてくれる温かな存在を"
+  };
+  const TEXT_DA = {
+    "首页": "Forside",
+    "热卖产品": "Produkter",
+    "产品": "Produkter",
+    "自有模型": "Egen AI-model",
+    "品牌资讯": "Nyheder",
+    "商业合作": "Partnerskaber",
+    "联系我们": "Kontakt os",
+    "APP下载": "Hent appen",
+    "一个爱你的AI伙伴": "En AI-ledsager, der holder af dig",
+    "超级球球首页": "Chio Chio-forside",
+    "超级球球": "Chio Chio",
+    "超级有爱": "Super YouAI",
+    "超级球球 Chio Chio": "Chio Chio",
+    "有爱AI": "YouAI",
+    "主导航": "Hovednavigation",
+    "扫码下载 APP": "Scan QR-koden for at hente appen",
+    "支持 iOS / Android": "Til iOS og Android",
+    "了解超级球球": "Læs om Chio Chio",
+    "成为合作伙伴": "Bliv partner",
+    "超级球球是谁？": "Hvad er Chio Chio?",
+    "专业内核": "Fagligt fundament",
+    "生命感": "Levende nærvær",
+    "长期记忆": "Langtidshukommelse",
+    "随时回应": "Altid klar til at svare",
+    "专注力": "Koncentration",
+    "情绪力": "Følelsesmæssige færdigheder",
+    "抗挫力": "Modstandskraft",
+    "表达力": "Evnen til at udtrykke sig",
+    "四种性格陪伴": "Fire personligheder",
+    "两种产品": "To produktformer",
+    "了解产品": "Se produktet",
+    "查看更多资讯": "Se flere nyheder",
+    "返回品牌资讯": "Tilbage til nyheder",
+    "上一篇": "Forrige artikel",
+    "下一篇": "Næste artikel",
+    "联系合作、简历投递": "Partnerskaber og karriere",
+    "版权所有 © 超级有爱（杭州）智能科技有限公司": "Copyright © Super YouAI (Hangzhou) Intelligent Technology Co., Ltd.",
+    "投资、战略合作": "Investering og strategiske partnerskaber",
+    "渠道合作": "Salgskanaler og distribution",
+    "创始人": "Grundlægger",
+    "销售总监": "Salgsdirektør",
+    "扫码添加微信": "Scan QR-koden for at tilføje os på WeChat",
+    "最新资讯": "Seneste nyt",
+    "全部资讯": "Alle nyheder",
+    "了解合作方式": "Læs om partnerskaber",
+    "我们的合作伙伴": "Vores partnere",
+    "联系我们，开启合作": "Kontakt os om et partnerskab",
+    "让孩子愿意说，\n让陪伴更有温度": "Hjælp børn med at åbne sig,\nog gør nærværet varmere",
+    "让孩子愿意说， 让陪伴更有温度": "Hjælp børn med at åbne sig, og gør nærværet varmere",
+    "让每个孩子，\n都有一个随时回应的温暖存在": "Giv hvert barn\net varmt nærvær, der altid svarer"
+  };
 
   const TEXT_EN = {
     "首页": "Home",
@@ -686,12 +795,21 @@
       .replace(/\s*([:,.!?;|])\s*/g, "$1");
   }
 
-  function dynamicTextEn() {
-    return window.NEWS_TEXT_EN || {};
+  function staticText(lang) {
+    return {
+      en: TEXT_EN,
+      ja: TEXT_JA,
+      da: TEXT_DA
+    }[lang] || {};
   }
 
-  function dynamicArticleEn() {
-    return window.NEWS_ARTICLE_EN || {};
+  function dynamicText(lang) {
+    return window[`NEWS_TEXT_${lang.toUpperCase()}`] || {};
+  }
+
+  function dynamicArticle(lang) {
+    if (lang === "en") return window.NEWS_ARTICLE_EN || {};
+    return window[`NEWS_ARTICLE_${lang.toUpperCase()}`] || {};
   }
 
   function translationKeys(value) {
@@ -700,8 +818,8 @@
     return [...new Set([raw, punctuated])];
   }
 
-  function lookupTranslation(value) {
-    const dictionaries = [TEXT_EN, dynamicTextEn()];
+  function lookupTranslation(value, lang) {
+    const dictionaries = [staticText(lang), dynamicText(lang)];
     for (const key of translationKeys(value)) {
       for (const dictionary of dictionaries) {
         if (dictionary[key]) return dictionary[key];
@@ -722,7 +840,7 @@
       node.nodeValue = original;
       return;
     }
-    const translated = lookupTranslation(original);
+    const translated = lookupTranslation(original, lang);
     if (translated) {
       const leading = original.match(/^\s*/)?.[0] || "";
       const trailing = original.match(/\s*$/)?.[0] || "";
@@ -742,7 +860,7 @@
           el.setAttribute(attr, saved[attr]);
           return;
         }
-        const translated = lookupTranslation(saved[attr]);
+        const translated = lookupTranslation(saved[attr], lang);
         if (translated) el.setAttribute(attr, translated);
       });
     });
@@ -774,7 +892,7 @@
     }[char]));
   }
 
-  function translateCloneText(node) {
+  function translateCloneText(node, lang) {
     const walker = document.createTreeWalker(node, NodeFilter.SHOW_TEXT, {
       acceptNode(textNode) {
         const parent = textNode.parentElement;
@@ -786,7 +904,7 @@
     while (walker.nextNode()) textNodes.push(walker.currentNode);
     textNodes.forEach((textNode) => {
       const original = textNode.nodeValue;
-      const translated = lookupTranslation(original);
+      const translated = lookupTranslation(original, lang);
       if (translated) {
         const leading = original.match(/^\s*/)?.[0] || "";
         const trailing = original.match(/\s*$/)?.[0] || "";
@@ -795,23 +913,23 @@
         textNode.nodeValue = "";
       }
     });
-    translateAttributes(node, "en");
+    translateAttributes(node, lang);
   }
 
-  function renderTranslatedArticleBlocks(html) {
+  function renderTranslatedArticleBlocks(html, lang) {
     const holder = document.createElement("div");
     holder.innerHTML = html || "";
     const blocks = [];
     holder.childNodes.forEach((child) => {
       if (child.nodeType === Node.TEXT_NODE) {
         const text = normalize(child.nodeValue || "");
-        const translated = lookupTranslation(text);
+        const translated = lookupTranslation(text, lang);
         if (translated) blocks.push(`<p class="article-en-paragraph">${escapeHTML(translated)}</p>`);
         return;
       }
       if (child.nodeType !== Node.ELEMENT_NODE) return;
       const clone = child.cloneNode(true);
-      translateCloneText(clone);
+      translateCloneText(clone, lang);
       const text = normalize(clone.textContent || "");
       const hasMedia = clone.querySelector("img, video, iframe");
       if (text || hasMedia) blocks.push(clone.outerHTML);
@@ -819,13 +937,13 @@
     return blocks.join("");
   }
 
-  function renderEnglishArticleBody(body, data) {
+  function renderTranslatedArticleBody(body, data, lang) {
     if (!body || !data || !Array.isArray(data.body) || !data.body.length) return;
     if (!body.dataset.zhHtml) body.dataset.zhHtml = body.innerHTML;
     const manualBodyLength = data.body.join(" ").length;
     const hasDetailedManualBody = data.body.length >= 6 || manualBodyLength > 1200;
     if (hasDetailedManualBody) {
-      const media = renderTranslatedArticleBlocks(body.dataset.zhHtml).match(/<figure[\s\S]*?<\/figure>/g) || [];
+      const media = renderTranslatedArticleBlocks(body.dataset.zhHtml, lang).match(/<figure[\s\S]*?<\/figure>/g) || [];
       let nextMediaIndex = 0;
       const hasMediaTokens = data.body.some((text) => /^\[\[media:(next|\d+)\]\]$/i.test(String(text || "").trim()));
       const paragraphs = data.body.map((text) => {
@@ -844,7 +962,7 @@
       body.innerHTML = `<div class="article-translated-body">${paragraphs}${hasMediaTokens ? "" : media.join("")}</div>`;
       return;
     }
-    const translatedBlocks = renderTranslatedArticleBlocks(body.dataset.zhHtml);
+    const translatedBlocks = renderTranslatedArticleBlocks(body.dataset.zhHtml, lang);
     if (translatedBlocks && translatedBlocks.length > 120) {
       body.innerHTML = `<div class="article-translated-body">${translatedBlocks}</div>`;
       return;
@@ -860,7 +978,7 @@
 
   function applyArticle(lang) {
     const id = getArticleId();
-    const data = id ? (dynamicArticleEn()[id] || ARTICLE_EN[id]) : null;
+    const data = id ? (dynamicArticle(lang)[id] || (lang === "en" ? ARTICLE_EN[id] : null)) : null;
     if (!id || !data) return;
     const body = document.querySelector(".article-body");
     if (body && !body.dataset.zhHtml) body.dataset.zhHtml = body.innerHTML;
@@ -874,13 +992,14 @@
     if (heroImg && !heroImg.dataset.zhAlt) heroImg.dataset.zhAlt = heroImg.alt;
     if (!document.documentElement.dataset.zhTitle) document.documentElement.dataset.zhTitle = document.title;
 
-    if (lang === "en") {
+    if (lang !== "zh" && data) {
       if (title) title.textContent = data.title;
       if (lead) lead.textContent = data.summary;
       if (crumb) crumb.textContent = data.title;
       if (heroImg) heroImg.alt = data.title;
-      renderEnglishArticleBody(body, data);
-      document.title = `${data.title} | News | Chio Chio`;
+      renderTranslatedArticleBody(body, data, lang);
+      const newsLabel = lang === "ja" ? "ブランドニュース" : lang === "da" ? "Nyheder" : "News";
+      document.title = `${data.title} | ${newsLabel} | Chio Chio`;
     } else {
       if (title?.dataset.zhText) title.textContent = title.dataset.zhText;
       if (lead?.dataset.zhText) lead.textContent = lead.dataset.zhText;
@@ -898,14 +1017,14 @@
         el.textContent = el.dataset.zhText;
         return;
       }
-      const translated = lookupTranslation(el.dataset.zhText);
+      const translated = lookupTranslation(el.dataset.zhText, lang);
       if (translated) el.textContent = translated;
     });
   }
 
   function setLanguage(lang) {
-    const next = lang === "en" ? "en" : "zh";
-    document.documentElement.lang = next === "en" ? "en" : "zh-CN";
+    const next = SUPPORTED_LANGS.includes(lang) ? lang : DEFAULT_LANG;
+    document.documentElement.lang = next === "zh" ? "zh-CN" : next;
     document.body.classList.add("is-language-switching");
     applyArticle(next);
     translateArticleNav(next);
@@ -922,19 +1041,27 @@
       button.classList.toggle("active", active);
       button.setAttribute("aria-pressed", active ? "true" : "false");
     });
+    document.querySelectorAll("[data-language-select]").forEach((select) => {
+      select.value = lang;
+    });
   }
 
   function createLanguageToggle() {
     const toggle = document.createElement("div");
     toggle.className = "language-toggle";
-    toggle.setAttribute("aria-label", "Language switch");
+    toggle.setAttribute("aria-label", "选择语言 / Select language");
     toggle.innerHTML = `
-      <button type="button" data-language-option="zh">中文</button>
-      <button type="button" data-language-option="en">EN</button>
+      <span class="language-toggle-label" aria-hidden="true">文</span>
+      <select data-language-select aria-label="选择语言 / Select language">
+        <option value="zh">中文</option>
+        <option value="en">English</option>
+        <option value="ja">日本語</option>
+        <option value="da">Dansk</option>
+      </select>
     `;
-    toggle.addEventListener("click", (event) => {
-      const button = event.target.closest("[data-language-option]");
-      if (button) setLanguage(button.dataset.languageOption);
+    toggle.addEventListener("change", (event) => {
+      const select = event.target.closest("[data-language-select]");
+      if (select) setLanguage(select.value);
     });
     const header = document.querySelector(".site-header");
     if (header) {
@@ -944,6 +1071,45 @@
       toggle.classList.add("article-language-toggle");
       document.body.appendChild(toggle);
     }
+  }
+
+  function createMobileNavigation() {
+    const header = document.querySelector(".site-header");
+    const nav = header?.querySelector(".nav");
+    if (!header || !nav || header.querySelector(".mobile-nav-toggle")) return;
+
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "mobile-nav-toggle";
+    button.setAttribute("aria-expanded", "false");
+    button.setAttribute("aria-label", "打开菜单");
+    button.innerHTML = "<span></span><span></span><span></span>";
+
+    const drawer = document.createElement("nav");
+    drawer.className = "mobile-nav-drawer";
+    drawer.setAttribute("aria-label", "手机导航");
+    drawer.innerHTML = nav.innerHTML;
+
+    const close = () => {
+      button.setAttribute("aria-expanded", "false");
+      drawer.classList.remove("is-open");
+      document.body.classList.remove("mobile-nav-open");
+    };
+    button.addEventListener("click", () => {
+      const open = button.getAttribute("aria-expanded") !== "true";
+      button.setAttribute("aria-expanded", String(open));
+      drawer.classList.toggle("is-open", open);
+      document.body.classList.toggle("mobile-nav-open", open);
+    });
+    drawer.addEventListener("click", (event) => {
+      if (event.target.closest("a")) close();
+    });
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") close();
+    });
+
+    header.appendChild(button);
+    header.insertAdjacentElement("afterend", drawer);
   }
 
   function initMotion() {
@@ -1080,6 +1246,7 @@
 
   document.addEventListener("DOMContentLoaded", () => {
     createLanguageToggle();
+    createMobileNavigation();
     initMotion();
     initContactCopy();
     setLanguage(localStorage.getItem(STORAGE_KEY) || DEFAULT_LANG);
