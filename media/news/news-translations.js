@@ -1316,3 +1316,91 @@ window.NEWS_ARTICLE_DA = {
     ]
   }
 };
+
+Object.assign(window.NEWS_ARTICLE_JA, {
+  "2026072001": {
+    title: "Super YouAI、AI子ども成長パートナーChio ChioとWAIC 2026に出展",
+    summary: "世界人工知能大会WAIC 2026で、Chio Chioが画面を使わないAIパートナーとして来場者や専門家の注目を集めました。",
+    body: [
+      "7月17日、2026世界人工知能大会（WAIC 2026）が上海で開幕しました。「世界を知能でつなぎ、未来を生み出す」をテーマに、浦東世博、張江、徐匯西岸の3会場で開催され、世界のAI企業、研究者、国際機関の代表が集まりました。暮らし、教育、障害者支援、医療などにAIを活用する最新事例が紹介されました。",
+      "[[media:1]]",
+      "WAICの出展製品は、技術力、社会的価値、革新性などの観点から選考されます。Super YouAIが独自開発したAI子ども成長パートナーChio Chioは、大会の公式スマートパートナーに選ばれ、上海世博展覧館B1のW8-1〜W8-3、W9-1〜W9-3ブースに7月20日まで出展しました。",
+      "会場ではChio Chioのハードウェア全シリーズと、独自開発の子ども向けYouAIシステムを公開し、中国国内外の行政・企業関係者や業界関係者に、子どもの心に寄り添うAIの実用例を紹介しました。",
+      "[[media:2]]",
+      "多様な来場者がブースで、心に寄り添うAIを体験",
+      "4日間の会期中、Super YouAIのブースには行政関係者、教育関係者、障害者支援団体、海外のテクノロジー企業などが訪れ、製品を体験しながら活発に意見を交わしました。",
+      "スタッフは、ウェイクワードを必要としない音声会話、気持ちに合わせて変化する大きな目、抱いたり触れたりすると反応する仕組みを実演し、画面を使わないスマートデバイスの特徴を紹介しました。",
+      "幼児教育や特別支援教育の現場で働く教員からは、子どもの心への支援ニーズが増える一方、専門人材が不足しているため、軽量なAIパートナーが家庭や学校で補助的な役割を担える可能性があるとの声がありました。海外の来場者は二言語対応にも関心を示し、販売代理、技術提携、カスタマイズについて相談しました。",
+      "会場写真には、来場者が製品を試す様子、チームとの商談、業界関係者同士の技術交流が記録されています。",
+      "[[media:3]]",
+      "[[media:4]]",
+      "子どもの心の健康に注目——国際パラリンピック委員会会長も製品を体験",
+      "子どもの心の健康は世界共通の課題です。Super YouAIは創業当初から、AIと児童心理学の知見を組み合わせ、一般の子どもだけでなく、自閉スペクトラム症、障害、長期入院などにより、より丁寧な支援を必要とする子どもたちにも配慮したAIパートナーを開発してきました。",
+      "これに先立ち、国際パラリンピック委員会会長のアンドリュー・パーソンズ氏が余杭融愛センターを訪れ、Chio Chioを体験しました。Chio Chioは英語で自己紹介し、傾聴、共感、気持ちを整える手助け、前向きな声かけを実演しました。特別な配慮が必要な子どもへの対応について、営業責任者の高麗春は、刺激を抑えた会話設計、入院中の子ども向け音声、地域や特別支援機関への公益的な機器提供などの取り組みを説明しました。",
+      "[[media:5]]",
+      "アンドリュー・パーソンズ氏がChio Chioに質問",
+      "パーソンズ氏は、障害や自閉スペクトラム症のある子どもには、安心して話せる安定した相手が不足することがあると述べ、Chio Chioが負担の少ない形で気持ちを表せる場を提供する、技術と人への配慮を兼ね備えた取り組みだと評価しました。",
+      "[[media:6]]",
+      "Super YouAIが支援する自閉スペクトラム症の子どもの絵を使ったバッグを手にするアンドリュー・パーソンズ氏",
+      "画面を使わない軽量AI——子どもの身近な心の仲間へ",
+      "画面付きの一般的な早期教育端末とは異なり、Chio Chioは画面を使わない軽量なAIパートナーロボットです。柔らかなぬいぐるみの形と音声中心の交流により、刺激を抑えた子ども向け端末を目指しています。",
+      "[[media:7]]",
+      "クラシックモデル4色のChio Chio",
+      "肌に触れやすい環境配慮型の生地、目の動き、タッチへの反応を備え、年齢別の物語、英会話練習、科学知識、就寝前の音楽などを提供します。クラウド上の長期記憶により、子どもの性格や好み、話した内容を覚え、一人ひとりに合った声かけを行います。画面を使わないため、保護者が気にする長時間の画面視聴を避けられます。",
+      "より丁寧な支援を必要とする子ども向けには、交流方法も調整しています。自閉スペクトラム症の子どもには穏やかで予測しやすい会話を、長期入院中の子どもには分離不安を和らげる音声を用意しています。関連する公益活動は、各地の地域施設や特別支援学校で継続的に行われています。",
+      "[[media:8]]",
+      "2026年6月、杭州で開催された自閉スペクトラム症の子どもと家族向けAI絵本イベントにChio Chioが参加",
+      "[[media:9]]",
+      "2025年12月、湖北省児童福祉院の心の健康に関する講座にChio Chioが参加",
+      "会社概要",
+      "Super YouAI (Hangzhou) Intelligent Technology Co., Ltd.は、子どもの心の健康に取り組むAI企業です。コア研究チームには清華大学や海外大学の博士号取得者が参加し、6年間の研究開発と9世代の製品改良を重ねてきました。感情的なインタラクションに関する24件の特許やキャラクター著作権などの知的財産を保有しています。製品シリーズは中国の3C玩具認証、工業情報化部SRRC認証、CTIの安全検査を受け、自社開発から量産までの体制を構築しています。",
+      "同社は子ども向けAIの改良を続けながら、母子分野、教育、文化・クリエイティブギフト、海外市場との提携を広げています。同時に、自閉スペクトラム症の若者の芸術活動支援や、支援機関への機器寄贈など公益活動にも取り組んでいます。WAIC 2026への出展を通じて、中国発の子ども向けAIの事例を国際的に共有し、多様な関係者との連携を目指します。",
+      "[[media:10]]",
+      "本記事はChina Daily中国語版からの転載です。原文：https://cn.chinadaily.com.cn/a/202607/20/WS6a5decd8a310d709c2fbe9ca.html"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_DA, {
+  "2026072001": {
+    title: "Super YouAI præsenterer Chio Chio på World Artificial Intelligence Conference 2026",
+    summary: "På WAIC 2026 vakte Chio Chio interesse som en skærmfri AI-ledsager for børn blandt gæster, undervisere og branchefolk.",
+    body: [
+      "Den 17. juli åbnede World Artificial Intelligence Conference 2026 i Shanghai. Under temaet »Intelligent forbindelse til verden, skab fremtiden« blev konferencen afholdt på tre lokationer: Pudong Expo, Zhangjiang og West Bund i Xuhui. Globale AI-virksomheder, forskere og internationale organisationer præsenterede løsninger inden for hverdag, uddannelse, handicapstøtte og sundhed.",
+      "[[media:1]]",
+      "Produkter på WAIC udvælges ud fra blandt andet teknisk niveau, samfundsværdi og innovation. Chio Chio, den egenudviklede AI-ledsager til børn fra Super YouAI, blev valgt som officiel intelligent partner og udstillet i hal B1 på Shanghai World Expo Exhibition & Convention Center, stand W8-1 til W8-3 og W9-1 til W9-3, frem til 20. juli.",
+      "På standen blev hele Chio Chio-serien og det egenudviklede YouAI-system for børn vist for offentlige og private gæster fra Kina og udlandet. Her præsenterede virksomheden konkrete anvendelser af AI, der støtter børns følelsesmæssige udvikling.",
+      "[[media:2]]",
+      "Gæster fra mange områder prøvede følelsesmæssigt opmærksom AI på standen",
+      "I løbet af konferencens fire dage besøgte offentlige repræsentanter, undervisere, handicaporganisationer og internationale teknologivirksomheder Super YouAIs stand. De prøvede produkterne og deltog i faglige samtaler.",
+      "Teamet demonstrerede samtaler uden aktiveringsord, store øjne, der ændrer udtryk i takt med samspillet, og en blød overflade, som reagerer på kram og berøring. Det viste de særlige muligheder ved intelligent hardware uden skærm.",
+      "Lærere fra dagtilbud og specialundervisning pegede på, at behovet for følelsesmæssig støtte til børn vokser, mens der er mangel på specialiserede fagpersoner. De så mulighed for, at en let AI-ledsager kan spille en supplerende rolle hjemme og i skolen. Internationale gæster viste særlig interesse for tosproget interaktion og drøftede distribution, teknisk samarbejde og tilpasning.",
+      "Billederne fra konferencen viser gæster, der prøver produktet, forretningsmøder med teamet og faglige drøftelser om teknologien.",
+      "[[media:3]]",
+      "[[media:4]]",
+      "Fokus på børns mentale trivsel: IPC-præsidenten prøver produktet",
+      "Børns mentale trivsel er et globalt samfundsanliggende. Fra begyndelsen har Super YouAI kombineret AI med viden fra børnepsykologi og udviklet løsninger med hensyn til både børn generelt og børn, som kan have brug for mere tilpasset støtte, herunder børn med autisme, handicap eller længere hospitalsophold.",
+      "Tidligere besøgte International Paralympic Committee-præsident Andrew Parsons Rongai Center i Yuhang og prøvede Chio Chio. Produktet præsenterede sig på engelsk og demonstrerede lytten, empati, hjælp til at håndtere svære følelser og positiv vejledning. Som svar på spørgsmål om børn med særlige behov beskrev salgsdirektør Gao Lichun blandt andet roligere samtaledesign, lydindhold til børn på hospitalet og almennyttig udlån eller donation af udstyr til lokalsamfund og specialinstitutioner.",
+      "[[media:5]]",
+      "Andrew Parsons stiller Chio Chio et spørgsmål",
+      "Parsons bemærkede, at børn med handicap eller autisme kan mangle en stabil og accepterende person at tale med. Han fremhævede Chio Chio som et forsøg på at give plads til følelser uden pres og forene teknisk innovation med menneskelig omtanke.",
+      "[[media:6]]",
+      "Andrew Parsons med en taske dekoreret med original kunst af et barn med autisme, som Super YouAI støtter",
+      "Let AI uden skærm: en personlig ledsager for børn",
+      "I modsætning til mange læringsenheder med skærm er Chio Chio en let, skærmfri AI-ledsager. Den bløde form og stemmebaserede interaktion er udviklet med henblik på lav stimulation og en tryg brugeroplevelse for børn.",
+      "[[media:7]]",
+      "Den klassiske Chio Chio-model i fire farver",
+      "Produktet bruger hudvenligt, miljøbevidst tekstil, bevægelige øjne og berøringsrespons. Indholdet omfatter aldersopdelte historier, engelsk samtaletræning, naturvidenskabelig viden og rolig musik ved sengetid. Langtidshukommelse i skyen kan huske barnets præferencer og tidligere samtaler og tilpasse svarene. Den skærmfri form gør det samtidig muligt at undgå langvarig skærmtid.",
+      "Interaktionen kan tilpasses børn med særlige behov. Til børn med autisme arbejdes der med rolige, forudsigelige samtaler, og til børn på længere hospitalsophold findes lydindhold, der kan mindske separationsuro. Relaterede almennyttige tilbud er etableret i lokalsamfund og specialskoler flere steder.",
+      "[[media:8]]",
+      "I juni 2026 deltog Chio Chio i et AI-bogevent for børn med autisme og deres familier i Hangzhou",
+      "[[media:9]]",
+      "I december 2025 deltog Chio Chio i et oplæg om mental trivsel på en børnevelfærdsinstitution i Hubei",
+      "Om virksomheden",
+      "Super YouAI (Hangzhou) Intelligent Technology Co., Ltd. er en AI-virksomhed med fokus på børns følelsesmæssige trivsel. Kerneteamet omfatter ph.d.-uddannede forskere fra Tsinghua University og internationale universiteter og bygger på seks års udvikling og ni produktgenerationer. Virksomheden har 24 patenter inden for følelsesmæssig interaktion samt karakterrettigheder og anden intellektuel ejendom. Produktserien har gennemgået Kinas obligatoriske 3C-legetøjscertificering, SRRC-radiogodkendelse og CTI-sikkerhedstest, og virksomheden har opbygget en kæde fra egen udvikling til serieproduktion.",
+      "Virksomheden videreudvikler AI til børn og søger samarbejde inden for familieprodukter, uddannelse, kreative gaver og internationale markeder. Samtidig støtter den kunstprojekter for unge med autisme og donerer ledsagerudstyr til specialinstitutioner. Med deltagelsen på WAIC 2026 ønsker Super YouAI at dele kinesiske erfaringer med følelsesmæssigt opmærksom AI til børn og skabe samarbejde om børns mentale trivsel.",
+      "[[media:10]]",
+      "Artiklen er genudgivet fra China Daily på kinesisk. Original: https://cn.chinadaily.com.cn/a/202607/20/WS6a5decd8a310d709c2fbe9ca.html"
+    ]
+  }
+});
