@@ -1406,6 +1406,128 @@ Object.assign(window.NEWS_ARTICLE_DA, {
 });
 
 Object.assign(window.NEWS_ARTICLE_JA, {
+  "2026012713": {
+    title: "Chio Chioが杭州AI年末マーケットに出展、主要メディアが紹介",
+    summary: "杭州のAI年末マーケットで、Chio Chioが子どもの日常的な悩みに共感し、実行しやすい対話例を披露しました。",
+    body: [
+      "[[media:1]]",
+      "記者が子どもの役になり、『幼稚園の友だちがおもちゃを取ったら、どうすればいい？』とChio Chioに尋ねました。",
+      "Chio Chioは気持ちを受け止めたうえで、『おもちゃを取られると困るよね。「私もこのおもちゃが好きだから、一緒に遊べる？」と気持ちを伝えてみよう。それから先生にも助けてもらえば、おもちゃを守りながらけんかも避けられるよ』と具体的に提案しました。",
+      "心に寄り添うAIパートナーとして、Chio Chioは会場の注目を集めました。体験した来場者からは、かわいらしい姿と温かく前向きな会話が子どもへの新年の贈り物に向いているという声がありました。",
+      "[[media:2]]"
+    ]
+  },
+  "2026012612": {
+    title: "Chio ChioがCES 2026に出展、海外市場への第一歩",
+    summary: "Chio Chioが初めて海外の大型展示会CESに出展し、英語対話を披露するとともに北米市場のニーズを調査しました。",
+    body: [
+      "[[media:1]]",
+      "CES 2026は、Chio Chioにとって初の海外大型展示会でした。多くの海外企業関係者や来場者が、英語での対話と気持ちに配慮した応答を体験しました。",
+      "Super YouAIは出展を通じ、特に北米市場について調査しました。欧米では心理サービスへの理解が比較的広がっている一方、利用できる専門資源には不足や地域差があります。一般的なAIぬいぐるみとは異なり、Chio Chioは心理学の知見を参考に、共感と受容を重視した日常的な対話を目指します。医療診断や専門的な心理支援の代替ではありません。",
+      "今後は北米などの学校、医療関連施設を含む機関との連携可能性を検討し、現地の文化と利用者のニーズに合う製品を開発します。心理学を踏まえたAIによる寄り添いを、文化や地域を越えて届けることを目指します。"
+    ]
+  },
+  "2026011214": {
+    title: "Chio ChioがAlibaba Cloud Tongyiスマートハードウェア展で人気を集める",
+    summary: "Alibaba Cloud Tongyiの展示会で、Chio Chioの柔らかな姿と対話体験が子どもや保護者の関心を集めました。",
+    body: [
+      "[[media:1]]",
+      "Chio Chioの柔らかな外観と表情豊かな目は、特に子どもや若い来場者の関心を集めました。子どもたちは抱いて離さず、会話に笑顔を見せました。購入を決めた保護者もおり、ある母親は『見た目がかわいく、子どもがとても気に入りました。会場を回った後も忘れられなかったので購入します。子どもが楽しく成長することが何より大切です』と話しました。",
+      "Chio Chioは、Super YouAIがAIと心理学の知見を組み合わせて開発した最初の製品です。今後もAlibaba Cloudなどのパートナーと連携して研究開発を進め、AIによる日常的な心への寄り添いを改善します。",
+      "[[media:2]]",
+      "[[media:3]]",
+      "製品は医療や心理専門職を代替するものではなく、利用者の日常に安心感や前向きな交流を加える補助的な存在を目指します。"
+    ]
+  },
+  "2026010719": {
+    title: "Chio Chioが主要AIスタートアップ大会で第3位を受賞",
+    summary: "AI Agent 2025で推薦、特別賞、決勝第3位を重ねたChio Chioが、今後もAIと心理学を結ぶ製品開発を進めます。",
+    body: [
+      "[[media:1]]",
+      "2025年8月、Chio ChioプロジェクトはAI Agent 2025の『ナビゲータープログラム』参加者として大会に招待され、『心のリペア部門』の首位になりました。",
+      "[[media:2]]",
+      "9月には、大会が最初に公式推薦した34プロジェクトの一つに選ばれました。",
+      "[[media:3]]",
+      "10月にはオンラインポイント戦の消費者向けハードウェア部門で2位となり、対面準決勝へ進出しました。また特別賞の『最も人間味のあるプロジェクト賞』を受賞しました。",
+      "[[media:4]]",
+      "AI Agent 2025はChio Chioの成長過程を継続的に見守り、大会で得た助言や支援は製品改善にも生かされました。",
+      "決勝での第3位は、プロジェクトの完成度と市場の可能性への評価です。Super YouAIは引き続き製品を改善し、AIと心理学の知見を日常へ生かす方法を探ります。",
+      "[[media:5]]"
+    ]
+  },
+  "2026010209": {
+    title: "Chio Chioが省級母子保健病院に登場、心に寄り添うAIが専門分野の関心を集める",
+    summary: "省級医療機関の研修で、妊産婦の日常的な心の支えを補助するChio Chioの活用可能性が紹介されました。",
+    body: [
+      "[[media:1]]",
+      "Super YouAIが開発したChio Chioは、柔らかな外観、触れる交流、音声対話を組み合わせ、専門的な心理ケアの考え方を日常の穏やかな寄り添いへ応用することを目指します。緊張したときに落ち着くための声かけや、評価される心配を抑えて話せる場を提供し、妊産婦の心の健康を補助する可能性があります。効果を保証する医療機器ではなく、診断、治療、専門職による支援の代替ではありません。",
+      "省級医療機関の専門研修に招かれたことで、心に寄り添うAIの応用について専門家と意見を交わす機会が生まれました。Super YouAIは今後もAIと心理学の知見を組み合わせ、安全性と人への配慮を備えた利用場面を探ります。"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_DA, {
+  "2026012713": {
+    title: "Chio Chio på Hangzhous AI-nytårsmarked omtalt af førende medier",
+    summary: "På AI-nytårsmarkedet i Hangzhou viste Chio Chio, hvordan en empatisk dialog kan hjælpe et barn med et konkret hverdagsproblem.",
+    body: [
+      "[[media:1]]",
+      "En journalist spillede rollen som et barn og spurgte Chio Chio: »Hvad skal jeg gøre, hvis et andet barn i børnehaven tager mit legetøj?«",
+      "Chio Chio anerkendte først følelsen og foreslog derefter: »Det kan være rigtig frustrerende. Prøv at sige: ‘Jeg kan også rigtig godt lide det her legetøj. Kan vi lege med det sammen?’ Du kan også bede en voksen om hjælp. Så passer du på dit legetøj og undgår samtidig en konflikt.«",
+      "Som AI-ledsager med fokus på følelsesmæssigt nærvær vakte Chio Chio stor interesse. Efter at have prøvet den sagde gæster, at det søde design og den varme, positive dialog gjorde den oplagt som nytårsgave til et barn.",
+      "[[media:2]]"
+    ]
+  },
+  "2026012612": {
+    title: "Chio Chio på CES 2026 tager første skridt mod internationale markeder",
+    summary: "Chio Chio deltog for første gang på en stor international messe, viste sin engelske dialog og undersøgte behovene på det nordamerikanske marked.",
+    body: [
+      "[[media:1]]",
+      "CES 2026 var Chio Chios første store udstilling uden for Kina. Mange internationale kunder og gæster prøvede produktets engelske dialog og dets opmærksomme respons på følelsesmæssige signaler.",
+      "Super YouAI brugte også CES til at undersøge især det nordamerikanske marked. Psykologisk støtte er bredt accepteret i Europa og Nordamerika, men de professionelle tilbud kan stadig være begrænsede og ulige fordelt. I modsætning til almindeligt AI-plyslegetøj søger Chio Chio at anvende psykologisk viden i en empatisk og accepterende hverdagssamtale. Produktet stiller ikke diagnoser og erstatter ikke professionel psykologisk hjælp.",
+      "Fremover vil virksomheden undersøge samarbejde med blandt andet skoler og hospitalsrelaterede institutioner i Nordamerika og andre regioner. Målet er produkter, der passer til lokale kulturer og reelle brugerbehov, så AI-nærvær med et psykologisk fagligt grundlag kan række på tværs af geografi og kultur."
+    ]
+  },
+  "2026011214": {
+    title: "Chio Chio tiltrækker stor interesse på Alibaba Cloud Tongyi-udstillingen for intelligent hardware",
+    summary: "Chio Chios bløde form og dialogoplevelse vakte interesse blandt børn og forældre på Alibaba Cloud Tongyis hardwareudstilling.",
+    body: [
+      "[[media:1]]",
+      "Chio Chios bløde udtryk og levende øjne tiltrak især børn og unge gæster. Børnene holdt den tæt og lo af samtalerne, og flere forældre valgte at købe den. En mor sagde: »Den ser rigtig fin ud, og mit barn kunne ikke glemme den efter rundturen. Derfor besluttede vi at købe en. For et barn er en glad opvækst det vigtigste.«",
+      "Chio Chio er Super YouAIs første produkt, der kombinerer AI med psykologisk viden. Virksomheden vil fortsætte udviklingen sammen med partnere som Alibaba Cloud og forbedre AI-baseret følelsesmæssigt nærvær i hverdagen.",
+      "[[media:2]]",
+      "[[media:3]]",
+      "Produktet erstatter ikke behandling eller psykologer, men skal være et supplement, som kan tilføre tryghed og positiv kontakt i brugerens hverdag."
+    ]
+  },
+  "2026010719": {
+    title: "Chio Chio vinder tredjepræmie i en førende AI-startupkonkurrence",
+    summary: "Efter officiel anbefaling og en særpris vandt Chio Chio tredjepræmie ved AI Agent 2025 og fortsætter udviklingen i krydsfeltet mellem AI og psykologi.",
+    body: [
+      "[[media:1]]",
+      "I august 2025 blev Chio Chio inviteret til AI Agent 2025 som medlem af Navigator-programmet og placeret øverst på konkurrencens liste for løsninger med fokus på mental støtte.",
+      "[[media:2]]",
+      "I september blev projektet et af de første 34 projekter, som konkurrencen officielt anbefalede.",
+      "[[media:3]]",
+      "I oktober blev Chio Chio nummer to i onlinekonkurrencens kategori for forbrugerhardware og gik videre til den fysiske semifinale. Projektet modtog også særprisen for det mest menneskeligt varme bidrag.",
+      "[[media:4]]",
+      "AI Agent 2025 fulgte Chio Chios udvikling gennem flere faser, og feedbacken og støtten fra konkurrencen blev brugt i den videre produktforbedring.",
+      "Tredjepræmien i finalen var en anerkendelse af projektets niveau og markedspotentiale. Super YouAI vil fortsætte produktudviklingen og undersøge flere praktiske anvendelser i krydsfeltet mellem AI og psykologi.",
+      "[[media:5]]"
+    ]
+  },
+  "2026010209": {
+    title: "Chio Chio præsenteret på provinshospital for mødre og børn, hvor følelsesmæssigt opmærksom AI vækker faglig interesse",
+    summary: "Ved et fagligt kursus på en provinsinstitution blev Chio Chios mulige rolle som supplement til følelsesmæssig støtte for gravide og nybagte mødre præsenteret.",
+    body: [
+      "[[media:1]]",
+      "Chio Chio, udviklet af Super YouAI, kombinerer en blød overflade, berøringsbaseret interaktion og stemmedialog. Målet er at omsætte principper fra psykologisk omsorg til roligt nærvær i hverdagen. Den kan tilbyde beroligende samtale ved uro og et rum, hvor brugeren kan tale uden at føle sig bedømt, som et muligt supplement til gravide og nybagte mødres mentale trivsel. Den er ikke medicinsk udstyr med garanteret effekt og erstatter ikke diagnose, behandling eller fagpersoner.",
+      "Invitationen til et fagligt kursus på en provinsinstitution gav mulighed for dialog med professionelle om anvendelsen af følelsesmæssigt opmærksom AI. Super YouAI vil fortsætte med at kombinere AI og psykologisk viden og undersøge sikre, menneskeligt hensynsfulde brugssituationer."
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_JA, {
   "2026030830": {
     title: "Super YouAI創業者の元晓帅博士、深圳ベンチャーキャピタル協会の国際女性デー特別イベントで講演",
     summary: "元晓帅博士が、AI時代における女性の共感力と、心に寄り添う技術を開発するSuper YouAIの考え方を紹介しました。",
