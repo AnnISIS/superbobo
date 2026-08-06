@@ -32,8 +32,8 @@
     "长期记忆": "長期記憶",
     "随时回应": "いつでも応答",
     "专注力": "集中力",
-    "情绪力": "感情を扱う力",
-    "抗挫力": "レジリエンス",
+    "情绪力": "感情と向き合う力",
+    "抗挫力": "立ち直る力",
     "表达力": "表現力",
     "四种性格陪伴": "4つの個性を持つ仲間",
     "两种产品": "2つの製品タイプ",
@@ -62,8 +62,8 @@
     "超级球球，": "Chio Chioで、",
     "送孩子一生好性格": "一生の力になる心を育てよう",
     "我们相信，科技的价值在于回应人的根本需求。超级有爱把人工智能、物联网科技与心理学理论融合，让高质量的倾听、理解与陪伴不再是少数人的奢侈品。": "テクノロジーの価値は、人の根源的なニーズに応えることにあると私たちは考えます。Super YouAIはAI、IoT、心理学を融合し、質の高い傾聴、理解、寄り添いを誰もが得られるものにします。",
-    "它是一款 AI 儿童成长陪伴机器人，培养孩子的抗挫力、社交力、好心态和专注力。": "子どものレジリエンス、社会性、前向きな心、集中力を育むAI成長パートナーロボットです。",
-    "把拖延、急躁、怕挫折和不敢表达，变成孩子听得懂的成长伙伴": "先延ばし、いら立ち、失敗への不安、表現の苦手さを、子どもに伝わる成長の仲間へ。",
+    "它是一款 AI 儿童成长陪伴机器人，培养孩子的抗挫力、社交力、好心态和专注力。": "子どもの立ち直る力、社会性、前向きな気持ち、集中力を育むAIパートナーロボットです。",
+    "把拖延、急躁、怕挫折和不敢表达，变成孩子听得懂的成长伙伴": "先延ばしやいら立ち、失敗への不安、表現の苦手さに、子どもの目線で寄り添います。",
     "球球的核心差异": "Chio Chioならではの特長",
     "超级球球不是把 AI 放进玩具，而是把专业心理陪伴、生命感硬件和长期关系放进孩子的日常。": "Chio Chioは、単に玩具へAIを組み込んだものではありません。心理学に基づく寄り添い、生き生きと反応するハードウェア、長く続く関係を子どもの日常へ届けます。",
     "专业心理内核": "心理学に基づく設計",
@@ -76,7 +76,7 @@
     "记住孩子的兴趣、表达习惯和成长变化，让关系与情感持续沉淀。": "子どもの興味、話し方、成長の変化を覚え、関係と絆を育て続けます。",
     "成长型 IP": "成長を支えるキャラクター",
     "四种性格能力": "4つの心の力",
-    "围绕专注力、情绪力、抗挫力和表达力陪孩子练习。": "集中力、感情を扱う力、レジリエンス、表現力を日々一緒に育みます。",
+    "围绕专注力、情绪力、抗挫力和表达力陪孩子练习。": "集中力、感情と向き合う力、立ち直る力、表現力を日々一緒に育みます。",
     "超级球球户外场景": "屋外でのChio Chio",
     "四款超级球球在森林里的合影": "森に並ぶ4種類のChio Chio",
     "从家里到户外，球球都能成为孩子愿意带着走的陪伴": "家でも外でも、子どもが連れて歩きたくなる仲間",
@@ -121,63 +121,68 @@
     "浙公网安备33011002018442号": "浙公网安备33011002018442号",
     "联系超级有爱": "Super YouAIに問い合わせる",
     "投资、战略合作二维码": "投資・戦略提携用QRコード",
-    "元晓帅博士": "元暁帥 博士",
+    "元晓帅博士": "元晓帅 博士",
     "渠道合作二维码": "販売提携用QRコード",
-    "何昌耀": "何昌耀"
-    ,"产品 | 超级球球": "製品 | Chio Chio"
-    ,"孩子愿意说，": "子どもが話したくなる、"
-    ,"父母看得见": "保護者にも心が見える"
-    ,"超级球球用 AI 情绪陪伴，帮助孩子表达情绪、疏导压力、养成好性格。": "Chio Chioは心に寄り添うAIで、子どもの感情表現、ストレスへの対処、健やかな心の成長を支えます。"
-    ,"不是多一个屏幕，是一个愿意听孩子说话的伙伴": "画面を増やすのではなく、子どもの話を聴く仲間を"
-    ,"超级球球把“倾听、共情、正向引导、正向强化”放进柔软可抱的陪伴机器人里。孩子愿意靠近，父母也更容易看见真实的情绪变化。": "Chio Chioは、傾聴、共感、前向きな導きと励ましを、柔らかく抱きしめられるロボットに込めました。子どもが自然に近づき、保護者も心の変化に気づきやすくなります。"
-    ,"孩子愿意亲近": "子どもが親しめる"
-    ,"柔软、有眼神、可拥抱。": "柔らかく、目を合わせ、抱きしめられます。"
-    ,"父母更易理解": "保護者が理解しやすい"
-    ,"互动沉淀为情绪线索。": "日々の交流が心を理解する手がかりになります。"
-    ,"习惯慢慢养成": "良い習慣を少しずつ"
-    ,"四类性格能力日常练习。": "4つの心の力を日常の中で練習します。"
-    ,"陪伴孩子不同场景": "さまざまな場面で子どもに寄り添う"
-    ,"大球球适合家庭里的长期陪伴，小球球适合孩子带出门。一个建立深关系，一个延续安全感。": "大きなChio Chioは家庭で長く寄り添い、小さなChio Chioは外出に最適です。一方は深い関係を育み、もう一方は安心感を外へつなぎます。"
-    ,"孩子抱着蓝色超级球球": "青いChio Chioを抱く子ども"
-    ,"经典款 · 大球球": "クラシックモデル · 大きなChio Chio"
-    ,"放在书桌和床边，成为孩子每天都见得到的陪伴": "机やベッドのそばで、毎日会える仲間に"
-    ,"面向居家陪伴、睡前安抚、学习压力和亲子沟通场景，承担更完整的 AI 情绪陪伴与性格养成体验。": "家庭での寄り添い、就寝前の安心、学習ストレス、親子の対話を支え、心の成長をより幅広くサポートします。"
-    ,"精灵版小球球挂在背包上": "リュックに付けたミニChio Chio"
-    ,"精灵版 · 小球球": "ミニモデル · 小さなChio Chio"
-    ,"挂在书包上，把熟悉的安心感带到外面": "かばんに付けて、いつもの安心を外へ"
-    ,"更轻巧、更适合礼赠和日常携带，让“口袋里的情绪小伙伴”进入校园、出游和社交场景。": "軽くて贈り物や日常の持ち歩きに適し、「ポケットの心の仲間」が学校、旅行、交流の場まで寄り添います。"
-    ,"四个颜色，四种孩子需要的成长力量": "4つの色、子どもに必要な4つの成長力"
-    ,"每个孩子都有自己的节奏。四只球球用不同的性格陪在身边，帮孩子慢慢练习专注、表达、勇敢和好好说话。": "成長のペースは一人ひとり違います。4種類のChio Chioがそれぞれの個性で寄り添い、集中、表現、勇気、穏やかな対話を少しずつ練習します。"
-    ,"不蕉绿小坚强球球": "バナナグリーンのブレイブChio Chio"
-    ,"不蕉绿 · 小坚强球球": "バナナグリーン · ブレイブChio Chio"
-    ,"勇敢不害怕，做个小坚强": "怖がらずに一歩踏み出す、小さな勇気"
-    ,"适合怕失败、怕批评、受挫后退缩，陪孩子练习勇敢、自信和恢复力。": "失敗や批判を恐れ、つまずくと引いてしまう子どもに寄り添い、勇気、自信、立ち直る力を育みます。"
-    ,"玉兔白不拖拉球球": "ムーンホワイトのスタートChio Chio"
-    ,"玉兔白 · 不拖拉球球": "ムーンホワイト · スタートChio Chio"
-    ,"你不拖拉，我不拖拉，咱们都不拖拉": "先延ばしにせず、一緒に始めよう"
-    ,"适合磨蹭、作业拖延、起床困难和习惯养成，陪孩子从“等一下”走向“先开始”。": "支度や宿題を先延ばしにする、起床が苦手、習慣づくりが難しい子どもを、「あとで」から「まず始めよう」へ導きます。"
-    ,"治愈粉不暴躁球球": "ヒーリングピンクのカームChio Chio"
-    ,"治愈粉 · 不暴躁球球": "ヒーリングピンク · カームChio Chio"
-    ,"遇事不暴躁，温柔好好说": "いら立たず、やさしく気持ちを伝えよう"
-    ,"适合急躁、哭闹、顶嘴和冲动表达，帮助孩子先认识情绪，再好好说话。": "いら立ち、泣き叫び、口答え、衝動的な発言が気になるとき、まず感情に気づき、落ち着いて伝えられるよう支えます。"
-    ,"仙女蓝小话唠球球": "フェアリーブルーのおしゃべりChio Chio"
-    ,"仙女蓝 · 小话唠球球": "フェアリーブルー · おしゃべりChio Chio"
-    ,"敢开口，爱表达，快乐交朋友": "勇気を出して話し、表現を楽しみ、友達をつくろう"
-    ,"适合内向、胆小、不敢表达，陪孩子完成社交破冰和表达练习。": "内気で自信がなく、表現が苦手な子どもに寄り添い、人との最初の一歩と話す練習を支えます。"
-    ,"四大附加能力": "4つの追加機能"
-    ,"不止情绪陪伴，也把听、说、看、玩、学习成长覆盖进孩子每天的生活。": "心への寄り添いだけでなく、聴く、話す、見る、遊ぶ、学ぶ体験を毎日の暮らしに届けます。"
-    ,"孩子和超级球球一起学习": "Chio Chioと一緒に学ぶ子ども"
-    ,"英语智能陪练": "AI英会話練習"
-    ,"沉浸式口语互动，纠正发音，在趣味场景里轻松练习表达。": "没入感のある英会話で発音を整え、楽しい場面の中で自然に表現を練習します。"
-    ,"睡前和超级球球一起听故事": "就寝前にChio Chioと物語を聴く"
-    ,"趣味故事畅听": "楽しい物語をいつでも"
-    ,"睡前、休息和亲子时光里，用故事陪孩子安静下来。": "就寝前や休憩、親子の時間に、物語で子どもの心を穏やかにします。"
-    ,"亲子和超级球球互动": "親子でChio Chioと交流"
-    ,"高清音乐播放": "高音質の音楽再生"
-    ,"儿歌、轻音乐和经典曲目随心播放，舒缓身心，陶冶情操。": "童謡、軽音楽、名曲を楽しみ、心身をリラックスさせ、感性を育みます。"
-    ,"孩子抱着绿色超级球球": "緑のChio Chioを抱く子ども"
-    ,"全维认知探索": "幅広い知的探究"
-    ,"一站式听、说、看、玩体验，拓宽孩子对世界的好奇心。": "聴く、話す、見る、遊ぶ体験を一つにまとめ、世界への好奇心を広げます。"
+    "何昌耀": "何昌耀",
+    "点击复制": "クリックしてコピー",
+    "产品 | 超级球球": "製品 | Chio Chio",
+    "有爱AI | 超级有爱": "YouAI | Super YouAI",
+    "商业合作 | 超级有爱": "ビジネス提携 | Super YouAI",
+    "联系我们 | 超级有爱": "お問い合わせ | Super YouAI",
+    "品牌资讯 | 超级有爱": "ニュース | Super YouAI",
+    "孩子愿意说，": "子どもが話したくなる、",
+    "父母看得见": "保護者にも心が見える",
+    "超级球球用 AI 情绪陪伴，帮助孩子表达情绪、疏导压力、养成好性格。": "Chio Chioは心に寄り添うAIで、子どもの感情表現、ストレスへの対処、健やかな心の成長を支えます。",
+    "不是多一个屏幕，是一个愿意听孩子说话的伙伴": "画面を増やすのではなく、子どもの話を聴く仲間を",
+    "超级球球把“倾听、共情、正向引导、正向强化”放进柔软可抱的陪伴机器人里。孩子愿意靠近，父母也更容易看见真实的情绪变化。": "Chio Chioは、傾聴、共感、前向きな導きと励ましを、柔らかく抱きしめられるロボットに込めました。子どもが自然に近づき、保護者も心の変化に気づきやすくなります。",
+    "孩子愿意亲近": "子どもが親しめる",
+    "柔软、有眼神、可拥抱。": "柔らかく、目を合わせ、抱きしめられます。",
+    "父母更易理解": "保護者が理解しやすい",
+    "互动沉淀为情绪线索。": "日々の交流が心を理解する手がかりになります。",
+    "习惯慢慢养成": "良い習慣を少しずつ",
+    "四类性格能力日常练习。": "4つの心の力を日常の中で練習します。",
+    "陪伴孩子不同场景": "さまざまな場面で子どもに寄り添う",
+    "大球球适合家庭里的长期陪伴，小球球适合孩子带出门。一个建立深关系，一个延续安全感。": "大きなChio Chioは家庭で長く寄り添い、小さなChio Chioは外出に最適です。一方は深い関係を育み、もう一方は安心感を外へつなぎます。",
+    "孩子抱着蓝色超级球球": "青いChio Chioを抱く子ども",
+    "经典款 · 大球球": "クラシックモデル · 大きなChio Chio",
+    "放在书桌和床边，成为孩子每天都见得到的陪伴": "机やベッドのそばで、毎日会える仲間に",
+    "面向居家陪伴、睡前安抚、学习压力和亲子沟通场景，承担更完整的 AI 情绪陪伴与性格养成体验。": "家庭での寄り添い、就寝前の安心、学習ストレス、親子の対話を支え、心の成長をより幅広くサポートします。",
+    "精灵版小球球挂在背包上": "リュックに付けたミニChio Chio",
+    "精灵版 · 小球球": "ミニモデル · 小さなChio Chio",
+    "挂在书包上，把熟悉的安心感带到外面": "かばんに付けて、いつもの安心を外へ",
+    "更轻巧、更适合礼赠和日常携带，让“口袋里的情绪小伙伴”进入校园、出游和社交场景。": "軽くて贈り物や日常の持ち歩きに適し、「ポケットの心の仲間」が学校、旅行、交流の場まで寄り添います。",
+    "四个颜色，四种孩子需要的成长力量": "4つの色、子どもに必要な4つの成長力",
+    "每个孩子都有自己的节奏。四只球球用不同的性格陪在身边，帮孩子慢慢练习专注、表达、勇敢和好好说话。": "成長のペースは一人ひとり違います。4種類のChio Chioがそれぞれの個性で寄り添い、集中、表現、勇気、穏やかな対話を少しずつ練習します。",
+    "不蕉绿小坚强球球": "不蕉绿 · ブレイブ Chio Chio",
+    "不蕉绿 · 小坚强球球": "不蕉绿 · ブレイブ Chio Chio",
+    "勇敢不害怕，做个小坚强": "怖がらずに一歩踏み出す、小さな勇気",
+    "适合怕失败、怕批评、受挫后退缩，陪孩子练习勇敢、自信和恢复力。": "失敗や批判を恐れ、つまずくと引いてしまう子どもに寄り添い、勇気、自信、立ち直る力を育みます。",
+    "玉兔白不拖拉球球": "玉兔白 · スタート Chio Chio",
+    "玉兔白 · 不拖拉球球": "玉兔白 · スタート Chio Chio",
+    "你不拖拉，我不拖拉，咱们都不拖拉": "先延ばしにせず、一緒に始めよう",
+    "适合磨蹭、作业拖延、起床困难和习惯养成，陪孩子从“等一下”走向“先开始”。": "支度や宿題を先延ばしにする、起床が苦手、習慣づくりが難しい子どもを、「あとで」から「まず始めよう」へ導きます。",
+    "治愈粉不暴躁球球": "治愈粉 · カーム Chio Chio",
+    "治愈粉 · 不暴躁球球": "治愈粉 · カーム Chio Chio",
+    "遇事不暴躁，温柔好好说": "いら立たず、やさしく気持ちを伝えよう",
+    "适合急躁、哭闹、顶嘴和冲动表达，帮助孩子先认识情绪，再好好说话。": "いら立ち、泣き叫び、口答え、衝動的な発言が気になるとき、まず感情に気づき、落ち着いて伝えられるよう支えます。",
+    "仙女蓝小话唠球球": "仙女蓝 · おしゃべり Chio Chio",
+    "仙女蓝 · 小话唠球球": "仙女蓝 · おしゃべり Chio Chio",
+    "敢开口，爱表达，快乐交朋友": "勇気を出して話し、表現を楽しみ、友達をつくろう",
+    "适合内向、胆小、不敢表达，陪孩子完成社交破冰和表达练习。": "内気で自信がなく、表現が苦手な子どもに寄り添い、人との最初の一歩と話す練習を支えます。",
+    "四大附加能力": "4つの追加機能",
+    "不止情绪陪伴，也把听、说、看、玩、学习成长覆盖进孩子每天的生活。": "心への寄り添いだけでなく、聴く、話す、見る、遊ぶ、学ぶ体験を毎日の暮らしに届けます。",
+    "孩子和超级球球一起学习": "Chio Chioと一緒に学ぶ子ども",
+    "英语智能陪练": "AI英会話練習",
+    "沉浸式口语互动，纠正发音，在趣味场景里轻松练习表达。": "没入感のある英会話で発音を整え、楽しい場面の中で自然に表現を練習します。",
+    "睡前和超级球球一起听故事": "就寝前にChio Chioと物語を聴く",
+    "趣味故事畅听": "楽しい物語をいつでも",
+    "睡前、休息和亲子时光里，用故事陪孩子安静下来。": "就寝前や休憩、親子の時間に、物語で子どもの心を穏やかにします。",
+    "亲子和超级球球互动": "親子でChio Chioと交流",
+    "高清音乐播放": "高音質の音楽再生",
+    "儿歌、轻音乐和经典曲目随心播放，舒缓身心，陶冶情操。": "童謡、軽音楽、名曲を楽しみ、心身をリラックスさせ、感性を育みます。",
+    "孩子抱着绿色超级球球": "緑のChio Chioを抱く子ども",
+    "全维认知探索": "幅広い知的探究",
+    "一站式听、说、看、玩体验，拓宽孩子对世界的好奇心。": "聴く、話す、見る、遊ぶ体験を一つにまとめ、世界への好奇心を広げます。"
   };
   const TEXT_DA = {
     "首页": "Forside",
@@ -236,7 +241,7 @@
     "送孩子一生好性格": "styrker, der følger barnet hele livet",
     "我们相信，科技的价值在于回应人的根本需求。超级有爱把人工智能、物联网科技与心理学理论融合，让高质量的倾听、理解与陪伴不再是少数人的奢侈品。": "Vi mener, at teknologi skal imødekomme grundlæggende menneskelige behov. Super YouAI forener AI, IoT og psykologi, så nærværende lytning, forståelse og støtte bliver tilgængelig for alle.",
     "它是一款 AI 儿童成长陪伴机器人，培养孩子的抗挫力、社交力、好心态和专注力。": "En AI-ledsagerrobot, der styrker børns modstandskraft, sociale færdigheder, positive tilgang og koncentration.",
-    "把拖延、急躁、怕挫折和不敢表达，变成孩子听得懂的成长伙伴": "Gør udsættelse, utålmodighed, frygt for modgang og usikkerhed ved at udtrykke sig til forståelige udviklingsvenner.",
+    "把拖延、急躁、怕挫折和不敢表达，变成孩子听得懂的成长伙伴": "Mød udsættelse, utålmodighed, frygt for modgang og usikkerhed ved at udtrykke sig på en måde, barnet forstår.",
     "球球的核心差异": "Det særlige ved Chio Chio",
     "超级球球不是把 AI 放进玩具，而是把专业心理陪伴、生命感硬件和长期关系放进孩子的日常。": "Chio Chio er ikke bare AI i et stykke legetøj. Den bringer psykologisk funderet støtte, levende interaktion og langvarige relationer ind i barnets hverdag.",
     "专业心理内核": "Psykologisk funderet design",
@@ -294,63 +299,68 @@
     "浙公网安备33011002018442号": "浙公网安备33011002018442号",
     "联系超级有爱": "Kontakt Super YouAI",
     "投资、战略合作二维码": "QR-kode til investering og strategiske partnerskaber",
-    "元晓帅博士": "Dr. Yuan Xiaoshuai",
+    "元晓帅博士": "Dr. 元晓帅",
     "渠道合作二维码": "QR-kode til distributionssamarbejde",
-    "何昌耀": "He Changyao"
-    ,"产品 | 超级球球": "Produkt | Chio Chio"
-    ,"孩子愿意说，": "Barnet får lyst til at tale,"
-    ,"父母看得见": "og forældrene får indsigt"
-    ,"超级球球用 AI 情绪陪伴，帮助孩子表达情绪、疏导压力、养成好性格。": "Chio Chio bruger nærværende AI til at hjælpe børn med at udtrykke følelser, håndtere pres og udvikle stærke personlige egenskaber."
-    ,"不是多一个屏幕，是一个愿意听孩子说话的伙伴": "Ikke endnu en skærm, men en ven, der lytter"
-    ,"超级球球把“倾听、共情、正向引导、正向强化”放进柔软可抱的陪伴机器人里。孩子愿意靠近，父母也更容易看见真实的情绪变化。": "Chio Chio samler lytten, empati, positiv vejledning og opmuntring i en blød robot, der kan krammes. Barnet søger naturligt hen til den, og forældrene får lettere øje på følelsesmæssige forandringer."
-    ,"孩子愿意亲近": "Barnet føler sig trygt"
-    ,"柔软、有眼神、可拥抱。": "Blød, udtryksfuld og lige til at kramme."
-    ,"父母更易理解": "Lettere for forældrene at forstå"
-    ,"互动沉淀为情绪线索。": "Samspillet giver spor om barnets følelser."
-    ,"习惯慢慢养成": "Gode vaner vokser gradvist"
-    ,"四类性格能力日常练习。": "Fire personlige styrker trænes i hverdagen."
-    ,"陪伴孩子不同场景": "Nærvær i forskellige situationer"
-    ,"大球球适合家庭里的长期陪伴，小球球适合孩子带出门。一个建立深关系，一个延续安全感。": "Den store Chio Chio passer til langvarigt nærvær i hjemmet, mens den lille er nem at tage med. Den ene bygger en dyb relation; den anden tager trygheden med ud."
-    ,"孩子抱着蓝色超级球球": "Et barn krammer en blå Chio Chio"
-    ,"经典款 · 大球球": "Klassisk model · Stor Chio Chio"
-    ,"放在书桌和床边，成为孩子每天都见得到的陪伴": "En ven ved skrivebordet og sengen, som barnet møder hver dag"
-    ,"面向居家陪伴、睡前安抚、学习压力和亲子沟通场景，承担更完整的 AI 情绪陪伴与性格养成体验。": "Giver mere omfattende AI-støtte og udvikling af personlige styrker i hjemmet, ved sengetid, under skolepres og i samtaler mellem barn og forældre."
-    ,"精灵版小球球挂在背包上": "Mini Chio Chio på en rygsæk"
-    ,"精灵版 · 小球球": "Miniudgave · Lille Chio Chio"
-    ,"挂在书包上，把熟悉的安心感带到外面": "Sæt den på tasken, og tag den velkendte tryghed med ud"
-    ,"更轻巧、更适合礼赠和日常携带，让“口袋里的情绪小伙伴”进入校园、出游和社交场景。": "Lettere, oplagt som gave og nem at tage med, så en lille følelsesmæssig ven kan følge barnet i skole, på ture og i sociale situationer."
-    ,"四个颜色，四种孩子需要的成长力量": "Fire farver og fire styrker, børn har brug for"
-    ,"每个孩子都有自己的节奏。四只球球用不同的性格陪在身边，帮孩子慢慢练习专注、表达、勇敢和好好说话。": "Alle børn udvikler sig i deres eget tempo. Fire Chio Chio-personligheder hjælper barnet med gradvist at øve koncentration, udtryk, mod og rolig kommunikation."
-    ,"不蕉绿小坚强球球": "Banangrøn Modig Chio Chio"
-    ,"不蕉绿 · 小坚强球球": "Banangrøn · Modig Chio Chio"
-    ,"勇敢不害怕，做个小坚强": "Vær modig, og find din indre styrke"
-    ,"适合怕失败、怕批评、受挫后退缩，陪孩子练习勇敢、自信和恢复力。": "Til børn, der frygter fejl eller kritik og trækker sig efter modgang; træner mod, selvtillid og evnen til at komme igen."
-    ,"玉兔白不拖拉球球": "Månehvid Kom-i-gang Chio Chio"
-    ,"玉兔白 · 不拖拉球球": "Månehvid · Kom-i-gang Chio Chio"
-    ,"你不拖拉，我不拖拉，咱们都不拖拉": "Ingen udsættelse – lad os begynde sammen"
-    ,"适合磨蹭、作业拖延、起床困难和习惯养成，陪孩子从“等一下”走向“先开始”。": "Til børn, der trækker tiden, udsætter lektier eller har svært ved at stå op og skabe vaner; hjælper dem fra »senere« til »lad os begynde«."
-    ,"治愈粉不暴躁球球": "Beroligende pink Rolig Chio Chio"
-    ,"治愈粉 · 不暴躁球球": "Beroligende pink · Rolig Chio Chio"
-    ,"遇事不暴躁，温柔好好说": "Bevar roen, og sig det på en venlig måde"
-    ,"适合急躁、哭闹、顶嘴和冲动表达，帮助孩子先认识情绪，再好好说话。": "Til utålmodighed, gråd, trods og impulsive udbrud; hjælper barnet med først at genkende følelsen og derefter sætte rolige ord på den."
-    ,"仙女蓝小话唠球球": "Fe-blå Snakkeglade Chio Chio"
-    ,"仙女蓝 · 小话唠球球": "Fe-blå · Snakkeglade Chio Chio"
-    ,"敢开口，爱表达，快乐交朋友": "Turde tale, nyde at udtrykke sig og få nye venner"
-    ,"适合内向、胆小、不敢表达，陪孩子完成社交破冰和表达练习。": "Til stille eller generte børn, der holder sig tilbage; hjælper med at tage det første sociale skridt og øve sig i at udtrykke sig."
-    ,"四大附加能力": "Fire ekstra funktioner"
-    ,"不止情绪陪伴，也把听、说、看、玩、学习成长覆盖进孩子每天的生活。": "Ud over følelsesmæssigt nærvær integreres lytning, tale, oplevelser, leg og læring i barnets hverdag."
-    ,"孩子和超级球球一起学习": "Et barn lærer sammen med Chio Chio"
-    ,"英语智能陪练": "Intelligent engelsktræning"
-    ,"沉浸式口语互动，纠正发音，在趣味场景里轻松练习表达。": "Levende samtaletræning, hjælp til udtale og let øvelse i sjove situationer."
-    ,"睡前和超级球球一起听故事": "Godnathistorie sammen med Chio Chio"
-    ,"趣味故事畅听": "Sjove historier når som helst"
-    ,"睡前、休息和亲子时光里，用故事陪孩子安静下来。": "Historier hjælper barnet med at finde ro ved sengetid, i pauser og under hyggestunder med familien."
-    ,"亲子和超级球球互动": "Barn og forælder bruger Chio Chio sammen"
-    ,"高清音乐播放": "Musikafspilning i høj kvalitet"
-    ,"儿歌、轻音乐和经典曲目随心播放，舒缓身心，陶冶情操。": "Afspil børnesange, rolig musik og klassikere for afslapning og musikalsk glæde."
-    ,"孩子抱着绿色超级球球": "Et barn krammer en grøn Chio Chio"
-    ,"全维认知探索": "Alsidig udforskning og læring"
-    ,"一站式听、说、看、玩体验，拓宽孩子对世界的好奇心。": "En samlet oplevelse med at lytte, tale, se og lege, som udvider barnets nysgerrighed på verden."
+    "何昌耀": "He Changyao",
+    "点击复制": "Klik for at kopiere",
+    "产品 | 超级球球": "Produkt | Chio Chio",
+    "有爱AI | 超级有爱": "YouAI | Super YouAI",
+    "商业合作 | 超级有爱": "Partnerskaber | Super YouAI",
+    "联系我们 | 超级有爱": "Kontakt os | Super YouAI",
+    "品牌资讯 | 超级有爱": "Nyheder | Super YouAI",
+    "孩子愿意说，": "Barnet får lyst til at tale,",
+    "父母看得见": "og forældrene får indsigt",
+    "超级球球用 AI 情绪陪伴，帮助孩子表达情绪、疏导压力、养成好性格。": "Chio Chio bruger nærværende AI til at hjælpe børn med at udtrykke følelser, håndtere pres og udvikle stærke personlige egenskaber.",
+    "不是多一个屏幕，是一个愿意听孩子说话的伙伴": "Ikke endnu en skærm, men en ven, der lytter",
+    "超级球球把“倾听、共情、正向引导、正向强化”放进柔软可抱的陪伴机器人里。孩子愿意靠近，父母也更容易看见真实的情绪变化。": "Chio Chio samler lytten, empati, positiv vejledning og opmuntring i en blød robot, der kan krammes. Barnet søger naturligt hen til den, og forældrene får lettere øje på følelsesmæssige forandringer.",
+    "孩子愿意亲近": "Barnet føler sig trygt",
+    "柔软、有眼神、可拥抱。": "Blød, udtryksfuld og lige til at kramme.",
+    "父母更易理解": "Lettere for forældrene at forstå",
+    "互动沉淀为情绪线索。": "Samspillet giver spor om barnets følelser.",
+    "习惯慢慢养成": "Gode vaner vokser gradvist",
+    "四类性格能力日常练习。": "Fire personlige styrker trænes i hverdagen.",
+    "陪伴孩子不同场景": "Nærvær i forskellige situationer",
+    "大球球适合家庭里的长期陪伴，小球球适合孩子带出门。一个建立深关系，一个延续安全感。": "Den store Chio Chio passer til langvarigt nærvær i hjemmet, mens den lille er nem at tage med. Den ene bygger en dyb relation; den anden tager trygheden med ud.",
+    "孩子抱着蓝色超级球球": "Et barn krammer en blå Chio Chio",
+    "经典款 · 大球球": "Klassisk model · Stor Chio Chio",
+    "放在书桌和床边，成为孩子每天都见得到的陪伴": "En ven ved skrivebordet og sengen, som barnet møder hver dag",
+    "面向居家陪伴、睡前安抚、学习压力和亲子沟通场景，承担更完整的 AI 情绪陪伴与性格养成体验。": "Giver mere omfattende AI-støtte og udvikling af personlige styrker i hjemmet, ved sengetid, under skolepres og i samtaler mellem barn og forældre.",
+    "精灵版小球球挂在背包上": "Mini Chio Chio på en rygsæk",
+    "精灵版 · 小球球": "Miniudgave · Lille Chio Chio",
+    "挂在书包上，把熟悉的安心感带到外面": "Sæt den på tasken, og tag den velkendte tryghed med ud",
+    "更轻巧、更适合礼赠和日常携带，让“口袋里的情绪小伙伴”进入校园、出游和社交场景。": "Lettere, oplagt som gave og nem at tage med, så en lille følelsesmæssig ven kan følge barnet i skole, på ture og i sociale situationer.",
+    "四个颜色，四种孩子需要的成长力量": "Fire farver og fire styrker, børn har brug for",
+    "每个孩子都有自己的节奏。四只球球用不同的性格陪在身边，帮孩子慢慢练习专注、表达、勇敢和好好说话。": "Alle børn udvikler sig i deres eget tempo. Fire Chio Chio-personligheder hjælper barnet med gradvist at øve koncentration, udtryk, mod og rolig kommunikation.",
+    "不蕉绿小坚强球球": "不蕉绿 · Modig Chio Chio",
+    "不蕉绿 · 小坚强球球": "不蕉绿 · Modig Chio Chio",
+    "勇敢不害怕，做个小坚强": "Vær modig, og find din indre styrke",
+    "适合怕失败、怕批评、受挫后退缩，陪孩子练习勇敢、自信和恢复力。": "Til børn, der frygter fejl eller kritik og trækker sig efter modgang; træner mod, selvtillid og evnen til at komme igen.",
+    "玉兔白不拖拉球球": "玉兔白 · Kom-i-gang Chio Chio",
+    "玉兔白 · 不拖拉球球": "玉兔白 · Kom-i-gang Chio Chio",
+    "你不拖拉，我不拖拉，咱们都不拖拉": "Ingen udsættelse – lad os begynde sammen",
+    "适合磨蹭、作业拖延、起床困难和习惯养成，陪孩子从“等一下”走向“先开始”。": "Til børn, der trækker tiden, udsætter lektier eller har svært ved at stå op og skabe vaner; hjælper dem fra »senere« til »lad os begynde«.",
+    "治愈粉不暴躁球球": "治愈粉 · Rolig Chio Chio",
+    "治愈粉 · 不暴躁球球": "治愈粉 · Rolig Chio Chio",
+    "遇事不暴躁，温柔好好说": "Bevar roen, og sig det på en venlig måde",
+    "适合急躁、哭闹、顶嘴和冲动表达，帮助孩子先认识情绪，再好好说话。": "Til utålmodighed, gråd, trods og impulsive udbrud; hjælper barnet med først at genkende følelsen og derefter sætte rolige ord på den.",
+    "仙女蓝小话唠球球": "仙女蓝 · Snakkeglad Chio Chio",
+    "仙女蓝 · 小话唠球球": "仙女蓝 · Snakkeglad Chio Chio",
+    "敢开口，爱表达，快乐交朋友": "Turde tale, nyde at udtrykke sig og få nye venner",
+    "适合内向、胆小、不敢表达，陪孩子完成社交破冰和表达练习。": "Til stille eller generte børn, der holder sig tilbage; hjælper med at tage det første sociale skridt og øve sig i at udtrykke sig.",
+    "四大附加能力": "Fire ekstra funktioner",
+    "不止情绪陪伴，也把听、说、看、玩、学习成长覆盖进孩子每天的生活。": "Ud over følelsesmæssigt nærvær integreres lytning, tale, oplevelser, leg og læring i barnets hverdag.",
+    "孩子和超级球球一起学习": "Et barn lærer sammen med Chio Chio",
+    "英语智能陪练": "Intelligent engelsktræning",
+    "沉浸式口语互动，纠正发音，在趣味场景里轻松练习表达。": "Levende samtaletræning, hjælp til udtale og let øvelse i sjove situationer.",
+    "睡前和超级球球一起听故事": "Godnathistorie sammen med Chio Chio",
+    "趣味故事畅听": "Sjove historier når som helst",
+    "睡前、休息和亲子时光里，用故事陪孩子安静下来。": "Historier hjælper barnet med at finde ro ved sengetid, i pauser og under hyggestunder med familien.",
+    "亲子和超级球球互动": "Barn og forælder bruger Chio Chio sammen",
+    "高清音乐播放": "Musikafspilning i høj kvalitet",
+    "儿歌、轻音乐和经典曲目随心播放，舒缓身心，陶冶情操。": "Afspil børnesange, rolig musik og klassikere for afslapning og musikalsk glæde.",
+    "孩子抱着绿色超级球球": "Et barn krammer en grøn Chio Chio",
+    "全维认知探索": "Alsidig udforskning og læring",
+    "一站式听、说、看、玩体验，拓宽孩子对世界的好奇心。": "En samlet oplevelse med at lytte, tale, se og lege, som udvider barnets nysgerrighed på verden."
   };
 
   const TEXT_EN = {
@@ -1264,11 +1274,21 @@
     });
   }
 
+  function translateDocumentTitle(lang) {
+    if (getArticleId()) return;
+    if (!document.documentElement.dataset.zhTitle) {
+      document.documentElement.dataset.zhTitle = document.title;
+    }
+    const original = document.documentElement.dataset.zhTitle;
+    document.title = lang === "zh" ? original : (lookupTranslation(original, lang) || original);
+  }
+
   function setLanguage(lang) {
     const next = SUPPORTED_LANGS.includes(lang) ? lang : DEFAULT_LANG;
     document.documentElement.lang = next === "zh" ? "zh-CN" : next;
     document.body.classList.add("is-language-switching");
     applyArticle(next);
+    translateDocumentTitle(next);
     translateArticleNav(next);
     walkAndTranslate(next);
     translateArticleNav(next);
@@ -1451,6 +1471,15 @@
     input.remove();
   }
 
+  function copyUi(lang) {
+    return {
+      zh: { hint: "点击复制", title: "已复制", copied: "已复制，可以直接粘贴联系。" },
+      en: { hint: "Click to copy", title: "Copied", copied: "is copied and ready to paste." },
+      ja: { hint: "クリックしてコピー", title: "コピーしました", copied: "をコピーしました。そのまま貼り付けられます。" },
+      da: { hint: "Klik for at kopiere", title: "Kopieret", copied: "er kopieret og klar til at blive indsat." }
+    }[lang] || { hint: "点击复制", title: "已复制", copied: "已复制，可以直接粘贴联系。" };
+  }
+
   function showCopyToast(payload) {
     let toast = document.querySelector(".copy-toast");
     if (!toast) {
@@ -1461,9 +1490,10 @@
       toast.innerHTML = "<strong></strong><span></span>";
       document.body.appendChild(toast);
     }
-    const isEnglish = document.documentElement.lang === "en";
-    toast.querySelector("strong").textContent = isEnglish ? payload.enTitle : payload.zhTitle;
-    toast.querySelector("span").textContent = isEnglish ? `${payload.value} is copied and ready to paste.` : `${payload.value} 已复制，可以直接粘贴联系。`;
+    const lang = document.documentElement.lang.replace("zh-CN", "zh");
+    const ui = copyUi(lang);
+    toast.querySelector("strong").textContent = lang === "zh" ? payload.zhTitle : lang === "en" ? payload.enTitle : ui.title;
+    toast.querySelector("span").textContent = `${payload.value} ${ui.copied}`;
     toast.classList.add("is-visible");
     window.clearTimeout(showCopyToast.timer);
     showCopyToast.timer = window.setTimeout(() => toast.classList.remove("is-visible"), 2200);
@@ -1473,7 +1503,7 @@
     document.querySelectorAll('a[href^="mailto:"], a[href^="tel:"]').forEach((link) => {
       const payload = getCopyPayload(link);
       if (!payload) return;
-      link.setAttribute("title", document.documentElement.lang === "en" ? "Click to copy" : "点击复制");
+      link.setAttribute("title", "点击复制");
       link.addEventListener("click", async (event) => {
         event.preventDefault();
         try {
