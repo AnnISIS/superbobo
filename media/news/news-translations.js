@@ -1406,6 +1406,100 @@ Object.assign(window.NEWS_ARTICLE_DA, {
 });
 
 Object.assign(window.NEWS_ARTICLE_JA, {
+  "2026070122": {
+    title: "羅湖AIハードウェア共創イベントでChio Chioが高評価",
+    summary: "Chio Chioが来場者投票でベストデザイン賞とベスト体験賞を受賞し、投資家や業界関係者から製品改善につながる意見を得ました。",
+    body: [
+      "[[media:1]]",
+      "ベストデザイン賞とベスト体験賞を受賞。今回のイノベーションデーでは一般来場者による体験投票が行われ、投資家、業界関係者、起業家が出展されたAIハードウェアを実際に試したうえで、評価する製品に投票しました。",
+      "外観、交流の滑らかさ、利用場面での実用性、独自性という4項目で評価され、Chio Chioは数十点の製品の中からベストデザイン賞とベスト体験賞を受賞しました。子ども向けAIハードウェアとして、会場で二つの賞を同時に受賞した製品となりました。",
+      "柔らかな球形の姿がデザイン面で評価され、AI絵本、気持ちを落ち着かせる声かけ、負担の少ない親子の交流体験が、利用体験面で来場者の支持を集めました。二つの賞はいずれも実機を体験した来場者の記名投票で決まりました。",
+      "[[media:2]]",
+      "この結果は、製品デザインと利用体験に対する現場からの評価になりました。",
+      "実機体験から率直な意見を収集。会場にはハードウェア体験エリアが設けられ、投資家や業界パートナーがChio ChioのAI絵本、心への寄り添い、親子の対話などを試しました。製品の位置づけ、ハードウェアの改良、市場展開について具体的な提案も寄せられました。",
+      "チームは一つひとつの意見を記録し、今後の製品と機能の改善に活用します。実機に触れる体験を通じて、業界関係者にも子ども向けAIパートナーのニーズと製品価値が伝わりました。",
+      "[[media:3]]",
+      "投資・事業関係者との交流。オープンマイクでは羅湖のAI産業エコシステムが紹介され、多くの投資機関とハードウェア分野のスタートアップが集まりました。",
+      "チームは投資・事業関係者と、子ども向けAIハードウェアの機会、事業モデル、製品の独自性について意見を交わし、今後の資金調達や市場展開に向けた関係づくりを進めました。",
+      "[[media:4]]",
+      "会場では抽象的な議論だけでなく、ハードウェア供給網、端末上で動くAIモデル、親子市場の販売チャネルなど、実務的な課題と経験が率直に共有され、新たな協力の可能性も見つかりました。",
+      "最後に参加者が集合写真を撮り、産業交流イベントを締めくくりました。",
+      "[[media:5]]",
+      "今後に向けて。実機体験は製品改善の機会であり、投資・事業関係者との交流はブランドを成長させる学びになります。",
+      "Chio Chioは、刺激に敏感な子どもにも配慮したAIパートナーとして、ハードウェアと交流体験を継続的に改善します。より温かく使いやすい親子向け製品を家庭へ届けるため、投資機関や販売パートナーとの連携も広げていきます。",
+      "[[media:6]]",
+      "[[media:7]]"
+    ]
+  },
+  "2026062431": {
+    title: "杭州の公益AI絵本イベントにChio Chioが参加、自閉スペクトラム症の子どもたちに寄り添う",
+    summary: "Chio Chioが「追星星」AI絵本イベントで、子ども一人ひとりのペースを尊重した物語と対話の体験を届けました。",
+    body: [
+      "[[media:1]]",
+      "一方向に読み聞かせる一般的な絵本とは異なり、Chio Chioは子どもの気持ちとペースに合わせます。穏やかな速さで話し、ゆっくりした表現、繰り返す質問、一人で静かに過ごしたい状態も受け止めます。",
+      "会場では、初めて自分からAIパートナーに近づき、一緒に物語を読みながら小さな声で思いを話す子どももいました。緊張していた子どもも、急かされない会話の中で少しずつ落ち着き、絵本の世界を楽しみました。",
+      "ボランティアや保護者からは、敏感な子どもの気持ちに合わせ、急かしたり強いたりせず、静かに寄り添う道具は多くないという声がありました。",
+      "Chio Chioの設計思想。Chio Chioは子どもの心への寄り添いに取り組み、特に刺激に敏感な子ども、自閉スペクトラム症の子ども、内向的な子どもの成長ニーズに注目しています。",
+      "こうした子どもたちに必要なのは複雑な機能だけではなく、安定して受け止め、共感的に話を聴く存在です。AI絵本の体験は物語と心への寄り添いを組み合わせ、安心できる雰囲気の中で表現を練習し、気持ちを整える手助けをします。保護者の日常的な負担を補助することも目指しています。",
+      "今回「追星星」AI絵本公益イベントの初回に参加したことは、技術を社会に役立てる取り組みの一つです。テクノロジーで距離を縮め、一人ひとり異なる子どもに、話を聴いてくれる仲間を届けたいと考えています。",
+      "今後に向けて。杭州での初回イベントは終了しましたが、寄り添いは続きます。",
+      "Chio Chioは各地の「追星星」公益イベントと連携し、より多くの都市で子どもたちと出会う予定です。",
+      "同時に、刺激に敏感な子どもや特別な支援ニーズのある家庭の日常に合うよう、感情への応答機能を改善していきます。",
+      "一人ひとりの個性が尊重され、すべての子どもがやさしく受け止められることを願っています。",
+      "刺激に敏感、内向的、または気持ちの表現に困難を感じるお子さまのいる家庭は、今後の公益イベント情報をご覧ください。公式WeChatアカウントで随時お知らせします。",
+      "[[media:2]]"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_DA, {
+  "2026070122": {
+    title: "Chio Chio får stærk respons ved Luohus event for fælles AI-hardwareudvikling",
+    summary: "Chio Chio modtog priser for bedste design og bedste oplevelse efter publikumsafstemning og fik konkret feedback fra investorer og branchefolk.",
+    body: [
+      "[[media:1]]",
+      "Priser for både bedste design og bedste oplevelse. Innovation Day havde en publikumsafstemning, hvor investorer, branchefolk og andre iværksættere kunne prøve alle AI-hardwareprodukterne og stemme på de løsninger, de vurderede højest.",
+      "Efter flere afprøvninger blev produkterne vurderet på udseende, flydende interaktion, praktisk anvendelse og tydelig innovation. Chio Chio skilte sig ud blandt mange produkter og modtog både prisen for bedste design og bedste oplevelse. Det var eventets eneste AI-hardwareprodukt til børn, som vandt to priser.",
+      "Den bløde, runde form blev anerkendt for designet, mens AI-bøger, beroligende interaktion og nærvær med lavt pres for børn og forældre blev fremhævet i oplevelsen. Begge priser blev afgjort ved navngiven afstemning blandt gæster, der havde prøvet produkterne.",
+      "[[media:2]]",
+      "Resultatet gav ekstern anerkendelse af både produktdesign og brugeroplevelse.",
+      "Direkte produktfeedback. Et særligt område gav investorer og branchepartnere mulighed for at prøve Chio Chios AI-bøger, følelsesmæssige støtte og familiesamtaler. De kom med konkrete forslag til positionering, hardwareforbedringer og markedsintroduktion.",
+      "Teamet registrerede feedbacken til det videre arbejde med produkt og funktioner. Den fysiske oplevelse gjorde det samtidig lettere for branchefolk at forstå behovet for og værdien af AI-ledsagere til børn.",
+      "[[media:3]]",
+      "Møder med investorer og industrien. Ved eventets åbne scene blev Luohus innovationsmiljø for AI præsenteret for en gruppe investorer og hardware-startups.",
+      "Teamet drøftede mulighederne inden for AI-hardware til børn, forretningsmodeller og produktets særpræg og opbyggede relationer med henblik på senere finansiering og markedsudvikling.",
+      "[[media:4]]",
+      "Samtalerne var praktiske og omfattede udfordringer og erfaringer med hardwareforsyning, AI-modeller på selve enheden og salgskanaler på familieområdet. Dialogen med andre iværksættere viste også mulige samarbejder.",
+      "Eventet sluttede med et fælles gruppefoto.",
+      "[[media:5]]",
+      "Fremadrettet. Hver fysisk produktprøve er en mulighed for forbedring, og hver samtale med investorer og branchefolk giver læring til virksomhedens udvikling.",
+      "Chio Chio vil fortsætte arbejdet med en AI-ledsager, der tager hensyn til børn, som er særligt følsomme over for stimuli, og forbedre både hardware og interaktion. Virksomheden vil også udvide samarbejdet med investorer og salgspartnere for at bringe varme, brugbare familieprodukter ud til flere hjem.",
+      "[[media:6]]",
+      "[[media:7]]"
+    ]
+  },
+  "2026062431": {
+    title: "Chio Chio deltager i almennyttigt AI-bogevent i Hangzhou for børn med autisme",
+    summary: "Ved eventet Chasing Stars tilpassede Chio Chio historie og dialog til hvert barns tempo og gav plads til rolig deltagelse.",
+    body: [
+      "[[media:1]]",
+      "I modsætning til traditionel ensrettet højtlæsning følger Chio Chio barnets følelsesmæssige rytme. Stemmen er rolig, interaktionen tålmodig, og der er plads til langsom kommunikation, gentagne spørgsmål og behovet for at være stille alene.",
+      "Flere børn gik for første gang selv hen til en intelligent ledsager, fulgte historien sammen med Chio Chio og delte forsigtigt deres tanker. Børn, der først var tilbageholdende, fandt gradvist ro i den venlige dialog og fordybede sig i bogens verden.",
+      "Frivillige og forældre bemærkede, at få værktøjer følger sensitive børns indre tempo på denne måde: uden hastværk eller pres, men med stille nærvær og plads til små følelser.",
+      "Tanken bag Chio Chio. Produktet arbejder med følelsesmæssigt nærvær for børn og har særlig opmærksomhed på børn, der er meget følsomme, har autisme eller er indadvendte.",
+      "Disse børn har ikke først og fremmest brug for komplicerede funktioner, men for en stabil og empatisk lytter. AI-bogformatet kombinerer historier med følelsesmæssig støtte, så barnet kan øve udtryk og finde ro i en afslappet atmosfære. Det er samtidig tænkt som et supplement, der kan lette noget af forældrenes daglige opgave.",
+      "Deltagelsen i det første almennyttige Chasing Stars AI-bogevent var en konkret anvendelse af teknologi med socialt formål. Målet er at mindske afstand gennem teknologi og give hvert barn, der oplever verden på sin egen måde, en ven, som vil lytte.",
+      "Fremadrettet. Det første event i Hangzhou er slut, men nærværet fortsætter.",
+      "Chio Chio vil samarbejde med Chasing Stars-events i flere byer og møde flere børn og familier.",
+      "Samtidig videreudvikles den følelsesmæssige tilpasning, så løsningen passer bedre til hverdagen i familier med sensitive børn eller børn med særlige støttebehov.",
+      "Vi håber, at hvert barns særlige måde at være på bliver mødt med respekt og venlighed.",
+      "Familier med børn, der er meget sensitive, indadvendte eller har svært ved at udtrykke følelser, kan følge kommende almennyttige aktiviteter via den officielle WeChat-konto.",
+      "[[media:2]]"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_JA, {
   "2026071505": {
     title: "WAIC 2026上海で会いましょう——Chio Chioが世界人工知能大会に登場",
     summary: "柔らかなぬいぐるみの姿とAIによる対話を備えたChio Chioが、WAIC 2026上海会場で来場者を迎えます。",
