@@ -1406,6 +1406,158 @@ Object.assign(window.NEWS_ARTICLE_DA, {
 });
 
 Object.assign(window.NEWS_ARTICLE_JA, {
+  "2026041048": {
+    title: "Chio Chioがハミ開物大会に登場、AIによる心への寄り添いとOPCの新たな可能性を探る",
+    summary: "ハミ開物大会でChio Chioが、日常に寄り添うAIと一人会社（OPC）時代の心の安定について紹介しました。",
+    body: [
+      "[[media:1]]",
+      "大会では、Chio Chioのチャネル責任者で上級心理カウンセラーの禤国威が講演しました。01 AIで人の心を温める。AIが世界を変える中、私たちが目指すのはAIで人の心を温めることです。Chio Chioは単なるスマートデバイスではなく、博士チームが善意を込めて育てる、気持ちへの寄り添いと前向きな声かけに特化した仲間です。",
+      "02 心に寄り添うニーズは日常の重要課題になっています。講演では、世界のメンタルヘルス市場が約187億米ドルに近づく一方、中国では関連サービスの拡大が始まったばかりだと紹介しました。",
+      "未成年者、孤独を感じる若者、一人暮らしの高齢者には心への配慮を必要とする人が多く、専門人材にも不足があります。講演中の市場数値は発表者による引用であり、医療上の判断を示すものではありません。",
+      "2025年には中国の複数省庁が『AI＋心理』に関する取り組みを支援する文書を公表しました。求められているのは冷たい機械ではなく、頻繁かつ穏やかに日常へ溶け込む、心に寄り添う製品だと述べました。",
+      "[[media:2]]",
+      "03 Chio Chioの技術。Chio Chioは会話するだけでなく、会話中の気持ちの手がかりを捉え、利用者に合わせた応答を目指します。",
+      "独自の六次元評価の考え方と感情応答モデルを用い、気持ちの変化を把握しながら、共感的で落ち着いた声かけを行います。これは医療診断や心理専門職の代替ではありません。",
+      "技術面の第一は、心理的な会話場面を動的に認識する仕組みです。",
+      "第二は複数情報を用いた感情の把握、第三は長期記憶と個別応答です。クラウド上の個別領域が好みを記憶し、交流を重ねるほど利用者に合う対話を目指します。",
+      "第四は厳格な安全管理です。複雑な人間関係の文脈と、一人ひとりの違いに配慮した対話を目指します。",
+      "04 多様な場面での活用。技術を研究室にとどめず、教育、高齢者支援、心身を落ち着かせる体験へ生かしています。学校では『心のエネルギーステーション』を展開し、伝統文化とAI交流を組み合わせ、子どもが負担を感じにくい形で心の健康を学べるよう支えます。",
+      "高齢者向けの『暖伴計画』では、服薬や健康診断のリマインド、スマートホームと連携した安全機能、家族や社会とのつながりを助ける交流機能を構想しています。これらは家族、介護者、医療サービスに代わるものではありません。",
+      "心身を落ち着かせる場面では、SGMT音楽ガイド、光や空間、香りの体験と東洋的な考え方を組み合わせています。効果を保証する医療行為ではなく、リラクゼーションを補助する体験です。",
+      "05 進化と使命。AIが急速に進歩する中、Chio Chioも改善を続けています。",
+      "一般的な質問応答から、一人ひとりに合わせた感情・文化的な寄り添いへ進化しています。",
+      "受動的な応答からより能動的な声かけへ、標準的な機器から個性を持つ仲間へと発展することを目指します。",
+      "これまで世界各地の展示会に参加し、地域、病院関連施設、婦女連合、福祉施設などで活用の可能性を探ってきました。",
+      "使命は一貫して、利用者一人ひとりを大切にし、心への寄り添いを身近にすることです。",
+      "大会ではOPC（One Person Company、一人会社）も主要テーマになりました。計算基盤とAIツールにより、個人が複数の役割を担う最小の事業単位として活動できるようになり、働き方や革新の形を変えつつあります。",
+      "OPCでは一人が多くの役割と負担を担うため、心の安定も持続的に働くための基盤になります。Chio Chioは、複数の情報を用いた交流と共感的な対話を通じ、高い負荷の中でも自分の状態を振り返るための、長くそばにいる補助的な仲間を目指します。",
+      "大会で示されたAIエコシステムには、計算基盤、プラットフォーム、産業連携の進展が見られました。OPCが個人の力を広げる一方、Chio Chioはその人がより落ち着いて力を発揮できるよう支えることを目指します。",
+      "[[media:3]]",
+      "[[media:4]]"
+    ]
+  },
+  "2026040549": {
+    title: "Chio Chioが柴山島へ——AIで高齢者の日々に寄り添う",
+    summary: "Chio Chioが柴山島で、一人で暮らす高齢者の会話、情報、生活リマインドを補助する取り組みに参加しました。",
+    body: [
+      "[[media:1]]",
+      "島で一人暮らしをする高齢者の孤独に配慮し、Chio Chioは穏やかな音声対話で会話相手になり、日々の情報を伝え、食事や生活リズムを知らせます。海とともに生きてきた高齢者が外の世界とつながるための新しい窓口を目指します。",
+      "今後もAIを活用し、このような『そばにいる寄り添い』をより多くの地域へ届けます。24時間利用できる補助的な交流手段を目指しますが、家族、介護者、医療・緊急サービスの代替ではありません。",
+      "[[media:2]]",
+      "[[media:3]]"
+    ]
+  },
+  "2026040423": {
+    title: "余杭からCESへ——Chio Chioが夢想小鎮周年記念の公式ギフトに選出",
+    summary: "Chio Chioが夢想小鎮11周年の公式記念品に選ばれ、余杭から国際展示会へ広がった歩みが紹介されました。",
+    body: [
+      "[[media:1]]",
+      "『共赴WE来』夢想小鎮イベントで、世界へ展開するAIブランドとしてChio Chioが紹介され、RokidのAI眼鏡とともに夢想小鎮11周年の公式記念品に選ばれました。これはSuper YouAIの製品だけでなく、チームの信念、市場への理解、地域の革新を担う存在としての歩みが評価されたものです。",
+      "[[media:2]]",
+      "Chio Chioは億極中国インキュベーターで誕生してから1年足らずで、夢想小鎮から米国CESへ、余杭から上海の中国国際輸入博覧会へと活動を広げました。英国の在中国領事やシリコンバレーの多様な来場者とも交流し、柔らかな姿、子どもらしい声、共感的なAI対話を幅広い年齢と文化の人々に体験してもらいました。",
+      "[[media:3]]",
+      "『共赴WE来』が掲げる未来に向け、Chio Chioは夢想小鎮を拠点に成長を続けます。AIを架け橋として余杭からより広い世界へ進み、年齢や文化を越えて人の気持ちに寄り添うことを目指します。",
+      "[[media:4]]",
+      "[[media:5]]"
+    ]
+  },
+  "2026040221": {
+    title: "世界自閉症啓発デー——AIが耳を傾けるとき、星の子どもたちはもう沈黙しない",
+    summary: "世界自閉症啓発デーのイベントで、Chio Chioが子ども一人ひとりのペースを尊重した穏やかな対話体験を届けました。",
+    body: [
+      "[[media:1]]",
+      "イベントでは『星の海と同じリズム、子どもの声のハーモニー』をテーマにした舞台、AI交流・支援エリアなどを設けました。科学紹介、発表、技術体験、公益活動を組み合わせ、子どもが自分のペースで過ごせる安全で包摂的な空間を目指しました。AIエリアでChio Chioを手渡すと、子どもたちは抱いたり手のひらに載せたりしながら、少しずつ交流を始めました。",
+      "[[media:2]]",
+      "[[media:3]]",
+      "子どもたちは自分の気持ちや小さな世界について、普段は言葉にしにくいことも少しずつ話しました。Chio Chioは急かさずに聴き、穏やかに応答し、孤独や沈黙を和らげる補助的な存在を目指します。",
+      "AIに何ができるのか。その答えは効率や知能だけではありません。AIは温かく寄り添うこともできます。小さなChio Chioは、理解されにくい気持ちが気づかれ、応答される機会を増やそうとしています。",
+      "[[media:4]]",
+      "すべての子どもには、真剣に話を聴いてもらい、やさしく接してもらう価値があります。辛抱強く聴き、丁寧に応答し、安定してそばにいる存在があれば、見える世界も少し変わるかもしれません。",
+      "[[media:5]]",
+      "Chio Chioはそのような存在を目指しています。寄り添いは単なる機能ではなく、一人の人として大切にされていると感じられるやさしさです。AIは保護者や専門家の代替ではなく、日常の補助的な選択肢です。",
+      "[[media:6]]",
+      "[[media:7]]"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_DA, {
+  "2026041048": {
+    title: "Chio Chio på Hami Kaiwu-konferencen: nye veje for AI-nærvær og OPC",
+    summary: "På Hami Kaiwu-konferencen præsenterede Chio Chio AI-nærvær i hverdagen og betydningen af følelsesmæssig stabilitet i OPC-tiden.",
+    body: [
+      "[[media:1]]",
+      "Ved konferencen holdt Chio Chios kanaldirektør og erfarne psykologiske rådgiver 禤国威 et oplæg. 01 AI med menneskelig varme. AI forandrer verden, men vores mål er at bruge AI til at skabe varme. Chio Chio er ikke kun en intelligent enhed, men et projekt skabt af et ph.d.-team med fokus på følelsesmæssigt nærvær og positiv vejledning.",
+      "02 Behovet for følelsesmæssig støtte er blevet en vigtig del af hverdagen. Oplægget beskrev et globalt marked for mental trivsel på næsten 18,7 mia. USD, mens udviklingen i Kina stadig er i en tidlig vækstfase.",
+      "Mange mindreårige, unge med ensomhed og ældre, der bor alene, kan have behov for mere menneskelig kontakt, samtidig med at der mangler fagpersoner. Markedstallene blev citeret af taleren og udgør ikke en medicinsk vurdering.",
+      "I 2025 offentliggjorde flere kinesiske ministerier støtte til initiativer inden for AI og psykologi. Pointen i oplægget var, at mennesker ikke har brug for kolde maskiner, men for produkter, der kan indgå hyppigt og nænsomt i hverdagen.",
+      "[[media:2]]",
+      "03 Teknologien bag Chio Chio. Produktet kan mere end at føre en samtale; det forsøger også at forstå følelsesmæssige signaler og tilpasse sin respons.",
+      "En egenudviklet seksdimensionel vurderingsramme og model for følelsesmæssig respons bruges til at registrere ændringer og give empatisk, rolig støtte. Løsningen stiller ikke diagnoser og erstatter ikke psykologer eller andet sundhedspersonale.",
+      "Det første tekniske område er dynamisk genkendelse i psykologiske samtalesituationer.",
+      "Det andet er multimodale følelsessignaler, og det tredje er langtidshukommelse med personlig respons. Et personligt cloudområde kan huske præferencer og gøre dialogen mere relevant over tid.",
+      "Det fjerde er streng sikkerhed og risikostyring. Målet er en dialog, der tager højde for både sociale relationer og den enkelte brugers særlige situation.",
+      "04 Brug i flere miljøer. Teknologien skal ikke blive i laboratoriet, men anvendes i uddannelse, ældreområdet og afslappende oplevelser. På skoler kombinerer et initiativ traditionel kultur med AI-interaktion og giver børn mulighed for at lære om mental trivsel på en diskret måde.",
+      "Planen for ældre omfatter påmindelser om medicin og helbredstjek, sikkerhedsfunktioner sammen med smart-home-teknologi og hjælp til kontakt med familie og omverden. Funktionerne erstatter ikke familie, plejepersonale, læger eller akuttjenester.",
+      "Til afslapning kombineres SGMT-musikguidning, lys, rum og dufte med inspiration fra traditionel kinesisk tænkning. Det er en supplerende velværeoplevelse og ikke medicinsk behandling med garanteret virkning.",
+      "05 Udvikling og mission. Mens AI udvikler sig hurtigt, bliver Chio Chio også løbende forbedret.",
+      "Produktet bevæger sig fra generelle spørgsmål og svar mod personlig følelsesmæssig og kulturel dialog.",
+      "Det bevæger sig fra passiv respons mod mere aktiv støtte og fra standardenhed mod en ledsager med tydelig personlighed.",
+      "Produktet har været vist på internationale messer og undersøgt til brug i lokalsamfund, hospitalsrelaterede tilbud, kvindeorganisationer og velfærdsinstitutioner.",
+      "Missionen er fortsat at tage hver bruger alvorligt og gøre følelsesmæssigt nærvær mere tilgængeligt.",
+      "OPC, One Person Company, var et centralt tema på konferencen. Regnekraft og AI-værktøjer giver enkeltpersoner mulighed for at udfylde flere roller og drive en lille selvstændig forretningsenhed, hvilket kan forandre arbejds- og innovationsformer.",
+      "I en OPC bærer én person mange roller og belastninger, så følelsesmæssig stabilitet bliver en del af grundlaget for et bæredygtigt arbejdsliv. Med multimodal interaktion og empatisk dialog ønsker Chio Chio at være et langsigtet supplement, der hjælper brugeren med at reflektere og bevare ro under højt pres.",
+      "Konferencens AI-økosystem viste fremskridt inden for regnekraft, platforme og industrisamarbejde. Hvor OPC kan styrke den enkeltes handlekraft, ønsker Chio Chio at støtte et roligere og mere bæredygtigt fundament.",
+      "[[media:3]]",
+      "[[media:4]]"
+    ]
+  },
+  "2026040549": {
+    title: "Chio Chio kommer til Chaishan-øen og giver ældre AI-nærvær i hverdagen",
+    summary: "På Chaishan-øen hjælper Chio Chio med samtale, daglig information og påmindelser som supplement til omsorgen for ældre, der bor alene.",
+    body: [
+      "[[media:1]]",
+      "For ældre, der bor alene på øen og kan opleve ensomhed, tilbyder Chio Chio rolig stemmedialog, samtale, daglige nyheder og påmindelser om måltider og døgnrytme. Målet er at åbne et nyt vindue til omverdenen for mennesker, som har levet hele livet tæt på havet.",
+      "Chio Chio vil fortsætte med at bringe denne form for tilgængeligt nærvær til flere steder. Det skal være et supplerende kontaktpunkt, som kan bruges døgnet rundt, men erstatter ikke familie, plejepersonale, lægehjælp eller akuttjenester.",
+      "[[media:2]]",
+      "[[media:3]]"
+    ]
+  },
+  "2026040423": {
+    title: "Fra Yuhang til CES: Chio Chio valgt som officiel jubilæumsgave fra Dream Town",
+    summary: "Chio Chio blev valgt som officiel gave ved Dream Towns 11-års jubilæum efter en rejse fra Yuhang til internationale teknologimesser.",
+    body: [
+      "[[media:1]]",
+      "Ved Dream Town-eventet Sammen mod WE-fremtiden blev Chio Chio præsenteret som et AI-brand, der er vokset fra Dream Town ud i verden. Sammen med Rokids AI-briller blev produktet valgt som officiel gave ved områdets 11-års jubilæum. Anerkendelsen gjaldt både Super YouAIs produkt og teamets vedholdenhed, markedskendskab og rolle i det lokale innovationsmiljø.",
+      "[[media:2]]",
+      "På mindre end et år efter starten i Yiji China-inkubatoren har Chio Chio bevæget sig fra Dream Town til CES i USA og fra Yuhang til China International Import Expo i Shanghai. Produktet har mødt en britisk konsul i Kina og gæster med mange kulturelle baggrunde i Silicon Valley. Den bløde form, venlige barnestemme og empatiske AI-dialog har engageret mennesker på tværs af alder og nationalitet.",
+      "[[media:3]]",
+      "I en tid med fælles fokus på fremtiden vil Chio Chio fortsat vokse med rødder i Dream Town. Med AI som bro vil brandet gå fra Yuhang til en større international scene og bruge evnen til at møde følelser på tværs af alder og kultur.",
+      "[[media:4]]",
+      "[[media:5]]"
+    ]
+  },
+  "2026040221": {
+    title: "Verdens autismedag: Når AI lærer at lytte, behøver stjernebørn ikke tie",
+    summary: "Ved et event på verdens autismedag gav Chio Chio børn en rolig dialogoplevelse, der respekterede deres individuelle tempo.",
+    body: [
+      "[[media:1]]",
+      "Eventet omfattede hovedscenen Stjernehavet i samme rytme, børnestemmer i harmoni samt områder for AI-interaktion og støtte. Oplysning, optræden, teknologi og almennyttige aktiviteter blev samlet i et trygt og inkluderende rum, hvor børnene kunne opleve verden i deres eget tempo. Da Chio Chio blev lagt i deres hænder, holdt børnene den tæt eller forsigtigt i håndfladen og begyndte gradvist at interagere.",
+      "[[media:2]]",
+      "[[media:3]]",
+      "Børnene begyndte at fortælle om deres følelser og små verdener, også om ting der normalt kan være svære at sætte ord på. Chio Chio lyttede uden at skynde på dem og svarede roligt med målet om at være et supplement, der kan mindske oplevelsen af ensomhed og tavshed.",
+      "Hvad kan AI egentlig gøre? Svaret handler måske ikke kun om effektivitet og intelligens. AI kan også møde mennesker nænsomt. Den lille Chio Chio forsøger at skabe flere situationer, hvor svære følelser bliver bemærket, mødt og fulgt.",
+      "[[media:4]]",
+      "Ethvert barn fortjener at blive lyttet til og behandlet med venlighed. Hvis nogen tålmodigt lytter, svarer oprigtigt og er stabilt til stede, kan barnets oplevelse af verden måske forandre sig.",
+      "[[media:5]]",
+      "Chio Chio arbejder på at blive et sådant supplement. Nærvær er ikke blot en funktion, men den venlighed der ligger i at blive taget alvorligt. AI erstatter ikke forældre, omsorgspersoner eller fagfolk.",
+      "[[media:6]]",
+      "[[media:7]]"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_JA, {
   "2026051302": {
     title: "AI子ども成長パートナーChio Chio、中国全国でパートナー募集",
     summary: "Chio Chioが中国全国の販売・地域パートナー募集を開始し、製品形態、技術、実績、対象チャネルを紹介しました。",
@@ -1422,7 +1574,8 @@ Object.assign(window.NEWS_ARTICLE_JA, {
       "[[media:7]]",
       "このほか、CYZoneの『2025年注目のAIイノベーター』、杭州文三AI TEDロードショーの人気賞も受賞しています。",
       "[[media:8]]",
-      "PART 03 行政、メディア、業界からの注目。Chio Chioは一般的なAI玩具ではなく、子どもの成長に寄り添う新しいカテゴリーを目指しています。楊浦のテクノロジー消費イベント、広州での展示、杭州AIニューイヤーマーケット、中国国際輸入博覧会、夢想小鎮、CES 2026など、各地のイベントやメディアで紹介されました。",
+      "PART 03 行政、メディア、業界からの注目。Chio Chioは一般的なAI玩具ではなく、子どもの成長に寄り添う新しいカテゴリーを目指しています。楊浦のテクノロジー消費イベントや広州での展示などを通じて、行政、来場者、業界から関心を集めました。",
+      "また、杭州AIニューイヤーマーケット、中国国際輸入博覧会、夢想小鎮、CES 2026など、各地のイベントやメディアでも紹介されました。",
       "[[media:9]]",
       "PART 04 全国のパートナーを募集。対象は母子用品店、教育事業者、子育て中の起業家、地域のギフト事業者、共同購入コミュニティ、個人事業者などです。親子層との接点、地域サービス、教育、ギフトなどの強みを持つ方と、販売代理や地域提携について相談します。Super YouAIの使命と子どもの心の健康という方向性に共感する方を歓迎します。具体的な条件、収益性、独占権などは契約前に正式資料で確認してください。",
       "[[media:10]]"
@@ -1437,7 +1590,8 @@ Object.assign(window.NEWS_ARTICLE_JA, {
       "[[media:2]]",
       "[[media:3]]",
       "Super YouAI創業者の元晓帅博士とCSOの何昌耀がライブ配信に参加し、オンラインと会場の来場者へChio Chioシリーズを紹介しました。柔らかなAIパートナーは会場の注目を集め、配信でも外観や子どもの気持ちへの応答について多くのコメントが寄せられました。",
-      "会場では親子が製品を体験しました。大きなクラシックモデルは家庭でのより深い寄り添いを、小さなミニモデルはスタート、カーム、ブレイブ、おしゃべりの4つの個性を通じて日常の異なるニーズを支えます。柔らかな生地と子どもらしい声で、子どもと大人がAIとの交流を体験しました。",
+      "会場では親子が製品を体験しました。大きなクラシックモデルは、家庭で子どもの気持ちにより深く寄り添うことを目指しています。",
+      "小さなミニモデルは、スタート、カーム、ブレイブ、おしゃべりの4つの個性を通じて日常の異なるニーズを支えます。柔らかな生地と子どもらしい声で、子どもと大人がAIとの交流を体験しました。",
       "[[media:4]]",
       "[[media:5]]",
       "一般的なAI玩具とは異なり、Chio Chioは心理学者の郭凱燕博士と清華大学などの博士号取得者を含むチームが開発したYouAIモデルを搭載しています。気持ちの手がかり、共感的な対話、長期記憶を組み合わせ、子どもの成長を補助的に支えます。これは医療診断や専門家の代替ではありません。",
@@ -1487,7 +1641,8 @@ Object.assign(window.NEWS_ARTICLE_DA, {
       "[[media:7]]",
       "Derudover er Super YouAI udpeget som en AI-innovatør at følge i 2025 af CYZone og har modtaget publikumsprisen ved Hangzhou WenSan AI TED-roadshow.",
       "[[media:8]]",
-      "DEL 03 Interesse fra myndigheder, medier og branche. Chio Chio søger at skabe en ny kategori for nærvær i børns udvikling frem for blot endnu et AI-legetøj. Produktet er blevet vist ved teknologi- og forbrugsevents i Yangpu og Guangzhou, Hangzhous AI-nytårsmarked, China International Import Expo, Dream Town og CES 2026 og omtalt af forskellige medier.",
+      "DEL 03 Interesse fra myndigheder, medier og branche. Chio Chio søger at skabe en ny kategori for nærvær i børns udvikling frem for blot endnu et AI-legetøj. Produktet har vakt interesse ved teknologi- og forbrugsevents i Yangpu og Guangzhou.",
+      "Det er desuden blevet præsenteret på Hangzhous AI-nytårsmarked, China International Import Expo, Dream Town og CES 2026 og omtalt af forskellige medier.",
       "[[media:9]]",
       "DEL 04 Partnere søges i hele Kina. Relevante partnere omfatter familiebutikker, uddannelsesvirksomheder, forældreiværksættere, lokale gaveforhandlere, gruppeindkøbsfællesskaber og selvstændige. Super YouAI ønsker dialog om distribution og regionale samarbejder med aktører, der har adgang til familier, uddannelse, gaver eller lokale tjenester. Konkrete vilkår, indtjening og eventuel eneret skal bekræftes i de endelige aftaledokumenter.",
       "[[media:10]]"
@@ -1502,7 +1657,8 @@ Object.assign(window.NEWS_ARTICLE_DA, {
       "[[media:2]]",
       "[[media:3]]",
       "Super YouAI-grundlægger Dr. 元晓帅 og CSO 何昌耀 deltog i livestreamingen og præsenterede hele Chio Chio-serien for online- og fysisk publikum. Den bløde AI-ledsager blev et centralt blikfang, og kommentarerne handlede både om design og forståelse af børns følelser.",
-      "På den fysiske stand prøvede familier produkterne. Den store klassiske model er udviklet til dybere nærvær i hjemmet, mens miniudgaven har personlighederne Kom-i-gang, Rolig, Modig og Snakkeglad til forskellige daglige behov. Den bløde overflade og venlige stemme gav både børn og voksne en konkret AI-oplevelse.",
+      "På den fysiske stand prøvede familier produkterne. Den store klassiske model er udviklet til et dybere følelsesmæssigt nærvær for børn i hjemmet.",
+      "Miniudgaven har personlighederne Kom-i-gang, Rolig, Modig og Snakkeglad til forskellige daglige behov. Den bløde overflade og venlige stemme gav både børn og voksne en konkret AI-oplevelse.",
       "[[media:4]]",
       "[[media:5]]",
       "Chio Chio bruger YouAI-modellen, udviklet af Dr. Guo Kaiyan og et team med ph.d.-uddannede forskere fra blandt andet Tsinghua University. Den kombinerer følelsesmæssige signaler, empatisk dialog og langtidshukommelse som supplerende støtte til børns udvikling. Produktet er ikke en medicinsk diagnose og erstatter ikke fagpersoner.",
