@@ -1406,6 +1406,124 @@ Object.assign(window.NEWS_ARTICLE_DA, {
 });
 
 Object.assign(window.NEWS_ARTICLE_JA, {
+  "2025111103": {
+    title: "心に寄り添うAI Chio Chioが第8回中国国際輸入博覧会に出展、国内外の来賓が体験",
+    summary: "第8回中国国際輸入博覧会で、国内外の来賓がChio Chioの英語対話を体験し、チームは量産前の意見を収集しました。",
+    body: [
+      "元晓帅博士は英国の対中貿易副使節Sohail Shaikh氏にChio Chioの英語対話を紹介しました。11月7日には上海市嘉定区江橋鎮の甘永康党委書記、方鍵鎮長らがブースを訪れ、AI技術の具体的な応用について説明を受けました。",
+      "創業者の元晓帅博士と心理学者の郭凱燕博士は、機能と研究開発上の工夫を紹介しました。心の悩みを抱える人に日常的な対話の選択肢を届け、社会全体の幸福感を補助したいというチームの考えに、来賓から励ましが寄せられました。",
+      "[[media:1]]",
+      "甘永康党委書記が展示を視察し、元晓帅博士と郭凱燕博士が説明しました。博覧会期間中には公式出展機関のEGO Internationalが『2025国際科学技術革新協力発展大会』を開催し、元晓帅博士がChio Chioプロジェクトを代表して国際インキュベーションプラットフォームとの協力文書に署名し、プロジェクトを発表しました。",
+      "[[media:2]]",
+      "2025国際科学技術革新協力発展大会で、元晓帅博士がChio Chioプロジェクトを代表して署名しました。",
+      "[[media:3]]",
+      "[[media:4]]",
+      "同大会で元晓帅博士がプロジェクトを発表しました。今回の輸入博覧会はChio Chioにとって2回目の大型展示会でした。8月27〜29日のIOTE深圳国際IoT展で初公開され、会場とライブ配信の双方で来場者と交流しました。",
+      "IOTEでは主要機能を試せるプレビュー版を展示しました。今回の版では直近2か月で細部の体験を改善し、量産へさらに近づいたとチームは説明しました。",
+      "元晓帅博士は、正式発売前の重要な試験として、国内外の来場者や協力候補から直接意見を集めていると述べました。限定的なチャネル予約販売と公開テスト予約も始め、より実際的な市場情報を製品改善に生かします。市場に関する発言はチームの見解であり、成果を保証するものではありません。"
+    ]
+  },
+  "2025111041": {
+    title: "Super YouAI、周大侠、EGO ChinaがAIスマート製品交易会を共同開催、元晓帅博士が講演",
+    summary: "AIスマート製品交易会で、元晓帅博士が細分化された実需と長期的な製品価値を重視するChio Chioの方針を紹介しました。",
+    body: [
+      "[[media:1]]",
+      "Super YouAI創業者の元晓帅博士は『専門分野を深め、長期的価値を貫く』をテーマに講演し、心に寄り添うAI Chio Chioの製品思想と目標を紹介しました。",
+      "参加者からは、流行だけを追わず、実際のニーズに焦点を当てて専門分野を深めるチームの長期的な姿勢に共感したという声がありました。",
+      "都市で暮らす若者や中年層が感じる『感情の孤島』という課題が自分の日常にも重なるとして、発売後の購入に関心を示す来場者もいました。",
+      "元博士は『時間はごまかせず、製品に積み重ねと心配りがあるかを利用者は感じ取る』と締めくくりました。Super YouAIは利用者を中心に据えた開発と長期的な価値を重視し、Chio Chioを温かく賢い日常のパートナーに育てます。AIは専門的な心理支援の代替ではありません。",
+      "[[media:2]]"
+    ]
+  },
+  "2025110733": {
+    title: "英国の対中貿易副使節Sohail Shaikh氏、『誰にでもChio Chioが必要』",
+    summary: "Sohail Shaikh氏が輸入博覧会でChio Chioの柔らかな外観と英語による自己紹介を体験しました。",
+    body: [
+      "[[media:1]]",
+      "元晓帅博士は、当初の主な利用者層に向けて研究開発を進めたものの、調査では青少年を含む幅広い年齢層がChio Chioを好むことが分かったと説明しました。対話機能は全年齢の利用者が交流できるよう設計され、人に共通する心への寄り添いを目指しています。",
+      "説明を聞いたSohail Shaikh氏はChio Chioを手に取り、柔らかな手触りを確かめ、英語を話せるか尋ねました。",
+      "元博士が『BoBo, could you introduce yourself in English?』と話しかけました。",
+      "Chio Chioが『Sure! My name is Super BoBo...』と子どもらしい声で自己紹介し、つらい気持ちを和らげる手助けをすると説明すると、Shaikh氏は笑顔で『Everyone needs Bobo!』と述べました。",
+      "[[media:2]]",
+      "英国の対中貿易副使節Sohail Shaikh氏、EGO China総裁の陸城寬氏、Chio Chioの輸入博覧会チームが記念撮影しました。",
+      "[[media:3]]"
+    ]
+  },
+  "2025110440": {
+    title: "Super YouAI、周大侠、EGO ChinaがAIスマート製品交易会を開催——11月8日に杭州で",
+    summary: "杭州のAIスマート製品交易会で、最新ハードウェアの体験展示と元晓帅博士によるChio Chioの講演が予定されました。",
+    body: [
+      "[[media:1]]",
+      "杭州会場の『熱力象限』は『計算力がAIエコシステムを支え、知能が産業の未来を再構築する』をテーマに、スマートトイ、AIハードウェア、ウェアラブルなど数十の新製品を展示します。来場者は製品を試し、出展企業と交流できます。",
+      "AI起業家、技術専門家、コンテンツ発信者も登壇し、AIの技術動向、情報発信、産業での活用事例を共有します。",
+      "Super YouAI創業者の元晓帅博士は『専門分野を深め、長期的価値を貫く』をテーマに、心に寄り添うAI Chio Chioの製品思想と目標を紹介します。",
+      "AIスマートハードウェア産業に関心のある皆さまの来場を歓迎します。",
+      "日時：2025年11月8日 9:00〜18:00。会場：浙江省杭州市余杭区倉前街道・夢想小鎮インターネット村19号棟、第1会議ホール。",
+      "[[media:2]]"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_DA, {
+  "2025111103": {
+    title: "Chio Chio på den 8. China International Import Expo, prøvet af kinesiske og internationale gæster",
+    summary: "Ved CIIE prøvede gæster Chio Chios engelske dialog, mens teamet indsamlede feedback før serieproduktion.",
+    body: [
+      "Dr. 元晓帅 viste Chio Chios engelske dialog til Storbritanniens vicehandelsudsending i Kina, Sohail Shaikh. Den 7. november besøgte partisekretær Gan Yongkang og distriktschef Fang Jian fra Jiangqiao i Shanghai standen for at høre om konkrete anvendelser af AI.",
+      "Grundlægger Dr. 元晓帅 og psykolog Dr. Guo Kaiyan præsenterede funktionerne og udviklingsarbejdet. Gæsterne udtrykte støtte til teamets mål om at give flere mennesker en daglig samtalemulighed ved følelsesmæssige udfordringer og dermed supplere arbejdet for større trivsel.",
+      "[[media:1]]",
+      "Gan Yongkang besøgte standen, hvor Dr. 元晓帅 og Dr. Guo Kaiyan præsenterede produktet. Under messen afholdt den officielle udstillingspartner EGO International også konferencen International Science and Technology Innovation Cooperation Development 2025. Her underskrev Dr. 元晓帅 på vegne af Chio Chio et samarbejdsdokument med en international innovationsplatform og præsenterede projektet.",
+      "[[media:2]]",
+      "Ved konferencen underskrev Dr. 元晓帅 på vegne af Chio Chio-projektet.",
+      "[[media:3]]",
+      "[[media:4]]",
+      "Dr. 元晓帅 præsenterede projektet ved konferencen. CIIE var Chio Chios anden store udstilling. Produktet blev første gang vist offentligt på IOTE Shenzhen International IoT Exhibition den 27.-29. august og mødte gæster både fysisk og via livestream.",
+      "På IOTE viste teamet en previewversion med de vigtigste funktioner. Til CIIE var detaljerne blevet forbedret gennem to måneder, og versionen var kommet tættere på serieproduktion.",
+      "Dr. 元晓帅 beskrev messen som en vigtig test før den officielle lancering. Dialog med kinesiske og internationale gæster og mulige partnere giver direkte brugerfeedback. En begrænset kanal- og offentlig testforudbestilling blev også åbnet for at indsamle mere realistiske markedsdata. Udsagn om markedet er teamets vurdering og ikke en garanti for resultater."
+    ]
+  },
+  "2025111041": {
+    title: "Super YouAI, Zhou Daxia og EGO China afholder messe for intelligente AI-produkter med oplæg af Dr. 元晓帅",
+    summary: "Ved AI-produktmessen fortalte Dr. 元晓帅 om Chio Chios fokus på konkrete behov, et specialiseret område og langsigtet produktværdi.",
+    body: [
+      "[[media:1]]",
+      "Super YouAI-grundlægger Dr. 元晓帅 holdt oplægget Fordybelse i et specialområde og fastholdelse af langsigtet værdi og præsenterede produktideen og målene bag Chio Chio.",
+      "En deltager fremhævede teamets langsigtede fokus på konkrete behov og et afgrænset område frem for blot at følge den seneste trend.",
+      "En anden gæst genkendte beskrivelsen af den følelsesmæssige isolation, som unge og midaldrende i storbyer kan opleve, og viste interesse for at købe Chio Chio efter lanceringen.",
+      "Dr. 元晓帅 afsluttede med, at tiden viser, om et produkt er gennemtænkt, og at brugerne kan mærke det. Super YouAI vil fortsætte en brugercentreret og langsigtet udvikling og gøre Chio Chio til en varm og intelligent ledsager i hverdagen. AI erstatter ikke professionel psykologisk støtte.",
+      "[[media:2]]"
+    ]
+  },
+  "2025110733": {
+    title: "Storbritanniens vicehandelsudsending Sohail Shaikh: Alle har brug for en Chio Chio",
+    summary: "Sohail Shaikh prøvede Chio Chios bløde form og engelske præsentation på China International Import Expo.",
+    body: [
+      "[[media:1]]",
+      "Dr. 元晓帅 forklarede, at produktet oprindeligt blev udviklet til en bestemt hovedmålgruppe, men at undersøgelser viste stor interesse blandt blandt andet unge. Dialogen er udformet, så mennesker i forskellige aldre kan bruge den, med udgangspunkt i fælles menneskelige behov for følelsesmæssigt nærvær.",
+      "Efter introduktionen tog Sohail Shaikh nysgerrigt Chio Chio op, mærkede den bløde overflade og spurgte, om den kunne tale engelsk.",
+      "Dr. 元晓帅 sagde: »BoBo, could you introduce yourself in English?«",
+      "Chio Chio begyndte straks med barnlig stemme: »Sure! My name is Super BoBo...« Da den forklarede, at den kan hjælpe mennesker med svære følelser, smilede Shaikh og sagde: »Everyone needs Bobo!«",
+      "[[media:2]]",
+      "Sohail Shaikh, EGO China-præsident Lu Chengkuan og Chio Chio-teamet blev fotograferet sammen på messen.",
+      "[[media:3]]"
+    ]
+  },
+  "2025110440": {
+    title: "Super YouAI, Zhou Daxia og EGO China afholder AI-produktmesse i Hangzhou den 8. november",
+    summary: "Messen i Hangzhou samlede oplevelser med ny AI-hardware og et planlagt oplæg af Dr. 元晓帅 om Chio Chio.",
+    body: [
+      "[[media:1]]",
+      "Hangzhou-udgaven af Heat Quadrant havde temaet Regnekraft forankrer AI-økosystemet, intelligens omformer industriens fremtid. Snesevis af nye produkter inden for intelligent legetøj, AI-hardware og wearables skulle vises, så gæsterne kunne prøve dem og tale med virksomhederne.",
+      "AI-iværksættere, tekniske eksperter og indholdsskabere var inviteret til at dele teknologiske tendenser, erfaringer med formidling og praktiske brancheeksempler.",
+      "Super YouAI-grundlægger Dr. 元晓帅 skulle holde oplægget Fordybelse i et specialområde og fastholdelse af langsigtet værdi om produktideen og målene bag Chio Chio.",
+      "Alle med interesse for intelligent AI-hardware var inviteret til messen.",
+      "Tid: 8. november 2025 kl. 9.00-18.00. Sted: Konferencesal 1, bygning 19, Internet Village, Dream Town, Cangqian, Yuhang, Hangzhou, Zhejiang.",
+      "[[media:2]]"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_JA, {
   "2025113039": {
     title: "Super YouAIが『芯生万象』エコシステム大会に参加、AIoTによる心の健康支援を紹介",
     summary: "元晓帅博士がChio Chioを例に、AIとIoTを組み合わせた日常的な心の健康支援の可能性を紹介しました。",
