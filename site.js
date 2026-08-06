@@ -124,6 +124,20 @@
     "元晓帅博士": "元暁帥 博士",
     "渠道合作二维码": "販売提携用QRコード",
     "何昌耀": "何昌耀"
+    ,"产品 | 超级球球": "製品 | Chio Chio"
+    ,"孩子愿意说，": "子どもが話したくなる、"
+    ,"父母看得见": "保護者にも心が見える"
+    ,"超级球球用 AI 情绪陪伴，帮助孩子表达情绪、疏导压力、养成好性格。": "Chio Chioは心に寄り添うAIで、子どもの感情表現、ストレスへの対処、健やかな心の成長を支えます。"
+    ,"不是多一个屏幕，是一个愿意听孩子说话的伙伴": "画面を増やすのではなく、子どもの話を聴く仲間を"
+    ,"超级球球把“倾听、共情、正向引导、正向强化”放进柔软可抱的陪伴机器人里。孩子愿意靠近，父母也更容易看见真实的情绪变化。": "Chio Chioは、傾聴、共感、前向きな導きと励ましを、柔らかく抱きしめられるロボットに込めました。子どもが自然に近づき、保護者も心の変化に気づきやすくなります。"
+    ,"孩子愿意亲近": "子どもが親しめる"
+    ,"柔软、有眼神、可拥抱。": "柔らかく、目を合わせ、抱きしめられます。"
+    ,"父母更易理解": "保護者が理解しやすい"
+    ,"互动沉淀为情绪线索。": "日々の交流が心を理解する手がかりになります。"
+    ,"习惯慢慢养成": "良い習慣を少しずつ"
+    ,"四类性格能力日常练习。": "4つの心の力を日常の中で練習します。"
+    ,"陪伴孩子不同场景": "さまざまな場面で子どもに寄り添う"
+    ,"大球球适合家庭里的长期陪伴，小球球适合孩子带出门。一个建立深关系，一个延续安全感。": "大きなChio Chioは家庭で長く寄り添い、小さなChio Chioは外出に最適です。一方は深い関係を育み、もう一方は安心感を外へつなぎます。"
   };
   const TEXT_DA = {
     "首页": "Forside",
@@ -243,6 +257,20 @@
     "元晓帅博士": "Dr. Yuan Xiaoshuai",
     "渠道合作二维码": "QR-kode til distributionssamarbejde",
     "何昌耀": "He Changyao"
+    ,"产品 | 超级球球": "Produkt | Chio Chio"
+    ,"孩子愿意说，": "Barnet får lyst til at tale,"
+    ,"父母看得见": "og forældrene får indsigt"
+    ,"超级球球用 AI 情绪陪伴，帮助孩子表达情绪、疏导压力、养成好性格。": "Chio Chio bruger nærværende AI til at hjælpe børn med at udtrykke følelser, håndtere pres og udvikle stærke personlige egenskaber."
+    ,"不是多一个屏幕，是一个愿意听孩子说话的伙伴": "Ikke endnu en skærm, men en ven, der lytter"
+    ,"超级球球把“倾听、共情、正向引导、正向强化”放进柔软可抱的陪伴机器人里。孩子愿意靠近，父母也更容易看见真实的情绪变化。": "Chio Chio samler lytten, empati, positiv vejledning og opmuntring i en blød robot, der kan krammes. Barnet søger naturligt hen til den, og forældrene får lettere øje på følelsesmæssige forandringer."
+    ,"孩子愿意亲近": "Barnet føler sig trygt"
+    ,"柔软、有眼神、可拥抱。": "Blød, udtryksfuld og lige til at kramme."
+    ,"父母更易理解": "Lettere for forældrene at forstå"
+    ,"互动沉淀为情绪线索。": "Samspillet giver spor om barnets følelser."
+    ,"习惯慢慢养成": "Gode vaner vokser gradvist"
+    ,"四类性格能力日常练习。": "Fire personlige styrker trænes i hverdagen."
+    ,"陪伴孩子不同场景": "Nærvær i forskellige situationer"
+    ,"大球球适合家庭里的长期陪伴，小球球适合孩子带出门。一个建立深关系，一个延续安全感。": "Den store Chio Chio passer til langvarigt nærvær i hjemmet, mens den lille er nem at tage med. Den ene bygger en dyb relation; den anden tager trygheden med ud."
   };
 
   const TEXT_EN = {
