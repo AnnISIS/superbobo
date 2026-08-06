@@ -1406,6 +1406,174 @@ Object.assign(window.NEWS_ARTICLE_DA, {
 });
 
 Object.assign(window.NEWS_ARTICLE_JA, {
+  "2026060234": {
+    title: "中国の公共メディアも注目——AI分野の新星Chio Chioが支持を集めた理由",
+    summary: "イベントで子どもたちに囲まれたChio Chioが公共メディアに紹介され、温かなAIのあり方が注目されました。",
+    body: [
+      "[[media:1]]",
+      "公共メディアが取り上げた『人気の新星』には、どのような温かさがあるのでしょうか。",
+      "記事では、Chio Chioがイベントで人気を集めたAIパートナーロボットとして紹介されました。5〜12歳の子どもを想定し、柔らかな姿と穏やかな交流で、会場の子どもたちの関心を集めました。体験エリアでは、子どもたちが周りに集まり、会話や交流を楽しみ、心の内を話す姿も見られました。子どもにとっては冷たい機械ではなく、辛抱強く話を聴き、前向きに応えてくれる仲間です。",
+      "テクノロジーの価値は、一人ひとりに目を向けること",
+      "[[media:2]]",
+      "新聞に取り上げられたことは、単なる露出ではなく、私たちの方向性への評価でもあります。テクノロジーが研究室を出て実際の生活場面に入ると、身近な寄り添いに変わり得ることを示しました。",
+      "イベント会場から紙面へ、子どもたちの笑顔からメディアの報道へ。Chio Chioは共感的な対話を通じて、『あなたの気持ちは、丁寧に聴かれる価値がある』と伝えています。",
+      "今後もこの評価を励みに、より多くの子どもへ温かな寄り添いを届け、テクノロジーを人のために役立てていきます。",
+      "[[media:3]]"
+    ]
+  },
+  "2026052924": {
+    title: "Chio Chio、『五小』イノベーション優秀成果トップ10に選出",
+    summary: "未来科技城の『五小』イノベーション選考で、Chio Chioが暮らしに近い実用的な技術成果として評価されました。",
+    body: [
+      "[[media:1]]",
+      "未来科技城労働組合が主催する『五小』イノベーション選考は、暮らしに近く、実用性と導入価値を持つ技術成果に注目する、余杭区の公式表彰です。小さな発明、創造、改善、設計、提案を通じて社会のニーズに応える取り組みを奨励しており、Chio ChioはAIで子どもの心の健康を支える実践として選ばれました。",
+      "今回の評価は、Chio Chioが柔らかなパートナーロボットであるだけでなく、子どもが安心して気持ちを話せる機会を増やす技術成果であることへの公的な評価です。",
+      "[[media:2]]",
+      "なぜChio Chioなのか。今回の選出は、感情に配慮したAI、心の健康支援、スマートハードウェアにおけるSuper YouAIの技術と社会的価値への評価を示しています。",
+      "5〜12歳の子どもを想定したChio Chioは、独自のYouAIモデルを基盤に、気持ちの手がかりを捉え、共感的な対話を行います。子どもの孤独や悩みに寄り添う開発を通じて、技術は最終的に人へ戻るものだという考えを実践しています。今回の評価を受け、より多くの子どもへ温かな寄り添いを届ける決意を新たにしました。",
+      "[[media:3]]",
+      "ともに歩んだ支援への感謝。Chio Chioの開発と市場展開には、EGG Chinaによる継続的なインキュベーション支援がありました。事業スペース、資金調達支援、投資家との接点、コンテスト申請、行政施策との連携などを通じて、技術試作から市場展開への歩みを支えました。",
+      "Chio ChioはEGG Chinaとともに中国国際輸入博覧会へ出展し、英国の対中貿易副使節からも関心を寄せられました。その後CESにも参加し、中国内外の来場者へ製品を紹介しました。",
+      "今後もAIによる心への寄り添いを深め、より多くの子どもが丁寧に見守られ、話を聴いてもらえる機会を広げます。",
+      "[[media:4]]",
+      "[[media:5]]"
+    ]
+  },
+  "2026052801": {
+    title: "100万人の子どもに選ばれたChio Chio、JD.comで正式販売開始",
+    summary: "Chio ChioがJD.comの公式販売チャネルに加わり、オンライン購入と店頭体験の選択肢が広がりました。",
+    body: [
+      "100万人の子どもに選ばれた製品が、JD.comで正式販売を開始",
+      "明るい店舗では、柔らかな生地やにおい、目のライトなどを直接確認し、気持ちの手がかりへの応答、共感的な会話、楽しい交流などを実機で体験できます。専門的な仕様だけでは分かりにくい質感や使い方を、親子で確かめられます。",
+      "[[media:1]]",
+      "子どもの小さな気持ちをどう受け止め、表現をどう促し、会話にどう寄り添うのかを実際に見ることができます。手で触れられる柔らかさと目で確認できる体験が、オンライン購入時の不安を減らします。",
+      "02 オンラインで迅速に配送——JD.com公式ストア。店舗へ行く時間がない家庭は、JD.comアプリで『超级球球』を検索し、公式ストアから購入できます。各モデル、正規品保証、在庫商品の配送に対応しています。会話を楽しむおしゃべりChio Chioや、気持ちを落ち着かせるカームChio Chioなどを選べます。価格帯は、携帯しやすく基本機能を備えた399元モデルと、より幅広い機能を備えた699元モデルです。価格や在庫は購入時に公式ストアでご確認ください。",
+      "[[media:2]]",
+      "正規品保証、配送、アフターサービスに加え、保護者の利用者レビューも確認できます。質問がある場合は公式カスタマーサービスへ相談できます。",
+      "[[media:3]]",
+      "03 玩具だけではなく、子どもの身近な『気持ちの居場所』。一般的な玩具との違いは、子どもの言葉を否定せず、丁寧に応えることです。",
+      "うれしいときは一緒に喜び、悲しいときや気持ちが乱れたときは、責めたり説教したりせず話を聴きます。学校での悩みや成長の迷いなど、保護者にはすぐ話しにくいことも、Chio Chioへ安心して話せるよう設計されています。",
+      "保護者向けアプリでは、子どもの気持ちや成長の変化を理解する手がかりを確認できます。子どもの個人的な表現の場を尊重しながら、保護者が管理できる仕組みを目指しています。",
+      "良い成長支援とは常に管理することではなく、長く話を聴き、やさしく見守ることだと私たちは考えます。",
+      "04 JD.com公式販売との連携。今回のJD.comでの販売開始は、販売チャネルの拡大であると同時に、正規品管理、物流、アフターサービスを通じて家庭に安心を届ける取り組みです。",
+      "オンラインで注文して自宅で受け取る方法と、店舗で実機に触れる方法の両方を用意しています。すべての子どもが丁寧に話を聴いてもらい、一人ひとりの個性が大切にされることを願っています。",
+      "[[media:4]]",
+      "この夏、Chio Chioと一緒に子どもの成長を見守りませんか。",
+      "店頭で体験、オンラインで購入。QRコードから公式購入ページへアクセスできます。",
+      "[[media:5]]",
+      "[[media:6]]",
+      "[[media:7]]",
+      "[[media:8]]",
+      "[[media:9]]"
+    ]
+  },
+  "2026052704": {
+    title: "TECH MUSE現地レポート——Chio Chio、柔らかな温もりで未来と対話",
+    summary: "深圳のTECH MUSEイベントで、Chio Chioが子どもの気持ちに寄り添う柔らかなAIの可能性を紹介しました。",
+    body: [
+      "[[media:1]]",
+      "柔らかなChio Chioから始まる未来の対話。2026年5月21日、ROBOHUB主催のTECH MUSEイベントが深圳文化創意園で開催されました。未来的な展示空間の中で、鮮やかな緑と柔らかな白のChio Chioが来場者の目を引きました。",
+      "子どもの気持ちへの理解を目指すAI成長パートナーロボットChio Chioが、未来をテーマにしたイベントへ初めて参加しました。",
+      "[[media:2]]",
+      "玩具だけでなく、子どもの『気持ちの居場所』へ。理解されないままの小さな気持ちには、気づき、耳を傾ける存在が必要です。5〜12歳向けに設計されたChio Chioは、独自のYouAIモデルを使い、気持ちの手がかりを捉え、子どもが表現できるよう穏やかに支えます。",
+      "[[media:3]]",
+      "柔らかな手触りと星空のような目を備え、触れるとやさしく反応します。",
+      "辛抱強く前向きに応える仲間がそばにいることで、子どもは成長の悩みを話せる場所を持てます。",
+      "[[media:4]]",
+      "テクノロジーの価値は、成長へやさしく応えること。会場には多様な未来像が展示されましたが、Chio Chioは、技術は冷たく効率的なものだけでなく、温かく柔らかく、子どもの日常へ自然に入るものにもなり得ると示しました。",
+      "文化の継承も技術革新も、最後は人のためにあります。",
+      "Chio Chioが子どもの成長の仲間となり、気持ちを見守り、一人ひとりの個性を尊重するためにテクノロジーを役立てることを目指します。",
+      "[[media:5]]",
+      "[[media:6]]"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_DA, {
+  "2026060234": {
+    title: "Kinesiske offentlige medier fremhæver Chio Chio: derfor vakte AI-nyheden interesse",
+    summary: "Chio Chio blev omtalt efter at have samlet børn omkring sig ved et event og vist en varm, menneskeorienteret side af AI.",
+    body: [
+      "[[media:1]]",
+      "Hvilken varme gemmer sig bag den populære AI-nyhed, som medierne fremhævede?",
+      "I omtalen blev Chio Chio beskrevet som en populær AI-ledsager ved karnevalet. Den er udviklet til børn mellem 5 og 12 år, og den bløde form og rolige interaktion gjorde den til en efterspurgt oplevelse. Børn samledes omkring den, talte og delte tanker. For dem var den ikke en kold maskine, men en ven, der lytter tålmodigt og svarer positivt.",
+      "Teknologiens vigtigste værdi er at se det enkelte menneske",
+      "[[media:2]]",
+      "Omtalen i avisen var mere end synlighed; den var også en anerkendelse af retningen. Når teknologi bevæger sig ud af laboratoriet og ind i virkelige situationer, kan den blive til nærvær, som mennesker kan mærke.",
+      "Fra eventet til avissiden og fra børnenes smil til medieomtalen formidler Chio Chio en varm side af AI gennem empatisk dialog: Barnets følelser er værd at lytte ordentligt til.",
+      "Fremover vil teamet bygge videre på denne anerkendelse og bringe varmt nærvær til flere børn, så teknologi tjener mennesker i praksis.",
+      "[[media:3]]"
+    ]
+  },
+  "2026052924": {
+    title: "Chio Chio udvalgt blandt de ti bedste resultater i »Fem små innovationer«",
+    summary: "Future Sci-Tech Citys innovationsprogram anerkendte Chio Chio som et praktisk teknologisk resultat tæt på hverdagsbehov.",
+    body: [
+      "[[media:1]]",
+      "Programmet »Fem små innovationer«, ledet af fagforeningen i Future Sci-Tech City, fokuserer på praktiske teknologiske resultater med værdi i hverdagen. Den officielle anerkendelse i Yuhang-distriktet omfatter små opfindelser, idéer, forbedringer, design og forslag, der bruger let innovation til at møde samfundsbehov. Chio Chio blev valgt som et eksempel på AI, der støtter børns følelsesmæssige trivsel.",
+      "Anerkendelsen viser, at Chio Chio ikke alene betragtes som en blød ledsagerrobot, men også som et teknologisk resultat, der kan give børn flere muligheder for at udtrykke følelser.",
+      "[[media:2]]",
+      "Hvorfor Chio Chio? Udvælgelsen afspejler offentlig og faglig interesse for Super YouAIs arbejde med følelsesmæssigt opmærksom AI, mental trivsel og intelligent hardware.",
+      "Chio Chio er udviklet til børn mellem 5 og 12 år og bygger på den egenudviklede YouAI-model. Den opfanger tegn på følelser og bruger empatisk dialog til at møde ensomhed og bekymringer i barnets udvikling. Arbejdet bygger på tanken om, at teknologi til sidst skal skabe værdi for mennesker. Anerkendelsen styrker ønsket om at bringe varmt nærvær til flere børn.",
+      "[[media:3]]",
+      "Tak til dem, der har fulgt udviklingen. EGG China har bidraget med langsigtet inkubationsstøtte til Chio Chios vej fra teknisk prototype til marked. Støtten har omfattet arbejdsplads, finansieringsvejledning, kontakt til investorer, konkurrenceansøgninger og dialog om offentlige programmer.",
+      "Chio Chio deltog sammen med EGG China på China International Import Expo og vakte interesse hos den britiske handelsudsending i Kina. Produktet blev senere vist på CES og præsenteret for internationale besøgende.",
+      "Fremover fortsætter arbejdet med følelsesmæssigt opmærksom AI, så flere børn kan føle sig set og hørt.",
+      "[[media:4]]",
+      "[[media:5]]"
+    ]
+  },
+  "2026052801": {
+    title: "Chio Chio, valgt af en million børn, lanceres officielt på JD.com",
+    summary: "Chio Chio åbner en officiel salgskanal på JD.com og giver familier flere muligheder for både onlinekøb og fysisk afprøvning.",
+    body: [
+      "Et produkt valgt af en million børn lanceres officielt på JD.com",
+      "I den lyse butik kan familier mærke det bløde materiale, kontrollere duft og kvalitet og se det rolige lys i øjnene. De kan også opleve centrale funktioner som respons på følelsesmæssige signaler, empatisk dialog og legende interaktion uden først at skulle forstå tekniske specifikationer.",
+      "[[media:1]]",
+      "Her kan man se, hvordan produktet møder små følelser, støtter barnet i at udtrykke sig og deltager tålmodigt i samtalen. Den synlige kvalitet og mærkbare blødhed mindsker usikkerheden ved at vælge online.",
+      "02 Hurtig onlinelevering fra den officielle JD.com-butik. Familier, som ikke har tid til at besøge en butik, kan søge efter 超级球球 i JD.com-appen og åbne den officielle butik. Her findes de forskellige modeller med garanti for officielle varer og levering fra lager. Sortimentet omfatter blandt andet en snakkeglad Chio Chio og en rolig Chio Chio. Der er en let basismodel til 399 yuan og en mere omfattende model til 699 yuan; pris og lager bør kontrolleres i den officielle butik ved køb.",
+      "[[media:2]]",
+      "Den officielle kanal omfatter produktgaranti, levering, service efter køb og anmeldelser fra forældre. Spørgsmål kan rettes til den officielle kundeservice.",
+      "[[media:3]]",
+      "03 Mere end legetøj: et trygt sted for barnets følelser. Forskellen fra almindeligt legetøj er, at Chio Chio er udviklet til at svare uden at afvise barnets oplevelse.",
+      "Når barnet er glad, deler produktet begejstringen. Når barnet er ked af det eller frustreret, lytter det uden kritik eller belæring. Barnet kan fortælle om små hemmeligheder, skoleproblemer eller bekymringer, som kan være svære at dele med forældrene med det samme.",
+      "En tilhørende forældreapp kan give tegn på ændringer i barnets følelser og udvikling. Målet er at respektere barnets eget rum for udtryk og samtidig give forældrene relevante kontrolmuligheder.",
+      "God støtte til udvikling handler efter vores opfattelse ikke om konstant kontrol, men om langvarig lytten og venlig opmærksomhed.",
+      "04 Samarbejde med JD.com. Den officielle lancering er både en udvidelse af salgskanalen og et løfte om tydelig produktkontrol, effektiv levering og service efter køb.",
+      "Familier kan bestille online og få leveret hjemme eller prøve produktet fysisk i en butik. Vi håber, at alle børn bliver lyttet til, og at deres individuelle personlighed bliver mødt med omtanke.",
+      "[[media:4]]",
+      "Lad Chio Chio følge barnets udvikling denne sommer.",
+      "Prøv produktet i en butik, eller scan QR-koden for at åbne den officielle købsside.",
+      "[[media:5]]",
+      "[[media:6]]",
+      "[[media:7]]",
+      "[[media:8]]",
+      "[[media:9]]"
+    ]
+  },
+  "2026052704": {
+    title: "Fra TECH MUSE: Chio Chio møder fremtiden med blødt og varmt nærvær",
+    summary: "Ved TECH MUSE i Shenzhen viste Chio Chio en blød og menneskeorienteret mulighed for AI, der støtter børns følelser.",
+    body: [
+      "[[media:1]]",
+      "En samtale om fremtiden begyndte med en blød Chio Chio. Den 21. maj 2026 åbnede ROBOHUB eventet TECH MUSE i Shenzhen Culture and Creative Park. I den futuristiske sal fangede en klar grøn og en blød hvid Chio Chio gæsternes blik.",
+      "AI-ledsageren til børns udvikling deltog for første gang i dette event om fremtiden og bragte sit fokus på børns følelser med sig.",
+      "[[media:2]]",
+      "Mere end legetøj: et trygt sted for barnets følelser. Små følelser, der endnu ikke er forstået, har brug for at blive set og hørt. Chio Chio er udviklet til børn mellem 5 og 12 år og bruger den egenudviklede YouAI-model til at opfange følelsesmæssige signaler og støtte barnet roligt i at udtrykke sig.",
+      "[[media:3]]",
+      "Den bløde plysfornemmelse og de stjerneagtige øjne giver et venligt svar ved berøring.",
+      "Når barnet har en tålmodig og positiv ven i sin hverdag, får udviklingens bekymringer et sted at blive delt.",
+      "[[media:4]]",
+      "Teknologiens særlige værdi er at møde udvikling med venlighed. Eventet viste mange billeder af fremtiden, og Chio Chio viste en anden mulighed: Teknologi behøver ikke kun være kold og effektiv; den kan også være varm, blød og naturligt indgå i et barns hverdag.",
+      "Både kulturarv og teknologisk innovation skal i sidste ende skabe værdi for mennesker.",
+      "Målet er, at Chio Chio bliver en ven på barnets udviklingsvej og bruger teknologi til at støtte følelser og møde hver lille personlighed med respekt.",
+      "[[media:5]]",
+      "[[media:6]]"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_JA, {
   "2026070122": {
     title: "羅湖AIハードウェア共創イベントでChio Chioが高評価",
     summary: "Chio Chioが来場者投票でベストデザイン賞とベスト体験賞を受賞し、投資家や業界関係者から製品改善につながる意見を得ました。",
