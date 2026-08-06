@@ -1406,6 +1406,170 @@ Object.assign(window.NEWS_ARTICLE_DA, {
 });
 
 Object.assign(window.NEWS_ARTICLE_JA, {
+  "2025081815": {
+    title: "Chio Chioチーム、AI Agent 2025グローバル専門大会の開幕式に招待",
+    summary: "Chio ChioチームがAI Agent 2025のナビゲータープログラム参加者として大会へ招待されました。",
+    body: ["[[media:1]]", "Chio Chioチームは『ナビゲータープログラム』の参加者として、多くの優れたチームとともに競技へ参加しました。"]
+  },
+  "2025081643": {
+    title: "Super YouAIが杭州未来科技城に正式入居",
+    summary: "Super YouAIが杭州未来科技城へ拠点を置き、中国のAI産業、生産供給網、市場、人材連携を生かした開発を進めます。",
+    body: [
+      "Super YouAIが杭州未来科技城に正式に拠点を置きました。",
+      "[[media:1]]",
+      "創業者の元晓帅博士は、EGO Chinaのインキュベーション支援がチームの発展を助けたと述べました。チームは研究開発、生産、販売、先端技術と製品体験に集中する一方、創業大会や行政との関係づくりではEGO Chinaの陸氏とチームから実務的な支援を受けました。",
+      "中国でスマートテクノロジー事業を進める理由として、元博士はAI・ロボット産業への幅広い支援、技術集積、利用場面の開放、資金面の施策、生産供給網を挙げました。これらは研究開発から量産までを進めるうえで重要です。",
+      "市場面では、高齢化と心の健康への需要、文化に合った感情的な交流への期待、中国家庭への理解が機会になると説明しました。利用者データを扱う際には、中国のデータローカライゼーションとプライバシー規則を守る必要があります。",
+      "中国では具現化AIの分野で産学研用の連携が進み、多分野の技術と人材を統合しやすいことも強みだと述べました。",
+      "公開資料によると、杭州未来科技城は浙江省杭州市余杭区に位置し、国家レベルの未来科技城および海外高度人材の革新・起業拠点の一つです。"
+    ]
+  },
+  "2025081516": {
+    title: "Chio Chioチーム、『文三×光圏 AI TED』起業ロードショーで第1位",
+    summary: "Chio Chioのコンセプト実機がロードショーで第1位となり、来場者と投資関係者から製品改善につながる反応を得ました。",
+    body: [
+      "[[media:1]]",
+      "元晓帅博士は、2025年4月に25〜45歳の働く507人を対象に行ったチームの調査を紹介しました。90％が何らかのプレッシャーを感じ、74％がつらい気持ちのときに寄り添う相手がいないと答えました。講演では強い感情と危機に関する外部数値も引用されましたが、出典や因果関係の検証が必要です。自傷・自殺の恐れがある場合はAIではなく、直ちに専門家や緊急サービスへ連絡してください。",
+      "Chio Chioは、気持ちが生じたときに対話を通じて手がかりを理解し、共感的な応答と落ち着くための提案を行う補助的なAIパートナーです。",
+      "[[media:2]]",
+      "コンセプト版の実演では、柔らかな外観と穏やかな対話が投資関係者や来場者の関心を集めました。",
+      "二つのベンチャー投資機関が継続的な意見交換に関心を示し、正式発売後の購入を希望する来場者もチームへ連絡先を伝えました。",
+      "ロードショーでの反応は、製品と利用ニーズを検討し、正式版を改善するための材料になりました。",
+      "[[media:3]]"
+    ]
+  },
+  "2025081444": {
+    title: "Super YouAI初の製品Chio Chio、デモ版を完成し公開展示",
+    summary: "Chio Chioのデモ版が公開され、音声対話、柔らかな外観、量産版に向けた改善計画が紹介されました。",
+    body: [
+      "[[media:1]]",
+      "Chio Chioのデモ版が『文三×光圏 AI TED』ロードショーに登場し、来場者が体験しました。Chio Chioは音声対話を通じて気持ちの手がかりを把握し、共感的な応答と落ち着くための提案を行うAIパートナーです。高価で予約しにくい専門サービスを置き換えるものではなく、日常の補助的な入口を目指します。",
+      "[[media:2]]",
+      "テスト中のデモ版は、親しみやすい利用体験のために柔らかな外観と子どもらしい声を備え、触れることと会話を組み合わせています。感じ方には個人差があり、治療効果を保証するものではありません。",
+      "[[media:3]]",
+      "コンセプトからデモまでが0から1なら、デモから量産は1から100へ進む長い工程です。4か月の開発を経て、記事掲載時点では最初の量産品を2025年9月に届ける予定でした。",
+      "正式版では外観、対話機能、体験をデモ版から改善する計画です。",
+      "最新情報は公式WeChatアカウント『超级球球AI疗愈』で案内します。",
+      "[[media:4]]"
+    ]
+  },
+  "2025081242": {
+    title: "Super YouAI創業者の元晓帅博士が清華大学未来実験室を訪問",
+    summary: "元晓帅博士が清華大学未来実験室を訪問し、関係者と技術・製品開発について交流しました。",
+    body: ["[[media:1]]", "[[media:2]]"]
+  },
+  "2025081038": {
+    title: "Super YouAI、AWSとEGO China共催のAgentic AIセミナーに参加",
+    summary: "元晓帅博士がChio Chioの製品構想、中国市場に合わせた感情対話、海外知見の現地化について語りました。",
+    body: [
+      "[[media:1]]",
+      "元晓帅：Super YouAIはAIと心の健康に取り組んでいます。独自開発のChio Chioは、利用者とAIをつなぐ卓上型のスマートハードウェアです。",
+      "対話を通じて気持ちの手がかりを把握し、共感的な応答や感情を言葉にする補助を行います。心理カウンセラーと同等の能力を保証するものではなく、診断・治療の代替ではありません。",
+      "チームは心理分野で20年以上の経験を持ちます。講演では、中国のうつ病患者数、学生の割合、受診率、専門人材不足に関する公開統計を引用しました。数値は調査の定義や時点で異なるため、利用時には原資料の確認が必要です。",
+      "従来のカウンセリングは費用や予約、地域差のため、強い感情が生じた瞬間に利用しにくい場合があります。チームはこの利用の隔たりに課題を感じました。",
+      "2022年以降の大規模言語モデルの発展を受け、調査、開発、試験を重ね、AI対話モデルと卓上ロボットを組み合わせる製品形態を選びました。",
+      "2025年5月にデモ版を初公開し、記事掲載時点では日々のAI試験とハードウェアの量産準備を進めていました。",
+      "記事掲載時点の計画では、8月27日のIOTE国際IoT大会で量産版を初公開し、最初の製品を9月15日から順次届け、第4四半期に次の量産を進める予定でした。",
+      "製品を通じ、日常的な心への寄り添いをより利用しやすくすることがビジョンです。",
+      "司会：中国市場向けの『軽い心の支え』という位置づけについて、国内外の製品や技術にどんな違いがありますか。",
+      "元晓帅：気持ちへの対応は文化と密接に関係します。認識、表現、行動、感情の扱い方が文化で異なるため、海外と中国では適した方法も異なります。",
+      "例えば東アジアでは心の悩みを話すことへの抵抗が比較的強い場合があり、中国向け製品では安心感とプライバシーを重視しています。",
+      "欧米には認知行動療法の考え方を使うWoebotなどの専門的な介入型製品があります。中国市場では、現地の生活場面に合う利用体験と即時の補助的な対話を重視しています。",
+      "Chio Chioの初期形態と価格は中国市場の特徴を考慮して設計されました。市場に関する評価はチームの見解であり、成果を保証するものではありません。",
+      "[[media:2]]",
+      "司会：中国市場はAgentic技術にどんな独自の利用場面を生み、海外の資源と知識をどう生かせますか。",
+      "元晓帅：国内外の市場は、それぞれ異なる解決策を求めています。",
+      "欧米では個人への介入に焦点を当てることが多い一方、中国では気持ちの問題が家庭や職場などの社会関係と結び付くため、複数の役割や関係性を理解する必要があります。",
+      "また、間接的な言葉で気持ちを表す文化的傾向があるため、環境、情報、細かな手がかりを慎重に読み取る設計が求められます。",
+      "チームは海外の専門的な臨床ツールから学びつつ、それを日常で使える寄り添いへ応用し、専門性と利用体験のバランスを取ろうとしています。",
+      "中国は欧米のAI心理サービスをそのまま複製するのではなく、東アジアの感情表現と社会関係に配慮した、利用しやすい補助的な心のパートナーを開発すべきだと述べました。"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_DA, {
+  "2025081815": {
+    title: "Chio Chio-teamet inviteret til åbningen af den globale AI Agent 2025-specialkonkurrence",
+    summary: "Chio Chio-teamet deltog i AI Agent 2025 som medlem af konkurrencens Navigator-program.",
+    body: ["[[media:1]]", "Som medlem af Navigator-programmet deltog Chio Chio-teamet i konkurrencen sammen med en række stærke hold."]
+  },
+  "2025081643": {
+    title: "Super YouAI etablerer sig officielt i Hangzhou Future Sci-Tech City",
+    summary: "Super YouAI etablerede base i Hangzhou og vil udnytte Kinas AI-økosystem, forsyningskæde, marked og tværfaglige samarbejde.",
+    body: [
+      "Super YouAI har officielt etableret sig i Hangzhou Future Sci-Tech City.",
+      "[[media:1]]",
+      "Grundlægger Dr. 元晓帅 sagde, at EGO Chinas inkubationsstøtte havde været værdifuld. Teamet fokuserer på udvikling, produktion, salg, avanceret teknologi og brugeroplevelse, mens Lu og hans team gav praktisk hjælp med iværksætterkonkurrencer og kontakt til myndigheder.",
+      "Som begrundelse for at udvikle virksomheden i Kina pegede hun på den brede støtte til AI- og robotindustrien, teknologiske klynger, åbne anvendelsesmiljøer, finansielle ordninger og en komplet forsyningskæde, som kan understøtte vejen fra udvikling til serieproduktion.",
+      "Markedet rummer muligheder fra både aldring og større behov for mental trivsel. Lokale produkter skal afspejle følelsesmæssig interaktion i kinesiske familier. Brugerdata skal samtidig behandles efter kinesiske regler om datalokalisering og privatliv.",
+      "Kinas samarbejde mellem industri, universiteter, forskning og anvendelse inden for embodied AI gør det lettere at samle teknologi og kompetencer på tværs af fag.",
+      "Ifølge offentlige oplysninger ligger Hangzhou Future Sci-Tech City i Yuhang, Zhejiang, og er en af landets udpegede fremtidsteknologibyer og innovationsbaser for højt kvalificerede internationale talenter."
+    ]
+  },
+  "2025081516": {
+    title: "Chio Chio-teamet vinder førstepladsen ved WenSan × Halo AI TED-roadshowet",
+    summary: "Chio Chios konceptenhed vandt roadshowet og gav feedback fra gæster og investorer til den videre produktudvikling.",
+    body: [
+      "[[media:1]]",
+      "Dr. 元晓帅 præsenterede en teamundersøgelse fra april 2025 blandt 507 erhvervsaktive mellem 25 og 45 år. 90 procent angav forskellige former for pres, og 74 procent manglede nogen at være sammen med under følelsesmæssige vanskeligheder. Oplægget citerede også eksterne tal om stærke følelsesudsving og kriser, men kilder og årsagssammenhænge kræver kontrol. Ved risiko for selvskade eller selvmord skal man straks kontakte fagpersoner eller akuttjenester, ikke stole på AI.",
+      "Chio Chio skal være en supplerende AI-ledsager, der under en samtale forsøger at forstå følelsesmæssige signaler, svarer empatisk og foreslår små skridt mod mere ro.",
+      "[[media:2]]",
+      "Demonstrationen af konceptversionen vakte interesse blandt investorer og gæster med sin bløde form og rolige dialog.",
+      "To kendte ventureinvestorer viste interesse for fortsat kontakt, og nogle gæster udvekslede kontaktoplysninger med teamet og viste købsinteresse efter lanceringen.",
+      "Roadshowets respons gav materiale til at vurdere produkt og brugerbehov og forbedre den endelige version.",
+      "[[media:3]]"
+    ]
+  },
+  "2025081444": {
+    title: "Super YouAIs første produkt Chio Chio færdiggør sin demo og vises offentligt",
+    summary: "Chio Chios demo viste stemmedialog, blød form og teamets plan for forbedringer frem mod serieproduktion.",
+    body: [
+      "[[media:1]]",
+      "Chio Chios demo blev vist ved WenSan × Halo AI TED-roadshowet og prøvet af gæster. Produktet bruger stemmedialog til at registrere følelsesmæssige signaler og tilbyde empatisk respons og forslag til ro. Det erstatter ikke dyre eller svært tilgængelige professionelle tjenester, men søger at være en supplerende indgang i hverdagen.",
+      "[[media:2]]",
+      "Demoen under test havde en blød form og barnlig stemme for at gøre oplevelsen venlig og kombinere berøring med dialog. Oplevelsen varierer fra person til person, og produktet garanterer ikke en behandlingsvirkning.",
+      "[[media:3]]",
+      "Hvis koncept til demo er vejen fra nul til ét, er demo til serieproduktion vejen fra ét til hundrede. Efter fire måneders arbejde var planen på artiklens tidspunkt at levere den første serie i september 2025.",
+      "Den endelige version skulle forbedre udseende, dialogevne og samlet oplevelse i forhold til demoen.",
+      "Nyt om produktet blev offentliggjort via den officielle WeChat-konto 超级球球AI疗愈.",
+      "[[media:4]]"
+    ]
+  },
+  "2025081242": {
+    title: "Super YouAI-grundlægger Dr. 元晓帅 besøger Tsinghua Universitys Future Laboratory",
+    summary: "Dr. 元晓帅 besøgte Future Laboratory og udvekslede tanker om teknologi og produktudvikling med relevante fagfolk.",
+    body: ["[[media:1]]", "[[media:2]]"]
+  },
+  "2025081038": {
+    title: "Super YouAI inviteret til Agentic AI-seminar arrangeret af AWS og EGO China",
+    summary: "Dr. 元晓帅 fortalte om Chio Chios produktidé, kulturelt tilpasset dialog i Kina og lokalisering af international viden.",
+    body: [
+      "[[media:1]]",
+      "元晓帅: Super YouAI arbejder med AI og mental trivsel. Den egenudviklede Chio Chio er intelligent bordhardware og en grænseflade mellem brugeren og AI.",
+      "Gennem samtale forsøger den at forstå følelsesmæssige signaler og supplere med empatisk respons og hjælp til at sætte ord på følelser. Den kan ikke sidestilles med en psykolog og erstatter ikke diagnose eller behandling.",
+      "Teamet har over 20 års erfaring fra psykologifeltet. Oplægget citerede offentlige tal om depression i Kina, andelen af studerende, behandlingsraten og manglen på fagpersoner. Tallene varierer med undersøgelsens definition og tidspunkt og bør kontrolleres i originalkilderne før brug.",
+      "Traditionel rådgivning kan være dyr, svær at booke og ujævnt fordelt, så hjælp kan være vanskelig at få i et øjeblik med stærke følelser. Teamet så denne adgangskløft som et problem.",
+      "Udviklingen af store sprogmodeller fra 2022 gav nye tekniske muligheder. Efter undersøgelser og afprøvninger valgte teamet en kombination af en AI-dialogmodel og en bordrobot.",
+      "Demoen blev vist første gang i maj 2025, og på artiklens tidspunkt fortsatte den daglige AI-test og forberedelsen til serieproduktion.",
+      "Planen ved offentliggørelsen var at vise serieversionen på IOTE den 27. august, begynde leverancer den 15. september og gennemføre næste større produktionsrunde i fjerde kvartal.",
+      "Visionen er at gøre følelsesmæssigt nærvær i hverdagen mere tilgængeligt gennem produktet.",
+      "Vært: Hvilke forskelle er der mellem Kina og udlandet i produkt og teknologi til let følelsesmæssig støtte?",
+      "元晓帅: Følelsesmæssig støtte hænger tæt sammen med kultur. Opfattelse, udtryk, adfærd og håndtering af følelser varierer, så egnede metoder er forskellige i Kina og udlandet.",
+      "I Østasien kan modviljen mod at tale om mentale vanskeligheder være relativt stærk. Derfor prioriterer produkter til Kina tryghed og privatliv.",
+      "I Europa og USA findes mere interventionsorienterede produkter som Woebot, der bygger på principper fra kognitiv adfærdsterapi. I Kina lægger teamet vægt på lokal brugeroplevelse og umiddelbar, supplerende dialog i daglige situationer.",
+      "Chio Chios tidlige form og pris tog højde for det kinesiske marked. Markedsvurderingen er teamets synspunkt og ikke en garanti for resultater.",
+      "[[media:2]]",
+      "Vært: Hvilke særlige anvendelser skaber Kina for Agentic-teknologi, og hvordan kan international viden bruges lokalt?",
+      "元晓帅: Kinesiske og internationale markeder kræver forskellige løsninger.",
+      "Hvor europæiske og amerikanske tilbud ofte fokuserer på individet, er følelsesmæssige problemer i Kina tæt forbundet med familie, arbejde og andre sociale relationer. Systemet må derfor kunne forstå flere roller og komplekse relationer.",
+      "Indirekte sprog bruges også ofte til at udtrykke følelser, så designet skal være særligt opmærksomt på miljø, information og små signaler.",
+      "Teamet lærer af internationale kliniske værktøjer, men omsætter dem til tilgængeligt nærvær i hverdagen og forsøger at balancere faglighed og brugeroplevelse.",
+      "Kina bør ikke blot kopiere europæiske eller amerikanske AI-psykologitjenester, men udvikle tilgængelige supplerende ledsagere, der tager højde for østasiatiske følelsesudtryk og sociale relationer."
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_JA, {
   "2025092645": {
     title: "Super YouAI、『2025年注目のAIイノベーター』に選出",
     summary: "DEMO CHINAのイベントで、Super YouAIがChio Chioの機能と事業計画を投資・AIハードウェア関係者へ紹介しました。",
