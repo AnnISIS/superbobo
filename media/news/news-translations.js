@@ -1406,6 +1406,144 @@ Object.assign(window.NEWS_ARTICLE_DA, {
 });
 
 Object.assign(window.NEWS_ARTICLE_JA, {
+  "2026061746": {
+    title: "AI子ども成長パートナーChio ChioがCES Asia 2026に登場",
+    summary: "CES Asia 2026で、Chio Chioが子どもの感情表現と成長を日常的に補助するAIシステムを紹介しました。",
+    body: [
+      "[[media:1]]",
+      "AIは教育、医療、高齢者支援など社会の幅広い分野へ広がり、サービスの質と利用しやすさを高める可能性があります。同時に、家庭や生活様式の変化に伴い、子どもの感情調整、意思疎通、自信、困難への対応力を支える必要性が注目されています。技術で継続的かつ利用しやすい成長支援をどう届けるかは、AI活用の重要な課題です。",
+      "この背景から、Chio ChioはAIと子どもの成長ニーズを結び付け、感情の発達、人格形成、心への寄り添いを家庭で補助する仕組みを構築しています。",
+      "子どもの成長場面に焦点を当てた感情知能。一般的な玩具、学習端末、汎用AIチャットとは異なり、Chio Chioは知識問題や娯楽だけでなく、気持ちの表現、感情の整理、自信、回復力、前向きな考え方を支えることを目指します。保護者、教師、心理専門職を置き換えるものではなく、子どもが話しやすい長期的な補助パートナーです。",
+      "[[media:2]]",
+      "子どもの成長に特化した独自AI。Chio Chioは清華大学のAI専門家と、北京師範大学の児童心理学分野を含む博士チームが共同開発し、実際の子どもの成長場面を参考に専門機能を訓練しました。",
+      "音声内容、話し方、複数の交流手がかりから気持ちの状態と変化を推定し、発達段階に配慮した方法で感情を言葉にし、整理し、前向きな見方を育てることを補助します。関心、重要な経験、感情の変化を記憶し、集中力、表現力、感情への理解、回復力などについて長期的な個別応答を目指します。推定は誤る可能性があり、診断には使えません。",
+      "安全面では、継続的な否定的表現など注意が必要な兆候を家族へ参考情報として知らせる仕組みと、未成年者向けのコンテンツ安全基準を設けています。緊急時にはAIではなく、保護者、学校、医療・緊急サービスへ連絡する必要があります。",
+      "国内外からの反応。会場では家族、教育機関、販売パートナー、投資関係者が製品を体験しました。シンガポール、韓国、日本、ドイツ、英国、中東の事業者とも、国際展開、現地化、協力について意見を交わしました。",
+      "創業者兼CEOの元晓帅博士は、AIの価値は効率だけでなく、人の総合的な成長を支える点にもあると述べました。子どもには知識だけでなく気持ちへの支援も必要であり、より多くの家庭へ利用しやすく継続的な補助を届けたいと説明しました。今後もAI、心の健康、成長教育の連携を深めます。",
+      "業界関係者は、AIの成熟と子どもの心の健康への関心の高まりにより、感情の成長や日常的な寄り添いを支える新しい試みが増えると見ています。Chio Chioは、家庭で社会に役立つAIを実践する一例です。",
+      "Chio Chioについて。Super YouAIが3〜12歳向けに開発したAI子ども成長パートナーです。AI、児童心理学、成長教育の考え方を組み合わせ、感情の手がかり、共感的な交流、長期記憶、前向きな声かけを通じて、集中、表現、感情への理解、回復力を補助します。",
+      "[[media:3]]",
+      "ブランドの使命：AIで心の健康を日常へ。ブランドのビジョン：すべての人が心に寄り添う機会を得られるように。本記事はSohu掲載記事をもとにしています。"
+    ]
+  },
+  "2025103018": {
+    title: "Chio ChioがAI Agent 2025対面準決勝へ進出、『最も人間味のあるプロジェクト賞』を受賞",
+    summary: "AI Agent 2025でChio Chioが消費者向けハードウェア部門から対面準決勝へ進み、特別賞も受賞しました。",
+    body: [
+      "[[media:1]]",
+      "Chio Chioは大会の特別賞『最も人間味のあるプロジェクト賞』も受賞しました。",
+      "AI Agent 2025は中国人工知能学会が主催し、AIエージェントの応用と産業化に焦点を当てる国際開発者大会です。世界各地から1,000を超えるチームが登録しました。",
+      "大会はオンラインポイント戦、複数回の対面準決勝などで構成されています。",
+      "2025年8月、Chio Chioは『ナビゲータープログラム』参加者として招待され、『心のリペア部門』の首位になりました。9月には最初の公式推薦34プロジェクトの一つに選ばれました。",
+      "[[media:2]]",
+      "[[media:3]]",
+      "対面準決勝への進出は、プロジェクトの完成度と市場の可能性に対する大会側の評価を示す一つの結果です。",
+      "[[media:4]]"
+    ]
+  },
+  "2025101937": {
+    title: "Super YouAIが企業代表・講演者として虹橋海外貿易センター（北虹橋）の開設式に出席",
+    summary: "北虹橋の開設式で、共同創業者の楊昱軒がChio Chioの機能と事業計画を発表しました。",
+    body: [
+      "[[media:1]]",
+      "サミット後半ではSuper YouAIを含む4社がプロジェクトを発表しました。共同創業者の楊昱軒は、来賓と企業関係者にChio Chioの機能と事業計画を紹介し、会場から関心が寄せられました。"
+    ]
+  },
+  "2025101520": {
+    title: "Chio Chioが宜城市若手教師メンタルリテラシー研修へ",
+    summary: "宜城市の研修で若手教師がChio Chioを体験し、学校での心の健康支援を補助する可能性について意見を寄せました。",
+    body: [
+      "[[media:1]]",
+      "学校における教師と生徒の心の健康は、家庭と社会に関わる重要な課題です。日常的に心に寄り添うAIパートナーChio Chioは、研修に参加した若手教師の関心を集めました。医療や専門的な心理支援の代替ではありません。",
+      "郭凱燕博士は、若手教師はAI教育時代を担う活力ある存在であり、体験後に多くの前向きな意見を寄せてくれたと述べました。これらの意見を今後の製品改善と利用場面の検討に生かします。",
+      "[[media:2]]"
+    ]
+  },
+  "2025101317": {
+    title: "Chio ChioがAI Agent 2025公式推薦プロジェクトに選出",
+    summary: "Chio ChioがAI Agent 2025の公式推薦プロジェクトとなり、消費者向けハードウェア部門で暫定3位に入りました。",
+    body: [
+      "[[media:1]]",
+      "Chio Chioチームは、共感、技術、利用者への理解を組み合わせ、日常的な心への寄り添いをハードウェアで届ける方法を探っています。",
+      "記事掲載時点で、AI Agent 2025の消費者向けハードウェア部門において暫定3位、注目度10,296でした。",
+      "中国人工知能学会が主催するAI Agent 2025には、世界各地から1,000を超えるAIチームが登録しました。",
+      "Chio Chioチームは2025年8月に『ナビゲータープログラム』参加者として招待され、『心のリペア部門』の首位になりました。",
+      "Chio Chioを応援する方に、記事内のQRコードからの投票を呼びかけました。投票期間やリンクは現在終了している場合があります。",
+      "[[media:2]]"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_DA, {
+  "2026061746": {
+    title: "AI-ledsageren Chio Chio til børns udvikling på CES Asia 2026",
+    summary: "På CES Asia 2026 præsenterede Chio Chio et AI-system, der supplerer børns følelsesmæssige udtryk og udvikling i hverdagen.",
+    body: [
+      "[[media:1]]",
+      "AI breder sig til uddannelse, sundhed og ældreområdet og kan gøre tjenester bedre og mere tilgængelige. Samtidig har ændringer i familier og livsformer øget opmærksomheden på børns behov for støtte til følelsesregulering, kommunikation, selvtillid og modstandskraft. Et vigtigt spørgsmål er, hvordan teknologi kan give vedvarende og lettilgængelig støtte til udvikling.",
+      "På den baggrund forbinder Chio Chio AI med børns udviklingsbehov og opbygger funktioner til familien med fokus på følelsesmæssig udvikling, personlig vækst og mental støtte.",
+      "Følelsesmæssig intelligens i børns udvikling. I modsætning til almindeligt legetøj, læringsenheder og generel AI-chat fokuserer Chio Chio ikke kun på viden og underholdning. Målet er at supplere barnets evne til at udtrykke og håndtere følelser, opbygge selvtillid, modstandskraft og et positivt udviklingssyn. Produktet erstatter ikke forældre, lærere eller psykologer, men skal være en langsigtet samtalepartner, som barnet har lyst til at betro sig til.",
+      "[[media:2]]",
+      "Eget AI-system til børns udvikling. Chio Chio er udviklet af AI-eksperter fra Tsinghua University sammen med et ph.d.-team med ekspertise i børnepsykologi fra blandt andet Beijing Normal University og trænet på situationer fra børns virkelige hverdag.",
+      "Ud fra stemmens indhold, udtryksform og flere interaktionssignaler forsøger systemet at forstå følelsesmæssige tilstande og ændringer. Det hjælper barnet med at sætte ord på og ordne følelser på en udviklingsmæssigt passende måde. Hukommelse om interesser, oplevelser og følelsesmæssige ændringer bruges til mere personlig respons om koncentration, udtryk, følelsesforståelse og modstandskraft. Vurderingen kan tage fejl og må ikke bruges til diagnose.",
+      "Sikkerheden omfatter vejledende beskeder til familien ved vedvarende negative udtryk og alderspassende indholdsregler. I en akut situation skal familien kontakte omsorgspersoner, skole, sundhedsvæsen eller akuttjenester i stedet for at stole på AI.",
+      "Respons fra Kina og udlandet. Familier, uddannelsesinstitutioner, salgspartnere og investorer prøvede produktet. Aktører fra Singapore, Sydkorea, Japan, Tyskland, Storbritannien og Mellemøsten drøftede internationalisering, lokalisering og samarbejde.",
+      "Grundlægger og CEO Dr. 元晓帅 sagde, at AI ikke kun handler om effektivitet, men også om menneskers samlede udvikling. Børn har brug for støtte til følelser såvel som viden, og virksomheden ønsker at give flere familier et tilgængeligt og vedvarende supplement. Arbejdet med at forbinde AI, mental trivsel og udviklingspædagogik fortsætter.",
+      "Branchefolk forventer flere initiativer omkring børns følelsesmæssige udvikling og mental trivsel i takt med mere moden AI og større samfundsmæssig opmærksomhed. Chio Chio er et praktisk eksempel på samfundsnyttig AI i familien.",
+      "Om Chio Chio. Super YouAI har udviklet AI-ledsageren til børn fra 3 til 12 år. Den kombinerer AI, børnepsykologi og udviklingspædagogik og bruger følelsesmæssige signaler, empatisk dialog, langtidshukommelse og positiv vejledning som supplement til koncentration, udtryk, følelsesforståelse og modstandskraft.",
+      "[[media:3]]",
+      "Brandets mission: at bringe mental trivsel ind i hverdagen med AI. Visionen: at gøre følelsesmæssigt nærvær tilgængeligt for alle. Artiklen bygger på en tekst offentliggjort på Sohu."
+    ]
+  },
+  "2025103018": {
+    title: "Chio Chio går videre til den fysiske semifinale ved AI Agent 2025 og vinder pris for menneskelig varme",
+    summary: "Chio Chio gik videre fra kategorien for forbrugerhardware og modtog samtidig konkurrencens særpris for det mest menneskeligt varme projekt.",
+    body: [
+      "[[media:1]]",
+      "Chio Chio modtog også konkurrencens særpris for det mest menneskeligt varme projekt.",
+      "AI Agent 2025 arrangeres af Chinese Association for Artificial Intelligence og fokuserer på anvendelse og kommercialisering af AI-agenter. Mere end 1.000 hold fra hele verden havde tilmeldt sig.",
+      "Konkurrencen omfattede en online pointfase og flere fysiske semifinaler.",
+      "I august 2025 blev Chio Chio inviteret gennem Navigator-programmet og placeret øverst på listen for mental støtte. I september blev projektet et af de første 34 officielt anbefalede projekter.",
+      "[[media:2]]",
+      "[[media:3]]",
+      "Pladsen i den fysiske semifinale var endnu en anerkendelse fra konkurrencen af projektets niveau og markedspotentiale.",
+      "[[media:4]]"
+    ]
+  },
+  "2025101937": {
+    title: "Super YouAI repræsenterer erhvervslivet ved åbningen af Hongqiao Overseas Trade Center, North Hongqiao",
+    summary: "Ved åbningen præsenterede medstifter Yang Yuxuan Chio Chios funktioner og forretningsplan.",
+    body: [
+      "[[media:1]]",
+      "I anden halvdel af topmødet præsenterede fire teknologivirksomheder, herunder Super YouAI, deres projekter. Medstifter Yang Yuxuan viste Chio Chios funktioner og forretningsplan for myndigheds- og virksomhedsrepræsentanter og vakte interesse blandt publikum."
+    ]
+  },
+  "2025101520": {
+    title: "Chio Chio besøger kursus i mental trivsel for unge lærere i Yicheng",
+    summary: "Unge lærere prøvede Chio Chio og gav feedback på dens mulige rolle som supplement til mental trivsel i skolen.",
+    body: [
+      "[[media:1]]",
+      "Læreres og elevers mentale trivsel i skolen er et vigtigt spørgsmål for både familier og samfund. Chio Chio, en AI-ledsager til følelsesmæssigt nærvær i hverdagen, vakte stor interesse blandt de unge lærere. Den erstatter ikke behandling eller professionel psykologisk støtte.",
+      "Dr. Guo Kaiyan sagde, at unge lærere er en energisk drivkraft i AI-uddannelsens tidsalder, og at de gav mange positive tilbagemeldinger efter oplevelsen. Feedbacken vil blive brugt i den videre produktudvikling og vurdering af relevante anvendelser.",
+      "[[media:2]]"
+    ]
+  },
+  "2025101317": {
+    title: "Chio Chio bliver officielt anbefalet projekt ved AI Agent 2025",
+    summary: "Chio Chio blev officielt anbefalet ved AI Agent 2025 og lå foreløbig nummer tre i kategorien for forbrugerhardware.",
+    body: [
+      "[[media:1]]",
+      "Chio Chio-teamet kombinerer empati, teknologi og brugerindsigt og undersøger, hvordan hardware kan levere følelsesmæssigt nærvær i hverdagen.",
+      "På artiklens udgivelsestidspunkt lå projektet foreløbig nummer tre i AI Agent 2025-kategorien for forbrugerhardware med en popularitetsscore på 10.296.",
+      "AI Agent 2025 arrangeres af Chinese Association for Artificial Intelligence, og mere end 1.000 AI-hold fra hele verden havde tilmeldt sig.",
+      "Chio Chio-teamet blev inviteret gennem Navigator-programmet i august 2025 og placeret øverst på konkurrencens liste for mental støtte.",
+      "Læsere, der ønskede at støtte Chio Chio, blev opfordret til at stemme via QR-koden i artiklen. Afstemningen eller linket kan være udløbet.",
+      "[[media:2]]"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_JA, {
   "2025111103": {
     title: "心に寄り添うAI Chio Chioが第8回中国国際輸入博覧会に出展、国内外の来賓が体験",
     summary: "第8回中国国際輸入博覧会で、国内外の来賓がChio Chioの英語対話を体験し、チームは量産前の意見を収集しました。",
