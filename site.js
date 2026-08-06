@@ -286,7 +286,18 @@
     "可被陈列的高感知产品": "展示で魅力が伝わる製品",
     "柔软可抱、可挂可携带、可形成亲子体验，让产品更容易进入门店、活动、礼赠和本地服务场景。": "柔らかく抱けて、掛けて持ち歩け、親子で体験できるため、店舗、イベント、ギフト、地域サービスに取り入れやすい製品です。",
     "灵活合作模式": "柔軟な提携モデル",
-    "渠道代理、城市合伙、礼赠团购、亲子活动、教育场景和品牌联名都可以展开沟通。": "販売代理、地域パートナー、法人ギフト、親子イベント、教育分野、ブランドコラボレーションなど、幅広い形でご相談いただけます。"
+    "渠道代理、城市合伙、礼赠团购、亲子活动、教育场景和品牌联名都可以展开沟通。": "販売代理、地域パートナー、法人ギフト、親子イベント、教育分野、ブランドコラボレーションなど、幅広い形でご相談いただけます。",
+    "感谢你愿意花时间告诉我们真实感受。": "率直なお声をお寄せいただき、ありがとうございます。",
+    "无论是合作咨询、产品建议、体验反馈或投诉，我们都会认真倾听并尽快回应。": "提携のご相談、製品へのご提案、使用体験のご意見、苦情のいずれも真摯に受け止め、できるだけ早くお返事します。",
+    "任何不满意": "ご不満やお困りごとに",
+    "我们全解决": "一つひとつ対応します",
+    "使用、售后、体验建议或任何问题，欢迎第一时间联系我们，我们会尽力帮你解决。": "使い方、アフターサービス、体験へのご提案、そのほかお困りのことがありましたら、いつでもご連絡ください。解決に向けて丁寧に対応します。",
+    "客服二维码": "カスタマーサポート用QRコード",
+    "元晓帅微信二维码": "元晓帅のWeChat QRコード",
+    "何昌耀微信二维码": "何昌耀のWeChat QRコード",
+    "APP 下载": "アプリをダウンロード",
+    "扫码下载 Chio Chio APP。": "QRコードからChio Chioアプリをダウンロードできます。",
+    "你也可以通过官方店铺了解产品、下单购买或关注新品动态。": "公式ストアでも、製品情報の確認、購入、新製品情報のフォローができます。"
   };
   const TEXT_DA = {
     "首页": "Forside",
@@ -568,7 +579,18 @@
     "可被陈列的高感知产品": "Et produkt, der gør sig godt i udstillinger",
     "柔软可抱、可挂可携带、可形成亲子体验，让产品更容易进入门店、活动、礼赠和本地服务场景。": "Den bløde, krammevenlige og bærbare form skaber en fælles oplevelse for børn og forældre og passer naturligt ind i butikker, arrangementer, gaver og lokale tilbud.",
     "灵活合作模式": "Fleksible samarbejdsmodeller",
-    "渠道代理、城市合伙、礼赠团购、亲子活动、教育场景和品牌联名都可以展开沟通。": "Vi er åbne for dialog om distribution, lokale partnerskaber, firmagaver, familieaktiviteter, uddannelsesmiljøer og brandsamarbejder."
+    "渠道代理、城市合伙、礼赠团购、亲子活动、教育场景和品牌联名都可以展开沟通。": "Vi er åbne for dialog om distribution, lokale partnerskaber, firmagaver, familieaktiviteter, uddannelsesmiljøer og brandsamarbejder.",
+    "感谢你愿意花时间告诉我们真实感受。": "Tak, fordi du tager dig tid til at dele din ærlige oplevelse med os.",
+    "无论是合作咨询、产品建议、体验反馈或投诉，我们都会认真倾听并尽快回应。": "Uanset om det gælder et partnerskab, et produktforslag, feedback på oplevelsen eller en klage, lytter vi grundigt og svarer så hurtigt som muligt.",
+    "任何不满意": "Hvis noget ikke lever op til forventningerne,",
+    "我们全解决": "hjælper vi med at finde en løsning",
+    "使用、售后、体验建议或任何问题，欢迎第一时间联系我们，我们会尽力帮你解决。": "Kontakt os gerne med det samme om brug, service efter køb, forslag til oplevelsen eller andre spørgsmål. Vi gør vores bedste for at hjælpe.",
+    "客服二维码": "QR-kode til kundeservice",
+    "元晓帅微信二维码": "QR-kode til 元晓帅 på WeChat",
+    "何昌耀微信二维码": "QR-kode til 何昌耀 på WeChat",
+    "APP 下载": "Hent appen",
+    "扫码下载 Chio Chio APP。": "Scan QR-koden for at hente Chio Chio-appen.",
+    "你也可以通过官方店铺了解产品、下单购买或关注新品动态。": "Du kan også læse om produkterne, bestille og følge med i nye lanceringer i de officielle butikker."
   };
 
   const TEXT_EN = {
