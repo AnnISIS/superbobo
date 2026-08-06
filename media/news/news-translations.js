@@ -1406,6 +1406,136 @@ Object.assign(window.NEWS_ARTICLE_DA, {
 });
 
 Object.assign(window.NEWS_ARTICLE_JA, {
+  "2026051302": {
+    title: "AI子ども成長パートナーChio Chio、中国全国でパートナー募集",
+    summary: "Chio Chioが中国全国の販売・地域パートナー募集を開始し、製品形態、技術、実績、対象チャネルを紹介しました。",
+    body: [
+      "[[media:1]]",
+      "AI子ども成長パートナーChio Chioが中国全国で販売パートナーの募集を開始。PART 01 製品の魅力——子どもにとって初めてのAIの仲間。大きなSuperbotは、深く心に寄り添うモデルです。柔らかく抱いたり一緒に眠ったりでき、音声で目を閉じる機能や、気持ちに応じて変化する大きな目を備えています。",
+      "小さなSuperbot miniは、スタート、カーム、ブレイブ、おしゃべりという4つの前向きな個性を用意し、子どもの性格や場面に合わせて選べます。手のひらほどの大きさで、家庭、外出、学校へ持ち歩けます。",
+      "[[media:2]]",
+      "[[media:3]]",
+      "PART 02 技術と受賞実績。一般的な大規模モデルを載せた娯楽中心の玩具とは異なり、Chio Chioは心理学者の郭凱燕博士と清華大学などの博士号取得者を含むチームが共同開発したYouAIモデルを搭載しています。気持ちの手がかり、共感的な対話、長期的な個別記憶を組み合わせ、気づき、理解、前向きな支援、注意が必要な兆候への対応をつなぎます。これまでにAI Agent 2025で第3位と『最も人間味のあるプロジェクト賞』を受賞しました。",
+      "[[media:4]]",
+      "[[media:5]]",
+      "[[media:6]]",
+      "[[media:7]]",
+      "このほか、CYZoneの『2025年注目のAIイノベーター』、杭州文三AI TEDロードショーの人気賞も受賞しています。",
+      "[[media:8]]",
+      "PART 03 行政、メディア、業界からの注目。Chio Chioは一般的なAI玩具ではなく、子どもの成長に寄り添う新しいカテゴリーを目指しています。楊浦のテクノロジー消費イベント、広州での展示、杭州AIニューイヤーマーケット、中国国際輸入博覧会、夢想小鎮、CES 2026など、各地のイベントやメディアで紹介されました。",
+      "[[media:9]]",
+      "PART 04 全国のパートナーを募集。対象は母子用品店、教育事業者、子育て中の起業家、地域のギフト事業者、共同購入コミュニティ、個人事業者などです。親子層との接点、地域サービス、教育、ギフトなどの強みを持つ方と、販売代理や地域提携について相談します。Super YouAIの使命と子どもの心の健康という方向性に共感する方を歓迎します。具体的な条件、収益性、独占権などは契約前に正式資料で確認してください。",
+      "[[media:10]]"
+    ]
+  },
+  "2026043028": {
+    title: "Chio Chio、上海『五五ショッピングフェスティバル』に登場",
+    summary: "楊浦区とDouyinが共同開催したテクノロジー消費イベントで、Chio Chioがオンライン配信と会場体験を通じて紹介されました。",
+    body: [
+      "[[media:1]]",
+      "楊浦区とDouyinが共同開催した今回のイベントは、AIやウェアラブル技術に焦点を当て、研究成果と消費場面を結び付けることを目的としました。五角場の270度ガラス張りライブ配信スタジオを中心に、新製品発表、体験、会場での交流、オンライン購入を組み合わせました。",
+      "[[media:2]]",
+      "[[media:3]]",
+      "Super YouAI創業者の元晓帅博士とCSOの何昌耀がライブ配信に参加し、オンラインと会場の来場者へChio Chioシリーズを紹介しました。柔らかなAIパートナーは会場の注目を集め、配信でも外観や子どもの気持ちへの応答について多くのコメントが寄せられました。",
+      "会場では親子が製品を体験しました。大きなクラシックモデルは家庭でのより深い寄り添いを、小さなミニモデルはスタート、カーム、ブレイブ、おしゃべりの4つの個性を通じて日常の異なるニーズを支えます。柔らかな生地と子どもらしい声で、子どもと大人がAIとの交流を体験しました。",
+      "[[media:4]]",
+      "[[media:5]]",
+      "一般的なAI玩具とは異なり、Chio Chioは心理学者の郭凱燕博士と清華大学などの博士号取得者を含むチームが開発したYouAIモデルを搭載しています。気持ちの手がかり、共感的な対話、長期記憶を組み合わせ、子どもの成長を補助的に支えます。これは医療診断や専門家の代替ではありません。",
+      "楊浦区の展示とライブ配信を組み合わせた新しい消費場面で、Chio Chioは温かさを持つ技術の一例として紹介されました。研究開発から生まれた製品を家庭の日常へ届けるという点で、『五五ショッピングフェスティバル』の趣旨とも重なります。",
+      "Super YouAIは、子どもの心に寄り添うための専門的な知見を、より身近な形で届けることを目指します。",
+      "[[media:6]]",
+      "[[media:7]]",
+      "春から夏にかけて、Chio Chioは温かさとテクノロジーを組み合わせ、子どもの成長に寄り添います。",
+      "子どもの日の贈り物として、日々の心の力を育むChio Chioという選択肢を紹介しました。",
+      "[[media:8]]"
+    ]
+  },
+  "2026041547": {
+    title: "Chio Chioが中国電子情報博覧会に出展、AIパートナーの新たな可能性を紹介",
+    summary: "CITE 2026で、子どもから大人、海外の来場者までがChio Chioを体験し、感情に配慮したAIへの関心を示しました。",
+    body: [
+      "[[media:1]]",
+      "展示会全体では、AIが能力中心から実際の応用へ移る傾向が見られました。業務や生産の効率化に加え、心への支援、長期的な交流を扱うAIが、人と技術をつなぐ新しい形として注目されています。",
+      "[[media:2]]",
+      "Chio Chioは幅広い年齢の寄り添い場面を想定し、気持ちの手がかり、共感的な会話、長期的な関係づくりを組み合わせています。柔らかな外観と親しみやすい交流が、さまざまな国と年代の来場者、機関関係者の関心を集めました。",
+      "[[media:3]]",
+      "会期中、中国、韓国、英国、ロシアなどから来た子どもたちがブースを訪れ、Chio Chioを抱いたり話しかけたりしました。穏やかな応答を通じて、子どもたちは短時間でも自然に製品へ親しみました。",
+      "[[media:4]]",
+      "中国内外の成人や機関関係者も、製品の仕組み、AIモデル、利用場面について質問し、対話を体験しました。海外の販売事業者からは、将来の提携方法について相談がありました。",
+      "[[media:5]]",
+      "文化が異なっても、『応えてもらえること』には共通の意味があります。CITE 2026は、AIが効率を高めるだけでなく、人と世界の関係を変え始めていることを示しました。Chio Chioは中国から世界へ、話を聴き、温かく応えるAIの可能性を探ります。",
+      "[[media:6]]",
+      "[[media:7]]"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_DA, {
+  "2026051302": {
+    title: "Chio Chio søger distributionspartnere i hele Kina",
+    summary: "Chio Chio åbner for nationale kanal- og regionale partnerskaber og præsenterer produktformer, teknologi, resultater og relevante salgsmiljøer.",
+    body: [
+      "[[media:1]]",
+      "Chio Chio åbner for partnerskaber i hele Kina. DEL 01 Produktet: barnets første AI-ven. Den store Superbot er udviklet til dybere følelsesmæssigt nærvær i hjemmet. Den er blød, kan krammes og ligge ved barnet, har stemmestyret lukning af øjnene og store øjne, der reagerer i samspillet.",
+      "Superbot mini findes i fire positive personligheder: Kom-i-gang, Rolig, Modig og Snakkeglad. De passer til forskellige behov og kan med deres håndholdte størrelse følge barnet hjemme, på tur og i skole.",
+      "[[media:2]]",
+      "[[media:3]]",
+      "DEL 02 Teknologi og priser. I modsætning til underholdningslegetøj med generelle sprogmodeller bruger Chio Chio en YouAI-model udviklet af psykologifaglig Dr. Guo Kaiyan og et team med ph.d.-uddannede forskere fra blandt andet Tsinghua University. Modellen kombinerer følelsesmæssige signaler, empatisk dialog og personlig langtidshukommelse og forbinder opmærksomhed, forståelse, positiv støtte og tegn, der kan kræve opfølgning. Produktet har modtaget tredjepræmie og prisen for det mest menneskelige projekt ved AI Agent 2025.",
+      "[[media:4]]",
+      "[[media:5]]",
+      "[[media:6]]",
+      "[[media:7]]",
+      "Derudover er Super YouAI udpeget som en AI-innovatør at følge i 2025 af CYZone og har modtaget publikumsprisen ved Hangzhou WenSan AI TED-roadshow.",
+      "[[media:8]]",
+      "DEL 03 Interesse fra myndigheder, medier og branche. Chio Chio søger at skabe en ny kategori for nærvær i børns udvikling frem for blot endnu et AI-legetøj. Produktet er blevet vist ved teknologi- og forbrugsevents i Yangpu og Guangzhou, Hangzhous AI-nytårsmarked, China International Import Expo, Dream Town og CES 2026 og omtalt af forskellige medier.",
+      "[[media:9]]",
+      "DEL 04 Partnere søges i hele Kina. Relevante partnere omfatter familiebutikker, uddannelsesvirksomheder, forældreiværksættere, lokale gaveforhandlere, gruppeindkøbsfællesskaber og selvstændige. Super YouAI ønsker dialog om distribution og regionale samarbejder med aktører, der har adgang til familier, uddannelse, gaver eller lokale tjenester. Konkrete vilkår, indtjening og eventuel eneret skal bekræftes i de endelige aftaledokumenter.",
+      "[[media:10]]"
+    ]
+  },
+  "2026043028": {
+    title: "Chio Chio præsenteret ved Shanghais 5. maj-shoppingfestival",
+    summary: "Ved et teknologi- og forbrugsevent arrangeret af Yangpu-distriktet og Douyin blev Chio Chio vist gennem livestreaming og fysiske oplevelser.",
+    body: [
+      "[[media:1]]",
+      "Eventet blev arrangeret af Yangpu-distriktet og Douyin med fokus på AI, wearables og andre nye teknologier. Målet var at forbinde forskning med konkrete forbrugssituationer. Et 270-graders glasstudie i Wujiaochang samlede produktlanceringer, oplevelser, fysisk interaktion og direkte onlinehandel.",
+      "[[media:2]]",
+      "[[media:3]]",
+      "Super YouAI-grundlægger Dr. 元晓帅 og CSO 何昌耀 deltog i livestreamingen og præsenterede hele Chio Chio-serien for online- og fysisk publikum. Den bløde AI-ledsager blev et centralt blikfang, og kommentarerne handlede både om design og forståelse af børns følelser.",
+      "På den fysiske stand prøvede familier produkterne. Den store klassiske model er udviklet til dybere nærvær i hjemmet, mens miniudgaven har personlighederne Kom-i-gang, Rolig, Modig og Snakkeglad til forskellige daglige behov. Den bløde overflade og venlige stemme gav både børn og voksne en konkret AI-oplevelse.",
+      "[[media:4]]",
+      "[[media:5]]",
+      "Chio Chio bruger YouAI-modellen, udviklet af Dr. Guo Kaiyan og et team med ph.d.-uddannede forskere fra blandt andet Tsinghua University. Den kombinerer følelsesmæssige signaler, empatisk dialog og langtidshukommelse som supplerende støtte til børns udvikling. Produktet er ikke en medicinsk diagnose og erstatter ikke fagpersoner.",
+      "I Yangpus kombination af udstilling og livestreaming blev Chio Chio præsenteret som et eksempel på teknologi med varme. At bringe et forskningsbaseret produkt ind i familiers hverdag passer til shoppingfestivalens mål om at forbinde innovation og nyt forbrug.",
+      "Super YouAI ønsker at gøre viden om følelsesmæssigt nærvær for børn mere tilgængelig i hverdagen.",
+      "[[media:6]]",
+      "[[media:7]]",
+      "Hen over foråret og sommeren vil Chio Chio kombinere teknologi og varme i støtten til børns udvikling.",
+      "Som gave til børnenes dag blev Chio Chio præsenteret som en mulighed, der støtter personlige styrker i hverdagen.",
+      "[[media:8]]"
+    ]
+  },
+  "2026041547": {
+    title: "Chio Chio viser nye muligheder for AI-nærvær på China Information Technology Expo",
+    summary: "På CITE 2026 prøvede børn, voksne og internationale gæster Chio Chio og viste interesse for følelsesmæssigt opmærksom AI.",
+    body: [
+      "[[media:1]]",
+      "På messen var en tydelig tendens, at AI bevæger sig fra fokus på evner til konkret anvendelse. Ud over effektivitet i kontor og produktion kommer AI til følelsesmæssig støtte og langvarig interaktion mere frem som en forbindelse mellem teknologi og mennesker.",
+      "[[media:2]]",
+      "Chio Chio er udviklet til nærvær på tværs af aldersgrupper og kombinerer følelsesmæssige signaler, empatisk dialog og langvarige relationer. Det bløde design og venlige udtryk tiltrak gæster i forskellige aldre og fra forskellige lande samt repræsentanter fra organisationer.",
+      "[[media:3]]",
+      "Børn fra Kina, Sydkorea, Storbritannien, Rusland og andre steder besøgte standen, krammede Chio Chio og talte med den. Den rolige respons gjorde det let for dem hurtigt at blive fortrolige med produktet.",
+      "[[media:4]]",
+      "Voksne gæster og organisationsrepræsentanter spurgte også til principperne, AI-modellen og mulige anvendelser og prøvede dialogen flere gange. Internationale distributører tog kontakt for at drøfte mulige samarbejdsformer.",
+      "[[media:5]]",
+      "På tværs af kulturer har det universel betydning at få et svar. CITE 2026 viste, at AI ikke alene forbedrer effektivitet, men også ændrer måden, mennesker forbinder sig med verden på. Fra Kina til internationale markeder udforsker Chio Chio AI, der lytter og svarer med varme.",
+      "[[media:6]]",
+      "[[media:7]]"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_JA, {
   "2026060234": {
     title: "中国の公共メディアも注目——AI分野の新星Chio Chioが支持を集めた理由",
     summary: "イベントで子どもたちに囲まれたChio Chioが公共メディアに紹介され、温かなAIのあり方が注目されました。",
