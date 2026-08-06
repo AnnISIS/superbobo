@@ -1406,6 +1406,64 @@ Object.assign(window.NEWS_ARTICLE_DA, {
 });
 
 Object.assign(window.NEWS_ARTICLE_JA, {
+  "2025092645": {
+    title: "Super YouAI、『2025年注目のAIイノベーター』に選出",
+    summary: "DEMO CHINAのイベントで、Super YouAIがChio Chioの機能と事業計画を投資・AIハードウェア関係者へ紹介しました。",
+    body: [
+      "[[media:1]]",
+      "9月24日午後、創業者の元晓帅博士がChio Chioチームを代表し、投資機関とAI・ロボット・スマートハードウェア企業に製品の機能と事業計画を紹介しました。複数の投資関係者が関心を示しました。",
+      "CYZoneの説明によると、DEMO CHINAは中国で長い歴史を持つ初期テクノロジー企業の展示・交流プラットフォームです。今回の大会はCYZoneが主催し、杭州市拱墅区人民政府の指導のもと、126社の初期企業と213の投資機関が参加しました。",
+      "[[media:2]]"
+    ]
+  },
+  "2025082529": {
+    title: "Super YouAIチーム｜心理カウンセラーがAIパートナー開発を選んだ理由",
+    summary: "心理学者の郭凱燕博士が、20年の実務経験をAIパートナーChio Chioの対話設計へ生かす理由と、チームでの仕事を語りました。",
+    body: [
+      "Q：郭凱燕博士、ご経歴を教えてください。A：私は応用心理学の博士号を持ち、心理カウンセリングに20年間携わってきました。心理学を発信するオンラインアカウントには約200万人のフォロワーがいます。また17歳、9歳、7歳半の3人の子どもの母親でもあり、保護者としての経験が子どもの気持ちを理解する助けになっています。仕事の多くは家庭教育と青少年の心の健康に関わるものです。感染症流行期にはボランティアチームと心理支援を行い、チームと個人として女性・子ども・家庭支援に関する表彰を受けました。",
+      "Q：この仕事を20年続ける原点は何ですか。A：2011年6月17日に山間部の留守児童学校を訪ねた経験が転機でした。生活物資や家族の愛情が十分でない中でも懸命に成長する子どもたちを見て、心理学で人の心を照らし、子どもを温めたいと決めました。それ以来、学生や若者の自己価値と自信を支える活動を続け、近年は学校へ行くことが難しくなった子どもが自信と生活への希望を取り戻す過程にも寄り添ってきました。",
+      "Q：経験あるカウンセラーが、なぜChio ChioというAIパートナーの開発に加わったのですか。A：専門家一人が一日に支援できる人数には限界があり、成熟したカウンセラーを育てるにも長い時間がかかります。私は約6,000人のカウンセラー受講生を指導し、そのうち約500人が2〜3年の体系的な訓練を受けましたが、それでも支援できる人数は限られます。より多くの人へ、必要なときに利用できる補助的な支援を届ける方法を考え続けてきました。娘が12歳のときに思い描いた『気持ちのスーパーマーケット』のような構想も、その願いの一部です。2025年5月に元晓帅、共同創業者の老譚らと出会い、同じ方向へ進むチームだと感じました。AIが心理カウンセラーを置き換えるかについて考えは変化してきましたが、現在はAIが一定の支援を提供できる水準へ進む可能性を感じています。ただしAIは専門家を一律に置き換えるものではなく、安全性、限界、必要時の人への引き継ぎが重要です。だからこそ、心理学の知見を持つ立場から開発に参加することを決めました。",
+      "Q：チーム内の呼び名『提灯を持つ人』にはどんな意味がありますか。A：カウンセラーは、迷いや不安の中にいる人の道を小さな灯りで照らし、本人が自分の力で進めるよう支える存在だと考えています。チームでは私と心羽先生が実務経験を持つ心理専門家として、利用者のニーズを中心に対話や支援の方向を照らす役割を担っています。すべての技術は人に役立つべきです。Chio Chioを単なる技術製品ではなく、利用者を理解し、温かく応答する補助的な心のパートナーにすることが目標です。",
+      "Q：加入後の3か月で何を行い、どんな課題がありましたか。A：主にChio Chioの対話エージェントを訓練し、利用者が安心して話したいと思えるよう、傾聴、共感、声かけ、前向きな強化の流れを整えました。心理学の理論をAIが実行できる対話ロジックへ変えるのは難しく、指示やプロンプトを長時間調整しても期待どおりにならないことがあります。技術メンバーやAI研究者から学び、チーム内で何度も議論と試行を重ねました。互いを消耗させず励まし合う文化が、失敗から立ち上がる力になっています。教育や行政との過去の協力関係を生かし、実地での活用検討も進めました。",
+      "Q：チームと製品の将来をどう見ていますか。A：AIを具体的な場面へ応用する段階が進む中、ソフトウェアとハードウェアを組み合わせたChio Chioには社会的な可能性があります。人々は利用しやすく手頃な心への支えを求めていますが、経済的価値以上に、子どもや若者が理解され、希望を感じられる社会的価値を重視しています。社会心理サービスの整備という政策の方向とも重なります。一方、AIだけで心理的危機を防げると保証することはできません。自傷や自殺を示唆する発言、いじめ、深刻な不調には、直ちに保護者、学校、専門家、医療・緊急サービスが対応すべきです。Chio Chioは早く気持ちを言葉にする入口や、助けを求めるきっかけを補助する存在を目指します。",
+      "[[media:1]]",
+      "[[media:2]]",
+      "[[media:3]]",
+      "[[media:4]]"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_DA, {
+  "2025092645": {
+    title: "Super YouAI udpeget som en AI-innovatør at følge i 2025",
+    summary: "Ved DEMO CHINA præsenterede Super YouAI Chio Chios funktioner og forretningsplan for investorer og virksomheder inden for AI-hardware.",
+    body: [
+      "[[media:1]]",
+      "Om eftermiddagen den 24. september præsenterede grundlægger Dr. 元晓帅 Chio Chios funktioner og forretningsplan for investorer og virksomheder inden for AI, robotter og intelligent hardware. Flere investorer viste interesse.",
+      "Ifølge CYZone er DEMO CHINA en af Kinas ældste og største platforme for fremvisning og kontakt mellem tidlige teknologivirksomheder. Konferencen blev arrangeret af CYZone under vejledning fra Gongshu-distriktets myndigheder i Hangzhou og samlede 126 tidlige teknologivirksomheder og 213 investeringsinstitutioner.",
+      "[[media:2]]"
+    ]
+  },
+  "2025082529": {
+    title: "Super YouAI-teamet: Hvorfor en erfaren psykologisk rådgiver valgte at udvikle en AI-ledsager",
+    summary: "Psykolog Dr. Guo Kaiyan fortæller, hvorfor hun bruger 20 års erfaring i udviklingen af Chio Chios dialog, og hvad hendes arbejde i teamet består i.",
+    body: [
+      "Spørgsmål: Dr. Guo Kaiyan, vil du præsentere din baggrund? Svar: Jeg har en ph.d. i anvendt psykologi og 20 års praktisk erfaring med psykologisk rådgivning. Mine psykologiske kanaler på nettet har omkring to millioner følgere. Jeg er også mor til tre børn på 17, 9 og 7½ år, og erfaringen som forælder hjælper mig med at forstå børn. En stor del af mit arbejde har handlet om familieuddannelse og unges mentale trivsel. Under pandemien ledede jeg et frivilligt støtteteam, og både teamet og jeg modtog anerkendelser for arbejdet med kvinder, børn og familier.",
+      "Spørgsmål: Hvad fik dig til at arbejde med familie og mental trivsel i 20 år? Svar: Et besøg på en skole for børn af migrantarbejdere i et bjergområde den 17. juni 2011 blev et vendepunkt. Børnene manglede både materielle ressourcer og nærhed fra deres familier, men arbejdede alligevel hårdt på at udvikle sig. Jeg besluttede at bruge psykologi til at bringe lys og varme til børn. Siden har jeg arbejdet med elevers og studerendes selvværd og selvtillid og fulgt børn, der havde svært ved at gå i skole, på vejen tilbage til tro på sig selv og livet.",
+      "Spørgsmål: Hvorfor gik en erfaren rådgiver ind i udviklingen af Chio Chio? Svar: Én fagperson kan kun hjælpe få mennesker om dagen, og det tager lang tid at uddanne en erfaren rådgiver. Jeg har undervist næsten 6.000 rådgivere, hvoraf omkring 500 har gennemført to til tre års systematisk træning, men kapaciteten er stadig begrænset. Derfor har jeg længe tænkt over, hvordan flere kan få et supplement, når behovet opstår. Min datters idé som 12-årig om et farverigt humørsupermarked var også en del af visionen. I maj 2025 mødte jeg 元晓帅, medstifter Lao Tan og resten af teamet og oplevede, at de arbejdede mod samme mål. Mit syn på, om AI vil erstatte rådgivere, har ændret sig, og jeg tror nu, at AI kan udvikle sig til at yde en vis pålidelig støtte. Men AI kan ikke ukritisk erstatte fagpersoner; sikkerhed, tydelige grænser og overgang til menneskelig hjælp er afgørende. Netop derfor valgte jeg at bidrage med psykologisk faglighed.",
+      "Spørgsmål: Hvad betyder dit kaldenavn Lygtebæreren? Svar: Jeg ser rådgiveren som en person, der bærer et lille lys for mennesker, som er faret vild i uro og hjælpeløshed, og støtter dem i selv at finde en vej videre. I teamet har læreren Xinyu og jeg stor praktisk psykologisk erfaring. Vi skal holde fokus på brugerens behov og belyse retningen for dialog og støtte. Al teknologi skal i sidste ende tjene mennesker. Målet er, at Chio Chio ikke blot er et teknologiprodukt, men et supplement, der forstår brugeren og svarer varmt.",
+      "Spørgsmål: Hvad har du lavet i de første tre måneder, og hvilke udfordringer har du mødt? Svar: Jeg har især trænet og forbedret Chio Chios dialogagent, så brugeren får lyst til at tale og kan opleve lytning, empati, vejledning og positiv forstærkning. Det er vanskeligt at omsætte psykologisk teori til dialoglogik, som AI kan følge, og selv mange timers justering af instruktioner giver ikke altid gode samtaler. Jeg har lært af teknikere og AI-forskere, mens teamet har diskuteret og afprøvet igen og igen. En kultur præget af opmuntring frem for intern nedslidning har hjulpet os videre efter fejl. Jeg har også brugt erfaringer fra uddannelses- og myndighedssamarbejde til at fremme praktiske projekter.",
+      "Spørgsmål: Hvordan ser du teamets og produktets fremtid? Svar: I takt med at AI flyttes ind i konkrete anvendelser, har kombinationen af software og hardware i Chio Chio et socialt potentiale. Mennesker efterspørger hurtig, tilgængelig og økonomisk følelsesmæssig støtte, men for mig er den sociale værdi for børn og unge vigtigere end den økonomiske. Arbejdet stemmer også med udviklingen af et bredere socialt psykologisk støttesystem. AI kan dog ikke garantere, at psykiske kriser undgås. Udsagn om selvskade eller selvmord, mobning og alvorlig mistrivsel kræver straks hjælp fra omsorgspersoner, skole, fagfolk, sundhedsvæsen eller akuttjenester. Chio Chio skal være et supplement, der gør det lettere tidligt at sætte ord på følelser og søge menneskelig hjælp.",
+      "[[media:1]]",
+      "[[media:2]]",
+      "[[media:3]]",
+      "[[media:4]]"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_JA, {
   "2026061746": {
     title: "AI子ども成長パートナーChio ChioがCES Asia 2026に登場",
     summary: "CES Asia 2026で、Chio Chioが子どもの感情表現と成長を日常的に補助するAIシステムを紹介しました。",
