@@ -1404,3 +1404,69 @@ Object.assign(window.NEWS_ARTICLE_DA, {
     ]
   }
 });
+
+Object.assign(window.NEWS_ARTICLE_JA, {
+  "2026071626": {
+    title: "国際パラリンピック委員会会長アンドリュー・パーソンズ氏が融愛センターを訪問、Chio Chioの子ども支援に注目",
+    summary: "IPC会長アンドリュー・パーソンズ氏がChio Chioの英語での対話を体験し、障害や特別な支援ニーズのある子どもへの温かな価値に関心を寄せました。",
+    body: [
+      "[[media:1]]",
+      "視察では、スタッフがアンドリュー・パーソンズ会長一行に各社の中核技術を紹介しました。柔らかなAIパートナーロボット、視覚障害者の移動を支援するARスマートグラス、神経発達を支えるブレイン・コンピューター・インターフェース型リハビリ機器などが実演されました。",
+      "[[media:2]]",
+      "[[media:3]]",
+      "これらの技術は、障害のある人のリハビリ、日常生活、心の健康を幅広く支えるもので、視察団の注目を集めました。",
+      "英語で自然に対話するAI——Super YouAIの展示エリアでは、視察団がピンク色のAI子ども成長パートナーChio Chioに目を留めました。",
+      "スタッフが操作を促すことなく、Chio Chioは英語で自己紹介を始めました。表情豊かなライトとやさしい声が、パーソンズ会長の関心を引きました。",
+      "パーソンズ会長が『子どもたちのために何ができますか』と尋ねると、Chio Chioは英語で、子どもの悩みを辛抱強く聴くこと、つらい感情を共感的に受け止めること、前向きな声かけでストレスへの対処を支えること、継続的な練習を通じて安定した心の力を育むことを説明しました。",
+      "[[media:4]]",
+      "二言語でのスムーズな対話と子ども向けに設計されたYouAIモデルを通じて、視察団は軽量で画面のないAIデバイスならではの寄り添い方を体験しました。",
+      "特別な支援ニーズのある子どもへの取り組みに注目——交流後、Super YouAI営業責任者の高麗春はパーソンズ会長と意見を交わしました。会長は、障害や特別な支援ニーズのある子ども向けの機能について質問しました。",
+      "高麗春は、刺激を抑えた穏やかな交流モードを自閉スペクトラム症の子ども向けに調整し、地域の公益拠点での活用を進めていること、重い病気で治療を受ける子ども向けに通院や入院への不安を和らげる音声体験を用意していることを説明しました。",
+      "また、特別支援教育機関や地域施設へAIパートナーを無償提供する公益活動を継続し、子どもが安心して気持ちを話せる機会を広げています。",
+      "説明を聞いたパーソンズ会長は、障害や自閉スペクトラム症のある子どもは孤独を感じやすく、安定して受け止めてくれる相手が不足する場合があると述べました。そして、AIパートナーが負担の少ない形でいつでも気持ちを話せる場を提供することは、人への配慮を備えた社会的価値のある技術だと評価しました。",
+      "[[media:5]]",
+      "特別な贈り物——子どもたちの絵が技術への思いを伝える。視察の最後に、パーソンズ会長へChio Chioを贈りました。製品を収めた環境配慮型バッグの柄は、Super YouAIが継続的に支援する自閉スペクトラム症の子どもたちの作品です。",
+      "子どもたちの絵を使ったバッグには、豊かな内面や創作の才能をより多くの人に知ってもらうことと、AIによる寄り添いだけでなく、表現や発表の場も支え続けたいという二つの思いが込められています。",
+      "[[media:6]]",
+      "パーソンズ会長は手描きの模様を丁寧に眺め、人への思いやりが感じられる贈り物だと述べました。",
+      "今回の訪問と交流は、子ども向けの感情に配慮したAIと障害者支援技術について、国際的な関係者と意見を交わす機会になりました。",
+      "子どもの心の健康は世界的な課題です。自閉スペクトラム症、障害、困難な状況にある子どもたちの孤独には、より丁寧な支援が必要です。専門的な相談資源には地域差があり、継続して話を聴いてもらえる機会が不足する家庭もあります。Chio Chioのような軽量なAIパートナーは、時間や場所に左右されにくい、利用しやすい補助的な選択肢を目指しています。",
+      "今後Super YouAIは、特別な支援ニーズのある子ども向け機能と公益連携の改善、国際交流を通じた中国発の子ども向けAI事例の共有、若者の芸術活動支援という三つの方向を進め、多様な関係者とともに包摂的な成長環境づくりに取り組みます。",
+      "[[media:7]]",
+      "テクノロジーは生活を便利にするだけでなく、人が理解され、支えられていると感じる機会もつくれます。Super YouAIは、障害者支援団体、心理支援機関、テクノロジーパートナーと連携し、国境を越えて子どもたちに温かな寄り添いを届けることを目指します。"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_DA, {
+  "2026071626": {
+    title: "IPC-præsident Andrew Parsons besøger Rongai Center og fremhæver Chio Chios støtte til børn med særlige behov",
+    summary: "IPC-præsident Andrew Parsons oplevede Chio Chios engelske AI-dialog og viste interesse for produktets varme værdi for børn med handicap og særlige støttebehov.",
+    body: [
+      "[[media:1]]",
+      "Under besøget demonstrerede medarbejdere en række virksomheders kerneteknologier for IPC-præsident Andrew Parsons og delegationen. De omfattede en blød AI-ledsagerrobot, AR-briller til mobilitet for mennesker med synshandicap og hjerne-computer-baseret rehabiliteringsudstyr til støtte for neurologisk udvikling.",
+      "[[media:2]]",
+      "[[media:3]]",
+      "Løsningerne dækkede rehabilitering, hverdagsliv og mental trivsel for mennesker med handicap og fastholdt delegationens interesse.",
+      "En venlig AI med naturlig dialog: I Super YouAIs produktområde rettede delegationen opmærksomheden mod den bløde, pink Chio Chio, en AI-ledsager til børns udvikling.",
+      "Uden hjælp fra medarbejderne præsenterede Chio Chio sig flydende på engelsk. De levende lysudtryk og den rolige stemme fangede straks præsident Parsons' interesse.",
+      "Da Parsons spurgte: »Hvad kan du gøre for børn?«, forklarede Chio Chio på engelsk fire centrale evner: at lytte tålmodigt til børns bekymringer, møde svære følelser med empati og accept, hjælpe barnet med at håndtere pres gennem positiv vejledning og støtte mere stabile personlige styrker gennem løbende øvelse.",
+      "[[media:4]]",
+      "Den flydende tosprogede dialog og den børneorienterede YouAI-model gav delegationen et konkret indtryk af værdien i let, skærmfri AI-hardware.",
+      "Fokus på børn med særlige behov: Efter oplevelsen talte Super YouAIs salgsdirektør Gao Lichun med præsident Parsons, som spurgte til funktioner for børn med handicap og andre særlige støttebehov.",
+      "Gao Lichun beskrev en rolig interaktionsform med færre stimuli til børn med autisme, som også afprøves i lokale almennyttige tilbud, samt lydoplevelser til børn med alvorlig sygdom, der kan mindske uro omkring behandling og hospitalsophold.",
+      "Super YouAI stiller desuden AI-ledsagere gratis til rådighed for specialundervisningsinstitutioner og lokalsamfund som en del af et langsigtet almennyttigt arbejde, der skal give flere børn et trygt sted at udtrykke sig.",
+      "Efter præsentationen bemærkede Parsons, at børn med handicap eller autisme kan være særligt udsatte for ensomhed og mangle en stabil, accepterende person at tale med. Han vurderede, at AI-ledsagere kan tilbyde en tilgængelig kanal uden pres og dermed repræsentere teknologi med både innovation og menneskelig værdi.",
+      "[[media:5]]",
+      "En særlig gave: børnenes kunst formidler tanken om teknologi med omtanke. Ved besøgets afslutning fik Parsons en Chio Chio. Mønstrene på den miljøvenlige pose omkring produktet var skabt af børn med autisme, som Super YouAI har støttet gennem længere tid.",
+      "Posen bar to budskaber: Den viste børnenes rige indre verden og kreative evner, og den udtrykte Super YouAIs ønske om både at udvikle støttende AI og fortsat skabe muligheder for, at børn med særlige behov kan vise og udtrykke sig.",
+      "[[media:6]]",
+      "Parsons studerede de håndtegnede mønstre og roste gaven for dens menneskelige omtanke.",
+      "Besøget skabte en mulighed for international dialog om følelsesmæssigt opmærksom AI til børn og teknologi, der støtter mennesker med handicap.",
+      "Børns mentale trivsel er en global udfordring. Ensomhed blandt børn med autisme, handicap eller vanskelige livsvilkår kræver opmærksomhed og omsorg. Specialiseret rådgivning er begrænset og ulige fordelt, og nogle familier mangler stabile muligheder for samtale og støtte. Lette AI-ledsagere som Chio Chio sigter mod at være et lettilgængeligt supplement, som ikke er bundet til et bestemt sted eller tidspunkt.",
+      "Fremover vil Super YouAI arbejde videre med funktioner og almennyttige samarbejder for børn med særlige behov, international udveksling af kinesiske erfaringer med AI til børn og støtte til unges kunstneriske udtryk. Målet er at bidrage til mere inkluderende miljøer sammen med relevante partnere.",
+      "[[media:7]]",
+      "Teknologi kan mere end at ændre hverdagen; den kan også skabe flere øjeblikke, hvor mennesker føler sig set og støttet. Super YouAI ønsker at samarbejde med handicaporganisationer, psykologiske fagmiljøer og teknologipartnere om at bringe varmt nærvær til børn på tværs af grænser."
+    ]
+  }
+});
