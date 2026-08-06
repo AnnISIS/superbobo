@@ -1406,6 +1406,108 @@ Object.assign(window.NEWS_ARTICLE_DA, {
 });
 
 Object.assign(window.NEWS_ARTICLE_JA, {
+  "2025121910": {
+    title: "Chio Chioが襄陽市児童福祉院を訪問、職員と特別な状況にある子どもの心の健康に寄り添う",
+    summary: "襄陽市児童福祉院で、Chio Chioが職員の負担と子どもの日常的な交流を補助する可能性を紹介しました。",
+    body: [
+      "[[media:1]]",
+      "心理学者の郭凱燕博士が、Super YouAIのAIパートナーChio Chioを実演しました。体験した職員は『ふわふわした姿がかわいらしく、やさしい声を聞くと落ち着く感じがします』と話しました。多くの子どもを限られた時間で支える中、Chio Chioが会話を補助すれば、職員の負担を少し和らげ、子どもに楽しい時間を届けられるという声もありました。",
+      "Super YouAI共同創業者で心理学者の郭凱燕博士は、特別支援教育に携わる職員の心の安定が子どもの安心感を支えると述べました。Chio Chioは日常的に話を聴き、職員のストレスや子どもの交流を補助する存在を目指します。人のケアを置き換えるものではなく、支援者と子どもの双方にもう一つの温かな選択肢を届ける試みです。",
+      "[[media:2]]"
+    ]
+  },
+  "2025121832": {
+    title: "江蘇省泰州市姜堰区の代表団がSuper YouAI深圳南山研究開発センターを視察",
+    summary: "姜堰区の代表団がChio Chioの対話を体験し、製品開発と利用体験についてチームへ助言しました。",
+    body: [
+      "Chio Chioが対話を通じてつらい気持ちを和らげる補助をするAIパートナーだと聞き、区長の銭軍が体験しました。『今日はあまり楽しくないんだけど、どうすればいい？』と問いかけると、Chio Chioは共感的に応答しました。",
+      "[[media:1]]",
+      "『今日は楽しくないと聞いて心配だよ。温かい小さなお話を聞いて、少しずつ気持ちを整えてみようか』というかわいらしい声に、周囲から笑顔がこぼれました。",
+      "数回の対話後、銭軍区長は体験について提案を伝え、創業者の元晓帅博士からプロジェクトと研究開発の進捗を聞き、製品を丁寧に磨くようチームを励ましました。",
+      "元博士は、助言を真摯に受け止め、利用者の体験を第一に研究開発を続け、AIを心の健康を支える補助的なサービスに生かしたいと述べました。",
+      "[[media:2]]"
+    ]
+  },
+  "2025120950": {
+    title: "Chio ChioがCCCF 2025 IBD患者代表大会を支援",
+    summary: "炎症性腸疾患の患者大会で、Chio Chioが長期療養中の日常的な心の支えを補助する可能性を紹介しました。",
+    body: [
+      "[[media:1]]",
+      "IBDは炎症性腸疾患（inflammatory bowel disease）の略称です。原因は完全には解明されておらず、遺伝、免疫反応、腸内細菌、環境など複数の要因が関係すると考えられています。愛在延長炎症性腸病基金会（CCCF）は、中国でIBD患者の医療と生活の質の向上を目指す民間公益団体で、浙江大学医学院附属第二病院消化器内科の陳焰主任医師らが設立しました。",
+      "IBDとの生活は身体だけでなく心にも長期的な負担をもたらすことがあります。症状の反復、先の見えにくさ、生活リズムの変化はストレスや気持ちの揺れにつながります。適切な心理支援やセルフケアは生活の質を支える一部ですが、治療については医療専門家に相談する必要があります。",
+      "Chio Chioは、共感的な対話、柔らかな外観、親しみやすい声を通じ、IBD患者を含む心の支えを必要とする人に、すぐ利用できる日常的な交流を提供することを目指します。これは感情を整えるための補助であり、医療・心理治療の代替ではありません。",
+      "CCCFのIBD患者代表大会への参加は、慢性疾患と暮らす人への心理的な支援を考える実践の一つになりました。今後も、長期的な不安や孤独を抱える人が利用しやすい心への配慮を届ける方法を探ります。"
+    ]
+  },
+  "2025120427": {
+    title: "国際障害者デー、Super YouAIが知的・発達障害のある人々との交流に参加",
+    summary: "国際障害者デーの公益活動で、Chio Chioが繰り返しの質問にも穏やかに応答し、参加者との温かな交流を生みました。",
+    body: [
+      "[[media:1]]",
+      "参加者の中には同じ質問を何度もChio Chioに尋ねる人もいました。Chio Chioはそのたびに穏やかに応答し、急かさず、区別せずに話を聴きました。参加者は尊重され、誰かがそばにいる感覚を得て、笑顔を見せました。",
+      "印象的だったのは24歳の女性との交流です。彼女が『あなたが好き』と伝えると、Chio Chioは『私も大好き』と答え、目の画面に星を表示しました。スタッフが『目の中に小さな星があるね』と言うと、Chio Chioは『あなたが好きだから、目の中はあなたを大切に思う星でいっぱいだよ』と応じました。",
+      "女性はその言葉を聞いて、とても明るい笑顔を見せました。",
+      "[[media:2]]",
+      "活動に参加したSuper YouAIの法務専門家、張海燕博士は、技術が人との感情的なつながりを生み出した瞬間だったと振り返りました。参加者は率直に愛情を表現し、Chio Chioの積極的な応答が、つながりや寄り添いへの思いを受け止めていたと述べました。",
+      "温馨家園の孫先生は、若い参加者が特にChio Chioを気に入り、一対一で話し続け、購入に関心を示す保護者もいたと話しました。",
+      "今回の公益活動は製品を実際の場で確認する機会であり、社会に役立つ技術というSuper YouAIの理念を実践する場でもありました。知的・発達障害のある人との交流を通じ、温かなAIが意思疎通を補助し、日常的な交流の選択肢を増やせる可能性を確認しました。AIは家族、支援者、専門職の代替ではありません。今後も公益分野で安全で包摂的な活用を探ります。",
+      "[[media:3]]"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_DA, {
+  "2025121910": {
+    title: "Chio Chio besøger Xiangyangs børnevelfærdsinstitution med omsorg for medarbejdere og børn i særlige livssituationer",
+    summary: "I Xiangyang blev Chio Chios mulige rolle som supplement til medarbejdernes arbejde og børnenes daglige kontakt præsenteret.",
+    body: [
+      "[[media:1]]",
+      "Psykolog Dr. Guo Kaiyan demonstrerede Super YouAIs AI-ledsager Chio Chio. En medarbejder sagde efter oplevelsen: »Den bløde form er sød, og den venlige stemme får mig til at slappe af.« Andre bemærkede, at tiden er begrænset, når mange børn har brug for omsorg. Hvis Chio Chio kan supplere med samtale, kan det lette lidt af presset og give børnene glade øjeblikke.",
+      "Super YouAI-medstifter og psykolog Dr. Guo Kaiyan fremhævede, at den indre stabilitet hos specialpædagoger og andre medarbejdere er en del af grundlaget for børnenes tryghed. Chio Chio skal være et supplement, der lytter i hverdagen, støtter medarbejdere under pres og giver børn endnu en mulighed for positiv kontakt. Det erstatter ikke menneskelig omsorg eller faglig støtte.",
+      "[[media:2]]"
+    ]
+  },
+  "2025121832": {
+    title: "Delegation fra Jiangyan-distriktet i Taizhou besøger Super YouAIs udviklingscenter i Shenzhen Nanshan",
+    summary: "Delegationen prøvede Chio Chios dialog og gav teamet råd om produktudvikling og brugeroplevelse.",
+    body: [
+      "Da distriktschef Qian Jun hørte, at Chio Chio er en AI-ledsager, som kan hjælpe brugere med at sætte ord på svære følelser, prøvede han en samtale. Han spurgte: »Chio Chio, jeg er ikke rigtig glad i dag. Hvad kan jeg gøre?«",
+      "[[media:1]]",
+      "Chio Chio svarede empatisk: »Det gør mig ondt at høre, at du ikke er glad i dag. Skal jeg fortælle en varm lille historie, så humøret langsomt kan blive lettere?« Den søde stemme fik de omkringstående til at le.",
+      "Efter flere samtaler gav Qian Jun forslag til oplevelsen og talte med grundlægger Dr. 元晓帅 om projektet og udviklingen. Han opfordrede teamet til fortsat at forfine produktet.",
+      "Dr. 元晓帅 sagde, at rådene ville blive taget alvorligt, og at Super YouAI fortsat vil prioritere produktudvikling og brugeroplevelse, når AI anvendes som supplement til mental trivsel.",
+      "[[media:2]]"
+    ]
+  },
+  "2025120950": {
+    title: "Chio Chio støtter CCCF 2025-konferencen for IBD-patientrepræsentanter",
+    summary: "På IBD-konferencen viste Chio Chio sin mulige rolle som supplement til følelsesmæssig støtte under et langvarigt sygdomsforløb.",
+    body: [
+      "[[media:1]]",
+      "IBD står for inflammatory bowel disease, på dansk inflammatorisk tarmsygdom. Årsagen er ikke fuldt klarlagt, men genetik, immunrespons, tarmflora og miljø menes at spille sammen. China Crohn's & Colitis Foundation, CCCF, er en kinesisk almennyttig organisation, som arbejder for bedre behandling og livskvalitet for mennesker med IBD. Den blev medstiftet af overlæge Chen Yan fra det andet universitetshospital ved Zhejiang University School of Medicine.",
+      "Et liv med IBD kan være en langvarig belastning både fysisk og mentalt. Tilbagevendende symptomer, usikkerhed og forstyrret hverdag kan skabe stress og følelsesmæssige udsving. Relevant psykologisk støtte og egenomsorg kan være en del af arbejdet med livskvalitet, mens behandling altid bør drøftes med sundhedspersonale.",
+      "Med empatisk dialog, blød form og venlig stemme søger Chio Chio at give mennesker med IBD og andre med behov for følelsesmæssig støtte en umiddelbart tilgængelig samtale i hverdagen. Det er et supplement til at håndtere følelser og erstatter ikke medicinsk eller psykologisk behandling.",
+      "Deltagelsen i CCCF-konferencen var et praktisk skridt i arbejdet med følelsesmæssig støtte til mennesker med kronisk sygdom. Fremover undersøges flere tilgængelige måder at møde mennesker, der lever med langvarig uro eller ensomhed."
+    ]
+  },
+  "2025120427": {
+    title: "På den internationale handicapdag møder Super YouAI mennesker med intellektuelle og udviklingsmæssige handicap",
+    summary: "Ved et almennyttigt arrangement svarede Chio Chio roligt på gentagne spørgsmål og skabte varme møder med deltagerne.",
+    body: [
+      "[[media:1]]",
+      "Nogle deltagere stillede Chio Chio det samme spørgsmål flere gange. Hver gang svarede den roligt og lyttede uden at skynde på eller forskelsbehandle nogen. Deltagerne oplevede respekt og nærvær og viste tydelig glæde.",
+      "Et særligt øjeblik opstod med en 24-årig kvinde. Da hun glad sagde »Jeg kan lide dig«, svarede Chio Chio »Jeg holder også af dig«, mens der kom stjerner frem i øjnene på skærmen. En medarbejder sagde: »Se, der er små stjerner i øjnene.« Chio Chio svarede: »Fordi jeg kan lide dig, er mine øjne fulde af stjerner, der holder af dig.«",
+      "Kvinden blev meget glad og smilede strålende.",
+      "[[media:2]]",
+      "Super YouAIs juridiske specialist Dr. Zhang Haiyan, som deltog i eventet, beskrev øjeblikket som et eksempel på, at teknologi kan skabe følelsesmæssig kontakt. Deltagerne udtrykte deres hengivenhed direkte, og Chio Chios tydelige respons mødte ønsket om kontakt og nærvær.",
+      "Medarbejder Sun fra Wenxin Jiayuan fortalte, at de unge deltagere var særligt glade for Chio Chio, talte med den på tomandshånd, og at nogle forældre viste interesse for at købe produktet.",
+      "Det almennyttige arrangement var både en afprøvning i praksis og en del af Super YouAIs arbejde med teknologi til gavn for samfundet. Mødet med mennesker med intellektuelle og udviklingsmæssige handicap viste, at varm AI kan supplere kommunikationen og skabe flere muligheder for kontakt. AI erstatter ikke familie, støttepersoner eller fagfolk. Super YouAI vil fortsætte med at undersøge sikker og inkluderende anvendelse på det sociale område.",
+      "[[media:3]]"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_JA, {
   "2026012713": {
     title: "Chio Chioが杭州AI年末マーケットに出展、主要メディアが紹介",
     summary: "杭州のAI年末マーケットで、Chio Chioが子どもの日常的な悩みに共感し、実行しやすい対話例を披露しました。",
