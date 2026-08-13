@@ -7534,3 +7534,65 @@ html[lang="da"] strong {
       url("./media/partner-hero-balls-opt.jpg") 54% 50% / cover no-repeat;
   }
 }
+
+/* Keep longer Japanese and Danish navigation labels inside the desktop header. */
+@media (min-width: 981px) {
+  html[lang="ja"] .site-header,
+  html[lang="da"] .site-header {
+    gap: clamp(10px, 1.2vw, 18px);
+    padding-right: 22px;
+    padding-left: 22px;
+  }
+
+  html[lang="ja"] .brand,
+  html[lang="da"] .brand {
+    flex: 0 1 286px;
+    min-width: 250px;
+    gap: 12px;
+  }
+
+  html[lang="ja"] .brand img,
+  html[lang="da"] .brand img {
+    width: 66px;
+    height: 66px;
+  }
+
+  html[lang="ja"] .brand strong,
+  html[lang="da"] .brand strong {
+    font-size: 21px;
+    line-height: 1.16;
+  }
+
+  html[lang="ja"] .nav,
+  html[lang="da"] .nav {
+    min-width: 0;
+    gap: clamp(12px, 1.35vw, 21px);
+    font-size: 16px;
+  }
+
+  html[lang="ja"] .site-header .language-toggle,
+  html[lang="da"] .site-header .language-toggle {
+    flex: 0 0 auto;
+    margin-left: 0;
+  }
+
+  html[lang="ja"] .language-toggle select,
+  html[lang="da"] .language-toggle select {
+    min-width: 92px;
+  }
+
+  html[lang="ja"] .header-action,
+  html[lang="da"] .header-action {
+    min-width: 118px;
+    height: 54px;
+    padding: 0 14px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 981px) and (max-width: 1180px) {
+  html[lang="ja"] .site-header .app-download,
+  html[lang="da"] .site-header .app-download {
+    display: none;
+  }
+}
