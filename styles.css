@@ -4086,6 +4086,65 @@ body:has(.home-screen) .hero-product p {
   }
 }
 
+/* Partner page background-image refinement */
+.section.partner-support-section {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: 82svh;
+  display: grid;
+  align-items: center;
+  background:
+    linear-gradient(90deg, rgba(255, 250, 242, 0.98) 0%, rgba(255, 250, 242, 0.93) 42%, rgba(255, 250, 242, 0.68) 100%),
+    url("./media/product-family.jpg") 72% 50% / cover no-repeat;
+}
+
+.partner-support-section::before {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  content: "";
+  background:
+    radial-gradient(circle at 12% 18%, rgba(248, 214, 220, 0.34), transparent 30%),
+    linear-gradient(0deg, rgba(238, 247, 241, 0.2), transparent 46%);
+  pointer-events: none;
+}
+
+.partner-support-section .split {
+  padding: clamp(28px, 4vw, 52px);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 18px;
+  background: rgba(255, 253, 248, 0.74);
+  box-shadow: 0 28px 80px rgba(69, 48, 40, 0.12);
+  backdrop-filter: blur(16px);
+}
+
+.partner-invite {
+  background:
+    linear-gradient(90deg, rgba(255, 250, 242, 0.96) 0%, rgba(255, 250, 242, 0.82) 42%, rgba(255, 250, 242, 0.14) 100%),
+    linear-gradient(0deg, rgba(255, 246, 236, 0.48), rgba(255, 246, 236, 0.04)),
+    url("./media/partner-hero-balls-opt.jpg") 72% 50% / cover no-repeat;
+}
+
+@media (max-width: 760px) {
+  .section.partner-support-section {
+    min-height: auto;
+    background:
+      linear-gradient(180deg, rgba(255, 250, 242, 0.94) 0%, rgba(255, 250, 242, 0.72) 100%),
+      url("./media/product-family.jpg") 64% 50% / cover no-repeat;
+  }
+
+  .partner-support-section .split {
+    padding: 24px 20px;
+  }
+
+  .partner-invite {
+    background:
+      linear-gradient(180deg, rgba(255, 250, 242, 0.94) 0%, rgba(255, 250, 242, 0.66) 100%),
+      url("./media/partner-hero-balls-opt.jpg") 54% 50% / cover no-repeat;
+  }
+}
+
 /* Refined motion system and bilingual switch. */
 .language-toggle {
   display: inline-flex;
@@ -7457,5 +7516,21 @@ html[lang="da"] strong {
 
   .footer-qr-contacts .footer-contact-card strong {
     max-width: calc(100% - 82px);
+  }
+}
+
+/* Keep the partnership closing image visible after the global section rules. */
+.partner-invite {
+  background:
+    linear-gradient(90deg, rgba(255, 250, 242, 0.96) 0%, rgba(255, 250, 242, 0.82) 42%, rgba(255, 250, 242, 0.14) 100%),
+    linear-gradient(0deg, rgba(255, 246, 236, 0.48), rgba(255, 246, 236, 0.04)),
+    url("./media/partner-hero-balls-opt.jpg") 72% 50% / cover no-repeat;
+}
+
+@media (max-width: 760px) {
+  .partner-invite {
+    background:
+      linear-gradient(180deg, rgba(255, 250, 242, 0.94) 0%, rgba(255, 250, 242, 0.66) 100%),
+      url("./media/partner-hero-balls-opt.jpg") 54% 50% / cover no-repeat;
   }
 }
