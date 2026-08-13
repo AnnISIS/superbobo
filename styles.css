@@ -2213,6 +2213,37 @@ html[lang="en"] .article-page--long-title .article-header h1 {
   margin: 0 0 28px;
 }
 
+.article-body h2 {
+  margin: 52px 0 22px;
+  color: #253144;
+  font-size: 28px;
+  line-height: 1.45;
+  font-weight: 900;
+}
+
+.article-body h3 {
+  margin: 34px 0 18px;
+  color: #3f4d5f;
+  font-size: 20px;
+  line-height: 1.55;
+  font-weight: 850;
+}
+
+.article-body ul {
+  margin: 0 0 30px;
+  padding-left: 1.35em;
+}
+
+.article-body li + li {
+  margin-top: 12px;
+}
+
+.article-body .article-source {
+  color: rgba(63, 77, 95, 0.62);
+  font-size: 14px;
+  line-height: 1.8;
+}
+
 .article-inline-image {
   width: min(100%, 860px);
   margin: 40px auto;
@@ -2837,6 +2868,15 @@ html[lang="en"] .article-page--long-title .article-header h1 {
   .article-body {
     font-size: 16px;
     line-height: 1.95;
+  }
+
+  .article-body h2 {
+    margin-top: 42px;
+    font-size: 24px;
+  }
+
+  .article-body h3 {
+    font-size: 18px;
   }
 
   .article-nav {
