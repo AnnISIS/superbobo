@@ -1173,9 +1173,9 @@ window.NEWS_TEXT_DA = {
   "“超级球球”亮相湖北省心理咨询师协会2025年学术年会": "Chio Chio præsenteret ved Hubei Psychological Counselors Associations årsmøde 2025",
   "“超级球球”亮相杭州市余杭区“世界儿童日”主题活动": "Chio Chio deltager i event på verdens børnedag i Yuhang, Hangzhou",
   "AI情绪疗愈机器人“超级球球”参展第八届进博会，获多位中外贵宾亲身体验": "Chio Chio udstiller på den 8. China International Import Expo",
-  "超级有爱携手周大侠、亿极中国成功举办AI智能产品交易会，创始人元晓帅博士作主题分享": "Super YouAI afholder AI-produktmesse med 周大侠 og EGG China; Dr. 元晓帅 holder oplæg",
+  "超级有爱携手周大侠、亿极中国成功举办AI智能产品交易会，创始人元晓帅博士作主题分享": "Super YouAI afholder AI-produktmesse med Zhou Daxia og EGO China; Dr. 元晓帅 holder oplæg",
   "英国驻华贸易副使节Sohail Shaikh：“每个人都需要一台超级球球！”": "Britisk handelsudsending Sohail Shaikh: »Alle har brug for en Chio Chio«",
-  "超级有爱将携手周大侠、亿极中国举办AI智能产品交易会，11月8日杭州见！": "Super YouAI, 周大侠 og EGG China afholder AI-produktmesse i Hangzhou den 8. november",
+  "超级有爱将携手周大侠、亿极中国举办AI智能产品交易会，11月8日杭州见！": "Super YouAI, Zhou Daxia og EGO China afholder AI-produktmesse i Hangzhou den 8. november",
   "“超级球球”晋级AI Agent 2025大赛线下半决赛，并荣获“最具人文温度奖”！": "Chio Chio går videre til AI Agent 2025-semifinalen og vinder prisen for det mest menneskelige projekt",
   "超级有爱作为企业代表、分享嘉宾出席虹桥海外贸易中心（北虹桥）揭牌仪式": "Super YouAI deltager som virksomhedsrepræsentant ved åbningen af Hongqiao Overseas Trade Center",
   "“超级球球”走进宜城市青年教师心理素养培训班": "Chio Chio deltager i kursus om psykologisk forståelse for unge lærere i Yicheng",
@@ -1457,6 +1457,12 @@ function normalizeOverseasNewsNames() {
   });
   Object.values(window.NEWS_ARTICLE_JA || {}).forEach((article) => normalizeArticle(article, jaNames));
   Object.values(window.NEWS_ARTICLE_DA || {}).forEach((article) => normalizeArticle(article, daNames));
+  Object.keys(window.NEWS_TEXT_JA || {}).forEach((key) => {
+    window.NEWS_TEXT_JA[key] = jaNames.reduce((value, [from, to]) => value.split(from).join(to), window.NEWS_TEXT_JA[key]);
+  });
+  Object.keys(window.NEWS_TEXT_DA || {}).forEach((key) => {
+    window.NEWS_TEXT_DA[key] = daNames.reduce((value, [from, to]) => value.split(from).join(to), window.NEWS_TEXT_DA[key]);
+  });
   Object.values(window.NEWS_ARTICLE_DA || {}).forEach((article) => {
     article.title = article.title.replaceAll("Shanghais 5. maj-shoppingfestival", "Shanghai Double Five Shopping Festival");
     article.summary = article.summary.replaceAll("Shanghais 5. maj-shoppingfestival", "Shanghai Double Five Shopping Festival");
@@ -3217,5 +3223,376 @@ Object.assign(window.NEWS_ARTICLE_DA, {
     ]
   }
 });
+
+// BEGIN AUGUST_2026_NEWS_TRANSLATIONS
+Object.assign(window.NEWS_TEXT_EN, {
+  "赛事喜讯｜载誉而归！超级有爱亮相《寻找白龙马》硬科技创投峰会，斩获重磅奖项": "Super YouAI Wins the Most Promising Award at the Finding the White Dragon Horse Hard-Tech Investment Summit",
+  "超级有爱凭借情绪健康AI差异化优势突出重围，斩获峰会“最具潜力奖”，获得政府、资本与行业专家认可。": "Super YouAI stood out with its differentiated emotional-wellbeing AI and received the summit's Most Promising Award.",
+  "超级球球亮相合肥“全球英才行”，用AI疗愈力守护青少年心理健康": "Chio Chio Appears at Hefei Global Talent Tour to Support Children's Emotional Wellbeing with AI",
+  "AI潮玩新势力！超级球球亮相第十六届东莞漫博会": "A New Force in AI Designer Toys: Chio Chio Appears at the 16th Dongguan Animation Expo",
+  "超级有爱携手周大侠、亿极中国成功举办AI智能产品交易会，创始人元晓帅博士作主题分享": "Super YouAI and EGO China Hold an AI Smart Product Fair, with a Keynote by Founder Dr. XIAOSHUAI YUAN",
+  "超级有爱将携手周大侠、亿极中国举办AI智能产品交易会，11月8日杭州见！": "Super YouAI and EGO China to Hold an AI Smart Product Fair in Hangzhou on November 8",
+  "超级有爱作为企业代表、分享嘉宾出席虹桥海外贸易中心（北虹桥）揭牌仪式": "Super YouAI Attends the Opening of the Hongqiao Overseas Trade Center as a Company Representative and Guest Speaker"
+});
+
+Object.assign(window.NEWS_TEXT_JA, {
+  "赛事喜讯｜载誉而归！超级有爱亮相《寻找白龙马》硬科技创投峰会，斩获重磅奖项": "Super YouAI、「白龍馬を探せ」ハードテック投資サミットで「最も将来性のあるプロジェクト賞」を受賞",
+  "超级有爱凭借情绪健康AI差异化优势突出重围，斩获峰会“最具潜力奖”，获得政府、资本与行业专家认可。": "Super YouAIは心の健康を支えるAIの独自性が評価され、サミットの「最も将来性のあるプロジェクト賞」を受賞しました。",
+  "超级球球亮相合肥“全球英才行”，用AI疗愈力守护青少年心理健康": "Chio Chio、合肥「グローバル人材ツアー」に登場——AIで子どもの心の健康を支える",
+  "AI潮玩新势力！超级球球亮相第十六届东莞漫博会": "AIトイの新しい力——Chio Chio、第16回東莞アニメーション博覧会に登場"
+});
+
+Object.assign(window.NEWS_TEXT_DA, {
+  "赛事喜讯｜载誉而归！超级有爱亮相《寻找白龙马》硬科技创投峰会，斩获重磅奖项": "Super YouAI vinder prisen for størst potentiale ved hardtech-topmødet Finding the White Dragon Horse",
+  "超级有爱凭借情绪健康AI差异化优势突出重围，斩获峰会“最具潜力奖”，获得政府、资本与行业专家认可。": "Super YouAI skilte sig ud med sin AI til følelsesmæssig trivsel og modtog topmødets pris for størst potentiale.",
+  "超级球球亮相合肥“全球英才行”，用AI疗愈力守护青少年心理健康": "Chio Chio deltager i Hefei Global Talent Tour med AI-støtte til børns følelsesmæssige trivsel",
+  "AI潮玩新势力！超级球球亮相第十六届东莞漫博会": "En ny kraft inden for AI-designlegetøj: Chio Chio på den 16. animationsmesse i Dongguan"
+});
+
+Object.assign(window.NEWS_TEXT_EN, {
+  "超级球球亮相东莞漫博会展区": "Chio Chio at the Dongguan Animation Expo",
+  "海外客商现场体验超级球球": "Overseas buyers experience Chio Chio",
+  "四款不同颜色的超级球球": "Chio Chio companions in four colors",
+  "全球英才合肥行活动现场": "The Hefei Global Talent Tour event",
+  "超级有爱在活动现场进行项目展示": "Super YouAI presents its project at the event",
+  "活动领导与超级有爱团队交流": "Event representatives speak with the Super YouAI team",
+  "四款不同性格的超级球球": "Four Chio Chio personalities",
+  "全球英才合肥行活动嘉宾合影": "Group photo at the Hefei Global Talent Tour",
+  "寻找白龙马硬科技创投峰会颁奖现场": "Award presentation at the Finding the White Dragon Horse summit",
+  "峰会现场嘉宾": "Guests at the investment summit",
+  "超级球球AI儿童成长陪伴机器人产品展示": "The Chio Chio AI child growth companion robot",
+  "峰会现场使用电脑的参会嘉宾": "A participant at the summit",
+  "寻找白龙马硬科技创投峰会参会人员合影": "Group photo at the Finding the White Dragon Horse summit"
+});
+
+Object.assign(window.NEWS_TEXT_JA, {
+  "超级球球亮相东莞漫博会展区": "東莞アニメーション博覧会に登場したChio Chio",
+  "海外客商现场体验超级球球": "海外バイヤーがChio Chioを体験",
+  "四款不同颜色的超级球球": "4色のChio Chio",
+  "全球英才合肥行活动现场": "合肥グローバル人材ツアーの会場",
+  "超级有爱在活动现场进行项目展示": "イベントでプロジェクトを紹介するSuper YouAI",
+  "活动领导与超级有爱团队交流": "イベント関係者とSuper YouAIチームの交流",
+  "四款不同性格的超级球球": "四つの個性を持つChio Chio",
+  "全球英才合肥行活动嘉宾合影": "合肥グローバル人材ツアーの集合写真",
+  "寻找白龙马硬科技创投峰会颁奖现场": "「白龍馬を探せ」サミットの表彰会場",
+  "峰会现场嘉宾": "投資サミットの来場者",
+  "超级球球AI儿童成长陪伴机器人产品展示": "AI子ども成長パートナーChio Chio",
+  "峰会现场使用电脑的参会嘉宾": "サミットに参加する来場者",
+  "寻找白龙马硬科技创投峰会参会人员合影": "「白龍馬を探せ」サミットの集合写真"
+});
+
+Object.assign(window.NEWS_TEXT_DA, {
+  "超级球球亮相东莞漫博会展区": "Chio Chio på animationsmessen i Dongguan",
+  "海外客商现场体验超级球球": "Udenlandske indkøbere prøver Chio Chio",
+  "四款不同颜色的超级球球": "Chio Chio i fire farver",
+  "全球英才合肥行活动现场": "Hefei Global Talent Tour",
+  "超级有爱在活动现场进行项目展示": "Super YouAI præsenterer projektet ved eventet",
+  "活动领导与超级有爱团队交流": "Eventrepræsentanter taler med Super YouAI-teamet",
+  "四款不同性格的超级球球": "Fire Chio Chio-personligheder",
+  "全球英才合肥行活动嘉宾合影": "Gruppefoto fra Hefei Global Talent Tour",
+  "寻找白龙马硬科技创投峰会颁奖现场": "Prisoverrækkelse ved Finding the White Dragon Horse-topmødet",
+  "峰会现场嘉宾": "Gæster ved investeringstopmødet",
+  "超级球球AI儿童成长陪伴机器人产品展示": "Chio Chio AI-ledsager til børns udvikling",
+  "峰会现场使用电脑的参会嘉宾": "En deltager ved topmødet",
+  "寻找白龙马硬科技创投峰会参会人员合影": "Gruppefoto fra Finding the White Dragon Horse-topmødet"
+});
+
+Object.assign(window.NEWS_ARTICLE_EN, {
+  "2026080701": {
+    title: "A New Force in AI Designer Toys: Chio Chio Appears at the 16th Dongguan Animation Expo",
+    summary: "Chio Chio brought together designer-toy aesthetics and locally adapted AI interaction at one of China's major animation and toy exhibitions.",
+    body: [
+      "The five-day 16th China International Animation Copyright Fair opened at the Shipai Animation Expo Center in Dongguan.",
+      "The event brought together animation IP, designer toys, intelligent cultural products, and digital technology. More than 2,200 high-quality IPs and 500 organizations from China and overseas took part, with attendance expected to reach the hundred-thousand level. Distributors, investors, creative professionals, and visitors gathered to explore new connections between animation culture, the designer-toy economy, and digital technology.",
+      "Super YouAI presented its independently developed Chio Chio AI companion robot in the Harbin Institute of Technology Shenzhen Alumni Association's AI, Robotics and Designer-Toy Ecosystem Zone. By combining the visual appeal of a designer toy with AI interaction, Chio Chio moves beyond the familiar form of a traditional early-learning device and attracted strong attention at the show.",
+      "[[media:1]]",
+      "Expo highlights: attention from across the industry",
+      "Overseas buyers explore cross-border cooperation",
+      "[[media:2]]",
+      "The exhibition area remained busy after the opening. Overseas buyers stopped to try Chio Chio and learn about its hardware, content resources, and suitability for children's everyday settings. Their questions focused on volume purchasing, agency policies, and localization for international markets.",
+      "Its designer-toy appearance and locally adaptable AI interaction matched the needs of overseas family markets. A number of visitors exchanged business details and continued discussions about cooperation, creating new opportunities for Super YouAI's international expansion.",
+      "Official media focus on an emerging category",
+      "Guangdong Radio and Television visited the booth for an interview and on-site filming, focusing on the emerging combination of AI and designer toys and the convergence of smart hardware with cultural and creative products.",
+      "The interview introduced Chio Chio's value in emotional companionship, playful learning, general knowledge, and interactive entertainment, presenting a new approach to intelligent toys for children and the innovation potential of Chinese AI hardware.",
+      "About the Chio Chio AI companion robot",
+      "Chio Chio is a new-generation AI designer-toy companion independently developed by Super YouAI and supported by a complete portfolio of proprietary intellectual property.",
+      "Its design moves beyond the rigid appearance of conventional children's smart devices. A designer-toy form is combined with on-device AI and capabilities including natural conversation, AI-created stories and poetry, multidisciplinary learning, spoken-English practice, bedtime companionship, and interactive science content.",
+      "The product has been optimized for children's safety, content review, and interaction. It can support designer-toy stores, cultural and tourism venues, family shopping centers, seasonal gifts, and campus cultural products. Within children's AI hardware, it offers a distinctive balance of visual appeal, entertainment, and everyday usefulness.",
+      "[[media:3]]",
+      "The event continues: visitors and partners are welcome",
+      "The expo uses a 5+365 model that extends industry connections beyond the five-day event. Distributors, tourism operators, investors, and industry partners are welcome to visit the ecosystem zone, experience the product, and discuss possible forms of cooperation.",
+      "Chio Chio will also remain on display throughout the year at the Dongguan Designer Toy Capital Product Selection Center. Partners unable to attend the expo can continue to visit the permanent showroom and explore opportunities in the children's AI designer-toy market."
+    ]
+  },
+  "2026081101": {
+    title: "Chio Chio Appears at Hefei Global Talent Tour to Support Children's Emotional Wellbeing with AI",
+    summary: "At Hefei's international talent and investment event, Chio Chio presented Super YouAI's approach to accessible emotional support for children.",
+    body: [
+      "In midsummer Hefei, global talent and emerging technology came together at the seventh Hefei Overseas Talent and Capital Project Matchmaking Conference and Global Talent Tour, held in the Shushan Economic and Technological Development Zone.",
+      "The event opened on August 7 with city and district leaders, investment institutions, overseas innovation teams, local companies, and relevant government departments. Nearly one hundred participants gathered to discuss the future of science and technology innovation.",
+      "[[media:1]]",
+      "Twenty overseas technology teams presented projects spanning next-generation information technology, new energy, biomedicine, and artificial intelligence. Representing the AI sector, Super YouAI (Hangzhou) Intelligent Technology Co., Ltd. presented Chio Chio, its independently developed AI companion robot, which became one of the event's notable projects.",
+      "Who we are: an AI innovator focused on emotional wellbeing",
+      "Super YouAI develops artificial intelligence for emotional wellbeing and companionship. Its core team includes doctoral graduates from leading Chinese and international universities, including Tsinghua University and the University of Bristol, and brings six years of research, nine product generations, 24 emotional-interaction patents, and a complete portfolio of character IP rights.",
+      "The company's proprietary YouAI psychological model is designed for children ages 3 to 12 and supports emotion recognition and age-appropriate guidance. Its vision is to make professional knowledge about emotional wellbeing more accessible through technology and offer timely, practical companionship to people who need support.",
+      "In Hefei: a meaningful appearance",
+      "The event was jointly organized by the Hefei Association for Science and Technology, the Talent Work Bureau of the CPC Hefei Municipal Committee, and the Shushan District People's Government. Now in its seventh year, it has recruited more than 100 global innovation projects and supported the signing and establishment of 20 high-level projects.",
+      "[[media:2]]",
+      "At the Silicon Valley Building in the University of Science and Technology of China Silicon Valley's Shushan Park, Chio Chio drew the attention of visitors. City and district leaders visited the Super YouAI booth, listened to the product concept and core technology, and showed strong interest in its exploration of emotional support for children.",
+      "[[media:3]]",
+      "Vice General Manager CHANGYAO HE introduced Chio Chio's research concept and core technology. He explained that the team has developed an AI psychological model for young people that can recognize emotions and provide appropriate guidance. Super YouAI hopes to combine its technology with Hefei's policies and talent resources in strategic emerging industries.",
+      "Chio Chio: an AI companion that offers emotional support",
+      "What kind of product is Chio Chio, and why did it attract attention from officials, investors, and international participants?",
+      "Chio Chio is an AI companion designed for children ages 3 to 12, focusing on everyday companionship and emotional support. Its soft plush form and voice-first interaction create a low-stimulation, screen-free experience where children can speak in a comfortable setting.",
+      "Four personalities for different growth needs",
+      "Chio Chio is available in four colors, each with a distinct personality and strength.",
+      "[[media:4]]",
+      "Blue, the little talker, encourages quieter children to express themselves in low-pressure conversations. Green, the resilient one, uses positive encouragement to help children practice confidence and try again after setbacks. Pink, the calm one, helps children notice and express strong feelings and practice emotional regulation. White, the prompt one, supports children who struggle with procrastination or focus by building awareness of time and everyday routines.",
+      "This differentiated personality design helps families choose a companion suited to each child's growth needs.",
+      "Professional knowledge made more accessible",
+      "Chio Chio is more than a general-purpose chatbot.",
+      "Its model is built on advanced language-model technology and informed by teams with extensive psychology and AI experience. Based on developmental psychology, its dialogue design supports emotional check-ins, empathetic conversation, and age-appropriate guidance.",
+      "Chio Chio is also designed to listen. When a child wants to speak, it provides a patient and non-judgmental place to share feelings without a complicated set of functions getting in the way.",
+      "Touch adds warmth to the interaction. Sensors in the top of the plush body allow children to connect through gentle touch as well as voice, extending companionship beyond conversation.",
+      "As Super YouAI puts it, the aim is to help children feel willing to speak and help parents understand them better, offering timely support when adults or professional resources are not immediately available.",
+      "From Hangzhou to the world",
+      "Chio Chio made its global debut at CES in the United States, and its sales network now reaches North America, Europe, and Southeast Asia, with nearly 50,000 units sold.",
+      "In July 2026, Chio Chio was selected as an official intelligent partner of the World Artificial Intelligence Conference and appeared at the main venue in the Shanghai World Expo Exhibition & Convention Center. From Hangzhou Dream Town to international stages and now Hefei, Chio Chio continues to bring human warmth to technology.",
+      "A new starting point",
+      "For Super YouAI, the Hefei visit was more than a presentation. The city's policies and talent resources in strategic emerging industries opened up broader possibilities for development.",
+      "[[media:5]]",
+      "The event connected international talent with Shushan District and gave Chio Chio opportunities to meet investors and potential industry partners. Super YouAI will continue to develop AI applications for emotional wellbeing and bring timely, professional, and considerate companionship to more families.",
+      "Every child deserves to be treated with care.",
+      "Some event information and images were sourced from official releases by the Hefei Association for Science and Technology and the Shushan District People's Government."
+    ]
+  },
+  "2026081201": {
+    title: "Super YouAI Wins the Most Promising Award at the Finding the White Dragon Horse Hard-Tech Investment Summit",
+    summary: "Super YouAI stood out with its emotional-wellbeing AI and received recognition from government representatives, investors, and industry experts.",
+    body: [
+      "On August 10, 2026, the Finding the White Dragon Horse hard-tech investment and financing event concluded at the Luohu District Library in Shenzhen. Super YouAI received one of the summit's major honors, the Most Promising Award, reflecting recognition from government representatives, investors, and industry experts.",
+      "[[media:1]]",
+      "The summit brought together more than 200 industry representatives, listed-company executives, and investors. It focused on frontier fields including third-generation semiconductors, AI, and biomedicine, selecting 12 companies from projects presented in previous sessions. A professional panel and public reviewers evaluated technology, market prospects, commercialization, and growth potential.",
+      "[[media:2]]",
+      "Competing alongside popular fields such as semiconductors and autonomous driving, Super YouAI stood out through its focus on emotional wellbeing. The award reflects growing attention to AI that supports children's emotional development and recognizes the product capabilities of the Chio Chio AI child growth companion robot.",
+      "An innovative event model for efficient industry and investment connections",
+      "Super YouAI focuses on the practical intersection of AI and children's emotional wellbeing, responding to challenges such as limited professional resources, the cost of offline services, emotional outbursts, low confidence, family communication, and resilience.",
+      "Its flagship Chio Chio AI child growth companion robot draws on the working framework of professional psychological support.",
+      "Informed by 20 years of child psychology practice and trained with a large body of de-identified data, Chio Chio supports emotion recognition, empathetic conversation, guidance through difficult feelings, positive character practice, and long-term memory. It is designed to help families address common concerns around routines, emotional expression, resilience, social confidence, and communication.",
+      "[[media:3]]",
+      "The product is available in two forms and can accompany bedtime, daily routines, school journeys, and travel. Four positive personalities support the gradual practice of focus, emotional regulation, optimism, resilience, and communication. Screen-free voice interaction reduces screen exposure, while parent reports offer practical insights with attention to privacy.",
+      "Recognition at global exhibitions and across sales channels",
+      "Chio Chio has appeared at major events including CES in the United States, WAIC in Shanghai, and the China International Import Expo. It has entered more than 30 mainstream online and offline channels, ranked strongly in children's AI companion categories, and received awards in national AI competitions.",
+      "Technology earns the attention of investors",
+      "The summit combined project ambassadors with standardized AI roadshow videos and digital financing profiles, creating a platform that connects financing, industry implementation, and international expansion.",
+      "[[media:4]]",
+      "With an integrated technology system, a clear commercialization path, and a broad family market, Super YouAI stood out through several rounds of evaluation. After receiving the award, the company entered further discussions with a number of investment institutions.",
+      "Using responsible innovation to support children's mental wellbeing",
+      "Children's emotional wellbeing remains an important social need. Super YouAI continues to develop its technology in-house and aims to make useful emotional support more accessible through practical intelligent products.",
+      "[[media:5]]",
+      "The award marks a new starting point. Super YouAI will continue to improve the Chio Chio product family, explore responsible applications of AI for children's emotional development, and work with investment and industry partners to support high-quality growth in emotional-wellbeing AI.",
+      "Some text and images were sourced from the WeChat account Bailong Zhichuang."
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_JA, {
+  "2026080701": {
+    title: "AIトイの新しい力——Chio Chio、第16回東莞アニメーション博覧会に登場",
+    summary: "デザイナートイの親しみやすい姿と地域に合わせたAI対話を組み合わせたChio Chioが、東莞の大型展示会に出展しました。",
+    body: [
+      "5日間にわたる第16回中国国際アニメーション著作権博覧会が、東莞市石排のアニメーション博覧センターで開幕しました。",
+      "会場にはアニメIP、デザイナートイ、スマート文創、デジタル技術などの分野から、2,200件を超える良質なIPと国内外500の企業・団体が集まりました。流通事業者、投資家、文創関係者、一般来場者が、アニメ文化、トイ産業、先端技術の新しい接点を探りました。",
+      "Super YouAIは、ハルビン工業大学深圳校友会の「AI＋ロボット＋デザイナートイ・エコシステム展示エリア」で、自社開発のAIパートナーChio Chioを紹介しました。トイのデザインとAI対話を組み合わせた新しい位置づけが、多くの来場者の注目を集めました。",
+      "[[media:1]]",
+      "展示会のハイライト——幅広い関心を集める",
+      "海外バイヤーとの商談、越境協力への期待",
+      "[[media:2]]",
+      "開幕後も展示エリアには多くの来場者が訪れました。海外バイヤーはChio Chioを実際に試し、ハードウェア、コンテンツ、子どもの生活場面への適応について説明を受けました。大量購入、代理店制度、海外市場向けのローカライズにも具体的な質問が寄せられました。",
+      "デザイナートイらしい外観と地域に合わせられるAI対話は、海外のファミリー市場とも相性がよく、複数の来場者が連絡先を交換して今後の協力を検討しました。",
+      "公式メディアが新しい分野に注目",
+      "広東ラジオテレビは展示ブースを訪れ、AIとデザイナートイという新しい分野について取材・撮影を行いました。",
+      "取材では、子どもの心への寄り添い、楽しい学び、幅広い知識、インタラクティブな遊びというChio Chioの価値を紹介し、中国発の子ども向けAIハードウェアの可能性を伝えました。",
+      "AIパートナーChio Chioについて",
+      "Chio Chioは、Super YouAIが独自に開発し、知的財産権を保有する次世代のAIデザイナートイです。",
+      "一般的な子ども向けスマート端末とは異なるトイらしい外観に、端末側AIを組み合わせています。自然な会話、AIによる物語や詩の創作、教科横断の学び、英会話、就寝前の寄り添い、楽しい科学コンテンツなどを利用できます。",
+      "子どもの利用場面を考慮し、安全性、コンテンツ審査、対話体験を多面的に整えています。トイショップ、観光・文化施設、ファミリー向け商業施設、季節の贈り物、学校関連の文創商品など、さまざまな場面での活用を想定しています。",
+      "[[media:3]]",
+      "展示会は開催中——会場での交流を歓迎",
+      "今回の博覧会は「5＋365」モデルを採用し、5日間の会期後も産業交流を継続します。流通事業者、観光・文化関係者、投資機関、業界パートナーは、会場で製品を体験し、協力の可能性について相談できます。",
+      "Chio Chioは今後も東莞トイ産業選品センターの常設展示室で紹介されます。会期中に来場できない関係者も、年間を通じて製品を体験できます。"
+    ]
+  },
+  "2026081101": {
+    title: "Chio Chio、合肥「グローバル人材ツアー」に登場——AIで子どもの心の健康を支える",
+    summary: "合肥の国際人材・投資イベントで、Chio Chioは子どもが利用しやすい心のサポートに関するSuper YouAIの取り組みを紹介しました。",
+    body: [
+      "真夏の合肥で、第7回合肥海外人材・資本プロジェクトマッチング大会および「グローバル人材・合肥ツアー」が開催され、世界の人材と先端技術が出会いました。",
+      "8月7日の会場には、市・区の関係者、金融投資機関、海外の科学技術チーム、地元企業、関連部門から約100人が参加し、イノベーションの未来について意見を交わしました。",
+      "[[media:1]]",
+      "次世代情報技術、新エネルギー、バイオ医薬、人工知能などを扱う海外20チームがプロジェクトを発表しました。AI分野から参加したSuper YouAI (Hangzhou) Intelligent Technology Co., Ltd.は、自社開発のAIパートナーChio Chioを紹介し、注目を集めました。",
+      "私たちについて——心の健康に取り組むAI企業",
+      "Super YouAIは、心の健康と寄り添いに人工知能を活用する企業です。清華大学やブリストル大学など国内外の大学で学んだ博士人材を中心に、6年の研究、9世代の製品開発、感情対話に関する24件の特許、キャラクターIPの権利を積み重ねています。",
+      "自社開発のYouAI心理モデルは3〜12歳を想定し、感情の把握と年齢に合った声かけを支えます。専門的な心の健康に関する知識を、技術によってより利用しやすくすることを目指しています。",
+      "合肥での意義ある発表",
+      "本イベントは合肥市科学技術協会、中国共産党合肥市委員会人材工作局、蜀山区人民政府が共同主催しました。7回の開催を通じて100件を超える世界の技術プロジェクトを募集し、20件の高水準プロジェクトの契約・進出を支援しています。",
+      "[[media:2]]",
+      "中国科学技術大学シリコンバレー蜀山園の会場で、Chio Chioは多くの来場者の関心を集めました。市・区の関係者はSuper YouAIのブースを訪れ、製品理念と中核技術の説明を受け、子どもの心を支える取り組みに関心を示しました。",
+      "[[media:3]]",
+      "副総経理のCHANGYAO HEは、Chio Chioの研究理念と中核技術を説明しました。青少年向けのAI心理モデルを独自に開発し、感情を捉えて適切な声かけを行うこと、合肥の政策や人材資源との連携を希望していることを紹介しました。",
+      "Chio Chio——心に寄り添うAIパートナー",
+      "Chio Chioが、行政関係者、投資機関、海外人材から関心を集めた理由は何でしょうか。",
+      "Chio Chioは3〜12歳の子どもを想定し、日常の寄り添いと心のサポートを大切にするAIパートナーです。柔らかなぬいぐるみの姿と音声中心の対話により、刺激が少なく画面のない環境で、子どもが安心して話せるように設計されています。",
+      "四つの個性で異なる成長ニーズに対応",
+      "Chio Chioには四つのカラーがあり、それぞれ異なる個性と得意分野があります。",
+      "[[media:4]]",
+      "青は、おしゃべりが苦手な子どもが低い負担で表現する練習を支えます。緑は前向きな声かけで自信と再挑戦を応援します。ピンクは強い気持ちに気づき、言葉にして落ち着く練習に寄り添います。白は時間の意識と生活・学習習慣づくりを支えます。",
+      "細かな個性の設計により、それぞれの子どもに合う成長パートナーを選びやすくしています。",
+      "専門的な知識を身近なサポートへ",
+      "Chio Chioは一般的なチャットボットとは異なる体験を目指しています。",
+      "先進的な言語モデルを基盤に、心理とAIの経験を持つチームが、発達心理学の知見を参考に対話を設計しています。会話を通じて気持ちを確認し、共感的に受け止め、年齢に合った声かけを行います。",
+      "子どもが話したいときに、評価せず辛抱強く聴く場を提供することも大切にしています。複雑な機能より、寄り添うことそのものを重視しています。",
+      "ぬいぐるみ上部のセンサーに触れることで、声だけでなく触覚を通じたつながりも生まれます。",
+      "Super YouAIが掲げるのは「子どもが話したくなり、保護者が子どもをより理解できるようにする」ことです。大人や専門資源がすぐに利用できない時間にも、補助的な支えを届けます。",
+      "杭州から世界へ",
+      "Chio Chioは米国CESで世界初公開され、北米、欧州、東南アジアへ販売網を広げ、販売台数は約5万台となりました。",
+      "2026年7月にはWAIC世界人工知能大会の公式スマートパートナーに選ばれ、上海世博展覧館の主要会場に登場しました。杭州夢想小鎮から世界の舞台、そして合肥へ、Chio Chioは技術に人の温かさを加える取り組みを続けています。",
+      "新しい出発点",
+      "今回の合肥訪問は、Super YouAIにとって展示だけでなく新しい出発点となりました。戦略的新興産業に関する合肥の政策と人材は、今後の可能性を広げます。",
+      "[[media:5]]",
+      "イベントは海外人材と蜀山区を結び、投資機関や産業パートナーと交流する機会になりました。Super YouAIは心の健康に関するAI活用を深め、より多くの家庭へ、適切で専門性に配慮した温かな寄り添いを届けます。",
+      "すべての子どもは、やさしく大切にされる価値があります。",
+      "イベント情報と画像の一部は、合肥市科学技術協会および蜀山区人民政府の公式発表を参照しています。"
+    ]
+  },
+  "2026081201": {
+    title: "Super YouAI、「白龍馬を探せ」ハードテック投資サミットで「最も将来性のあるプロジェクト賞」を受賞",
+    summary: "心の健康を支えるAIの独自性が評価され、行政、投資機関、業界専門家から注目を集めました。",
+    body: [
+      "2026年8月10日、「白龍馬を探せ」ハードテック投融資交流会が深圳市羅湖区図書館で閉幕しました。Super YouAIはサミットの主要賞である「最具潜力賞」を受賞し、行政、投資機関、業界専門家から評価を得ました。",
+      "[[media:1]]",
+      "サミットには産業関係者、上場企業の幹部、投資家など200人以上が参加しました。第3世代半導体、AI、バイオ医薬などの先端分野に焦点を当て、過去の発表企業から12社を選出。専門家と一般審査員が、技術、市場性、事業化、成長可能性を多面的に評価しました。",
+      "[[media:2]]",
+      "半導体や自動運転などの分野と並ぶ中、Super YouAIは心の健康に注目するAIの独自性によって選ばれました。受賞は、子どもの心の成長を支えるAI分野への関心と、AI子ども成長パートナーChio Chioの製品力への評価を示しています。",
+      "産業と投資を効率よく結ぶ新しいイベント方式",
+      "Super YouAIは、AIと子どもの心の健康という実生活のニーズに取り組みます。専門資源の不足や費用、感情の表現、自信、親子のコミュニケーション、困難への向き合い方など、家庭が抱える課題に注目しています。",
+      "主力製品のChio Chioは、専門的な心理支援の考え方を日常のAI対話に取り入れています。",
+      "20年にわたる子どもの心理に関する実践経験と、大規模な匿名化データを参考に、感情の把握、共感的な対話、つらい気持ちへの声かけ、前向きな個性の練習、長期記憶などを組み合わせています。生活習慣、感情表現、困難への対応、社会的な自信、親子の対話を支えることを目指します。",
+      "[[media:3]]",
+      "製品は二つの形態があり、就寝前、日常、通学、外出などの場面に対応します。四つの前向きな個性を通じて、集中、感情調整、楽観性、粘り強さ、コミュニケーションを少しずつ練習できます。画面のない音声対話と保護者向けレポートにより、視聴時間とプライバシーにも配慮します。",
+      "世界の展示会と販売チャネルで積み重ねた実績",
+      "Chio Chioは米国CES、上海WAIC、中国国際輸入博覧会などに出展し、オンライン・オフライン30以上の主要チャネルへ展開しています。子ども向けAIパートナー分野で上位の販売実績を重ね、全国規模のAI大会でも複数の賞を受賞しました。",
+      "技術と事業性に投資家が注目",
+      "サミットはプロジェクト推薦者と標準化されたAIロードショー動画を組み合わせ、デジタルな資金調達プロフィールによって、資金調達、産業実装、海外展開をつなぐ場をつくりました。",
+      "[[media:4]]",
+      "Super YouAIは一貫した技術体系、明確な事業化の道筋、幅広い家庭市場を背景に複数回の評価を通過しました。受賞後は複数の投資機関と具体的な協力について話し合いを進めています。",
+      "責任ある技術で子どもの心の健康を支える",
+      "子どもの心の健康は社会として取り組むべき重要な課題です。Super YouAIは全工程の自社開発を継続し、実用的なスマート製品を通じて心のサポートをより利用しやすくすることを目指します。",
+      "[[media:5]]",
+      "今回の受賞を新しい出発点として、Super YouAIはChio Chioシリーズを継続的に改善し、AIと子どもの心を結ぶ責任ある利用場面を探ります。投資・産業パートナーとも連携し、心の健康を支えるAI分野の健全な発展に貢献します。",
+      "本文と画像の一部はWeChat公式アカウント「白龍智創」を参照しています。"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_DA, {
+  "2026080701": {
+    title: "En ny kraft inden for AI-designlegetøj: Chio Chio på den 16. animationsmesse i Dongguan",
+    summary: "Chio Chio kombinerede designlegetøjets venlige udtryk med lokalt tilpasset AI-dialog på en af Kinas store messer for animation og legetøj.",
+    body: [
+      "Den fem dage lange 16. China International Animation Copyright Fair åbnede i Shipai Animation Expo Center i Dongguan.",
+      "Messen samlede animations-IP, designlegetøj, intelligente kulturprodukter og digital teknologi. Mere end 2.200 IP'er og 500 virksomheder og organisationer fra Kina og udlandet deltog. Distributører, investorer, kreative fagfolk og almindelige besøgende mødtes om nye forbindelser mellem animationskultur, legetøjsøkonomi og digital teknologi.",
+      "Super YouAI præsenterede den egenudviklede AI-ledsager Chio Chio i Harbin Institute of Technology Shenzhen Alumni Associations område for AI, robotter og designlegetøj. Kombinationen af et venligt legetøjsudtryk og AI-dialog adskiller produktet fra traditionelle læringsenheder og vakte stor interesse.",
+      "[[media:1]]",
+      "Højdepunkter fra messen",
+      "Udenlandske indkøbere undersøger muligheder for samarbejde",
+      "[[media:2]]",
+      "Området havde mange besøgende fra åbningen. Udenlandske indkøbere prøvede Chio Chio og spurgte til hardware, indhold og anvendelse i børns hverdag. De interesserede sig især for større indkøb, agentvilkår og tilpasning til internationale markeder.",
+      "Designet og den lokalt tilpasselige AI-dialog passer godt til internationale familiemarkeder. Flere besøgende udvekslede kontaktoplysninger og fortsatte samtaler om muligt samarbejde.",
+      "Officielle medier ser nærmere på en ny kategori",
+      "Guangdong Radio and Television besøgte standen for at interviewe og filme. Mediet satte fokus på kombinationen af AI og designlegetøj samt mødet mellem intelligent hardware og kreative kulturprodukter.",
+      "Interviewet beskrev Chio Chios værdi inden for følelsesmæssigt nærvær, legende læring, bred viden og interaktiv underholdning og viste en ny retning for kinesisk AI-hardware til børn.",
+      "Om AI-ledsageren Chio Chio",
+      "Chio Chio er en ny generation af AI-designlegetøj, som er udviklet af Super YouAI og beskyttet af virksomhedens egne immaterielle rettigheder.",
+      "Produktet bevæger sig væk fra det stive udtryk i traditionelle enheder til børn. Et designlegetøj kombineres med AI på enheden og funktioner som naturlig dialog, AI-skabte historier og digte, læring på tværs af fag, engelsk samtale, nærvær ved sengetid og interaktiv viden.",
+      "Sikkerhed, indholdskontrol og interaktion er tilpasset børns brug. Produktet kan indgå i legetøjsbutikker, kultur- og turiststeder, familiecentre, sæsongaver og kulturprodukter til skoler og kombinerer udtryk, underholdning og praktisk anvendelse.",
+      "[[media:3]]",
+      "Messen fortsætter: besøgende og partnere er velkomne",
+      "Messen bruger en 5+365-model, så samarbejdet kan fortsætte efter de fem messedage. Distributører, turismeaktører, investorer og branchepartnere kan besøge området, prøve produktet og drøfte samarbejde.",
+      "Chio Chio forbliver desuden udstillet hele året i Dongguan Designer Toy Capital Product Selection Center. Partnere, som ikke kunne deltage i messen, kan besøge den permanente udstilling."
+    ]
+  },
+  "2026081101": {
+    title: "Chio Chio deltager i Hefei Global Talent Tour med AI-støtte til børns følelsesmæssige trivsel",
+    summary: "Ved Hefeis internationale talent- og investeringsevent præsenterede Chio Chio Super YouAIs arbejde med lettilgængelig støtte til børn.",
+    body: [
+      "I sommerens Hefei mødtes internationale talenter og ny teknologi ved den syvende konference for udenlandske talenter, kapital og projekter samt Global Talent Tour i Shushan Economic and Technological Development Zone.",
+      "Eventet åbnede den 7. august med deltagelse af by- og distriktsledere, investorer, udenlandske innovationsteams, lokale virksomheder og relevante myndigheder. Næsten hundrede deltagere drøftede fremtidens teknologiske innovation.",
+      "[[media:1]]",
+      "Tyve internationale teknologiteams præsenterede projekter inden for informationsteknologi, ny energi, biomedicin og AI. Super YouAI (Hangzhou) Intelligent Technology Co., Ltd. repræsenterede AI-området med den egenudviklede ledsager Chio Chio, som blev et af eventets bemærkede projekter.",
+      "Hvem vi er: AI med fokus på følelsesmæssig trivsel",
+      "Super YouAI udvikler AI til følelsesmæssig trivsel og nærvær. Kerneteamet omfatter ph.d.-uddannede fra førende kinesiske og internationale universiteter, herunder Tsinghua University og University of Bristol. Teamet har seks års forskning, ni produktgenerationer, 24 patenter inden for følelsesmæssig interaktion og rettighederne til produktets karakterunivers.",
+      "Den egenudviklede YouAI-model er rettet mod børn fra 3 til 12 år og støtter genkendelse af følelser og alderssvarende vejledning. Visionen er at gøre faglig viden om mental trivsel mere tilgængelig gennem teknologi.",
+      "Et meningsfuldt møde i Hefei",
+      "Eventet blev arrangeret af Hefei Association for Science and Technology, talentkontoret under CPC Hefei Municipal Committee og Shushan District People's Government. Gennem syv år har det rekrutteret over 100 globale innovationsprojekter og bidraget til etableringen af 20 projekter på højt niveau.",
+      "[[media:2]]",
+      "På Silicon Valley Building i Shushan Park tiltrak Chio Chio mange blikke. Repræsentanter for byen og distriktet besøgte Super YouAIs stand, hørte om produktidéen og teknologien og viste interesse for arbejdet med børns følelsesmæssige trivsel.",
+      "[[media:3]]",
+      "Viceadministrerende direktør CHANGYAO HE præsenterede Chio Chios forskningsidé og kerneteknologi. Han forklarede, at teamet har udviklet en AI-model til unge, som kan opfange følelser og give passende vejledning, og at virksomheden ønsker at kombinere teknologien med Hefeis politikker og talentressourcer.",
+      "Chio Chio: en AI-ledsager med følelsesmæssig støtte",
+      "Hvorfor fik Chio Chio opmærksomhed fra myndigheder, investorer og internationale deltagere?",
+      "Chio Chio er udviklet til børn fra 3 til 12 år med fokus på hverdagsnærvær og følelsesmæssig støtte. Den bløde form og stemmestyrede dialog skaber en rolig, skærmfri oplevelse, hvor barnet kan tale i trygge rammer.",
+      "Fire personligheder til forskellige behov",
+      "Chio Chio findes i fire farver med hver sin personlighed og styrke.",
+      "[[media:4]]",
+      "Den blå taler hjælper stille børn med at øve udtryk i samtaler uden pres. Den grønne støtter mod og lysten til at prøve igen. Den pink hjælper barnet med at registrere og sætte ord på stærke følelser. Den hvide støtter tidsforståelse, fokus og gode hverdagsrutiner.",
+      "Det nuancerede personlighedsdesign gør det lettere at vælge en ledsager, der passer til barnets behov.",
+      "Faglig viden gjort mere tilgængelig",
+      "Chio Chio er mere end en almindelig chatbot.",
+      "Modellen bygger på avanceret sprogmodelteknologi og er udviklet med input fra teams med lang erfaring i psykologi og AI. Dialogen er inspireret af udviklingspsykologi og støtter følelsesmæssige check-in, empatisk samtale og alderssvarende vejledning.",
+      "Chio Chio lægger vægt på at lytte. Når barnet vil tale, tilbyder den et tålmodigt sted uden fordømmelse, hvor nærværet er vigtigere end mange komplekse funktioner.",
+      "Sensorer øverst i den bløde krop giver mulighed for kontakt gennem berøring såvel som stemme.",
+      "Super YouAIs mål er at gøre børn mere trygge ved at tale og hjælpe forældre med at forstå dem bedre. Produktet er et supplement, når voksne eller faglige tilbud ikke er tilgængelige med det samme.",
+      "Fra Hangzhou til verden",
+      "Chio Chio fik sin internationale debut på CES i USA. Salgsnetværket omfatter nu Nordamerika, Europa og Sydøstasien, og salget nærmer sig 50.000 enheder.",
+      "I juli 2026 blev Chio Chio udvalgt som officiel intelligent partner for World Artificial Intelligence Conference og vist på hovedområdet i Shanghai World Expo Exhibition & Convention Center. Fra Hangzhou Dream Town til internationale scener og Hefei arbejder Chio Chio videre med at give teknologi en menneskelig varme.",
+      "Et nyt udgangspunkt",
+      "Besøget i Hefei var mere end en præsentation. Byens politikker og talentressourcer inden for strategiske nye industrier åbnede nye muligheder for Super YouAI.",
+      "[[media:5]]",
+      "Eventet forbandt internationale talenter med Shushan District og gav Chio Chio nye kontakter til investorer og branchepartnere. Super YouAI vil fortsætte arbejdet med AI til følelsesmæssig trivsel og bringe fagligt funderet, varmt nærvær ud til flere familier.",
+      "Ethvert barn fortjener at blive mødt med omsorg.",
+      "Dele af eventoplysningerne og billederne stammer fra officielle udgivelser fra Hefei Association for Science and Technology og Shushan District People's Government."
+    ]
+  },
+  "2026081201": {
+    title: "Super YouAI vinder prisen for størst potentiale ved hardtech-topmødet Finding the White Dragon Horse",
+    summary: "Super YouAI skilte sig ud med AI til følelsesmæssig trivsel og fik anerkendelse fra myndigheder, investorer og brancheeksperter.",
+    body: [
+      "Den 10. august 2026 sluttede investeringseventet Finding the White Dragon Horse på Luohu District Library i Shenzhen. Super YouAI modtog topmødets pris for størst potentiale og dermed anerkendelse fra myndighedsrepræsentanter, investorer og brancheeksperter.",
+      "[[media:1]]",
+      "Topmødet samlede over 200 repræsentanter fra industrien, ledere fra børsnoterede selskaber og investorer. Fokus var blandt andet på tredjegenerationshalvledere, AI og biomedicin. Tolv virksomheder blev udvalgt fra tidligere præsentationer og vurderet på teknologi, marked, kommercialisering og vækstmuligheder.",
+      "[[media:2]]",
+      "Blandt områder som halvledere og selvkørende teknologi skilte Super YouAI sig ud med sit fokus på følelsesmæssig trivsel. Prisen afspejler øget interesse for AI, der støtter børns følelsesmæssige udvikling, og anerkender Chio Chios produktmæssige styrker.",
+      "En ny eventmodel for effektive forbindelser mellem industri og kapital",
+      "Super YouAI arbejder i krydsfeltet mellem AI og børns følelsesmæssige trivsel. Det retter sig mod udfordringer som begrænsede faglige tilbud, høje priser, stærke følelser, lav selvtillid, vanskelig familiekommunikation og behovet for robusthed.",
+      "Kerneproduktet Chio Chio bygger på arbejdsprincipper fra professionel psykologisk støtte.",
+      "Med inspiration fra 20 års praksis inden for børnepsykologi og en stor mængde anonymiserede data støtter Chio Chio genkendelse af følelser, empatisk dialog, hjælp gennem svære følelser, øvelse af positive personlige styrker og langtidshukommelse. Produktet er udviklet til almindelige familiebehov omkring rutiner, følelsesudtryk, robusthed, social tryghed og kommunikation.",
+      "[[media:3]]",
+      "Produktet findes i to former og kan bruges ved sengetid, i hverdagen, på vej til skole og på rejser. Fire positive personligheder støtter gradvis øvelse af fokus, følelsesregulering, optimisme, robusthed og kommunikation. Skærmfri stemmedialog reducerer skærmtid, mens forældrerapporter giver praktisk indsigt med hensyn til privatliv.",
+      "Anerkendelse på globale messer og i salgskanaler",
+      "Chio Chio har deltaget på CES i USA, WAIC i Shanghai og China International Import Expo. Produktet sælges gennem mere end 30 større online- og offlinekanaler, har placeret sig stærkt i kategorien AI-ledsagere til børn og har vundet priser ved nationale AI-konkurrencer.",
+      "Teknologi og forretningsmodel tiltrækker investorer",
+      "Topmødet kombinerede projektambassadører med standardiserede AI-roadshowvideoer og digitale finansieringsprofiler for at forbinde kapital, implementering og international ekspansion.",
+      "[[media:4]]",
+      "Super YouAI gik videre gennem flere evalueringer med et sammenhængende teknologisystem, en tydelig vej til markedet og et bredt familiemarked. Efter prisen har flere investeringsinstitutioner taget kontakt om videre samarbejde.",
+      "Ansvarlig innovation til støtte for børns mentale trivsel",
+      "Børns følelsesmæssige trivsel er et vigtigt samfundsbehov. Super YouAI fortsætter sin egen teknologiudvikling og ønsker at gøre brugbar støtte mere tilgængelig gennem praktiske intelligente produkter.",
+      "[[media:5]]",
+      "Prisen markerer et nyt udgangspunkt. Super YouAI vil fortsætte udviklingen af Chio Chio-serien, undersøge ansvarlige anvendelser af AI til børns følelsesmæssige udvikling og samarbejde med investorer og industripartnere om en sund udvikling af området.",
+      "Dele af tekst og billeder stammer fra WeChat-kontoen Bailong Zhichuang."
+    ]
+  }
+});
+// END AUGUST_2026_NEWS_TRANSLATIONS
 
 normalizeOverseasNewsNames();

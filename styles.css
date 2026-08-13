@@ -7139,9 +7139,24 @@ iframe {
 }
 
 .language-toggle {
+  position: relative;
   gap: 7px;
   min-height: 44px;
-  padding: 4px 9px;
+  padding: 5px 11px 5px 6px;
+  border: 1px solid rgba(83, 103, 127, 0.14);
+  border-radius: 999px;
+  background: rgba(255, 253, 250, 0.9);
+  box-shadow: 0 12px 30px rgba(89, 79, 108, 0.1);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.language-toggle:hover,
+.language-toggle:focus-within {
+  border-color: rgba(207, 127, 152, 0.34);
+  box-shadow: 0 16px 36px rgba(89, 79, 108, 0.15);
+  transform: translateY(-1px);
 }
 
 .language-toggle-label {
@@ -7151,23 +7166,44 @@ iframe {
   place-items: center;
   border-radius: 50%;
   color: #fffdf8;
-  background: #2f5a55;
+  background: linear-gradient(135deg, #2f6b63, #347d91);
+  box-shadow: 0 6px 16px rgba(47, 107, 99, 0.22);
   font-size: 13px;
   font-weight: 900;
 }
 
 .language-toggle select {
+  appearance: none;
+  -webkit-appearance: none;
   width: auto;
-  min-width: 92px;
+  min-width: 106px;
   height: 34px;
-  padding: 0 26px 0 4px;
+  padding: 0 30px 0 6px;
   border: 0;
+  border-radius: 999px;
   color: #243247;
-  background: transparent;
+  background-color: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23536a7a' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 7px center;
   font: inherit;
   font-size: 14px;
   font-weight: 850;
   cursor: pointer;
+}
+
+.language-toggle select:focus {
+  outline: none;
+}
+
+.language-toggle select:focus-visible {
+  outline: 2px solid rgba(127, 183, 234, 0.72);
+  outline-offset: 2px;
+}
+
+.language-toggle select option {
+  color: #243247;
+  background: #fffdfb;
 }
 
 .mobile-nav-toggle,
@@ -7316,6 +7352,22 @@ html[lang="da"] strong {
 @media (max-width: 520px) {
   .site-header {
     grid-template-columns: 40px minmax(0, 1fr) 44px;
+  }
+
+  html[lang="en"] .site-header {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    gap: 7px;
+  }
+
+  html[lang="en"] .brand {
+    min-width: 0;
+    gap: 0;
+  }
+
+  html[lang="en"] .brand img {
+    width: 40px;
+    height: 40px;
   }
 
   .language-toggle {

@@ -121,9 +121,9 @@
     "浙公网安备33011002018442号": "浙公网安备33011002018442号",
     "联系超级有爱": "Super YouAIに問い合わせる",
     "投资、战略合作二维码": "投資・戦略提携用QRコード",
-    "元晓帅博士": "元晓帅 博士",
+    "元晓帅博士": "XIAOSHUAI YUAN博士",
     "渠道合作二维码": "販売提携用QRコード",
-    "何昌耀": "何昌耀",
+    "何昌耀": "CHANGYAO HE",
     "点击复制": "クリックしてコピー",
     "Brand News": "ブランドニュース",
     "面包屑": "パンくずリスト",
@@ -296,8 +296,8 @@
     "我们全解决": "一つひとつ対応します",
     "使用、售后、体验建议或任何问题，欢迎第一时间联系我们，我们会尽力帮你解决。": "使い方、アフターサービス、体験へのご提案、そのほかお困りのことがありましたら、いつでもご連絡ください。解決に向けて丁寧に対応します。",
     "客服二维码": "カスタマーサポート用QRコード",
-    "元晓帅微信二维码": "元晓帅のWeChat QRコード",
-    "何昌耀微信二维码": "何昌耀のWeChat QRコード",
+    "元晓帅微信二维码": "XIAOSHUAI YUANのWeChat QRコード",
+    "何昌耀微信二维码": "CHANGYAO HEのWeChat QRコード",
     "APP 下载": "アプリをダウンロード",
     "扫码下载 Chio Chio APP。": "QRコードからChio Chioアプリをダウンロードできます。",
     "你也可以通过官方店铺了解产品、下单购买或关注新品动态。": "公式ストアでも、製品情報の確認、購入、新製品情報のフォローができます。"
@@ -417,9 +417,9 @@
     "浙公网安备33011002018442号": "浙公网安备33011002018442号",
     "联系超级有爱": "Kontakt Super YouAI",
     "投资、战略合作二维码": "QR-kode til investering og strategiske partnerskaber",
-    "元晓帅博士": "Dr. 元晓帅",
+    "元晓帅博士": "Dr. XIAOSHUAI YUAN",
     "渠道合作二维码": "QR-kode til distributionssamarbejde",
-    "何昌耀": "He Changyao",
+    "何昌耀": "CHANGYAO HE",
     "点击复制": "Klik for at kopiere",
     "Brand News": "Brandnyheder",
     "面包屑": "Brødkrummer",
@@ -592,8 +592,8 @@
     "我们全解决": "hjælper vi med at finde en løsning",
     "使用、售后、体验建议或任何问题，欢迎第一时间联系我们，我们会尽力帮你解决。": "Kontakt os gerne med det samme om brug, service efter køb, forslag til oplevelsen eller andre spørgsmål. Vi gør vores bedste for at hjælpe.",
     "客服二维码": "QR-kode til kundeservice",
-    "元晓帅微信二维码": "QR-kode til 元晓帅 på WeChat",
-    "何昌耀微信二维码": "QR-kode til 何昌耀 på WeChat",
+    "元晓帅微信二维码": "QR-kode til XIAOSHUAI YUAN på WeChat",
+    "何昌耀微信二维码": "QR-kode til CHANGYAO HE på WeChat",
     "APP 下载": "Hent appen",
     "扫码下载 Chio Chio APP。": "Scan QR-koden for at hente Chio Chio-appen.",
     "你也可以通过官方店铺了解产品、下单购买或关注新品动态。": "Du kan også læse om produkterne, bestille og følge med i nye lanceringer i de officielle butikker."
@@ -995,7 +995,7 @@
     "“超级球球”成为 AI Agent 2025 大赛官方推荐项目！": "Chio Chio becomes an official recommended project of AI Agent 2025",
     "“超级球球”疗愈级 AI 机器人亮相 IOTE 深圳物联网展，引线上线下围观潮": "Chio Chio healing AI robot debuts at IOTE Shenzhen, drawing online and offline attention",
     "“超级球球”团队受邀参加 AI Agent 2025 全球专项赛启动仪式": "Chio Chio team invited to the AI Agent 2025 Global Special Competition launch",
-    "超级有爱智能科技创始人元晓帅博士拜访清华大学未来实验室": "Founder Dr. Yuan Xiaoshuai visits Tsinghua University Future Laboratory",
+    "超级有爱智能科技创始人元晓帅博士拜访清华大学未来实验室": "Founder Dr. XIAOSHUAI YUAN visits Tsinghua University Future Laboratory",
     "“超级球球”团队获得「文三×光圈 AI TED」创赛路演第一名！": "Chio Chio team wins first place at the Wensan × Light Cone AI TED startup roadshow",
     "超级有爱智能科技正式落户杭州未来科技城！": "Super YouAI officially settles in Hangzhou Future Sci-Tech City",
     "超级有爱受邀参加亚马逊云与亿极中国联合主办的 Agentic AI 研讨": "Super YouAI invited to an Agentic AI seminar co-hosted by AWS and EGG China",
@@ -1008,9 +1008,9 @@
     "使用、售后、体验建议或任何问题，都欢迎第一时间联系我们。": "For usage questions, after-sales support, experience feedback, or any issue at all, contact us anytime.",
     "客服二维码": "Customer service QR code",
     "投资、战略合作": "Investment & Strategic Partnerships",
-    "创始人 元晓帅": "Founder Vivian Yuan",
+    "创始人 元晓帅": "Founder XIAOSHUAI YUAN",
     "大客户、渠道合作": "Key Accounts & Channel Partnerships",
-    "销售总监 何昌耀": "Sales Director He Changyao",
+    "销售总监 何昌耀": "Sales Director CHANGYAO HE",
     "销售总监 高丽春": "Sales Director Gao Lichun",
     "电话 / 微信：": "Phone / WeChat: ",
     "手机 / 微信：": "Mobile / WeChat: ",
@@ -1105,12 +1105,12 @@
     "无论是合作咨询、产品建议、体验反馈或投诉，我们都会认真倾听并尽快回应。": "Whether it is a partnership inquiry, product suggestion, experience feedback, or complaint, we will listen carefully and respond as soon as we can.",
     "感谢你愿意花时间告诉我们真实感受。\n无论是合作咨询、产品建议、体验反馈或投诉，我们都会认真倾听并尽快回应。": "Thank you for sharing what you really feel.\nFor partnerships, product suggestions, feedback, or complaints, we listen carefully and respond as soon as we can.",
     "创始人": "Founder",
-    "元晓帅博士": "Dr. Xiaoshuai Yuan",
-    "创始人 元晓帅博士": "Founder Dr. Xiaoshuai Yuan",
+    "元晓帅博士": "Dr. XIAOSHUAI YUAN",
+    "创始人 元晓帅博士": "Founder Dr. XIAOSHUAI YUAN",
     "渠道合作": "Channel Partnerships",
     "销售总监": "Sales Director",
-    "何昌耀": "Changyao He",
-    "销售总监 何昌耀": "Sales Director Changyao He"
+    "何昌耀": "CHANGYAO HE",
+    "销售总监 何昌耀": "Sales Director CHANGYAO HE"
   });
 
   const ARTICLE_EN = {
@@ -1131,7 +1131,7 @@
       title: "Super YouAI invited to Xinsheng Wanxiang ecosystem conference to share how AIoT empowers mental health",
       summary: "A look at Super YouAI’s latest thinking on AIoT, emotional health, and psychological companionship.",
       body: [
-        "On November 28, Super YouAI was invited to the 2025 TPUNB Technology Ecosystem Conference hosted by its strategic partner Gixin Technology. Founder Dr. Yuan Xiaoshuai delivered a keynote titled “From the Internet of Everything to Empathy of Everything: How AIoT Will Reshape Mental Health.”",
+        "On November 28, Super YouAI was invited to the 2025 TPUNB Technology Ecosystem Conference hosted by its strategic partner Gixin Technology. Founder Dr. XIAOSHUAI YUAN delivered a keynote titled “From the Internet of Everything to Empathy of Everything: How AIoT Will Reshape Mental Health.”",
         "Gixin Technology is a leading domestic IoT company and a national-level specialized and innovative enterprise. Chio Chio, Super YouAI’s first AI emotional-healing robot, uses Gixin’s IoT chip and has the potential to connect with more smart devices without relying on a network, opening new possibilities for AIoT-based emotional support.",
         "In his keynote, Dr. Yuan used Chio Chio as an example to discuss four core AIoT scenarios for psychological services, explaining how the combination of AI and IoT can reshape the mental-health industry.",
         "He noted that IoT gives AI a richer set of sensory touchpoints, turning abstract care into companionship users can truly feel. Together, AI and IoT can move mental-health services from subjective questionnaires to precise sensing, from appointment-based waiting to instant companionship, from therapist-only work to human-machine collaboration, and finally toward healing within daily life.",
@@ -1154,7 +1154,7 @@
       summary: "International guests experienced Chio Chio and its English conversation ability at CIIE.",
       body: [
         "During the 8th China International Import Expo, UK Deputy Trade Commissioner Sohail Shaikh visited the Chio Chio booth and exchanged ideas with the team.",
-        "Founder Dr. Yuan Xiaoshuai introduced Chio Chio as an AI emotional-healing robot designed to help people ease negative emotions, reduce stress, and feel better through warm conversation.",
+        "Founder Dr. XIAOSHUAI YUAN introduced Chio Chio as an AI emotional-healing robot designed to help people ease negative emotions, reduce stress, and feel better through warm conversation.",
         "Dr. Yuan then asked Chio Chio to introduce itself in English. With its childlike voice, Chio Chio immediately began speaking and explained that it could help people chase away bad moods.",
         "After listening, Mr. Shaikh smiled and said, “Everyone needs Chio Chio!” The moment showed how naturally the product’s emotional companionship can cross language and cultural boundaries."
       ]
@@ -1225,10 +1225,10 @@
       ]
     },
     "8696207": {
-      title: "Founder Dr. Yuan Xiaoshuai visits Tsinghua University Future Laboratory",
+      title: "Founder Dr. XIAOSHUAI YUAN visits Tsinghua University Future Laboratory",
       summary: "Super YouAI continued exchanges with frontier research institutions around AI, mental health, and embodied interaction.",
       body: [
-        "On August 12, Super YouAI founder Dr. Yuan Xiaoshuai visited Tsinghua University Future Laboratory.",
+        "On August 12, Super YouAI founder Dr. XIAOSHUAI YUAN visited Tsinghua University Future Laboratory.",
         "During the visit, Dr. Yuan discussed touch sensing, embodied intelligence, mental health, elderly companionship, social interaction, and future materials with researchers.",
         "The visit continued an ongoing relationship between the Super YouAI team and Tsinghua Future Laboratory in technology transfer and research exploration."
       ]
@@ -1238,7 +1238,7 @@
       summary: "The roadshow provided strong validation for Chio Chio’s product and demand.",
       body: [
         "On May 4, at the Wensan × Light Cone AI TED open roadshow hosted by the Hangzhou West Lake Science and Technology Bureau, the Chio Chio team won the Most Popular Award with the highest audience score.",
-        "Founder Dr. Yuan Xiaoshuai presented the team’s original intention, product functions, business model, and healing AI robot concept in a seven-minute pitch.",
+        "Founder Dr. XIAOSHUAI YUAN presented the team’s original intention, product functions, business model, and healing AI robot concept in a seven-minute pitch.",
         "The result provided valuable validation for the product’s appeal and demand, laying a strong foundation for further development."
       ]
     },
@@ -1255,7 +1255,7 @@
       title: "Super YouAI invited to an Agentic AI seminar co-hosted by AWS and EGG China",
       summary: "Founder Dr. Yuan shared thoughts on AI companionship, mental health, and the Chinese market.",
       body: [
-        "On August 7, Super YouAI founder Dr. Yuan Xiaoshuai was invited to a founder salon co-hosted by Amazon Web Services and EGG China.",
+        "On August 7, Super YouAI founder Dr. XIAOSHUAI YUAN was invited to a founder salon co-hosted by Amazon Web Services and EGG China.",
         "The event focused on how agentic AI is opening a new paradigm from dialogue to execution. Dr. Yuan joined a roundtable discussion with experts and AI entrepreneurs.",
         "He explained that emotional healing is deeply related to culture, and that Chinese users often need solutions more attuned to family, workplace, and social relationships.",
         "Super YouAI’s approach is to translate professional psychological tools into accessible companionship that balances expertise with user experience."
