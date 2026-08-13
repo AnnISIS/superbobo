@@ -7596,3 +7596,64 @@ html[lang="da"] strong {
     display: none;
   }
 }
+
+/* Chinese desktop header uses the same safe fitting strategy with roomier spacing. */
+@media (min-width: 981px) {
+  html[lang="zh-CN"] .site-header,
+  html[lang="zh"] .site-header {
+    gap: clamp(12px, 1.35vw, 20px);
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+
+  html[lang="zh-CN"] .brand,
+  html[lang="zh"] .brand {
+    flex: 0 1 300px;
+    min-width: 260px;
+    gap: 14px;
+  }
+
+  html[lang="zh-CN"] .brand img,
+  html[lang="zh"] .brand img {
+    width: 68px;
+    height: 68px;
+  }
+
+  html[lang="zh-CN"] .brand strong,
+  html[lang="zh"] .brand strong {
+    font-size: 22px;
+  }
+
+  html[lang="zh-CN"] .nav,
+  html[lang="zh"] .nav {
+    min-width: 0;
+    gap: clamp(14px, 1.55vw, 24px);
+    font-size: 16px;
+  }
+
+  html[lang="zh-CN"] .site-header .language-toggle,
+  html[lang="zh"] .site-header .language-toggle {
+    flex: 0 0 auto;
+    margin-left: 0;
+  }
+
+  html[lang="zh-CN"] .language-toggle select,
+  html[lang="zh"] .language-toggle select {
+    min-width: 90px;
+  }
+
+  html[lang="zh-CN"] .header-action,
+  html[lang="zh"] .header-action {
+    min-width: 126px;
+    height: 54px;
+    padding: 0 15px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 981px) and (max-width: 1180px) {
+  html[lang="zh-CN"] .site-header .app-download,
+  html[lang="zh"] .site-header .app-download {
+    display: none;
+  }
+}
