@@ -1,0 +1,268 @@
+:root {
+  color-scheme: light;
+  font-family: "Alibaba PuHuiTi", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  color: #243247;
+  background: #fff9f5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100svh;
+  overflow-x: hidden;
+  background:
+    radial-gradient(circle at 12% 10%, rgba(237, 143, 167, 0.2), transparent 30%),
+    radial-gradient(circle at 88% 12%, rgba(127, 183, 234, 0.22), transparent 34%),
+    linear-gradient(155deg, #fff8ef 0%, #fff5f7 48%, #f4f7ff 100%);
+}
+
+body::before,
+body::after {
+  position: fixed;
+  z-index: -1;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  content: "";
+  filter: blur(12px);
+  opacity: 0.5;
+}
+
+body::before {
+  top: -110px;
+  left: -90px;
+  background: rgba(248, 190, 202, 0.42);
+}
+
+body::after {
+  right: -100px;
+  bottom: -120px;
+  background: rgba(158, 202, 242, 0.38);
+}
+
+.download-page {
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  padding:
+    max(28px, env(safe-area-inset-top))
+    max(22px, env(safe-area-inset-right))
+    max(28px, env(safe-area-inset-bottom))
+    max(22px, env(safe-area-inset-left));
+}
+
+.download-card {
+  width: min(100%, 580px);
+  padding: clamp(26px, 5vw, 48px);
+  border: 1px solid rgba(255, 255, 255, 0.86);
+  border-radius: 32px;
+  background: rgba(255, 253, 250, 0.86);
+  box-shadow: 0 32px 90px rgba(91, 72, 91, 0.16);
+  text-align: center;
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 13px;
+  margin: 0 auto 28px;
+  text-align: left;
+}
+
+.brand img {
+  width: 68px;
+  height: 68px;
+  object-fit: contain;
+}
+
+.brand strong,
+.brand span {
+  display: block;
+}
+
+.brand strong {
+  color: #dc8198;
+  font-size: 23px;
+  line-height: 1.15;
+}
+
+.brand span {
+  margin-top: 5px;
+  color: #7d8a9d;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.eyebrow {
+  color: #d37b92;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+}
+
+h1 {
+  margin: 10px 0 12px;
+  font-size: clamp(30px, 6vw, 44px);
+  line-height: 1.15;
+  letter-spacing: -0.035em;
+}
+
+.download-copy p {
+  margin: 0 auto;
+  color: #748195;
+  font-size: clamp(15px, 2.6vw, 18px);
+  line-height: 1.7;
+}
+
+.qr-panel {
+  margin: 30px auto 0;
+}
+
+.qr-frame {
+  width: min(100%, 312px);
+  aspect-ratio: 1;
+  margin: 0 auto;
+  padding: 16px;
+  border: 1px solid rgba(77, 94, 118, 0.1);
+  border-radius: 26px;
+  background: #fff;
+  box-shadow: 0 20px 52px rgba(74, 62, 82, 0.12);
+}
+
+.qr-frame img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 14px;
+  object-fit: contain;
+  image-rendering: auto;
+  -webkit-touch-callout: default;
+  user-select: auto;
+}
+
+.qr-panel strong,
+.qr-panel span {
+  display: block;
+}
+
+.qr-panel strong {
+  margin-top: 22px;
+  font-size: 24px;
+}
+
+.qr-panel span {
+  margin-top: 7px;
+  color: #8995a6;
+  font-size: 17px;
+  font-weight: 650;
+}
+
+.device-hint {
+  margin-top: 24px;
+  padding: 13px 18px;
+  border-radius: 999px;
+  color: #35665f;
+  background: rgba(93, 161, 151, 0.11);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.mobile-hint {
+  display: none;
+}
+
+.support-note {
+  max-width: 410px;
+  margin: 18px auto 0;
+  color: #98a1af;
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+@media (max-width: 600px) {
+  .download-page {
+    align-items: start;
+    padding-top: max(16px, env(safe-area-inset-top));
+    padding-right: max(14px, env(safe-area-inset-right));
+    padding-bottom: max(20px, env(safe-area-inset-bottom));
+    padding-left: max(14px, env(safe-area-inset-left));
+  }
+
+  .download-card {
+    min-height: calc(100svh - 36px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px 20px;
+    border-radius: 26px;
+  }
+
+  .brand {
+    margin-bottom: 20px;
+  }
+
+  .brand img {
+    width: 56px;
+    height: 56px;
+  }
+
+  .brand strong {
+    font-size: 20px;
+  }
+
+  .qr-panel {
+    margin-top: 22px;
+  }
+
+  .qr-frame {
+    width: min(72vw, 286px);
+    padding: 12px;
+    border-radius: 22px;
+  }
+
+  .qr-panel strong {
+    margin-top: 18px;
+    font-size: 22px;
+  }
+
+  .desktop-hint {
+    display: none;
+  }
+
+  .mobile-hint {
+    display: inline;
+  }
+}
+
+@media (max-height: 700px) and (max-width: 600px) {
+  .download-card {
+    justify-content: flex-start;
+  }
+
+  .brand {
+    margin-bottom: 12px;
+  }
+
+  .download-copy p,
+  .support-note {
+    display: none;
+  }
+
+  .qr-frame {
+    width: min(58vh, 250px);
+  }
+
+  .device-hint {
+    margin-top: 16px;
+  }
+}
