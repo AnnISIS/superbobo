@@ -1,29 +1,58 @@
 {
   "package": "superqiuqiu-website-v2",
-  "created_at": "2026-08-13",
-  "git_commit": "e1a5303",
-  "file_count": 436,
-  "image_and_media_file_count": 314,
-  "news_article_count": 56,
-  "languages": ["zh-CN", "en", "ja", "da"],
+  "created_at": "2026-09-16",
+  "git_commit": "60c2732",
+  "working_tree_changes_included": false,
+  "file_count": 580,
+  "image_and_media_file_count": 450,
+  "news_article_count": 61,
+  "languages": [
+    "zh-CN",
+    "en",
+    "ja",
+    "da"
+  ],
   "entry": "index.html",
   "video_page": "support/getting-started/index.html",
+  "app_download_page": "xz/index.html",
   "new_news_articles": [
     "newsinfo/2026080701.html",
     "newsinfo/2026081101.html",
-    "newsinfo/2026081201.html"
+    "newsinfo/2026081201.html",
+    "newsinfo/2026082101.html",
+    "newsinfo/2026082201.html",
+    "newsinfo/2026082701.html",
+    "newsinfo/2026083001.html",
+    "newsinfo/2026090101.html"
   ],
   "checksums_sha256": {
-    "support/getting-started/media/introduction.mp4": "faba38afcd72854a04a104a8df3bc519fd527228da13d16f82e26dc7abf61cf6",
-    "media/news/news-translations.js": "9c5532d9d0377010cddd7fce4e3a0bf0b3c0b26600b9d913f1c193a0ed2b974a",
-    "styles.css": "134c1cf25bd188d2456e8698f90980b021d27f349102cd2af555d948915990c2",
-    "site.js": "d4972f6646e40efe0d570fb8c957230e4dd10a0e00b70a6fc31a463f12ff66ae"
+    "index.html": "cc647185746c474f00b25e6fe03686109174cbba6da09efa306497010cc4e626",
+    "contact.html": "8a56e7c23a469db28c0dd4baaa75c87067d647ae64446395f140c968593f4773",
+    "news.html": "9b2fcf384d1b7c1a47fd3280cb6bac5e70fd97ca0a80d98c91ae7592b2cb3733",
+    "styles.css": "d2f752787cc5612f46f8f56f6699d02b2d9fa062561249e839d27801635712e0",
+    "site.js": "a63c12f38aa876612808d0aad56c92d87aa30f9e99911dc929aea8695514575d",
+    "xz/index.html": "8ea1ec412d35c23e31df5a088321c9c99b3207a48e8716f822fd6b67acc72f68",
+    "xz/xz.css": "c018be0ae07e92e888de4095ed03d2cd0c770fc3a7e1993466ceb931a4d05d17",
+    "privacy/index.html": "de9ed2f86aa78e6a6b44bd0a134ddd8414ab8af3247c9ef67716ff3937601d00",
+    "privacy/privacy.css": "27625fa37a072674274a3a82590ac3b2d6fd53d952a9507a244b31a5962b97be",
+    "media/qr-app-ios.png": "e97729640384a8417690dffacedede5ef5071ac93973c49ff59a7c4acd583396",
+    "media/qr-app-android.png": "e5dce792fd2da7c45442fbdbfa07ac312110f5d757d0e768ba3a34cea98fbdae",
+    "media/qr-wechat-official-account.jpg": "688094c456db617591efa9fb6b78689fd07cbbb7d9dc5df27ede04f53c96c788",
+    "support/getting-started/index.html": "4074a1efb10219b1cb980e29cd39e6897a8b8b27907de7b39c0c8a98d40ad781",
+    "support/getting-started/media/introduction.mp4": "faba38afcd72854a04a104a8df3bc519fd527228da13d16f82e26dc7abf61cf6"
   },
   "excluded_from_release": [
     ".git",
     ".gitignore",
     ".DS_Store",
     "TRANSLATION_PREVIEW.html",
-    "TRANSLATION_RULES.md"
-  ]
+    "TRANSLATION_RULES.md",
+    "work"
+  ],
+  "privacy_page": "privacy/index.html",
+  "app_download_platforms": [
+    "iOS",
+    "Android"
+  ],
+  "wechat_official_account_qr": "media/qr-wechat-official-account.jpg"
 }
