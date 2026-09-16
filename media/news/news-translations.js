@@ -1355,6 +1355,70 @@ Object.assign(window.NEWS_ARTICLE_JA, {
   }
 });
 
+// Final overseas editorial pass for the August 27, August 30 and September 1 articles.
+// Heading indices include media tokens so the translated structure matches the Chinese source exactly.
+const SEPTEMBER_NEWS_HEADINGS = {
+  "2026082701": [],
+  "2026083001": [6, 11, 18, 23, 27, 31, 39],
+  "2026090101": [3, 18, 27, 35]
+};
+
+[window.NEWS_ARTICLE_EN, window.NEWS_ARTICLE_JA, window.NEWS_ARTICLE_DA].forEach((dictionary) => {
+  Object.entries(SEPTEMBER_NEWS_HEADINGS).forEach(([id, headingIndices]) => {
+    if (dictionary?.[id]) dictionary[id].headingIndices = headingIndices;
+  });
+});
+
+function polishSeptemberNews(dictionary, replacements) {
+  ["2026082701", "2026083001", "2026090101"].forEach((id) => {
+    const article = dictionary?.[id];
+    if (!article) return;
+    ["title", "summary"].forEach((field) => {
+      if (article[field]) article[field] = replacements.reduce((text, [from, to]) => text.replaceAll(from, to), article[field]);
+    });
+    article.body = article.body.map((text) => replacements.reduce((value, [from, to]) => value.replaceAll(from, to), text));
+  });
+}
+
+polishSeptemberNews(window.NEWS_ARTICLE_EN, [
+  ["AI Children's Products", "AI Products for Children"],
+  ["AI children's products", "AI products for children"],
+  ["AI Children's Product", "AI Product for Children"],
+  ["AI children's product", "AI product for children"],
+  ["AI children's robot", "AI companion robot for children"],
+  ["children's growth companionship", "children's emotional well-being and development"],
+  ["psychological and emotional companionship", "psychological and emotional support"],
+  ["long-term companionship", "long-term support"],
+  ["emotional companionship", "emotional support"]
+]);
+
+polishSeptemberNews(window.NEWS_ARTICLE_JA, [
+  ["AI子ども製品", "子ども向けAI製品"],
+  ["AI子どもロボット", "子ども向けAIロボット"],
+  ["AI子ども見守り製品", "子ども向けAI見守り製品"],
+  ["AI子ども成長見守りロボット", "子ども向けAI成長見守りロボット"],
+  ["心理的・情緒的伴走", "心理面・感情面での寄り添い"],
+  ["成長伴走", "成長支援"],
+  ["長期的な伴走", "長期的な寄り添い"],
+  ["インタラクティブな伴走", "対話を通じた寄り添い"]
+]);
+
+polishSeptemberNews(window.NEWS_ARTICLE_DA, [
+  ["en原生 AI-teknologivirksomhed", "en AI-født teknologivirksomhed"],
+  ["Plysch-udgave", "plysudgave"],
+  ["plysch-ledsage-robotter", "plysrobotter med AI"],
+  ["vækst-ledsage-robotter", "AI-robotter, der støtter børns udvikling"],
+  ["psykologisk og følelsesmæssig ledsagelse", "psykologisk og følelsesmæssig støtte"],
+  ["langsigtet ledsagelse", "langvarigt nærvær"],
+  ["følelsesmæssig ledsagelse", "følelsesmæssig støtte"],
+  ["AI-økologi", "AI-økosystem"],
+  ["økologisk samarbejde", "økosystemsamarbejde"],
+  ["økologisk medopbygning", "udvikling af økosystemet"],
+  ["ledsagerskab", "nærvær"]
+]);
+
+normalizeOverseasNewsNames();
+
 Object.assign(window.NEWS_ARTICLE_DA, {
   "2026072001": {
     title: "Super YouAI præsenterer Chio Chio på World Artificial Intelligence Conference 2026",
@@ -3593,6 +3657,652 @@ Object.assign(window.NEWS_ARTICLE_DA, {
     ]
   }
 });
+Object.assign(window.NEWS_TEXT_EN, {
+  "喜报｜【超级球球】荣获【2026年医学装备创新大赛长三角分赛决赛三等奖】，实力再获认可！": "Chio Chio Wins Third Prize at the 2026 Yangtze River Delta Medical Equipment Innovation Competition Finals",
+  "超级球球从千余个初赛项目中突围，在200余支决赛队伍中斩获三等奖，心理智能创新实力再获行业认可。": "Chio Chio advanced from more than 1,000 preliminary projects and won third prize among over 200 finalists, earning further industry recognition for its emotionally intelligent innovation.",
+  "超级球球与郁金香陪伴达成战略合作：让科技更懂人的情绪": "Chio Chio and Tulip Companion Form a Strategic Partnership to Help Technology Better Understand Human Emotions"
+});
+
+Object.assign(window.NEWS_TEXT_JA, {
+  "喜报｜【超级球球】荣获【2026年医学装备创新大赛长三角分赛决赛三等奖】，实力再获认可！": "Chio Chio、2026年医療機器イノベーション大会・長江デルタ地区決勝で三等賞を受賞",
+  "超级球球从千余个初赛项目中突围，在200余支决赛队伍中斩获三等奖，心理智能创新实力再获行业认可。": "Chio Chioは1,000件を超える予選プロジェクトを勝ち抜き、200以上の決勝進出チームの中から三等賞を受賞。感情に寄り添う技術力が改めて評価されました。",
+  "超级球球与郁金香陪伴达成战略合作：让科技更懂人的情绪": "Chio Chioと郁金香陪伴が戦略提携：人の感情をより深く理解するテクノロジーへ"
+});
+
+Object.assign(window.NEWS_TEXT_DA, {
+  "喜报｜【超级球球】荣获【2026年医学装备创新大赛长三角分赛决赛三等奖】，实力再获认可！": "Chio Chio vinder tredjeprisen ved 2026-finalen i Yangtze-deltaets konkurrence for innovation i medicinsk udstyr",
+  "超级球球从千余个初赛项目中突围，在200余支决赛队伍中斩获三等奖，心理智能创新实力再获行业认可。": "Chio Chio gik videre fra over 1.000 indledende projekter og vandt tredjeprisen blandt mere end 200 finalister, hvilket gav ny brancheanerkendelse af produktets emotionelt intelligente innovation.",
+  "超级球球与郁金香陪伴达成战略合作：让科技更懂人的情绪": "Chio Chio og Tulip Companion indgår strategisk partnerskab, så teknologi bedre kan forstå menneskers følelser"
+});
+
+Object.assign(window.NEWS_ARTICLE_EN, {
+  "2026082101": {
+    title: "Chio Chio and Tulip Companion Form a Strategic Partnership to Help Technology Better Understand Human Emotions",
+    summary: "The partners will combine real-world peer-support experience with emotionally intelligent AI to explore warmer, more responsible everyday companionship.",
+    body: [
+      "Chio Chio and Tulip Companion have entered into a strategic partnership. Together, they will focus on people experiencing depressive feelings, loneliness, and emotional distress, and explore AI companion products that respond more closely to real needs and everyday life.",
+      "The signing ceremony took place at Hangzhou Future Sci-Tech City. Super YouAI founder and Chio Chio AI team leader Dr. XIAOSHUAI YUAN signed the agreement with Tulip Companion Operations Director YIWEI ZHU, witnessed by Yiji China Chairman CHENGKUAN LU. The ceremony marked the official start of the partnership.",
+      "[[media:1]]",
+      "Behind every experience of depression is a real person. What people need is not only an answer, but to be heard, understood, and met with a timely response. This is the work Tulip Companion has pursued for more than a decade.",
+      "Tulip Companion has long supported people experiencing depression and their families. It now operates more than 950 online peer-support groups, reaches over 300 cities, and connects more than 100,000 people with lived experience and family members. This long-term work has built substantial knowledge of real needs, companionship practices, users, and volunteer resources.",
+      "[[media:2]]",
+      "[[media:3]]",
+      "Chio Chio is a representative Chinese AI companion-robot brand. It combines artificial intelligence, mental wellbeing, and companionship scenarios, with ongoing work in emotion recognition, empathetic dialogue, and long-term companionship. Its goal is to make technology not only smarter, but warmer and more respectful of human feelings.",
+      "[[media:4]]",
+      "[[media:5]]",
+      "The partners will study real user needs, daily companionship settings, and communication patterns. They will explore how AI can listen and respond more appropriately, reduce harm from unsuitable wording, and offer more consistent and friendly everyday companionship while respecting privacy and personal boundaries.",
+      "They will also draw on Tulip Companion's nationwide community and volunteer network for user co-creation, product trials, and public-interest education, allowing products to be tested and improved in real settings.",
+      "The project is not intended to replace human connection or allow AI to replace doctors or mental-health professionals in diagnosis or treatment. Its purpose is to help technology serve people with greater depth and warmth. When companionship is temporarily absent and professional support has not yet arrived, there can still be one more opportunity to listen, understand, and encourage someone to seek help.",
+      "Tulip Companion helps AI understand real emotions and needs, while Chio Chio helps warm companionship cross the limits of time and place. Together, they will launch the co-branded AI companion name Manman, meaning companionship that does not rush, judge, or hurry to provide an answer.",
+      "The world moves quickly, but emotions need time. Life is busy, but someone should still be willing to pause and listen carefully - in a busy world, Manman stays with you.",
+      "The first Manman AI companion product will be officially launched on September 20 at the Tulip 920 Friends Festival.",
+      "[[media:6]]",
+      "May every emotion be treated with care, and may no one who needs companionship have to face it alone."
+    ]
+  },
+  "2026082201": {
+    title: "Chio Chio Wins Third Prize at the 2026 Yangtze River Delta Medical Equipment Innovation Competition Finals",
+    summary: "Chio Chio advanced from more than 1,000 preliminary projects and won third prize among over 200 finalists.",
+    body: [
+      "Good news from the competition: Chio Chio delivered a strong performance on the finals stage.",
+      "After advancing from more than 1,000 preliminary projects, Chio Chio competed alongside over 200 high-quality finalists and won third prize at the Yangtze River Delta finals of the Medical Equipment Innovation Competition.",
+      "At the 2026 finals, Super YouAI's flagship product Chio Chio earned the award for its innovation in psychologically informed intelligence, its relevance to public needs, and its differentiated design for emotional-support scenarios.",
+      "[[media:1]]",
+      "The 2026 Medical Equipment Innovation Competition focused on innovation across the wider health sector, including psychological services, health support, and intelligent technology. More than 1,000 projects entered the preliminary stage. Following several rounds of expert review, value assessment, and capability evaluation, selected projects advanced to the Yangtze River Delta finals.",
+      "[[media:2]]",
+      "More than 200 strong innovation teams competed in the regional finals. Chio Chio's third-prize result was supported by its proprietary YouAI psychological model and practical service capabilities.",
+      "[[media:3]]",
+      "Built on the self-developed YouAI psychological model, Chio Chio offers a professional, lightweight, and adaptable system for emotional support. Its capabilities include emotion recognition, psychologically informed companionship, accessible mental-health education, and positive emotional guidance. Unlike many children's AI devices centered on early learning, questions, or stories through a general-purpose model, Chio Chio uses a specialized model developed over six years and nine generations by a team including five PhDs and experienced child-psychology professionals. Its dialogue follows a listening, empathy, positive guidance, and positive reinforcement workflow, supported by soft touch, expressive eyes, and long-term personal memory. Chio Chio is therefore designed not simply as a learning toy, but as a trusted companion for young people's growth.",
+      "Chio Chio has also been applied in focused support settings, including companionship for autistic people, emotional support for people experiencing depression, and positive-psychology programs for young people. These practical applications have built service experience, encouraging user feedback, and recognition from the judging panel for real social value.",
+      "[[media:4]]",
+      "Advancing from more than 1,000 preliminary projects and earning an award among over 200 finalists was hard won. It reflects recognition from the organizers and industry experts for Chio Chio's product innovation, technical capability, and practical value, as well as positive market and user feedback. It also reflects the development team's repeated refinement and continued iteration.",
+      "Chio Chio focuses on accessible mental wellbeing. Guided by real user needs and the proprietary YouAI psychological model, the team continues to improve emotional guidance, companionship, mental-health education, and support functions. Its lightweight, intelligent, and warm approach aims to make practical psychological support more accessible to different groups.",
+      "The award honors the original mission and encourages the team to keep moving forward.",
+      "[[media:5]]",
+      "This recognition is also motivation for the next stage. The team will continue investing in technology, product quality, and service systems, and repay the trust of the industry and customers with stronger products.",
+      "Every honor is a new starting point. We thank the competition, our users, and our partners. Chio Chio will keep refining its work and moving forward with care and commitment."
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_JA, {
+  "2026082101": {
+    title: "Chio Chioと郁金香陪伴が戦略提携：人の感情をより深く理解するテクノロジーへ",
+    summary: "当事者に寄り添う現場経験と感情理解AIを組み合わせ、温かく責任ある日常の陪伴を探ります。",
+    body: [
+      "Chio Chioと郁金香陪伴は戦略的パートナーシップを正式に締結しました。抑うつ感、孤独感、心のつらさを抱える人々に共に目を向け、実際の生活とニーズにより近いAIパートナー製品を探ります。",
+      "調印式は杭州未来科技城で行われました。Super YouAI創業者でChio Chio AIチーム責任者のXIAOSHUAI YUAN博士と、郁金香陪伴運営総監のYIWEI ZHU氏が契約書に署名し、億極中国董事長のCHENGKUAN LU氏が立ち会いました。これにより両者の協力が正式に始動しました。",
+      "[[media:1]]",
+      "抑うつ感の向こうには、一人ひとりの実在する人がいます。必要なのは答えだけではなく、声を聴いてもらい、理解され、必要な時に応えてもらうことです。郁金香陪伴は十年以上にわたり、この課題に取り組んできました。",
+      "郁金香陪伴は、抑うつ感を抱える人とその家族を長期的に支援しています。現在は950以上のオンライン支援コミュニティを運営し、300以上の都市をカバーし、当事者と家族10万人以上をつないでいます。活動を通じて、実際のニーズ、陪伴の経験、利用者基盤、ボランティア資源を蓄積してきました。",
+      "[[media:2]]", "[[media:3]]",
+      "Chio Chioは中国を代表するAIパートナーロボットブランドの一つです。AI、心の健康、日常の陪伴を結び、感情認識、共感的な対話、長期的な関係づくりを継続して研究しています。技術を賢くするだけでなく、より温かく、人の気持ちを尊重できるものにすることを目指します。",
+      "[[media:4]]", "[[media:5]]",
+      "両者は、実際の利用者ニーズ、日常の場面、コミュニケーション方法を深く理解し、AIがより適切に聴き、応答する方法を探ります。不適切な表現による傷つきを減らし、プライバシーと個人の境界を尊重しながら、継続的で友好的な日常の陪伴を提供することを目指します。",
+      "今後は郁金香陪伴の全国的なコミュニティとボランティアネットワークを生かし、利用者との共創、製品体験、公益的な啓発活動を行い、実際の場面で製品を検証・改善します。",
+      "このプロジェクトは、人と人とのつながりを技術で置き換えたり、AIが医師や心理専門職に代わって診断・治療を行ったりするものではありません。陪伴や専門支援がすぐに届かない時にも、聴くこと、理解すること、助けを求めるきっかけを一つ増やすための取り組みです。",
+      "郁金香陪伴はAIが実際の感情とニーズを理解することを助け、Chio Chioは温かな陪伴が時間と場所を越えて届くようにします。両者は共同ブランド「慢慢（Manman）」を立ち上げます。急かさず、評価せず、答えを急がない陪伴という意味を込めています。",
+      "世界は速く動いても、感情には時間が必要です。忙しい日々の中でも、立ち止まって話を聴く存在が必要です。忙しい世界で、Manmanがゆっくり寄り添います。",
+      "Manman初のAIパートナー製品は、9月20日の「郁金香920郁友節」で正式発表される予定です。",
+      "[[media:6]]",
+      "あらゆる感情が大切に扱われ、陪伴を必要とする人が一人で向き合わずにすむことを願っています。"
+    ]
+  },
+  "2026082201": {
+    title: "Chio Chio、2026年医療機器イノベーション大会・長江デルタ地区決勝で三等賞を受賞",
+    summary: "1,000件を超える予選を勝ち抜き、200以上の決勝進出チームの中から三等賞を受賞しました。",
+    body: [
+      "大会からうれしい知らせが届きました。Chio Chioが決勝の舞台で高い評価を獲得しました。",
+      "1,000件を超える予選プロジェクトを勝ち抜き、200以上の優良プロジェクトと競った結果、医療機器イノベーション大会・長江デルタ地区決勝で三等賞を受賞しました。",
+      "2026年大会の決勝で、Super YouAIの主力製品Chio Chioは、心理学に基づく知能の革新性、社会のニーズに合ったサービス価値、心の支援場面に適した独自設計を評価されました。",
+      "[[media:1]]",
+      "本大会は心の支援、健康関連サービス、スマート技術など、大健康分野の革新に焦点を当てています。予選には全国から1,000件以上のプロジェクトが参加し、専門家による複数回の審査、価値検証、能力評価を経て、優れたプロジェクトが長江デルタ地区決勝へ進みました。",
+      "[[media:2]]",
+      "決勝では200以上の有力チームが競いました。Chio Chioが三等賞を得た背景には、独自のYouAI心理モデルと、現場で活用できるサービス力があります。",
+      "[[media:3]]",
+      "独自開発のYouAI心理モデルを基盤に、Chio Chioは専門性、手軽さ、適応性を備えた心の支援体系を構築しています。感情認識、心理学に基づく陪伴、心の健康に関する知識、前向きな感情への導きが主な機能です。一般的な大規模モデルで早期教育、質問応答、物語を提供する多くの子ども向けAI機器とは異なり、Chio Chioの専門モデルは児童心理の専門家を含む5人の博士チームが6年をかけ、9世代にわたり改良しました。「傾聴・共感・前向きな導き・前向きな強化」の流れに、柔らかな触感、表情豊かな目、長期記憶を組み合わせています。単なる学習玩具ではなく、子どもと青少年の成長を支える信頼できるパートナーを目指しています。",
+      "また、自閉スペクトラム症の人への陪伴、抑うつ感への声かけ、青少年のポジティブ心理など、個別の支援場面でも活用経験を積み、実際の社会的価値が審査員から評価されました。",
+      "[[media:4]]",
+      "1,000件以上の予選から進出し、200以上の決勝チームの中で受賞したことは簡単ではありません。製品革新、技術力、現場価値に対する主催者と専門家の評価であり、市場と利用者の実感、開発チームの継続的な改善の成果でもあります。",
+      "Chio Chioは、より多くの人が心の支援を利用できることを目指す製品です。実際の利用者ニーズと独自のYouAI心理モデルに基づき、感情への声かけ、心理的な陪伴、心の健康に関する情報、支援機能を改善し続けています。軽量でスマート、温かな方法により、さまざまな人へ持続的な支援を届けます。",
+      "受賞を励みに、初心を守りながら歩み続けます。",
+      "[[media:5]]",
+      "今回の評価を次の前進への力とし、技術革新、製品品質、サービス体制をさらに磨き、より良い製品で業界と利用者の信頼に応えます。",
+      "すべての栄誉は新しい出発点です。大会、利用者、パートナーの皆さまに感謝し、Chio Chioはこれからも丁寧な改善と挑戦を続けます。"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_DA, {
+  "2026082101": {
+    title: "Chio Chio og Tulip Companion indgår strategisk partnerskab, så teknologi bedre kan forstå menneskers følelser",
+    summary: "Parterne kombinerer erfaring fra virkelige støttemiljøer med emotionelt intelligent AI for at udvikle varmt og ansvarligt nærvær i hverdagen.",
+    body: [
+      "Chio Chio og Tulip Companion har indgået et strategisk partnerskab. Sammen vil de sætte fokus på mennesker med depressive følelser, ensomhed og følelsesmæssige udfordringer og undersøge AI-ledsagere, der ligger tættere på virkelige behov og hverdagsliv.",
+      "Aftalen blev underskrevet i Hangzhou Future Sci-Tech City af Super YouAI-grundlægger og leder af Chio Chios AI-team, dr. XIAOSHUAI YUAN, og Tulip Companions driftsdirektør YIWEI ZHU. Yiji China-formand CHENGKUAN LU overværede ceremonien, som markerede den officielle start på samarbejdet.",
+      "[[media:1]]",
+      "Bag depressive følelser står virkelige mennesker. De har ikke kun brug for et svar, men for at blive hørt, forstået og mødt i tide. Det er denne opgave, Tulip Companion har arbejdet med i mere end ti år.",
+      "Tulip Companion støtter mennesker med depressive følelser og deres familier. Organisationen har nu over 950 onlinefællesskaber, dækker mere end 300 byer og forbinder over 100.000 berørte mennesker og pårørende. Det langvarige arbejde har skabt omfattende viden om reelle behov, ledsagelse, brugere og frivillige ressourcer.",
+      "[[media:2]]", "[[media:3]]",
+      "Chio Chio er et repræsentativt kinesisk brand inden for AI-ledsagerrobotter. Produktet forener kunstig intelligens, mental trivsel og hverdagens ledsagelse og udvikles løbende inden for følelsesgenkendelse, empatisk dialog og langvarigt nærvær. Målet er teknologi, der ikke kun er klogere, men også varmere og mere respektfuld over for menneskers følelser.",
+      "[[media:4]]", "[[media:5]]",
+      "Parterne vil undersøge reelle brugerbehov, hverdagssituationer og kommunikationsformer. De vil se på, hvordan AI kan lytte og svare mere hensigtsmæssigt, mindske skade fra uheldige formuleringer og tilbyde mere stabilt og venligt nærvær med respekt for privatliv og personlige grænser.",
+      "Tulip Companions landsdækkende fællesskaber og netværk af frivillige skal desuden bruges til samskabelse med brugere, produktprøver og oplysning, så løsningerne løbende kan afprøves og forbedres i virkelige miljøer.",
+      "Projektet skal ikke erstatte menneskelig kontakt eller lade AI overtage lægers og psykologers opgaver med diagnose og behandling. Formålet er, at teknologi kan tjene mennesker med større dybde og varme. Når nærvær midlertidigt mangler, og faglig støtte endnu ikke er nået frem, kan der stadig være en ekstra mulighed for at lytte, forstå og opmuntre til at søge hjælp.",
+      "Tulip Companion hjælper AI med at forstå virkelige følelser og behov, mens Chio Chio gør det muligt for varmt nærvær at krydse tid og afstand. Sammen lancerer de det fælles AI-ledsagerbrand Manman, som står for nærvær uden hastværk, fordømmelse eller hurtige svar.",
+      "Verden bevæger sig hurtigt, men følelser kræver tid. Livet er travlt, men nogen bør stadig standse op og lytte - i en travl verden bliver Manman hos dig.",
+      "Det første Manman-produkt lanceres officielt den 20. september ved Tulip 920 Friends Festival.",
+      "[[media:6]]",
+      "Må enhver følelse blive taget alvorligt, og må ingen, der har brug for nærvær, stå alene."
+    ]
+  },
+  "2026082201": {
+    title: "Chio Chio vinder tredjeprisen ved 2026-finalen i Yangtze-deltaets konkurrence for innovation i medicinsk udstyr",
+    summary: "Chio Chio gik videre fra over 1.000 indledende projekter og vandt tredjeprisen blandt mere end 200 finalister.",
+    body: [
+      "Gode nyheder fra konkurrencen: Chio Chio leverede en stærk præstation på finalescenen.",
+      "Efter at være gået videre fra over 1.000 indledende projekter konkurrerede Chio Chio med mere end 200 stærke finalister og vandt tredjeprisen i Yangtze-delta-finalen i konkurrencen for innovation i medicinsk udstyr.",
+      "Ved finalen i 2026 blev Super YouAIs kerneprodukt Chio Chio anerkendt for psykologisk funderet intelligens, relevans for almindelige behov og et særpræget design til følelsesmæssige støttesituationer.",
+      "[[media:1]]",
+      "Konkurrencen fokuserede på innovation inden for den brede sundhedssektor, blandt andet psykologiske tilbud, sundhedsstøtte og intelligent teknologi. Over 1.000 projekter deltog i den indledende runde. Efter flere ekspertvurderinger, værditest og evaluering af gennemførelse gik udvalgte projekter videre til Yangtze-delta-finalen.",
+      "[[media:2]]",
+      "Mere end 200 stærke innovationsteams deltog i regionalfinalen. Chio Chios tredjepris blev understøttet af den egenudviklede psykologiske YouAI-model og produktets praktiske servicekapacitet.",
+      "[[media:3]]",
+      "Med den egenudviklede psykologiske YouAI-model har Chio Chio opbygget et professionelt, let og fleksibelt system til følelsesmæssig støtte. Det omfatter følelsesgenkendelse, psykologisk funderet nærvær, lettilgængelig viden om mental trivsel og positiv følelsesmæssig vejledning. I modsætning til mange AI-enheder til børn, der primært bruger en generel model til tidlig læring, spørgsmål eller historier, bygger Chio Chio på en specialiseret model udviklet gennem seks år og ni generationer af et team med fem ph.d.er og erfarne fagfolk inden for børnepsykologi. Dialogen følger et forløb med lytning, empati, positiv vejledning og positiv styrkelse og kombineres med blød berøring, udtryksfulde øjne og langvarig personlig hukommelse. Chio Chio er derfor ikke blot et læringslegetøj, men en betroet ledsager i børn og unges udvikling.",
+      "Chio Chio er også anvendt i målrettede støttemiljøer, blandt andet ledsagelse af autistiske mennesker, støtte ved depressive følelser og positiv psykologi for unge. Erfaringerne har skabt gode tilbagemeldinger og blev anerkendt af dommerne for deres reelle sociale værdi.",
+      "[[media:4]]",
+      "Det var en krævende vej fra over 1.000 indledende projekter til en pris blandt mere end 200 finalister. Resultatet viser arrangørernes og brancheeksperternes anerkendelse af produktinnovation, teknologi og praktisk værdi samt positive erfaringer fra marked og brugere. Det afspejler også udviklingsteamets vedvarende forbedringer.",
+      "Chio Chio fokuserer på at gøre støtte til mental trivsel mere tilgængelig. Med udgangspunkt i reelle brugerbehov og den egenudviklede YouAI-model forbedrer teamet fortsat følelsesmæssig vejledning, nærvær, viden og støttefunktioner. Den lette, intelligente og varme tilgang skal give forskellige grupper adgang til vedvarende hjælp.",
+      "Prisen hædrer den oprindelige mission og opmuntrer teamet til at fortsætte.",
+      "[[media:5]]",
+      "Anerkendelsen giver ny motivation. Teamet vil fortsat investere i teknologi, produktkvalitet og servicesystemer og gengælde branchens og kundernes tillid med endnu bedre produkter.",
+      "Enhver pris er et nyt udgangspunkt. Tak til konkurrencen, brugerne og partnerne. Chio Chio vil fortsætte det grundige udviklingsarbejde og bevæge sig fremad med omtanke."
+    ]
+  }
+});
+
 // END AUGUST_2026_NEWS_TRANSLATIONS
+
+normalizeOverseasNewsNames();
+
+Object.assign(window.NEWS_TEXT_EN, {
+  "跨越两百年｜当经典遇见 AI，解锁全新的陪伴": "Across Two Centuries | When Classics Meet AI, Unlocking a New Form of Companionship",
+  "跨越两个世纪的童话温度与 AI 技术相遇，让守护、陪伴与治愈以新的形态走进成长旅程。": "The warmth of fairy tales spanning two centuries meets AI technology, allowing guardianship, companionship, and healing to enter the journey of growth in new forms.",
+  "两百年经典遇见中国 AI，安徒生系列 AI 儿童产品在上海全球首发": "Two Centuries of Classics Meet Chinese AI: Hans Christian Andersen Series AI Children's Products Make Global Debut in Shanghai",
+  "安徒生四大系列 AI 儿童产品在丹麦王国驻上海总领事馆全球首发，开启经典文化与中国 AI 深度融合的新篇章。": "The four Hans Christian Andersen series AI children's product lines made their global debut at the Royal Danish Consulate General in Shanghai, opening a new chapter in the deep integration of classic culture and Chinese AI.",
+  "下一站，世界｜超级球球携安徒生联名系列，连续亮相德国 IFA、土耳其 GITEX": "Next Stop, the World | Chio Chio Makes Consecutive Appearances at IFA in Germany and GITEX in Türkiye with Hans Christian Andersen Co-Branded Series",
+  "超级球球携 AI 儿童成长陪伴机器人及安徒生联名系列，从上海走向柏林与伊斯坦布尔，开启全球旅程。": "Chio Chio, together with its AI children's growth companion robots and the Hans Christian Andersen co-branded series, is embarking on a global journey from Shanghai to Berlin and Istanbul."
+});
+
+Object.assign(window.NEWS_ARTICLE_EN, {
+  "2026082701": {
+    "title": "Across Two Centuries | When Classics Meet AI, Unlocking a New Form of Companionship",
+    "summary": "The warmth of fairy tales spanning two centuries meets AI technology, allowing guardianship, companionship, and healing to enter the journey of growth in new forms.",
+    "body": [
+      "Two hundred years ago, words wove gentle dreams, illuminating countless children's childhoods with story after story, endowing growth with imagination and strength.",
+      "The times surge forward, and the wave of technology rushes in. When the warmth that spans centuries meets rapidly evolving AI technology, what entirely new possibilities might emerge?",
+      "Ancient romance meets cutting-edge technology. The essence of guardianship, companionship, and healing will not be diluted by time—instead, it will continue its journey toward every stage of growth in a brand-new form.",
+      "In the past, stories offered spiritual comfort to children; in the future, technology will bring this companionship even closer.",
+      "The answer remains under wraps for now.",
+      "August 28—stay tuned, and witness the unveiling of something new together.",
+      "[[media:1]]"
+    ]
+  },
+  "2026083001": {
+    "title": "Two Centuries of Classics Meet Chinese AI: Hans Christian Andersen Series AI Children's Products Make Global Debut in Shanghai",
+    "summary": "The four Hans Christian Andersen series AI children's product lines made their global debut at the Royal Danish Consulate General in Shanghai, opening a new chapter in the deep integration of classic culture and Chinese AI.",
+    "body": [
+      "Shanghai, August 28, 2026 — When Hans Christian Andersen's fairy tales, with a history of more than two hundred years, meet Chinese artificial intelligence, what new possibilities might emerge?",
+      "On August 28, the global launch event for the Hans Christian Andersen series AI children's products, themed \"Fairy Tales with Love · AI Enlightens the Future,\" was held at the Royal Danish Consulate General in Shanghai.",
+      "Jens Alsbirk, Consul General of the Kingdom of Denmark in Shanghai; Mr. Mads Thagaard Runge, Director of the Hans Christian Andersen Museum in Denmark; Dr. XIAOSHUAI YUAN, founder of Chio Chio; and representatives from government, cultural, scientific, and industrial sectors of both China and Denmark attended the event, jointly witnessing the first global release of the Hans Christian Andersen series AI children's products.",
+      "[[media:1]]",
+      "At the launch event, Chio Chio (the AI children's robot brand under Super YouAI Intelligent Technology) officially unveiled four Hans Christian Andersen AI children's product series and announced its global market strategy. Chio Chio also signed strategic cooperation agreements with China Mobile Xinsheng Technology, Tuya Smart, ClassOver, RedFunPlanet, and other enterprises and partners, focusing on AI technology, smart hardware, global markets, and the industrial ecosystem, to jointly advance the construction of the global ecosystem for Hans Christian Andersen AI products.",
+      "Unlike an ordinary IP product launch, this event sent another signal: Danish classic culture with global influence is forging new connections with China's rapidly developing artificial intelligence industry.",
+      "Danish Consul General: An Important Cooperation Between China and Denmark",
+      "At the event, Jens Alsbirk, Consul General of the Kingdom of Denmark in Shanghai, spoke about the significance of this cooperation for China-Denmark exchanges, describing it as an important collaboration between the two countries. The Consul General stated: \"This cooperation represents a brand-new form of China-Denmark partnership — where culture, technology, and innovation converge.\"",
+      "[[media:2]]",
+      "Mr. Mads Thagaard Runge, Director of the Hans Christian Andersen Museum, also attended the launch. As an important institution for the research, preservation, and dissemination of Hans Christian Andersen's cultural heritage, the museum's involvement elevates this cooperation beyond conventional commercial IP development, highlighting instead a blend of cultural inheritance and new technology application.",
+      "This is also what makes the project particularly noteworthy: on one end is a cultural classic that has influenced the world for over two hundred years; on the other is artificial intelligence, which is rapidly transforming global industries and lifestyles. One represents the cultural value left by history; the other represents the future unfolding now. What both sides are exploring is a new mode of expression for classic culture in the AI era.",
+      "Four Series Unveiled Together: Hans Christian Andersen Fairy Tales Enter the AI Interactive Era",
+      "At the launch, the four Hans Christian Andersen series AI children's product lines made their first collective appearance. Continuing Chio Chio's product direction in children's growth companionship, the series addresses three core needs — character development, psychological and emotional companionship, and bilingual (Chinese-English) growth — forming a product system covering different growth stages from ages 0 to 18.",
+      "The products released this time include the Hans Christian Andersen Fairy Tales Intelligent Bilingual Audio Book, the Ugly Duckling AI Interactive Plush Edition, the Hans Christian Andersen IP Limited Edition AI Designer Toy Figurine, and the Chio Chio × Hans Christian Andersen Joint IP Series. The product forms extend from intelligent audio books and plush companion robots to AI designer toys and growth companion robots, aiming to bring classic fairy tales into children's daily lives in a more interactive way.",
+      "[[media:3]]",
+      "Among them, the Hans Christian Andersen Fairy Tales Intelligent Bilingual Audio Book, designed for children aged 0–4, combines classic stories, artistic illustrations, intelligent voice, and bilingual early learning, allowing children to engage with fairy tales and English through listening and reading. The Ugly Duckling AI Interactive Plush Edition, designed for children aged 3–12, integrates plush toys with AI agents, adding emotional companionship and growth interaction on top of fairy tales, nursery rhymes, and bilingual engagement, hoping to convey the values of self-identity and confident growth through the Ugly Duckling's developmental journey.",
+      "For older children and teenagers, the Hans Christian Andersen IP Limited Edition AI Designer Toy Figurine transforms classic Andersen characters into AI personas with distinct personality traits and growth symbolism, adding AI conversation, fairy tale interaction, and bilingual communication capabilities beyond collectibility. The Chio Chio × Hans Christian Andersen Joint IP Series, targeting children and teenagers aged 6–18, further combines Chio Chio's AI growth companionship capabilities with the spiritual values embodied in Andersen's fairy tales, exploring AI applications in children's emotional expression and character development through emotion recognition, empathic dialogue, long-term companionship, and bilingual interaction.",
+      "Notably, the four series do not simply apply the Hans Christian Andersen IP to different product forms; rather, they attempt to establish a product pathway from \"story enlightenment\" to \"interactive companionship\" and then to \"character and psychological growth.\"",
+      "From IP Licensing to \"Digital Life\"",
+      "Artificial intelligence is reshaping the relationship between IP and users. In the past, bringing classic IP into consumer products typically meant image licensing, content authorization, or co-branded design. But with the rapid development of generative AI and smart hardware, a new possibility is emerging for IP — evolving from static cultural imagery into digital characters with interactive capabilities and personality traits.",
+      "In this launch, Chio Chio attempted to combine the values behind Hans Christian Andersen's classic characters with different AI personas. For example, \"The Ugly Duckling\" corresponds to confidence and growth, \"The Steadfast Tin Soldier\" to perseverance, \"The Little Mermaid\" to love and exploration, and \"The Emperor's New Clothes\" to independent thinking. This means that in the future, when children face different challenges in growing up, fairy tale characters will no longer exist only on pages, in animations, or as plush toys — they may engage in ongoing conversations with children through AI.",
+      "Chio Chio defines this direction as: giving classic fairy tale characters a \"digital life.\" This is also the core distinction of this cooperation from traditional IP co-branding — it is not simply turning classic characters into AI products, but rather transforming the spiritual values behind those characters into interactive AI personas.",
+      "[[media:4]]",
+      "China Mobile Xinsheng Technology, Tuya Smart, ClassOver, RedFunPlanet, and Others Join Ecosystem Cooperation",
+      "Beyond products, industrial cooperation became another focus of the day's launch. At the event, Chio Chio signed strategic cooperation agreements with China Mobile Xinsheng Technology, Tuya Smart, ClassOver, RedFunPlanet, and other enterprises and partners. This cooperation is no longer limited to single product development but now spans AI technology, chips and smart hardware, IoT capabilities, educational content, supply chains, and global market channels.",
+      "Chio Chio also launched the Hans Christian Andersen AI Global Ecosystem Strategic Co-construction Initiative, planning to connect more partners around product and technology co-creation, industry and ecosystem co-construction, and global market expansion. This signals that the goal of the Hans Christian Andersen AI project is not merely to launch a few co-branded products, but to progressively build an industrial ecosystem centered on classic cultural IP, AI technology, smart hardware, and global channels.",
+      "[[media:5]]",
+      "Chinese AI Companies Begin Seeking New Paths to Globalization",
+      "On the same day, Chio Chio also released its global market strategy, planning to focus on markets in China, Europe, North America, and Japan, while advancing the development of online and offline channels and a global partner network.",
+      "In the past, the globalization advantages of Chinese consumer technology products came largely from manufacturing, supply chains, and cost efficiency. The Hans Christian Andersen AI project presents a different path: Chinese AI technology + world classic culture + global consumer markets.",
+      "This gives the cooperation an industrial observation value that transcends any single product. For Chinese AI companies, the next phase of going global may no longer be just \"selling products made in China overseas,\" but rather leveraging technological innovation to combine with cultural assets, brand resources, and local markets of different countries to build products with true global recognition.",
+      "After AI Enters Children's Lives, What Matters Most?",
+      "At the launch, Dr. XIAOSHUAI YUAN, CEO of Chio Chio, also brought the conversation back to \"people.\"",
+      "Dr. XIAOSHUAI YUAN stated that Chio Chio has long focused on the integration of artificial intelligence, psychology, and children's development. The core consideration is not how to have AI provide children with more information, but rather, as AI becomes increasingly embedded in children's growth environments, what role it should truly play.",
+      "In his speech, Dr. Yuan said: \"Technology determines what AI can do; culture determines what we want AI to become. We hope to work hand in hand with the Hans Christian Andersen Museum in Denmark to explore: when world classic fairy tale characters gain digital life, and when Chinese AI begins to deeply integrate with the cultural assets of different countries, what can ultimately be left for people?\"",
+      "[[media:6]]",
+      "This also explains why a Chinese AI children's robot company would choose a Danish cultural classic with a history of over two hundred years. AI provides a new technological vehicle, while Hans Christian Andersen offers humanistic values validated by time — love, courage, confidence, kindness, imagination, and the strength to face the world. Technology is always changing, but children's need for understanding, growth, and companionship has not disappeared.",
+      "From 1805 to the AI era. More than two hundred years ago, Hans Christian Andersen created a fairy tale world with words. More than two hundred years later, Chinese AI is attempting to bring these classic characters back into the lives of the next generation in new ways.",
+      "[[media:7]]",
+      "About Super YouAI",
+      "Super YouAI (Hangzhou) Intelligent Technology Co., Ltd. is a native AI technology enterprise focused on the innovative application of artificial intelligence in emotional health, psychological companionship, and children's growth. Its core brand is \"Chio Chio.\"",
+      "The company upholds the technological value of \"AI ultimately serves people,\" and has long explored the deep integration of artificial intelligence, psychology, and smart hardware. Its core R&D team brings together talent from Tsinghua University, Beijing Normal University, and other leading domestic and overseas institutions, with multiple Ph.D. holders involved in research and development. Through years of technical accumulation and multiple product iterations, the company has progressively built an AI capability system for children's growth scenarios. Public reports show that its \"Chio Chio\" products focus on emotion recognition, empathic interaction, long-term memory, and growth guidance, and have been showcased at events such as CES Asia and WAIC. The products are sold through online platforms including JD.com and Douyin, as well as offline channels such as JD Mall and Taozhu Xinzaoju. Super YouAI does not define itself as a mere AI toy company. The company is more concerned with a long-term proposition: as AI becomes increasingly integrated into people's lives, how can technology truly understand and support people, and create value for human growth?",
+      "In 2026, the company further joined forces with Hans Christian Andersen classic culture to explore giving classic fairy tale characters a \"digital life,\" promoting the integration of world classic culture with Chinese AI technology, and thereby embarking on a new phase of exploration for families around the globe."
+    ]
+  },
+  "2026090101": {
+    "title": "Next Stop, the World | Chio Chio Makes Consecutive Appearances at IFA in Germany and GITEX in Türkiye with Hans Christian Andersen Co-Branded Series",
+    "summary": "Chio Chio, together with its AI children's growth companion robots and the Hans Christian Andersen co-branded series, is embarking on a global journey from Shanghai to Berlin and Istanbul.",
+    "body": [
+      "On August 28, the Chio Chio × Hans Christian Andersen series of AI children's products made their global debut at the Royal Danish Consulate General in Shanghai. Now, the global journey of Chio Chio has officially begun!",
+      "In September, Chio Chio will showcase the \"Chio Chio AI Children's Growth Companion Robot Series\" and the \"Chio Chio × Hans Christian Andersen Co-Branded AI Children's Product Series\" at IFA 2026 in Berlin, Germany, and GITEX AI Türkiye 2026 in Istanbul, Türkiye.",
+      "Setting out from Shanghai, heading to Berlin, and then on to Istanbul — Chio Chio is bringing China's AI children's companion products to a broader global market.",
+      "Stop One | IFA 2026, Berlin, Germany",
+      "Dates: September 4–8, 2026",
+      "Booth: IFA NEXT Hall 25_156",
+      "Venue: Messe Berlin, Berlin, Germany",
+      "With a history spanning a century, IFA is one of the most internationally influential technology events in the fields of consumer electronics, home appliances, and future technologies. In 2026, technology brands, innovative enterprises, industry experts, and consumers from around the world will once again gather in Berlin to explore next-generation innovations in AI, robotics, smart living, and beyond.",
+      "[[media:1]]",
+      "At this IFA, Chio Chio will highlight two major product lines:",
+      "1. Chio Chio AI Children's Growth Companion Robot Series",
+      "Centered on \"AI technology × psychology × children's growth,\" this series takes AI beyond simple question-and-answer tools and further into long-term scenarios of accompanying children as they grow.",
+      "Addressing needs such as emotion recognition, warm companionship, long-term memory, growth records, and safety guardianship throughout a child's development, the AI is designed not only to interact with children but also to gradually understand them, remember them, and grow alongside them.",
+      "2. Chio Chio × Hans Christian Andersen Co-Branded AI Children's Product Series",
+      "When fairy tales with over two centuries of cultural vitality meet a new generation of artificial intelligence, classic stories are gaining new forms of expression.",
+      "Iconic fairy tale characters such as The Ugly Duckling, The Steadfast Tin Soldier, and The Little Mermaid are stepping out of the pages of storybooks and into an AI era where they can converse, keep company, and grow together with children.",
+      "[[media:2]]",
+      "Chio Chio hopes that through AI, the world's classic culture can find new ways to re-enter families across the globe.",
+      "Stop Two | GITEX AI Türkiye 2026, Türkiye",
+      "Dates: September 9–10, 2026",
+      "Booth: H2-091",
+      "Venue: Istanbul Expo Center, Istanbul, Türkiye",
+      "After concluding IFA in Berlin, Chio Chio will continue its journey to Istanbul — a key city spanning Europe and Asia — to appear at GITEX AI Türkiye 2026.",
+      "GITEX is one of the world's most influential technology exhibition brands. GITEX AI Türkiye focuses on artificial intelligence and next-generation technology industries, connecting enterprises, innovators, investment institutions, and industry partners.",
+      "[[media:3]]",
+      "For Chio Chio, Istanbul is more than just a city — it is a vital hub connecting European, Asian, and Middle Eastern markets.",
+      "Through this appearance, Chio Chio aims to build connections with more overseas channel partners, brand collaborators, educational institutions, technology companies, and industry partners, further advancing the reach of AI children's companion products into countries and families around the world.",
+      "Two Major Series, Showcasing New Possibilities for China's AI Children's Products to the World",
+      "On this journey through Europe and Türkiye, we are bringing not just several AI hardware products — we hope to present to the world a new philosophy for AI children's products:",
+      "AI should not merely answer children's questions; it should understand their emotions;",
+      "AI should not merely offer brief interactions; it should possess the capacity for long-term companionship;",
+      "AI should not draw children deeper into screens, but rather return them to real communication, expression, and growth.",
+      "Built on proprietary AI capabilities, Chio Chio continues to explore the application of artificial intelligence in scenarios such as children's emotional companionship, character development, long-term memory, and bilingual communication.",
+      "Giving technology warmth and enabling AI to truly become part of children's daily growth — this is what Chio Chio is committed to doing.",
+      "[[media:4]]",
+      "When Chinese AI Meets World Classics",
+      "This international expansion carries a special significance as well.",
+      "The Chio Chio × Hans Christian Andersen co-branded series will make its first concentrated appearance at international technology exhibitions.",
+      "From The Ugly Duckling's story of growth and self-confidence, to The Steadfast Tin Soldier's spirit of perseverance and courage, to The Little Mermaid's expression of love and choice...",
+      "Hans Christian Andersen's fairy tales have crossed two centuries, accompanying generation after generation of children as they grow. Today, through AI, we hope to give these classic stories new life.",
+      "From product development to brand collaboration; from the Chinese market to the global market — Chio Chio is steadily turning its globalization strategy into tangible steps forward.",
+      "We look forward to continuously connecting with global channel partners, brand IPs, educational institutions, industry partners, and international market resources, jointly exploring more possibilities for AI children's products across different countries, cultures, and families.",
+      "From Shanghai to Berlin, and then to Istanbul. From China's original AI to world-class IP.",
+      "This time, we carry Chio Chio — and Hans Christian Andersen's fairy tales — to the world.",
+      "Let the world witness the innovative power of China's AI children's products, and let children from different cultures and countries enjoy warmer AI companionship.",
+      "SUPER CHIOCHIO",
+      "Next stop, the world."
+    ]
+  }
+});
+
+Object.assign(window.NEWS_TEXT_JA, {
+  "跨越两百年｜当经典遇见 AI，解锁全新的陪伴": "二百年を越えて｜名作がAIと出会うとき、新たな寄り添いが始まる",
+  "跨越两个世纪的童话温度与 AI 技术相遇，让守护、陪伴与治愈以新的形态走进成长旅程。": "二世紀にわたる童話の温もりとAI技術の融合が、見守り、寄り添い、癒しを新たな形で成長の旅路にもたらします。",
+  "两百年经典遇见中国 AI，安徒生系列 AI 儿童产品在上海全球首发": "200年の古典が中国AIと出会う、アンデルセンシリーズAI子ども製品が上海で世界初公開",
+  "安徒生四大系列 AI 儿童产品在丹麦王国驻上海总领事馆全球首发，开启经典文化与中国 AI 深度融合的新篇章。": "アンデルセン四大シリーズAI子ども製品がデンマーク王国駐上海総領事館で世界初公開され、古典文化と中国AIの深い融合という新たな章が開かれた。",
+  "下一站，世界｜超级球球携安徒生联名系列，连续亮相德国 IFA、土耳其 GITEX": "次の目的地は世界｜Chio Chio、アンデルセンコラボシリーズを携え、ドイツIFA、トルコGITEXに続けて出展",
+  "超级球球携 AI 儿童成长陪伴机器人及安徒生联名系列，从上海走向柏林与伊斯坦布尔，开启全球旅程。": "Chio ChioはAI子ども成長見守りロボットとアンデルセンコラボシリーズを携え、上海からベルリンとイスタンブールへとグローバルな旅を開始します。"
+});
+
+Object.assign(window.NEWS_ARTICLE_JA, {
+  "2026082701": {
+    "title": "二百年を越えて｜名作がAIと出会うとき、新たな寄り添いが始まる",
+    "summary": "二世紀にわたる童話の温もりとAI技術の融合が、見守り、寄り添い、癒しを新たな形で成長の旅路にもたらします。",
+    "body": [
+      "二百年前、言葉は優しい夢を紡ぎ、ひとつひとつの物語が数えきれない子どもたちの童年を照らし、成長に想像力と力を与えました。",
+      "時代は激しく前進し、テクノロジーの波が押し寄せています。世紀を越えた温もりと、日々進化するAI技術が出会うとき、どのような新たな可能性が生まれるのでしょうか。",
+      "古のロマンと最先端のテクノロジーが交差します。見守り、寄り添い、癒しという本質は、時の流れに薄れることなく、むしろ新たな形となって、これからもすべての成長の旅路へと向かっていくのです。",
+      "かつて、物語は子どもたちに精神的な慰めを与えました。未来においては、テクノロジーがその寄り添いを、より身近な場所へと届けるでしょう。",
+      "その答えは、まだ明かされません。",
+      "8月28日、どうぞご期待ください。新たな始まりを、ともに見届けましょう。",
+      "[[media:1]]"
+    ]
+  },
+  "2026083001": {
+    "title": "200年の古典が中国AIと出会う、アンデルセンシリーズAI子ども製品が上海で世界初公開",
+    "summary": "アンデルセン四大シリーズAI子ども製品がデンマーク王国駐上海総領事館で世界初公開され、古典文化と中国AIの深い融合という新たな章が開かれた。",
+    "body": [
+      "上海、2026年8月28日——200年以上の歴史を持つアンデルセン童話が中国の人工知能と出会うとき、どのような新たな可能性が生まれるのだろうか。",
+      "8月28日、「童話に愛を・AIが未来を拓く」をテーマとするアンデルセンシリーズAI子ども製品の世界初公開イベントがデンマーク王国駐上海総領事館で開催された。",
+      "デンマーク王国駐上海総領事Jens Alsbirk厳慕白氏、デンマーク・アンデルセン博物館館長Mads Thagaard Runge氏、Chio Chio（Chio Chio）創業者であるXIAOSHUAI YUAN博士、および中丹双方の政府、文化、科学技術、産業界の代表がイベントに出席し、アンデルセンシリーズAI子ども製品の世界初公開を共に目撃した。",
+      "[[media:1]]",
+      "発表会の現場で、Chio Chio（Super YouAI（Super YouAI）傘下のAI子どもロボットブランド）は正式に四大アンデルセンAI子ども製品シリーズを発表し、グローバル市場戦略を公表した。Chio Chioはまた、中国移動芯昇科技、塗鴉智能、ClassOver、RedFunPlanetなどの企業およびパートナーと、AI技術、スマートハードウェア、グローバル市場、産業エコシステムなどの方向性において戦略的提携を結び、アンデルセンAI製品のグローバルエコシステム構築を共同で推進する。",
+      "一般的なIP新製品発表とは異なり、このイベントが発するもう一つのシグナルは、世界的な影響力を持つデンマークの古典文化が、急速に発展する中国の人工知能産業と新たな接点を形成しつつあるということだ。",
+      "デンマーク総領事：「これは中丹間の重要な協力である」",
+      "イベント会場で、デンマーク王国駐上海総領事Jens Alsbirk厳慕白氏は挨拶の中で、今回の協力が中丹交流にとっていかなる意義を持つかに言及し、これを中丹間の重要な協力の一つと位置付けた。総領事は次のように述べた。「今回の協力は、中丹協力の全く新しい形を代表するものです——文化、科学技術、そしてイノベーションがここで交差します。」",
+      "[[media:2]]",
+      "アンデルセン博物館館長Mads Thagaard Runge氏も初公開の現場に足を運んだ。アンデルセンの文化遺産の重要な研究・保護・発信機関として、博物館側の参加により、今回の協力は通常の商業的IP開発という意味合いを超え、文化継承と新技術応用の結合という特徴をより色濃く示すものとなっている。",
+      "これこそがこのプロジェクトの注目すべき特別な点でもある。一方には、すでに世界に200年以上影響を与えてきた文化の古典がある。もう一方には、世界の産業と生活様式を急速に変えつつある人工知能がある。一つは歴史が残した文化的価値を代表し、もう一つはまさに起こりつつある未来を代表する。双方が探求しようとしているのは、AI時代における古典文化の新たな表現方法である。",
+      "四大シリーズが一堂に公開、アンデルセン童話がAI対話時代へ",
+      "発表会の現場では、アンデルセン四大シリーズAI子ども製品が初めて一堂に公開された。このシリーズは、Chio Chioが子ども向け成長伴走分野で展開してきた製品の方向性を継承し、性格形成、心理的・情緒的伴走、中英バイリンガル成長という三大核心的ニーズに焦点を当て、0〜18歳の異なる成長段階をカバーする製品体系を形成している。",
+      "今回発表された製品には、アンデルセン童話スマートバイリンガルオーディオブック、みにくいアヒルの子AIスマート対話ぬいぐるみ版、アンデルセンIP限定版AIトレンドトイフィギュア、そしてChio Chio×アンデルセン共同IPシリーズが含まれる。製品形態はスマートオーディオブック、ぬいぐるみ伴走ロボットからAIトレンドトイ、成長伴走ロボットにまで及び、古典的な童話をよりインタラクティブな形で子どもの日常生活に取り入れることを試みている。",
+      "[[media:3]]",
+      "その中で、0〜4歳の子どもを対象としたアンデルセン童話スマートバイリンガルオーディオブックは、古典的な物語、芸術的な絵、スマート音声、バイリンガル教育を組み合わせ、子どもたちが物語を聞いたり絵本を見たりする過程で童話と英語に触れられるようにしている。3〜12歳の子どもを対象としたみにくいアヒルの子AIスマート対話ぬいぐるみ版は、ぬいぐるみとAIエージェントを組み合わせ、童話、童謡、バイリンガル対話に加えて、情緒的伴走と成長に関するインタラクションをさらに加え、「みにくいアヒルの子」の成長物語を通じて、自己肯定と自信を持って成長する価値観を伝えたいと考えている。",
+      "より年長の子どもと青少年を対象に、アンデルセンIP限定版AIトレンドトイフィギュアは、アンデルセンの古典的な登場人物を、異なる性格特性と成長の寓意を持つAIキャラクターへと変換し、コレクターズアイテムとしての価値に加えて、AI対話、童話インタラクション、バイリンガル交流の能力を追加している。Chio Chio×アンデルセン共同IPシリーズは6〜18歳の子どもと青少年を対象とし、Chio ChioのAI成長伴走能力とアンデルセン童話が内包する精神的価値をさらに結び付け、感情認識、共感的対話、長期記憶、バイリンガルインタラクションなどを通じて、子どもの感情表現や性格形成などのシーンにおけるAIの応用を探求している。",
+      "注目すべきは、四大シリーズが単にアンデルセンIPを異なる製品形態に適用したのではなく、「物語の入り口」から「インタラクティブな伴走」、そして「性格と心理的成長」へと至る製品の道筋を確立しようとしている点である。",
+      "IPライセンスから「デジタルライフ」へ",
+      "人工知能はIPとユーザーの関係を変えつつある。かつて、古典的なIPが消費者製品に導入される場合、それは通常、キャラクターライセンス、コンテンツライセンス、またはコラボレーションデザインを意味していた。しかし、生成AIとスマートハードウェアの急速な発展を背景に、IPには新たな可能性が現れ始めている——静的な文化的イメージから、対話能力と人格的特徴を持つデジタルキャラクターへの転換である。",
+      "今回の初公開で、Chio Chioはアンデルセンの古典的な登場人物の背後にある価値と、異なるAI人格の結合を試みた。例えば、『みにくいアヒルの子』は自信と成長に、『勇敢な鉛の兵隊』は忍耐に、『人魚姫』は愛と探求に、『皇帝の新しい服』は独立した思考に対応する。これは、将来、子どもたちが成長過程で様々な問題に直面したとき、童話の登場人物がもはや本やアニメーション、ぬいぐるみの中にだけ存在するのではなく、AIを通じて子どもと継続的に交流する可能性があることを意味する。",
+      "Chio Chioはこの方向性を次のように定義している：古典的な童話の登場人物に「デジタルライフ」を持たせること。これこそが、今回の協力が従来のIPコラボレーションと異なる核心であり——古典的な登場人物を単にAI製品にするのではなく、その背後にある精神的価値を、対話可能なAI人格へと変換しようとする試みなのである。",
+      "[[media:4]]",
+      "中国移動芯昇科技、塗鴉智能、ClassOver、RedFunPlanetなどがエコシステム協力に参加",
+      "製品以外にも、産業協力が当日の発表会のもう一つの重点となった。会場では、Chio Chioが中国移動芯昇科技、塗鴉智能、ClassOver、RedFunPlanetなどの企業およびパートナーと戦略的提携契約を締結した。今回の協力はもはや単一の製品開発に留まらず、AI技術、チップおよびスマートハードウェア、IoT能力、教育コンテンツ、サプライチェーン、そしてグローバル市場チャネルといった様々な段階をカバーし始めている。",
+      "Chio Chioは同時に、アンデルセンAIグローバルエコシステム戦略共同構築計画を開始し、製品と技術の共創、産業とエコシステムの共同構築、グローバル市場の共同開拓などの方向性に沿って、より多くのパートナーとの連携を計画している。これは、アンデルセンAIプロジェクトの目標が単にいくつかのコラボレーション製品を発表することではなく、古典的な文化IP、AI技術、スマートハードウェア、そしてグローバルチャネルを中心とした産業エコシステムを段階的に構築することを望んでいることを意味する。",
+      "[[media:5]]",
+      "中国のAI企業が新たなグローバル化の道を模索し始める",
+      "当日、Chio Chioは同時にグローバル市場戦略を発表し、今後は中国、欧州、北米、日本などの市場を重点的に開拓し、オンライン・オフラインチャネルおよびグローバルパートナー体制の構築を推進する。",
+      "かつて、中国のテクノロジー消費者製品のグローバル化における強みは、主に製造、サプライチェーン、コスト効率に由来していた。しかし、アンデルセンAIプロジェクトは別の道筋を示している：中国のAI技術＋世界の古典文化＋グローバル消費者市場。",
+      "これにより、今回の協力は単一の製品を超えた産業的観察価値を持つことになる。中国のAI企業にとって、次段階の海外展開競争はもはや「中国製の製品を海外に売る」ことだけではなく、技術革新をどのように活用し、異なる国の文化的資産、ブランド資源、ローカル市場と結びつけ、真にグローバルな認知を得られる製品を構築するかが問われるだろう。",
+      "AIが子どもの幼少期に入り込んだ後、最も重要なものは何か？",
+      "発表会の現場で、Chio ChioCEOのXIAOSHUAI YUAN博士は、話題を製品から再び「人」へと引き戻した。",
+      "XIAOSHUAI YUAN博士は、Chio Chioが長年にわたり人工知能、心理学、子どもの成長の結合に関心を寄せてきたと述べた。その核となる思考は、AIが子どもにどれだけ多くの情報を提供できるかではなく、AIが子どもの成長環境にますます深く入り込むとき、それは一体どのような役割を担うべきかということである。",
+      "元博士は挨拶の中で次のように述べた。「技術はAIが何をできるかを決定し、文化は私たちがAIに何になってほしいかを決定します。私たちはデンマーク・アンデルセン博物館と手を携えて探求したいと考えています：世界の古典的な童話の登場人物がデジタルライフを持ち、中国のAIが異なる国の文化的資産と深く結合し始めるとき、最終的にそれは人々に何を残すことができるのか？」",
+      "[[media:6]]",
+      "これこそが、なぜ中国のAI子どもロボット企業が、200年以上の歴史を持つデンマークの文化的古典を選んだのかを説明している。AIは新たな技術的媒体を提供し、アンデルセンは時間によって検証された人文的価値を提供する。愛、勇気、自信、善良さ、想像力、そして世界に立ち向かう力。技術は常に変化しているが、子どもが理解、成長、そして伴走を必要としていることは、それによって消え去ることはない。",
+      "1805年から、AI時代へ。200年以上前、アンデルセンは言葉で童話の世界を創造した。200年以上後、中国のAIはこれらの古典的な登場人物が新たな形で次世代の生活に再び登場することを試みている。",
+      "[[media:7]]",
+      "有愛智能について",
+      "Super YouAI（杭州）智能科技有限公司は、人工知能の感情的健康、心理的伴走、子どもの成長分野における革新的応用に特化したネイティブAIテクノロジー企業であり、中核ブランドは「Chio Chio」である。",
+      "同社は「AIは最終的に人に奉仕する」という技術的価値観を掲げ、長年にわたり人工知能、心理学、スマートハードウェアの深い融合を探求してきた。中核となる研究開発チームには、清華大学、北京師範大学などの国内大学および海外の名門大学出身の人材が集い、複数の博士が研究開発に参加している。長年にわたる技術蓄積と複数世代にわたる製品の反復を経て、子どもの成長シーンに向けたAI能力体系を段階的に形成してきた。公開報道によれば、その「Chio Chio」製品は感情認識、共感的インタラクション、長期記憶、成長導線などの方向性に重点を置き、CES Asia、WAICなどの場で披露されており、製品は京東（JD.com）、抖音（Douyin）などのオンラインプラットフォーム、および京東Mall、陶朱新造局などのオフライン店舗で販売されている。有愛智能は自らを単なるAI玩具会社とは定義していない。同社はより長期的な命題に関心を寄せている：AIが人の生活にますます深く入り込むとき、技術はどのようにして真に人を理解し、人を支援し、人の成長のために価値を創造できるのか。",
+      "2026年、同社はさらにアンデルセンの古典文化と手を携え、古典的な童話の登場人物に「デジタルライフ」を持たせることを探求し、世界の古典文化と中国のAI技術の結合を推進し、これをもって世界の家庭に向けた新たな段階の探求を開始する。"
+    ]
+  },
+  "2026090101": {
+    "title": "次の目的地は世界｜Chio Chio、アンデルセンコラボシリーズを携え、ドイツIFA、トルコGITEXに続けて出展",
+    "summary": "Chio ChioはAI子ども成長見守りロボットとアンデルセンコラボシリーズを携え、上海からベルリンとイスタンブールへとグローバルな旅を開始します。",
+    "body": [
+      "8月28日、Chio Chio×アンデルセンシリーズAI子ども製品がデンマーク王国在上海総領事館にて世界初公開されました。そして今、Chio Chioのグローバルな旅が正式に始まります！",
+      "9月、Chio Chioは「Chio Chio AI子ども成長見守りロボットシリーズ」および「Chio Chio×アンデルセンコラボAI子ども製品シリーズ」を携え、ドイツ・ベルリンのIFA 2026とトルコ・イスタンブールのGITEX AI Türkiye 2026に続けて出展します。",
+      "上海を出発し、ベルリンへ、そしてイスタンブールへ——Chio Chioは中国発のAI子ども見守り製品を、より広いグローバル市場へと届けようとしています。",
+      "第一站｜ドイツ・ベルリン IFA 2026",
+      "期間：2026年9月4日〜8日",
+      "ブース：IFA NEXT Hall 25_156",
+      "会場：ドイツ・ベルリン Messe Berlin",
+      "百年の歴史を持つIFAは、世界の家電・情報技術・未来技術分野において最も国際的な影響力を持つテクノロジーイベントの一つです。2026年も、世界中からテクノロジーブランド、革新的企業、業界専門家、消費者がベルリンに集い、AI、ロボット、スマートライフなどの次世代イノベーションを共に探求します。",
+      "[[media:1]]",
+      "今回のIFAで、Chio Chioは主に2つの製品体系を重点的に展示します：",
+      "1. Chio Chio AI子ども成長見守りロボットシリーズ",
+      "「AIテクノロジー×心理学×子どもの成長」を核心とし、AIを単なるQ&Aツールから、子どもの長期的な成長見守りシーンへとさらに発展させます。",
+      "子どもの成長過程における感情認識、温かい見守り、長期記憶、成長記録、安全保護などのニーズに応え、AIが子どもと交流できるだけでなく、徐々に子どもを理解し、記憶し、そして子どもの成長に寄り添うことを目指します。",
+      "2. Chio Chio×アンデルセンコラボAI子ども製品シリーズ",
+      "200年以上の文化的生命力を持つアンデルセン童話と、新世代の人工知能が出会うとき、古典的な童話は新たな表現方法を獲得しつつあります。",
+      "みにくいアヒルの子、勇敢な鉛の兵隊、人魚姫などの古典的な童話のキャラクターが、本の中の物語の登場人物から、対話でき、寄り添い、子どもと共に成長できるAI時代へと歩み出します。",
+      "[[media:2]]",
+      "Chio ChioはAIを通じて、世界の古典文化が新たな形で再び世界中の家庭に届くことを願っています。",
+      "第二站｜トルコ GITEX AI Türkiye 2026",
+      "期間：2026年9月9日〜10日",
+      "ブース：H2-091",
+      "会場：トルコ・イスタンブール Istanbul Expo Center",
+      "ベルリンIFAを終えた後、Chio Chioはユーラシア大陸にまたがる重要な都市イスタンブールへと向かい、GITEX AI Türkiye 2026に出展します。",
+      "GITEXは、世界的に重要な影響力を持つテクノロジー展示会ブランドの一つです。GITEX AI Türkiyeは人工知能と次世代テクノロジー産業に焦点を当て、企業、イノベーター、投資機関、産業パートナーを結びつけます。",
+      "[[media:3]]",
+      "Chio Chioにとって、イスタンブールは単なる都市ではなく、ヨーロッパ、アジア、そして中東市場を結ぶ重要な拠点です。",
+      "Chio Chioは今回の出展を通じて、より多くの海外チャネルパートナー、ブランドパートナー、教育機関、テクノロジー企業、産業パートナーとの繋がりを築き、AI子ども見守り製品が世界の様々な国と家庭に届くことをさらに推進したいと考えています。",
+      "2つのシリーズで、世界に中国AI子ども製品の新たな可能性を示す",
+      "今回のヨーロッパおよびトルコ訪問で、私たちが持参するのは単なる数種類のAIハードウェア製品だけではありません。私たちは世界に新しいAI子ども製品の理念を示したいと考えています：",
+      "AIは子どもの質問に答えるだけでなく、子どもの感情を理解すべきである；",
+      "AIは短期的なインタラクションだけでなく、長期的な見守りの能力を持つべきである；",
+      "AIは子どもをより画面に没頭させるのではなく、現実の交流、表現、そして成長へと戻すべきである。",
+      "自社開発のAI能力に基づき、Chio Chioは子どもの感情見守り、性格形成、長期記憶、バイリンガル交流などのシーンにおける人工知能の応用を継続的に探求しています。",
+      "テクノロジーに温もりを持たせ、AIを真に子どもの成長の日常に届けること。これがChio Chioが取り組んでいることです。",
+      "[[media:4]]",
+      "中国のAIが、世界の古典と出会う",
+      "今回の海外展開には、もう一つの特別な意義があります。",
+      "Chio Chio×アンデルセンコラボシリーズは、国際的なテクノロジー展示会に初めて一堂に集結して展示されます。",
+      "『みにくいアヒルの子』の成長と自信に関する物語から、『勇敢な鉛の兵隊』の忍耐と勇気の精神、そして『人魚姫』の愛と選択の表現まで……",
+      "アンデルセン童話は二世紀にわたり、世代を超えて子どもたちの成長に寄り添ってきました。今日、私たちはAIを通じて、これらの古典的な物語に新たな命を吹き込みたいと考えています。",
+      "製品開発からブランド提携へ；中国市場からグローバル市場へ。Chio Chioは一歩一歩、グローバル戦略を現実の歩みへと変えています。",
+      "私たちは、世界中のチャネルパートナー、ブランドIP、教育機関、産業パートナー、そして国際市場のリソースとの継続的な繋がりを期待し、AI子ども製品が異なる国、異なる文化、異なる家庭で持つさらなる可能性を共に探求していきます。",
+      "上海から、ベルリンへ、そしてイスタンブールへ。中国発のオリジナルAIから、世界の古典IPへ。",
+      "今回は、Chio Chioとともに、アンデルセン童話も携えて、世界へと向かいます。",
+      "世界に中国AI子ども製品の革新的な力を示し、また異なる文化や国々の子どもたちが、より温かいAIの見守りを得られるように。",
+      "SUPER CHIOCHIO",
+      "次の目的地は、世界。"
+    ]
+  }
+});
+
+// Apply the final pass after all three article dictionaries and late overrides exist.
+[window.NEWS_ARTICLE_EN, window.NEWS_ARTICLE_JA, window.NEWS_ARTICLE_DA].forEach((dictionary) => {
+  Object.entries(SEPTEMBER_NEWS_HEADINGS).forEach(([id, headingIndices]) => {
+    if (dictionary?.[id]) dictionary[id].headingIndices = headingIndices;
+  });
+});
+
+polishSeptemberNews(window.NEWS_ARTICLE_EN, [
+  ["AI Children's Products", "AI Products for Children"],
+  ["AI children's products", "AI products for children"],
+  ["AI Children's Product", "AI Product for Children"],
+  ["AI children's product", "AI product for children"],
+  ["AI children's robot", "AI companion robot for children"],
+  ["children's growth companionship", "children's emotional well-being and development"],
+  ["psychological and emotional companionship", "psychological and emotional support"],
+  ["long-term companionship", "long-term support"],
+  ["emotional companionship", "emotional support"]
+]);
+
+polishSeptemberNews(window.NEWS_ARTICLE_JA, [
+  ["AI子ども製品", "子ども向けAI製品"],
+  ["AI子どもロボット", "子ども向けAIロボット"],
+  ["AI子ども見守り製品", "子ども向けAI見守り製品"],
+  ["AI子ども成長見守りロボット", "子ども向けAI成長見守りロボット"],
+  ["心理的・情緒的伴走", "心理面・感情面での寄り添い"],
+  ["成長伴走", "成長支援"],
+  ["長期的な伴走", "長期的な寄り添い"],
+  ["インタラクティブな伴走", "対話を通じた寄り添い"]
+]);
+
+polishSeptemberNews(window.NEWS_ARTICLE_DA, [
+  ["en原生 AI-teknologivirksomhed", "en AI-født teknologivirksomhed"],
+  ["Plysch-udgave", "plysudgave"],
+  ["plysch-ledsage-robotter", "plysrobotter med AI"],
+  ["vækst-ledsage-robotter", "AI-robotter, der støtter børns udvikling"],
+  ["psykologisk og følelsesmæssig ledsagelse", "psykologisk og følelsesmæssig støtte"],
+  ["langsigtet ledsagelse", "langvarigt nærvær"],
+  ["følelsesmæssig ledsagelse", "følelsesmæssig støtte"],
+  ["AI-økologi", "AI-økosystem"],
+  ["økologisk samarbejde", "økosystemsamarbejde"],
+  ["økologisk medopbygning", "udvikling af økosystemet"],
+  ["ledsagerskab", "nærvær"]
+]);
+
+normalizeOverseasNewsNames();
+
+Object.assign(window.NEWS_TEXT_DA, {
+  "跨越两百年｜当经典遇见 AI，解锁全新的陪伴": "To århundreder springes over | Når klassikeren møder AI, frigøres et nyt ledsagerskab",
+  "跨越两个世纪的童话温度与 AI 技术相遇，让守护、陪伴与治愈以新的形态走进成长旅程。": "Eventyrets varme fra to århundreder møder AI-teknologi og lader beskyttelse, ledsagelse og heling finde nye former på rejsen mod at vokse op.",
+  "两百年经典遇见中国 AI，安徒生系列 AI 儿童产品在上海全球首发": "To hundrede års klassikere møder kinesisk AI: H.C. Andersen-serien af AI-børneprodukter fejrer global premiere i Shanghai",
+  "安徒生四大系列 AI 儿童产品在丹麦王国驻上海总领事馆全球首发，开启经典文化与中国 AI 深度融合的新篇章。": "H.C. Andersens fire AI-børneproduktserier fejrede global premiere på Danmarks generalkonsulat i Shanghai, hvilket indleder et nyt kapitel i den dybe integration af klassisk kultur og kinesisk AI.",
+  "下一站，世界｜超级球球携安徒生联名系列，连续亮相德国 IFA、土耳其 GITEX": "Næste stop: Verden | Chio Chio præsenterer H.C. Andersen-kollektionen på IFA i Tyskland og GITEX i Tyrkiet",
+  "超级球球携 AI 儿童成长陪伴机器人及安徒生联名系列，从上海走向柏林与伊斯坦布尔，开启全球旅程。": "Chio Chio præsenterer AI-robotter til børns udvikling og ledsagelse samt H.C. Andersen-kollektionen på vej fra Shanghai til Berlin og Istanbul – den globale rejse er begyndt."
+});
+
+Object.assign(window.NEWS_ARTICLE_DA, {
+  "2026082701": {
+    "title": "To århundreder springes over | Når klassikeren møder AI, frigøres et nyt ledsagerskab",
+    "summary": "Eventyrets varme fra to århundreder møder AI-teknologi og lader beskyttelse, ledsagelse og heling finde nye former på rejsen mod at vokse op.",
+    "body": [
+      "For to hundrede år siden vævede ord blide drømme, og med historie efter historie oplyste de utallige børns barndom og gav væksten fantasi og styrke.",
+      "Tiden suser fremad, og teknologiens bølge skyller ind over os. Når varmen fra et helt århundrede møder den hastigt udviklende AI-teknologi, hvilke helt nye muligheder opstår der så?",
+      "Den gamle romantik møder frontlinjeteknologi. Kernen i beskyttelse, ledsagelse og heling vil ikke blive udvisket af tiden, men vil tværtimod fortsætte med at tage del i hver eneste rejse mod at vokse op i en ny form.",
+      "Tidligere gav historierne børnene åndelig trøst; i fremtiden vil teknologien bringe dette ledsagerskab tættere på.",
+      "Gåden afsløres ikke endnu.",
+      "Den 28. august – glæd dig, og vær med, når vi sammen er vidne til en ny begyndelse.",
+      "[[media:1]]"
+    ]
+  },
+  "2026083001": {
+    "title": "To hundrede års klassikere møder kinesisk AI: H.C. Andersen-serien af AI-børneprodukter fejrer global premiere i Shanghai",
+    "summary": "H.C. Andersens fire AI-børneproduktserier fejrede global premiere på Danmarks generalkonsulat i Shanghai, hvilket indleder et nyt kapitel i den dybe integration af klassisk kultur og kinesisk AI.",
+    "body": [
+      "Shanghai, 28. august 2026 – Hvilke nye muligheder opstår, når H.C. Andersens eventyr, med mere end to hundrede års historie, møder kinesisk kunstig intelligens?",
+      "Den 28. august blev det globale lanceringsarrangement for H.C. Andersen-seriens AI-børneprodukter med temaet \"Eventyr med kærlighed · AI former fremtiden\" afholdt på Danmarks generalkonsulat i Shanghai.",
+      "Danmarks generalkonsul i Shanghai, Jens Alsbirk, museumsdirektør for H.C. Andersen Museet i Danmark, Mads Thagaard Runge, grundlægger af Chio Chio, Dr. XIAOSHUAI YUAN, samt repræsentanter fra både kinesiske og danske regeringer, kultur-, teknologi- og industrisektorer deltog i arrangementet for i fællesskab at overvære den første globale præsentation af H.C. Andersen-seriens AI-børneprodukter.",
+      "[[media:1]]",
+      "Ved lanceringsarrangementet præsenterede Chio Chio (AI-børnerobotmærket under Super YouAI Intelligent Technology) officielt fire H.C. Andersen AI-børneproduktserier og offentliggjorde sin globale markedsstrategi. Chio Chio indgik også strategiske partnerskaber med virksomheder og partnere som China Mobile Xinsheng Technology, Tuya Smart, ClassOver og RedFunPlanet inden for områder som AI-teknologi, intelligent hardware, globale markeder og industriel økologi for i fællesskab at fremme opbygningen af den globale økologi for H.C. Andersen AI-produkter.",
+      "I modsætning til typiske IP-produktlanceringer sender dette arrangement et andet signal: dansk klassisk kultur med global indflydelse er ved at danne en ny forbindelse med Kinas hastigt voksende AI-industri.",
+      "Den danske generalkonsul: Dette er et vigtigt samarbejde mellem Danmark og Kina",
+      "Ved arrangementet talte Danmarks generalkonsul i Shanghai, Jens Alsbirk, om betydningen af dette samarbejde for dansk-kinesisk udveksling og betragtede det som et vigtigt samarbejde mellem Danmark og Kina. Generalkonsulen udtalte: \"Dette samarbejde repræsenterer en helt ny form for dansk-kinesisk samarbejde – hvor kultur, teknologi og innovation mødes.\"",
+      "[[media:2]]",
+      "Museumsdirektør for H.C. Andersen Museet, Mads Thagaard Runge, deltog også i lanceringsarrangementet. Som en vigtig institution for forskning, bevaring og formidling af H.C. Andersens kulturarv sikrer museets deltagelse, at dette samarbejde ikke blot er kommerciel IP-udvikling i sædvanlig forstand, men i højere grad afspejler en kombination af kulturarv og anvendelse af ny teknologi.",
+      "Dette er også det særlige ved projektet, der er værd at bemærke: På den ene side er der en kulturel klassiker, der har påvirket verden i over to hundrede år; på den anden side er der kunstig intelligens, som hurtigt ændrer globale industrier og livsstile. Den ene repræsenterer den kulturelle værdi, historien har efterladt, den anden repræsenterer en fremtid, der er ved at tage form. Det, begge parter forsøger at udforske, er nye udtryksformer for klassisk kultur i AI-æraen.",
+      "Fire serier præsenteret samlet: H.C. Andersens eventyr går ind i AI-interaktionsæraen",
+      "Ved lanceringsarrangementet blev H.C. Andersens fire AI-børneproduktserier præsenteret samlet for første gang. Serierne viderefører Chio Chios produktretning inden for børns udvikling og ledsagelse og dækker tre kernebehov: personlighedsudvikling, psykologisk og følelsesmæssig ledsagelse samt tosproget (kinesisk-engelsk) udvikling, hvilket danner et produktsystem, der dækker forskellige udviklingsstadier fra 0-18 år.",
+      "De produkter, der blev lanceret denne gang, omfatter H.C. Andersen Eventyr Smart Tosproget Lydbog, Den Grimme Ælling AI Smart Dialog Plysch-udgave, H.C. Andersen IP Limited Edition AI-indsamlingsfigur samt Chio Chio × H.C. Andersen fælles IP-serie. Produktformerne spænder fra smarte lydbøger og plysch-ledsage-robotter til AI-indsamlingsfigurer og vækst-ledsage-robotter, hvilket er et forsøg på at bringe klassiske eventyr ind i børns dagligdag på en mere interaktiv måde.",
+      "[[media:3]]",
+      "Blandt produkterne kombinerer H.C. Andersen Eventyr Smart Tosproget Lydbog, målrettet børn i alderen 0-4 år, klassiske historier, kunstneriske illustrationer, intelligent stemme og tosproget læring, så børn kan komme i kontakt med eventyr og engelsk gennem at lytte til historier og læse billedbøger. Den Grimme Ælling AI Smart Dialog Plysch-udgave, målrettet børn i alderen 3-12 år, kombinerer en plysch-dukke med en AI-agent og tilføjer, ud over eventyr, børnesange og tosproget interaktion, også følelsesmæssig ledsagelse og vækstinteraktion, med håb om at formidle værdien af selvaccept og selvtillidsfuld vækst gennem \"Den Grimme Ællings\" udviklingshistorie.",
+      "For ældre børn og unge omdanner H.C. Andersen IP Limited Edition AI-indsamlingsfiguren H.C. Andersens klassiske karakterer til AI-roller med forskellige personlighedstræk og vækstsymbolik, hvilket tilføjer AI-dialog, eventyrinteraktion og tosproget kommunikation ud over samleraspektet. Chio Chio × H.C. Andersen fælles IP-serien, målrettet børn og unge i alderen 6-18 år, kombinerer yderligere Chio Chios AI-vækstledsage-evner med de åndelige værdier, som H.C. Andersens eventyr bærer, og udforsker anvendelsen af AI i scenarier som børns følelsesmæssige udtryk og personlighedsudvikling gennem følelsesgenkendelse, empatisk dialog, langsigtet ledsagelse og tosproget interaktion.",
+      "Det er værd at bemærke, at de fire serier ikke blot anvender H.C. Andersen-IP'en på forskellige produktformer, men forsøger at etablere en produktvej fra \"historieintroduktion\" til \"interaktiv ledsagelse\" og videre til \"personligheds- og psykologisk udvikling\".",
+      "Fra IP-licensering til \"digitalt liv\"",
+      "Kunstig intelligens er ved at ændre forholdet mellem IP og brugere. Tidligere betød klassisk IP i forbrugerprodukter typisk billedlicensering, indholdslicensering eller co-branding-design. Men med den hurtige udvikling af generativ AI og intelligent hardware er der opstået en ny mulighed for IP – fra statiske kulturelle figurer til digitale karakterer med interaktive evner og personlighedstræk.",
+      "Ved denne lancering forsøger Chio Chio at kombinere værdierne bag H.C. Andersens klassiske karakterer med forskellige AI-personligheder. For eksempel svarer \"Den Grimme Ælling\" til selvtillid og vækst, \"Den Standhaftige Tinsoldat\" til udholdenhed, \"Den Lille Havfrue\" til kærlighed og udforskning, og \"Kejserens Nye Klæder\" til selvstændig tænkning. Dette betyder, at når børn i fremtiden står over for forskellige udfordringer i deres opvækst, vil eventyrfigurerne ikke længere kun eksistere på bogsider, i animationer eller som dukker, men kan kommunikere løbende med barnet gennem AI.",
+      "Chio Chio definerer denne retning som: at give klassiske eventyrfigurer et \"digitalt liv\". Dette er også kernen i, hvad der adskiller dette samarbejde fra traditionel IP-co-branding – det handler ikke blot om at lave AI-produkter af klassiske figurer, men om at forsøge at omdanne de åndelige værdier bag de klassiske figurer til interaktive AI-personligheder.",
+      "[[media:4]]",
+      "China Mobile Xinsheng Technology, Tuya Smart, ClassOver, RedFunPlanet m.fl. indgår i økologisk samarbejde",
+      "Ud over produkterne var industrielt samarbejde et andet fokuspunkt ved dagens arrangement. På stedet underskrev Chio Chio strategiske samarbejdsaftaler med virksomheder og partnere som China Mobile Xinsheng Technology, Tuya Smart, ClassOver og RedFunPlanet. Dette samarbejde er ikke længere begrænset til udvikling af enkelte produkter, men begynder at dække forskellige led såsom AI-teknologi, chips og intelligent hardware, IoT-kapaciteter, undervisningsindhold, forsyningskæde samt globale markedskanaler.",
+      "Chio Chio lancerede samtidig initiativet til fælles opbygning af den globale H.C. Andersen AI-økologi, som har til formål at forbinde flere partnere inden for retninger som fælles produkt- og teknologiskabelse, industriel og økologisk medopbygning samt fælles global markedsudvidelse. Dette betyder, at målet for H.C. Andersen AI-projektet ikke kun er at udgive nogle få co-brandede produkter, men gradvist at opbygge en industriel økologi centreret omkring klassiske kulturelle IP'er, AI-teknologi, intelligent hardware og globale kanaler.",
+      "[[media:5]]",
+      "Kinesiske AI-virksomheder begynder at søge nye globaliseringsveje",
+      "Samme dag offentliggjorde Chio Chio også sin globale markedsstrategi, som i fremtiden vil fokusere på markeder som Kina, Europa, Nordamerika og Japan samt fremme opbygningen af online- og offlinekanaler og et globalt partnerskabssystem.",
+      "Tidligere stammede de globale fordele ved kinesiske teknologiske forbrugerprodukter mere fra fremstilling, forsyningskæde og omkostningseffektivitet. H.C. Andersen AI-projektet viser imidlertid en anden vej: kinesisk AI-teknologi + verdensklassisk kultur + globale forbrugermarkeder.",
+      "Dette giver dette samarbejde en industriel observationsværdi, der rækker ud over det enkelte produkt. For kinesiske AI-virksomheder handler næste fase af konkurrencen om at gå globalt måske ikke længere kun om \"at sælge produkter fremstillet i Kina til udlandet\", men om, hvordan man ved hjælp af teknologisk innovation kan kombinere med kulturelle aktiver, brandressourcer og lokale markeder i forskellige lande for at opbygge produkter med ægte global anerkendelse.",
+      "Når AI kommer ind i børns barndom, hvad er så vigtigst?",
+      "Ved lanceringsarrangementet bragte Chio Chios CEO, Dr. XIAOSHUAI YUAN, også samtalen tilbage til \"mennesket\".",
+      "Dr. XIAOSHUAI YUAN udtalte, at Chio Chio længe har fokuseret på kombinationen af kunstig intelligens, psykologi og børns udvikling. Kerneovervejelsen er ikke, hvordan AI kan give børn mere information, men hvilken rolle AI egentlig bør spille, når den i stigende grad bliver en del af børns opvækstmiljø.",
+      "Dr. YUAN sagde i sin tale: \"Teknologi bestemmer, hvad AI kan gøre, kultur bestemmer, hvad vi ønsker, AI skal blive til. Vi håber sammen med H.C. Andersen Museet i Danmark at udforske: Når verdens klassiske eventyrfigurer får et digitalt liv, når kinesisk AI begynder at integrere sig dybt med forskellige landes kulturelle aktiver – hvad kan dette i sidste ende efterlade til menneskeheden?\"",
+      "[[media:6]]",
+      "Dette forklarer også, hvorfor en kinesisk AI-børnerobotvirksomhed ville vælge en dansk kulturel klassiker med mere end to hundrede års historie. AI leverer den nye teknologiske platform, mens H.C. Andersen leverer de humanistiske værdier, der har bestået tidens prøve. Kærlighed, mod, selvtillid, venlighed, fantasi og styrken til at møde verden. Teknologien ændrer sig konstant, men børns behov for forståelse, vækst og ledsagelse er ikke forsvundet af den grund.",
+      "Fra 1805 til AI-æraen. For mere end to hundrede år siden skabte H.C. Andersen en eventyrverden med ord. Mere end to hundrede år senere forsøger kinesisk AI at bringe disse klassiske figurer ind i næste generations liv på nye måder.",
+      "[[media:7]]",
+      "Om Super YouAI",
+      "Super YouAI (Hangzhou) Intelligent Technology Co., Ltd. er en原生 AI-teknologivirksomhed, der fokuserer på innovativ anvendelse af kunstig intelligens inden for følelsesmæssigt velvære, psykologisk ledsagelse og børns udvikling. Virksomhedens kernemærke er \"Chio Chio\".",
+      "Virksomheden har den teknologiske værdiopfattelse, at \"AI i sidste ende tjener mennesker\", og har i lang tid udforsket den dybe integration af kunstig intelligens, psykologi og intelligent hardware. Det centrale forsknings- og udviklingsteam samler talenter fra indenlandske universiteter som Tsinghua Universitetet og Beijing Normale Universitet samt anerkendte udenlandske universiteter, og flere ph.d.'er deltager i forskning og udvikling. Gennem mange års teknologisk akkumulering og flere generationer af produktiterationer er der gradvist opbygget et AI-kapacitetssystem målrettet børns udviklingsscenarier. Offentlige rapporter viser, at dets \"Chio Chio\"-produkter hovedsageligt fokuserer på områder som følelsesgenkendelse, empatisk interaktion, langsigtet hukommelse og vækstvejledning og er blevet præsenteret ved begivenheder som CES Asia og WAIC. Produkterne sælges på onlineplatforme som JD.com og Douyin samt i offlinekanaler som JD Mall og Taozhu Xinzaoju. Super YouAI definerer sig selv ikke som en ren AI-legetøjsvirksomhed. Virksomheden er mere optaget af et langsigtet spørgsmål: Når AI i stigende grad trænger ind i menneskers liv, hvordan kan teknologi så virkelig forstå mennesker, støtte mennesker og skabe værdi for menneskelig vækst?",
+      "I 2026 indgik virksomheden yderligere et samarbejde med H.C. Andersens klassiske kultur for at udforske at give klassiske eventyrfigurer et \"digitalt liv\", fremme kombinationen af verdens klassiske kultur og kinesisk AI-teknologi og dermed indlede en ny fase med udforskning rettet mod familier verden over."
+    ]
+  },
+  "2026090101": {
+    "title": "Næste stop: Verden | Chio Chio præsenterer H.C. Andersen-kollektionen på IFA i Tyskland og GITEX i Tyrkiet",
+    "summary": "Chio Chio præsenterer AI-robotter til børns udvikling og ledsagelse samt H.C. Andersen-kollektionen på vej fra Shanghai til Berlin og Istanbul – den globale rejse er begyndt.",
+    "body": [
+      "Den 28. august blev Chio Chio × H.C. Andersen AI-produktserien til børn lanceret globalt på det danske generalkonsulat i Shanghai. Nu begynder Chio Chios globale rejse for alvor!",
+      "I september vil Chio Chio præsentere 'Chio Chio AI-robotserien til børns udvikling og ledsagelse' samt 'Chio Chio × H.C. Andersen AI-produktserien til børn' på henholdsvis IFA 2026 i Berlin, Tyskland, og GITEX AI Türkiye 2026 i Istanbul, Tyrkiet.",
+      "Fra Shanghai til Berlin og videre til Istanbul – Chio Chio bringer kinesiske AI-produkter til børns ledsagelse ud på det globale marked.",
+      "Første stop | IFA 2026 i Berlin, Tyskland",
+      "Dato: 4.–8. september 2026",
+      "Stand: IFA NEXT Hall 25_156",
+      "Sted: Messe Berlin, Berlin, Tyskland",
+      "IFA, med over hundrede års historie, er en af de mest internationalt indflydelsesrige teknologimesser inden for forbrugerelektronik, husholdningsapparater og fremtidsteknologi. I 2026 samles teknologibrands, innovative virksomheder, brancheeksperter og forbrugere fra hele verden igen i Berlin for at udforske næste generations innovationer inden for AI, robotteknologi og intelligent livsstil.",
+      "[[media:1]]",
+      "På IFA vil Chio Chio fremvise to primære produktserier:",
+      "1. Chio Chio AI-robotserien til børns udvikling og ledsagelse",
+      "Med 'AI-teknologi × psykologi × børns udvikling' som kerne løftes AI fra et simpelt spørgsmål-svar-værktøj til et langsigtet ledsagelses- og udviklingsperspektiv for børn.",
+      "Med fokus på behov som følelsesgenkendelse, varm ledsagelse, langtidshukommelse, udviklingsregistrering og sikkerhedsbeskyttelse i barnets opvækst, gør teknologien det muligt for AI ikke blot at kommunikere med barnet, men gradvist at forstå barnet, huske barnet og følge barnet gennem opvæksten.",
+      "2. Chio Chio × H.C. Andersen AI-produktserien til børn",
+      "Når H.C. Andersens eventyr med mere end to hundrede års kulturel livskraft møder ny generation af kunstig intelligens, får klassiske eventyr nye udtryksformer.",
+      "Klassiske eventyrfigurer som Den grimme ælling, Den standhaftige tinsoldat og Den lille havfrue bevæger sig fra bogens historier ind i en AI-tidsalder, hvor de kan tale, ledsage og vokse sammen med børn.",
+      "[[media:2]]",
+      "Chio Chio ønsker gennem AI at bringe verdensklassisk kultur ind i familier verden over på nye måder.",
+      "Andet stop | GITEX AI Türkiye 2026 i Tyrkiet",
+      "Dato: 9.–10. september 2026",
+      "Stand: H2-091",
+      "Sted: Istanbul Expo Center, Istanbul, Tyrkiet",
+      "Efter IFA i Berlin fortsætter Chio Chio til Istanbul, en vigtig by, der strækker sig over Europa og Asien, for at deltage i GITEX AI Türkiye 2026.",
+      "GITEX er et af verdens førende teknologimesse-brand. GITEX AI Türkiye fokuserer på kunstig intelligens og næste generations teknologiindustri og forbinder virksomheder, innovatører, investeringsinstitutioner og industrielle partnere.",
+      "[[media:3]]",
+      "For Chio Chio er Istanbul ikke blot en by, men et vigtigt knudepunkt, der forbinder markederne i Europa, Asien og Mellemøsten.",
+      "Chio Chio håber gennem denne deltagelse at skabe forbindelser til flere oversøiske kanalpartnere, brandpartnere, uddannelsesinstitutioner, teknologivirksomheder og industrielle partnere for yderligere at fremme udbredelsen af AI-produkter til børns ledsagelse i forskellige lande og familier verden over.",
+      "To produktserier viser verden nye muligheder for kinesiske AI-produkter til børn",
+      "På denne rejse til Europa og Tyrkiet medbringer vi ikke blot nogle få AI-hardwareprodukter – vi ønsker frem for alt at vise verden en ny tilgang til AI-produkter til børn:",
+      "AI bør ikke kun besvare barnets spørgsmål, men også forstå barnets følelser;",
+      "AI bør ikke kun tilbyde kortvarig interaktion, men have evnen til langsigtet ledsagelse;",
+      "AI bør ikke få barnet til at fordybe sig mere i skærme, men vende tilbage til ægte samtale, udfoldelse og udvikling.",
+      "Baseret på selvudviklede AI-kompetencer udforsker Chio Chio løbende anvendelsen af kunstig intelligens i scenarier som følelsesmæssig ledsagelse, karakterudvikling, langtidshukommelse og tosproget kommunikation for børn.",
+      "At give teknologi varme og lade AI blive en ægte del af barnets hverdag og opvækst – det er det, Chio Chio arbejder på.",
+      "[[media:4]]",
+      "Når kinesisk AI møder verdensklassikere",
+      "Denne internationale satsning har også en særlig betydning.",
+      "Chio Chio × H.C. Andersen-kollektionen vil for første gang blive præsenteret samlet på internationale teknologimesser.",
+      "Fra 'Den grimme ælling' om vækst og selvtillid, til 'Den standhaftige tinsoldat' om vedholdenhed og mod, og 'Den lille havfrue' om kærlighed og valg...",
+      "H.C. Andersens eventyr har strakt sig over to århundreder og ledsaget generation efter generation af børn. I dag ønsker vi gennem AI at give disse klassiske fortællinger nyt liv.",
+      "Fra produktudvikling til brandpartnerskaber; fra det kinesiske marked til det globale marked – Chio Chio omsætter skridt for skridt sin globaliseringsstrategi til virkelige handlinger.",
+      "Vi ser frem til løbende at forbinde globale kanalpartnere, brand-IP'er, uddannelsesinstitutioner, industrielle partnere og internationale markedsressourcer for sammen at udforske flere muligheder for AI-produkter til børn på tværs af lande, kulturer og familier.",
+      "Fra Shanghai til Berlin og videre til Istanbul. Fra kinesisk original AI til verdensklassisk IP.",
+      "Denne gang tager vi af sted med Chio Chio og med H.C. Andersens eventyr – ud i verden.",
+      "Lad verden se den innovative styrke i kinesiske AI-produkter til børn, og lad børn fra forskellige kulturer og lande få adgang til varmere AI-ledsagelse.",
+      "SUPER CHIOCHIO",
+      "Næste stop: Verden."
+    ]
+  }
+});
+
+// END SEPTEMBER_2026_NEWS_TRANSLATIONS
+normalizeOverseasNewsNames();
+
+// Final editorial polish for the short teaser article.
+Object.assign(window.NEWS_TEXT_DA, {
+  "跨越两百年｜当经典遇见 AI，解锁全新的陪伴": "På tværs af to århundreder | Når klassikere møder AI, opstår en ny form for nærvær",
+  "跨越两个世纪的童话温度与 AI 技术相遇，让守护、陪伴与治愈以新的形态走进成长旅程。": "Varmen fra eventyr, der har levet gennem to århundreder, møder AI og giver omsorg, nærvær og trøst nye former i børns udvikling."
+});
+
+Object.assign(window.NEWS_ARTICLE_DA, {
+  "2026082701": {
+    title: "På tværs af to århundreder | Når klassikere møder AI, opstår en ny form for nærvær",
+    summary: "Varmen fra eventyr, der har levet gennem to århundreder, møder AI og giver omsorg, nærvær og trøst nye former i børns udvikling.",
+    body: [
+      "For to hundrede år siden vævede ordene blide drømme. Fortælling efter fortælling lyste op i utallige børns barndom og gav deres udvikling fantasi og styrke.",
+      "Tiden bevæger sig hastigt frem, og nye teknologier skyller ind. Hvilke muligheder opstår, når varme på tværs af århundreder møder en AI-teknologi i konstant udvikling?",
+      "Gammel romantik møder den nyeste teknologi. Kernen af omsorg, nærvær og trøst udviskes ikke af tiden. Den får tværtimod en ny form og følger med på endnu flere rejser gennem livet.",
+      "Før gav historier børn åndelig trøst. I fremtiden kan teknologien bringe dette nærvær endnu tættere på.",
+      "Svaret afslører vi ikke helt endnu.",
+      "Glæd dig til den 28. august, hvor vi sammen åbner et nyt kapitel.",
+      "[[media:1]]"
+    ]
+  }
+});
+
+Object.assign(window.NEWS_ARTICLE_JA, {
+  "2026082701": {
+    ...window.NEWS_ARTICLE_JA["2026082701"],
+    body: window.NEWS_ARTICLE_JA["2026082701"].body.map((text) => text.replace("子どもたちの童年", "子どもたちの子ども時代"))
+  }
+});
+
+// Danish articles and the late teaser override are defined last, so finalize all locales here.
+[window.NEWS_ARTICLE_EN, window.NEWS_ARTICLE_JA, window.NEWS_ARTICLE_DA].forEach((dictionary) => {
+  Object.entries(SEPTEMBER_NEWS_HEADINGS).forEach(([id, headingIndices]) => {
+    if (dictionary?.[id]) dictionary[id].headingIndices = headingIndices;
+  });
+});
+
+polishSeptemberNews(window.NEWS_ARTICLE_DA, [
+  ["en原生 AI-teknologivirksomhed", "en AI-født teknologivirksomhed"],
+  ["Plysch-udgave", "plysudgave"],
+  ["plysch-ledsage-robotter", "plysrobotter med AI"],
+  ["vækst-ledsage-robotter", "AI-robotter, der støtter børns udvikling"],
+  ["psykologisk og følelsesmæssig ledsagelse", "psykologisk og følelsesmæssig støtte"],
+  ["langsigtet ledsagelse", "langvarigt nærvær"],
+  ["følelsesmæssig ledsagelse", "følelsesmæssig støtte"],
+  ["AI-økologi", "AI-økosystem"],
+  ["økologisk samarbejde", "økosystemsamarbejde"],
+  ["økologisk medopbygning", "udvikling af økosystemet"],
+  ["ledsagerskab", "nærvær"]
+]);
 
 normalizeOverseasNewsNames();

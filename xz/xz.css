@@ -72,60 +72,97 @@ body::after {
 }
 
 .brand {
-  display: inline-flex;
-  align-items: center;
-  gap: 13px;
+  display: block;
   margin: 0 auto 28px;
-  text-align: left;
 }
 
 .brand img {
-  width: 68px;
-  height: 68px;
+  width: 96px;
+  height: 96px;
   object-fit: contain;
 }
 
-.brand strong,
-.brand span {
-  display: block;
-}
-
-.brand strong {
-  color: #dc8198;
-  font-size: 23px;
-  line-height: 1.15;
-}
-
-.brand span {
-  margin-top: 5px;
-  color: #7d8a9d;
-  font-size: 13px;
-  font-weight: 700;
-}
-
-.eyebrow {
-  color: #d37b92;
-  font-size: 12px;
-  font-weight: 900;
-  letter-spacing: 0.18em;
-}
-
 h1 {
-  margin: 10px 0 12px;
+  margin: 0;
   font-size: clamp(30px, 6vw, 44px);
   line-height: 1.15;
   letter-spacing: -0.035em;
 }
 
 .download-copy p {
-  margin: 0 auto;
-  color: #748195;
-  font-size: clamp(15px, 2.6vw, 18px);
-  line-height: 1.7;
+  margin: 10px 0 0;
+  color: #7a879a;
+  font-size: 16px;
+  font-weight: 650;
+}
+
+.platform-switch {
+  width: min(100%, 390px);
+  margin: 26px auto 0;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+  border: 1px solid rgba(77, 94, 118, 0.1);
+  border-radius: 18px;
+  background: rgba(238, 241, 246, 0.78);
+}
+
+.platform-button {
+  min-height: 48px;
+  padding: 10px 12px;
+  border: 0;
+  border-radius: 14px;
+  color: #667489;
+  background: transparent;
+  font: inherit;
+  font-size: 15px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: color 160ms ease, background 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.platform-button:hover {
+  color: #26364d;
+}
+
+.platform-button:focus-visible {
+  outline: 3px solid rgba(106, 175, 230, 0.42);
+  outline-offset: 2px;
+}
+
+.platform-button.is-active {
+  color: #243247;
+  background: #fff;
+  box-shadow: 0 7px 20px rgba(70, 69, 86, 0.12);
+}
+
+.platform-button:active {
+  transform: scale(0.98);
+}
+
+.platform-icon {
+  width: 8px;
+  height: 8px;
+  margin-right: 6px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+  color: transparent;
+  background: #8793a5;
+  vertical-align: 1px;
+}
+
+.android-icon {
+  background: #69b673;
 }
 
 .qr-panel {
-  margin: 30px auto 0;
+  margin: 24px auto 0;
+}
+
+.qr-panel[hidden] {
+  display: none;
 }
 
 .qr-frame {
@@ -150,18 +187,12 @@ h1 {
   user-select: auto;
 }
 
-.qr-panel strong,
 .qr-panel span {
   display: block;
 }
 
-.qr-panel strong {
-  margin-top: 22px;
-  font-size: 24px;
-}
-
 .qr-panel span {
-  margin-top: 7px;
+  margin-top: 18px;
   color: #8995a6;
   font-size: 17px;
   font-weight: 650;
@@ -179,14 +210,6 @@ h1 {
 
 .mobile-hint {
   display: none;
-}
-
-.support-note {
-  max-width: 410px;
-  margin: 18px auto 0;
-  color: #98a1af;
-  font-size: 12px;
-  line-height: 1.65;
 }
 
 @media (max-width: 600px) {
@@ -212,27 +235,29 @@ h1 {
   }
 
   .brand img {
-    width: 56px;
-    height: 56px;
-  }
-
-  .brand strong {
-    font-size: 20px;
+    width: 82px;
+    height: 82px;
   }
 
   .qr-panel {
-    margin-top: 22px;
+    margin-top: 18px;
+  }
+
+  .platform-switch {
+    margin-top: 20px;
+  }
+
+  .platform-button {
+    min-height: 46px;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-size: 14px;
   }
 
   .qr-frame {
     width: min(72vw, 286px);
     padding: 12px;
     border-radius: 22px;
-  }
-
-  .qr-panel strong {
-    margin-top: 18px;
-    font-size: 22px;
   }
 
   .desktop-hint {
@@ -251,11 +276,6 @@ h1 {
 
   .brand {
     margin-bottom: 12px;
-  }
-
-  .download-copy p,
-  .support-note {
-    display: none;
   }
 
   .qr-frame {

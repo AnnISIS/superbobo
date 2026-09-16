@@ -4,43 +4,78 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#fff9f5" />
-    <meta name="description" content="扫码下载 Chio Chio 超级球球 APP，支持 iOS 和 Android。" />
+    <meta name="description" content="选择 iOS 或 Android，扫码下载超级球球 APP。" />
     <title>下载超级球球 APP</title>
     <link rel="icon" href="../media/logo-superqiuqiu.png" />
-    <link rel="stylesheet" href="./xz.css?v=20260819-1" />
+    <link rel="stylesheet" href="./xz.css?v=20260826-1" />
   </head>
   <body>
     <main class="download-page">
       <section class="download-card" aria-labelledby="download-title">
         <header class="brand">
           <img src="../media/logo-superqiuqiu.png" alt="超级球球" />
-          <div>
-            <strong>超级球球</strong>
-            <span>一个爱你的 AI 伙伴</span>
-          </div>
         </header>
 
         <div class="download-copy">
-          <span class="eyebrow">CHIO CHIO APP</span>
-          <h1 id="download-title">下载超级球球 APP</h1>
-          <p>连接你的超级球球，开启专属 AI 陪伴体验。</p>
+          <h1 id="download-title">扫码下载 APP</h1>
+          <p>请选择你的手机系统</p>
         </div>
 
-        <div class="qr-panel">
+        <div class="platform-switch" role="tablist" aria-label="选择手机系统">
+          <button class="platform-button is-active" type="button" role="tab" aria-selected="true" aria-controls="ios-panel" id="ios-tab" data-platform="ios">
+            <span class="platform-icon" aria-hidden="true">●</span>
+            苹果 iOS
+          </button>
+          <button class="platform-button" type="button" role="tab" aria-selected="false" aria-controls="android-panel" id="android-tab" data-platform="android">
+            <span class="platform-icon android-icon" aria-hidden="true">●</span>
+            安卓 Android
+          </button>
+        </div>
+
+        <div class="qr-panel" id="ios-panel" role="tabpanel" aria-labelledby="ios-tab">
           <div class="qr-frame">
-            <img src="../media/qr-app-download.png" alt="超级球球 APP 下载二维码" />
+            <img src="../media/qr-app-ios.png" alt="超级球球苹果 iOS APP 下载二维码" />
           </div>
-          <strong>扫码下载 APP</strong>
-          <span>支持 iOS / Android</span>
+          <span>苹果 iOS 下载</span>
+        </div>
+
+        <div class="qr-panel" id="android-panel" role="tabpanel" aria-labelledby="android-tab" hidden>
+          <div class="qr-frame">
+            <img src="../media/qr-app-android.png?v=20260909-2" alt="超级球球安卓 Android APP 下载二维码" />
+          </div>
+          <span>安卓 Android 下载</span>
         </div>
 
         <div class="device-hint">
           <span class="desktop-hint">请使用手机相机或微信扫描二维码</span>
-          <span class="mobile-hint">手机端可长按二维码识别并前往下载</span>
+          <span class="mobile-hint">长按二维码识别并下载</span>
         </div>
-
-        <p class="support-note">如果无法识别，请保存二维码后使用微信“扫一扫”从相册选择。</p>
       </section>
     </main>
+    <script>
+      const platformButtons = document.querySelectorAll(".platform-button");
+      const platformPanels = document.querySelectorAll('[role="tabpanel"]');
+
+      function selectPlatform(selectedPlatform) {
+          platformButtons.forEach((item) => {
+            const isSelected = item.dataset.platform === selectedPlatform;
+            item.classList.toggle("is-active", isSelected);
+            item.setAttribute("aria-selected", String(isSelected));
+          });
+
+          platformPanels.forEach((panel) => {
+            panel.hidden = panel.id !== `${selectedPlatform}-panel`;
+          });
+      }
+
+      platformButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          selectPlatform(button.dataset.platform);
+        });
+      });
+
+      const requestedPlatform = new URLSearchParams(window.location.search).get("platform");
+      selectPlatform(requestedPlatform === "android" ? "android" : "ios");
+    </script>
   </body>
 </html>

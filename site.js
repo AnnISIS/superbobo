@@ -15,6 +15,7 @@
     "商业合作": "ビジネス提携",
     "联系我们": "お問い合わせ",
     "APP下载": "アプリをダウンロード",
+    "加载更多资讯": "ニュースをさらに表示",
     "一个爱你的AI伙伴": "あなたを想うAIパートナー",
     "超级球球首页": "Chio Chio ホーム",
     "超级球球": "Chio Chio",
@@ -24,6 +25,14 @@
     "主导航": "メインナビゲーション",
     "扫码下载 APP": "QRコードからアプリをダウンロード",
     "支持 iOS / Android": "iOS / Android 対応",
+    "选择下载平台": "ダウンロードするOSを選択",
+    "请选择手机系统，扫描对应二维码。": "スマートフォンのOSを選び、対応するQRコードを読み取ってください。",
+    "苹果 iOS": "Apple iOS",
+    "安卓 Android": "Android",
+    "苹果 iOS 下载": "Apple iOS版をダウンロード",
+    "安卓 Android 下载": "Android版をダウンロード",
+    "苹果 iOS 下载二维码": "Apple iOS版ダウンロード用QRコード",
+    "安卓 Android 下载二维码": "Android版ダウンロード用QRコード",
     "了解超级球球": "Chio Chioについて",
     "成为合作伙伴": "パートナーになる",
     "超级球球是谁？": "Chio Chioとは？",
@@ -311,6 +320,7 @@
     "商业合作": "Partnerskaber",
     "联系我们": "Kontakt os",
     "APP下载": "Hent appen",
+    "加载更多资讯": "Vis flere nyheder",
     "一个爱你的AI伙伴": "En AI-ledsager, der holder af dig",
     "超级球球首页": "Chio Chio-forside",
     "超级球球": "Chio Chio",
@@ -320,6 +330,14 @@
     "主导航": "Hovednavigation",
     "扫码下载 APP": "Scan QR-koden for at hente appen",
     "支持 iOS / Android": "Til iOS og Android",
+    "选择下载平台": "Vælg platform",
+    "请选择手机系统，扫描对应二维码。": "Vælg din telefontype, og scan den tilhørende QR-kode.",
+    "苹果 iOS": "Apple iOS",
+    "安卓 Android": "Android",
+    "苹果 iOS 下载": "Hent til Apple iOS",
+    "安卓 Android 下载": "Hent til Android",
+    "苹果 iOS 下载二维码": "QR-kode til Apple iOS-download",
+    "安卓 Android 下载二维码": "QR-kode til Android-download",
     "了解超级球球": "Læs om Chio Chio",
     "成为合作伙伴": "Bliv partner",
     "超级球球是谁？": "Hvad er Chio Chio?",
@@ -617,9 +635,18 @@
     "品牌资讯": "News",
     "商业合作": "Partnership",
     "APP下载": "App Download",
+    "加载更多资讯": "Load more news",
     "扫码下载 APP": "Scan to download",
     "二维码素材待替换": "QR code to be replaced",
     "支持 iOS / Android": "iOS / Android supported",
+    "选择下载平台": "Choose a platform",
+    "请选择手机系统，扫描对应二维码。": "Choose your phone system and scan the corresponding QR code.",
+    "苹果 iOS": "Apple iOS",
+    "安卓 Android": "Android",
+    "苹果 iOS 下载": "Download for Apple iOS",
+    "安卓 Android 下载": "Download for Android",
+    "苹果 iOS 下载二维码": "Apple iOS download QR code",
+    "安卓 Android 下载二维码": "Android download QR code",
     "超级有爱": "Chio Chio",
     "超级球球": "Chio Chio",
     "超级球球 Chio Chio": "Chio Chio",
@@ -1434,17 +1461,34 @@
       const media = renderTranslatedArticleBlocks(body.dataset.zhHtml, lang).match(/<figure[\s\S]*?<\/figure>/g) || [];
       let nextMediaIndex = 0;
       const hasMediaTokens = data.body.some((text) => /^\[\[media:(next|\d+)\]\]$/i.test(String(text || "").trim()));
-      const paragraphs = data.body.map((text) => {
+      const headingIndices = new Set(Array.isArray(data.headingIndices) ? data.headingIndices : []);
+      const localizeMedia = (html, number) => {
+        const holder = document.createElement("div");
+        holder.innerHTML = html || "";
+        const image = holder.querySelector("img");
+        if (image) {
+          const label = lang === "ja" ? `記事画像 ${number}` : lang === "da" ? `Artikelbillede ${number}` : `Article image ${number}`;
+          image.alt = `${data.title} — ${label}`;
+        }
+        return holder.innerHTML;
+      };
+      const paragraphs = data.body.map((text, bodyIndex) => {
         const trimmed = String(text || "").trim();
         if (!trimmed) return "";
         const mediaToken = trimmed.match(/^\[\[media:(next|\d+)\]\]$/i);
         if (mediaToken) {
-          if (mediaToken[1].toLowerCase() === "next") return media[nextMediaIndex++] || "";
+          if (mediaToken[1].toLowerCase() === "next") {
+            const number = nextMediaIndex + 1;
+            return localizeMedia(media[nextMediaIndex++] || "", number);
+          }
           const mediaIndex = Number(mediaToken[1]) - 1;
           nextMediaIndex = Math.max(nextMediaIndex, mediaIndex + 1);
-          return media[mediaIndex] || "";
+          return localizeMedia(media[mediaIndex] || "", mediaIndex + 1);
         }
         const qaLine = /^(A|Q)\s*[:：]/i.test(trimmed);
+        if (headingIndices.has(bodyIndex)) {
+          return `<h2 class="article-section-heading">${escapeHTML(trimmed)}</h2>`;
+        }
         return `<p class="${qaLine ? "qa-line " : ""}article-en-paragraph">${escapeHTML(trimmed)}</p>`;
       }).join("");
       body.innerHTML = `<div class="article-translated-body">${paragraphs}${hasMediaTokens ? "" : media.join("")}</div>`;
@@ -1672,6 +1716,41 @@
     }, { passive: true });
   }
 
+  function initNewsLoadMore() {
+    const list = document.querySelector(".news-list");
+    if (!list) return;
+    const rows = [...list.querySelectorAll(".news-row")];
+    const initialCount = 14;
+    const batchSize = 12;
+    if (rows.length <= initialCount) return;
+
+    rows.slice(initialCount).forEach((row) => {
+      row.hidden = true;
+      row.classList.add("news-row--deferred");
+    });
+
+    const controls = document.createElement("div");
+    controls.className = "news-load-more-wrap";
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "button secondary news-load-more";
+    button.textContent = "加载更多资讯";
+    button.setAttribute("aria-controls", "news-list");
+    list.id = list.id || "news-list";
+    controls.appendChild(button);
+    list.insertAdjacentElement("afterend", controls);
+
+    button.addEventListener("click", () => {
+      const hiddenRows = rows.filter((row) => row.hidden);
+      hiddenRows.slice(0, batchSize).forEach((row) => {
+        row.hidden = false;
+        row.classList.remove("news-row--deferred");
+        row.classList.add("is-visible");
+      });
+      if (!rows.some((row) => row.hidden)) controls.remove();
+    });
+  }
+
   function getCopyPayload(link) {
     const href = link.getAttribute("href") || "";
     if (href.startsWith("mailto:")) {
@@ -1755,6 +1834,7 @@
   document.addEventListener("DOMContentLoaded", () => {
     createLanguageToggle();
     createMobileNavigation();
+    initNewsLoadMore();
     initMotion();
     initContactCopy();
     setLanguage(localStorage.getItem(STORAGE_KEY) || DEFAULT_LANG);
