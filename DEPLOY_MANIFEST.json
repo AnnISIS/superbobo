@@ -38,8 +38,8 @@
     "media/qr-app-ios.png": "e97729640384a8417690dffacedede5ef5071ac93973c49ff59a7c4acd583396",
     "media/qr-app-android.png": "e5dce792fd2da7c45442fbdbfa07ac312110f5d757d0e768ba3a34cea98fbdae",
     "media/qr-wechat-official-account.jpg": "688094c456db617591efa9fb6b78689fd07cbbb7d9dc5df27ede04f53c96c788",
-    "support/getting-started/index.html": "4074a1efb10219b1cb980e29cd39e6897a8b8b27907de7b39c0c8a98d40ad781",
-    "support/getting-started/media/introduction.mp4": "faba38afcd72854a04a104a8df3bc519fd527228da13d16f82e26dc7abf61cf6"
+    "support/getting-started/index.html": "c1f468f7bf9fbb4dded6d71aa1dcaaea3824c1e1f73d13d2caa3b3c0e04fff3f",
+    "support/getting-started/media/introduction.mp4": "944d61ced6d9da0949fef4d5795910278859184618022e78564ed328f0279794"
   },
   "excluded_from_release": [
     ".git",
