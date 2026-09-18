@@ -38,6 +38,8 @@ systemctl enable --now superbobo-wechat-fetch.timer
 
 定时器每两小时检查一次最新内容，并在 0–15 分钟内随机错峰。已抓取的 `article_id` 会自动跳过；没有新文章时不会生成空审核包。定时任务只写私有审核目录，不会修改或发布官网。
 
+每次抓取结束后，`wechat_git_sync.py` 会把审核正文和图片同步到专用私有仓库 `AnnISIS/superbobo-wechat-inbox`。同步白名单只允许文章 JSON、两份正文 HTML 和 `images/`，不会读取或提交 AppSecret、access token、环境文件、证书或私钥。GitHub 同步失败会使本次服务显示失败并由下一次定时运行重试，但不会破坏已抓取的本地审核文件。
+
 ## 从审核包生成官网页面
 
 服务器抓取生成 `wechat-review-*.zip` 后，将该审核包下载到本地，再运行：

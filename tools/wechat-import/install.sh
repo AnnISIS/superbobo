@@ -5,6 +5,7 @@ SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 INSTALL_DIR=/opt/superbobo-wechat
 DATA_DIR=/var/lib/superbobo-wechat
 ENV_FILE=/etc/superbobo-wechat.env
+GITHUB_KEY=/etc/superbobo-wechat-github/id_ed25519
 SERVICE_NAME=superbobo-wechat-fetch.service
 TIMER_NAME=superbobo-wechat-fetch.timer
 
@@ -24,7 +25,19 @@ if [[ "${ENV_MODE}" != 600 ]]; then
   exit 1
 fi
 
-for required in wechat_fetch.py README.md "${SERVICE_NAME}" "${TIMER_NAME}" SHA256SUMS; do
+if [[ ! -f "${GITHUB_KEY}" ]]; then
+  echo "找不到 GitHub inbox 专用密钥：${GITHUB_KEY}" >&2
+  echo "请先生成专用密钥并将公钥添加为私有仓库的可写 Deploy Key。" >&2
+  exit 1
+fi
+
+KEY_MODE="$(stat -c '%a' "${GITHUB_KEY}")"
+if [[ "${KEY_MODE}" != 600 ]]; then
+  echo "GitHub inbox 专用密钥权限应为 600，当前为 ${KEY_MODE}。" >&2
+  exit 1
+fi
+
+for required in wechat_fetch.py wechat_git_sync.py README.md "${SERVICE_NAME}" "${TIMER_NAME}" SHA256SUMS; do
   [[ -f "${SCRIPT_DIR}/${required}" ]] || {
     echo "安装包缺少文件：${required}" >&2
     exit 1
@@ -37,18 +50,21 @@ echo "[1/4] 校验安装包"
 echo "[2/4] 安装私有抓取工具"
 install -d -m 0700 "${INSTALL_DIR}" "${DATA_DIR}" "${DATA_DIR}/inbox" "${DATA_DIR}/exports"
 install -m 0700 "${SCRIPT_DIR}/wechat_fetch.py" "${INSTALL_DIR}/wechat_fetch.py"
+install -m 0700 "${SCRIPT_DIR}/wechat_git_sync.py" "${INSTALL_DIR}/wechat_git_sync.py"
 install -m 0600 "${SCRIPT_DIR}/README.md" "${INSTALL_DIR}/README.md"
 install -m 0644 "${SCRIPT_DIR}/${SERVICE_NAME}" "/etc/systemd/system/${SERVICE_NAME}"
 install -m 0644 "${SCRIPT_DIR}/${TIMER_NAME}" "/etc/systemd/system/${TIMER_NAME}"
 
 echo "[3/4] 检查 Python 和 systemd 配置"
 /usr/bin/python3 "${INSTALL_DIR}/wechat_fetch.py" --help >/dev/null
+/usr/bin/python3 "${INSTALL_DIR}/wechat_git_sync.py" --help >/dev/null
+command -v git >/dev/null || { echo "服务器未安装 git" >&2; exit 1; }
 systemd-analyze verify "/etc/systemd/system/${SERVICE_NAME}" "/etc/systemd/system/${TIMER_NAME}"
 systemctl daemon-reload
 
 echo "[4/4] 完成安装"
 echo
-echo "安装完成。工具只抓取到私有审核区，不会自动修改或发布官网。"
+echo "安装完成。工具会把审核内容同步到专用私有 GitHub inbox，但不会自动修改或发布官网。"
 echo "首次抓取：systemctl start ${SERVICE_NAME}"
 echo "查看结果：journalctl -u ${SERVICE_NAME} -n 80 --no-pager"
 echo "确认首次抓取无误后启用定时器：systemctl enable --now ${TIMER_NAME}"

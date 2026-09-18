@@ -6,6 +6,7 @@ Wants=network-online.target
 [Service]
 Type=oneshot
 ExecStart=/usr/bin/python3 /opt/superbobo-wechat/wechat_fetch.py
+ExecStartPost=/usr/bin/python3 /opt/superbobo-wechat/wechat_git_sync.py
 UMask=0077
 NoNewPrivileges=true
 PrivateTmp=true
