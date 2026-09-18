@@ -1,0 +1,20 @@
+微信公众号文章抓取工具安装说明
+==============================
+
+本工具只把公众号文章抓取到服务器私有待审核区，不会自动修改官网或公开发布文章。
+
+1. 将安装包上传到服务器 /root/superbobo。
+2. 解压安装包并进入同名目录。
+3. 执行：bash install.sh
+4. 首次抓取：systemctl start superbobo-wechat-fetch.service
+5. 查看结果：journalctl -u superbobo-wechat-fetch.service -n 80 --no-pager
+6. 确认无误后启用自动抓取：systemctl enable --now superbobo-wechat-fetch.timer
+
+审核包位于：/var/lib/superbobo-wechat/exports
+
+安全说明：
+
+1. AppSecret 只从 /etc/superbobo-wechat.env 读取。
+2. 程序不会显示或写出 AppSecret、access token。
+3. 抓取资料默认只有 root 可以读取。
+4. 自动任务仅抓取和去重，不会绕过人工审核，不会自动上线。

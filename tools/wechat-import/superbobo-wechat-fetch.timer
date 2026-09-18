@@ -1,0 +1,10 @@
+[Unit]
+Description=Check the WeChat account for newly published articles every two hours
+
+[Timer]
+OnCalendar=*-*-* 00/2:23:00
+RandomizedDelaySec=15m
+Persistent=true
+
+[Install]
+WantedBy=timers.target

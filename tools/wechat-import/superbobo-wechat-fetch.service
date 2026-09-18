@@ -1,0 +1,14 @@
+[Unit]
+Description=Fetch published WeChat articles into the SuperBobo review inbox
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /opt/superbobo-wechat/wechat_fetch.py
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/superbobo-wechat
