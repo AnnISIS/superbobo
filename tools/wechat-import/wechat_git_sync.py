@@ -133,7 +133,7 @@ def run_git(
         env=environment,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
-        text=True,
+        universal_newlines=True,
     )
     if check and result.returncode != 0:
         detail = (result.stderr or result.stdout).strip()
@@ -161,7 +161,7 @@ def ensure_repository(
         env=environment,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
-        text=True,
+        universal_newlines=True,
     )
     if clone.returncode != 0:
         raise SyncError(f"无法克隆私有 inbox 仓库：{clone.stderr.strip()}")
