@@ -16,7 +16,7 @@ from typing import Dict, List, Optional, Sequence
 
 
 CHINA_TZ = timezone(timedelta(hours=8))
-DEFAULT_REMOTE = "git@github.com:AnnISIS/superbobo-wechat-inbox.git"
+DEFAULT_REMOTE = "ssh://git@ssh.github.com:443/AnnISIS/superbobo-wechat-inbox.git"
 DEFAULT_DATA_DIR = Path("/var/lib/superbobo-wechat")
 DEFAULT_KEY = Path("/etc/superbobo-wechat-github/id_ed25519")
 MAX_SYNC_FILE_BYTES = 90 * 1024 * 1024
