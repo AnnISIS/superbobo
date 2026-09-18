@@ -52,6 +52,8 @@ python3 tools/wechat-import/site_news_pipeline.py prepare /path/to/wechat-review
 - 标准化草稿 `draft.json`
 - 四语翻译模板 `translations.template.json`
 
+如果审核包中含有已经上线的资讯，程序会按照标题自动跳过，避免重复发布。只有明确需要重做同名文章时，才使用 `--allow-existing-title`。
+
 英语、日语、丹麦语填写并审核后，先校验：
 
 ```bash

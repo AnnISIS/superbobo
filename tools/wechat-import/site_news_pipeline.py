@@ -291,6 +291,12 @@ def prepare_command(args: argparse.Namespace) -> int:
     output_root = Path(args.output or (repo_root / "work" / "wechat-drafts")).resolve()
     news_index = read_json(repo_root / "data" / "news-index.json")
     reserved: Set[str] = set()
+    indexed_articles = news_index.get("articles", [])
+    existing_titles = {
+        clean_text(str(item.get("title") or "")): str(item.get("id") or "")
+        for item in indexed_articles
+        if isinstance(item, dict) and clean_text(str(item.get("title") or ""))
+    }
 
     with tempfile.TemporaryDirectory(prefix="superbobo-wechat-review-") as temp_dir:
         extracted = Path(temp_dir)
@@ -317,6 +323,11 @@ def prepare_command(args: argparse.Namespace) -> int:
         prepared: List[Path] = []
         for metadata_file in metadata_files:
             metadata = read_json(metadata_file)
+            title = clean_text(str(metadata.get("title") or ""))
+            existing_id = existing_titles.get(title)
+            if existing_id and not args.allow_existing_title:
+                print(f"跳过官网已有文章：{title}（{existing_id}）")
+                continue
             publish_date = parse_publish_date(metadata, args.date)
             article_id = args.article_id or next_article_id(news_index, publish_date, reserved)
             draft_dir = output_root / article_id
@@ -337,7 +348,7 @@ def prepare_command(args: argparse.Namespace) -> int:
                 "schema_version": 1,
                 "article_id": article_id,
                 "date": publish_date,
-                "title": clean_text(str(metadata.get("title") or "")),
+                "title": title,
                 "summary": summary,
                 "source_article_id": metadata.get("article_id"),
                 "source_url": metadata.get("article_url"),
@@ -860,6 +871,11 @@ def build_parser() -> argparse.ArgumentParser:
     prepare.add_argument("--date", help="单篇文章日期 YYYY-MM-DD")
     prepare.add_argument("--article-id", help="单篇文章编号 YYYYMMDDNN")
     prepare.add_argument("--output", help="草稿输出目录")
+    prepare.add_argument(
+        "--allow-existing-title",
+        action="store_true",
+        help="允许处理标题与官网已有资讯相同的文章",
+    )
     prepare.set_defaults(func=prepare_command)
 
     validate = subparsers.add_parser("validate", help="校验三种翻译与中文结构完全对应")

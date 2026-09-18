@@ -56,6 +56,45 @@ class ArticleParsingTests(unittest.TestCase):
             self.assertEqual(nodes[3]["text"], "图片后")
 
 
+class PrepareWorkflowTests(unittest.TestCase):
+    def test_skips_article_already_present_on_website(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            repo = root / "repo"
+            review = root / "review" / "bundle"
+            output = root / "drafts"
+            write_json(
+                repo / "data" / "news-index.json",
+                {
+                    "articles": [
+                        {
+                            "id": "2026081201",
+                            "title": "官网已有文章",
+                        }
+                    ]
+                },
+            )
+            write_json(
+                review / "article.json",
+                {
+                    "title": "官网已有文章",
+                    "update_time": "2026-08-12T12:00:00+08:00",
+                },
+            )
+            args = Namespace(
+                repo_root=str(repo),
+                review=str(root / "review"),
+                output=str(output),
+                bundle=None,
+                article_id=None,
+                date=None,
+                allow_existing_title=False,
+            )
+
+            self.assertEqual(pipeline.prepare_command(args), 0)
+            self.assertFalse(output.exists())
+
+
 class TranslationValidationTests(unittest.TestCase):
     def setUp(self):
         self.draft = {
