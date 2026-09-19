@@ -97,10 +97,26 @@ def probable_heading(tag: Tag, text: str) -> bool:
         return True
     if len(text) > 60 or re.search(r"[。！？!?]$", text):
         return False
-    style = str(tag.get("style") or "").lower()
-    bold = bool(tag.find(["strong", "b"])) or "font-weight: bold" in style or "font-weight:700" in style
-    large = bool(re.search(r"font-size\s*:\s*(?:1[89]|[2-9]\d)px", style))
-    return bold or large
+    styles = [str(tag.get("style") or "").lower()]
+    styles.extend(str(child.get("style") or "").lower() for child in tag.find_all(True))
+    combined_style = ";".join(styles)
+    parent_style = styles[0]
+    centered = bool(re.search(r"text-align\s*:\s*center", parent_style))
+    bold = bool(tag.find(["strong", "b"])) or bool(
+        re.search(r"font-weight\s*:\s*(?:bold|[6-9]00)", combined_style)
+    )
+    sizes = [int(value) for value in re.findall(r"font-size\s*:\s*(\d+)px", combined_style)]
+    largest_size = max(sizes) if sizes else 0
+    bracketed = bool(re.fullmatch(r"[【\[].+[】\]]", text))
+
+    # WeChat often applies visual heading styles to a nested span instead of
+    # the paragraph itself. A centered 17px line, a centered bracketed label,
+    # or a short bold line should therefore remain a heading after import.
+    if centered and (largest_size >= 17 or bold or bracketed):
+        return True
+    if largest_size >= 18:
+        return True
+    return bold and len(text) <= 36
 
 
 def next_article_id(news_index: Dict[str, object], publish_date: str, reserved: Set[str]) -> str:
@@ -131,18 +147,25 @@ def parse_article_nodes(bundle_dir: Path, output_assets: Path) -> Tuple[List[Dic
     if not source.is_file():
         raise PipelineError(f"缺少正文文件：{source}")
     soup = BeautifulSoup(source.read_text(encoding="utf-8"), "html.parser")
-    for unwanted in soup.select("script, style, noscript, svg"):
+    errors: List[str] = []
+    embedded_media = soup.select("iframe, video, audio, mp-common-videosnap, mp-video, mpvoice")
+    if embedded_media:
+        errors.append(
+            f"检测到 {len(embedded_media)} 处视频或音频内容，官网暂不自动搬运，请人工确认后处理"
+        )
+    for unwanted in soup.select(
+        "script, style, noscript, svg, iframe, video, audio, mp-common-videosnap, mp-video, mpvoice"
+    ):
         unwanted.decompose()
 
     nodes: List[Dict[str, str]] = []
-    errors: List[str] = []
     copied_images: Dict[Path, str] = {}
     last_text = ""
 
     def add_text(text: str, kind: str) -> None:
         nonlocal last_text
         text = clean_text(text)
-        if not text or text == last_text:
+        if not text or text == last_text or text.upper() == "END":
             return
         nodes.append({"type": kind, "text": text})
         last_text = text
@@ -269,18 +292,25 @@ def make_review_html(draft: Dict[str, object]) -> str:
             blocks.append(
                 f'<figure><img src="{html.escape(node["path"], quote=True)}" alt="{html.escape(node.get("alt", ""), quote=True)}"></figure>'
             )
+    parse_errors = draft.get("parse_errors") or []
+    warning_html = ""
+    if parse_errors:
+        warning_items = "".join(f"<li>{html.escape(str(item))}</li>" for item in parse_errors)
+        warning_html = f'<div class="warning"><strong>需人工处理</strong><ul>{warning_items}</ul></div>'
     return """<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{title}｜待审核</title><style>
 body{{margin:0;background:#f7f4f6;color:#1f3148;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif}}
 main{{max-width:820px;margin:32px auto;padding:40px;background:#fff;border-radius:24px}}
 h1{{line-height:1.35}}h2{{margin-top:32px}}p{{font-size:17px;line-height:1.9}}figure{{margin:28px 0}}img{{display:block;max-width:100%;height:auto;margin:auto}}
-.meta{{color:#718096;margin-bottom:28px}}.notice{{padding:14px 18px;background:#fff4d8;border-radius:12px}}
+.meta{{color:#718096;margin-bottom:28px}}.notice,.warning{{padding:14px 18px;border-radius:12px}}
+.notice{{background:#fff4d8}}.warning{{margin-top:14px;background:#ffe7e7;color:#8a1c1c}}.warning ul{{margin-bottom:0}}
 </style></head><body><main><div class="notice">待审核预览：此页面不会发布到官网。</div>
-<h1>{title}</h1><div class="meta">{date}</div>{body}</main></body></html>
+{warning}<h1>{title}</h1><div class="meta">{date}</div>{body}</main></body></html>
 """.format(
         title=html.escape(str(draft["title"])),
         date=html.escape(str(draft["date"])),
+        warning=warning_html,
         body="".join(blocks),
     )
 
@@ -380,7 +410,7 @@ def prepare_command(args: argparse.Namespace) -> int:
             print(f"草稿已生成：{draft_dir}")
             print(f"预览文件：{draft_dir / 'review.html'}")
             if errors:
-                print(f"注意：发现 {len(errors)} 个图片或路径问题，请先审核。")
+                print(f"注意：发现 {len(errors)} 个需人工处理的问题，发布前必须先审核。")
         print(f"共生成 {len(prepared)} 篇待审核草稿。")
     return 0
 

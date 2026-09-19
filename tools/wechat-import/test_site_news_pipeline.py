@@ -55,6 +55,56 @@ class ArticleParsingTests(unittest.TestCase):
             self.assertEqual(nodes[2]["path"], "assets/image-001.jpg")
             self.assertEqual(nodes[3]["text"], "图片后")
 
+    def test_recognizes_nested_wechat_heading_styles(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            bundle = root / "bundle"
+            bundle.mkdir(parents=True)
+            (bundle / "content-local.html").write_text(
+                '<p style="text-align: center;"><span style="font-size: 17px;color: rgb(255, 104, 39);">'
+                '展会高光时刻｜实力收获全网瞩目</span></p>'
+                '<p style="text-align: center;"><span style="font-size: 15px;">'
+                '【海外客商密集洽谈】</span></p>'
+                '<p style="text-align: center;"><span style="font-size: 17px;font-weight: bold;">'
+                '我们是谁：深耕情绪健康领域的AI先锋</span></p>',
+                encoding="utf-8",
+            )
+
+            nodes, errors = pipeline.parse_article_nodes(bundle, root / "draft" / "assets")
+
+            self.assertEqual(errors, [])
+            self.assertEqual([node["type"] for node in nodes], ["heading", "heading", "heading"])
+
+    def test_flags_unsupported_media_and_omits_decorative_end(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            bundle = root / "bundle"
+            bundle.mkdir(parents=True)
+            (bundle / "content-local.html").write_text(
+                '<p>正文</p><iframe src="https://example.com/video"></iframe>'
+                '<mp-common-videosnap data-type="video"></mp-common-videosnap><p>END</p>',
+                encoding="utf-8",
+            )
+
+            nodes, errors = pipeline.parse_article_nodes(bundle, root / "draft" / "assets")
+
+            self.assertEqual([node["text"] for node in nodes], ["正文"])
+            self.assertEqual(len(errors), 1)
+            self.assertIn("2 处视频或音频", errors[0])
+
+    def test_review_page_displays_parse_warning(self):
+        rendered = pipeline.make_review_html(
+            {
+                "title": "待审核文章",
+                "date": "2026-09-19",
+                "nodes": [{"type": "paragraph", "text": "正文"}],
+                "parse_errors": ["检测到视频，请人工处理"],
+            }
+        )
+
+        self.assertIn("需人工处理", rendered)
+        self.assertIn("检测到视频，请人工处理", rendered)
+
 
 class PrepareWorkflowTests(unittest.TestCase):
     def test_skips_article_already_present_on_website(self):
