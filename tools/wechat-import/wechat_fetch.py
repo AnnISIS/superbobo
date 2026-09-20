@@ -28,6 +28,7 @@ from typing import Dict, Iterable, List, Optional, Sequence, Tuple
 TOKEN_URL = "https://api.weixin.qq.com/cgi-bin/stable_token"
 BATCH_URL = "https://api.weixin.qq.com/cgi-bin/freepublish/batchget"
 ARTICLE_URL = "https://api.weixin.qq.com/cgi-bin/freepublish/getarticle"
+MATERIAL_BATCH_URL = "https://api.weixin.qq.com/cgi-bin/material/batchget_material"
 USER_AGENT = "SuperBobo-WeChat-Importer/1.0"
 CHINA_TZ = timezone(timedelta(hours=8))
 ALLOWED_IMAGE_HOST_SUFFIXES = (
@@ -156,6 +157,107 @@ def list_published_groups(token: str, max_groups: int) -> Tuple[int, List[Dict[s
 
 def get_published_group(token: str, article_id: str) -> Dict[str, object]:
     return post_json(token_url(ARTICLE_URL, token), {"article_id": article_id})
+
+
+def list_material_news(token: str, max_items: int) -> Tuple[int, List[Dict[str, object]]]:
+    """List permanent news material via material/batchget_material.
+
+    Unlike freepublish/batchget, this endpoint returns ALL permanent news
+    materials — including articles that were mass-broadcast (群发), which
+    freepublish/batchget intentionally hides.
+    """
+    items: List[Dict[str, object]] = []
+    offset = 0
+    total_count = 0
+    while len(items) < max_items:
+        count = min(20, max_items - len(items))
+        try:
+            result = post_json(
+                token_url(MATERIAL_BATCH_URL, token),
+                {"type": "news", "offset": offset, "count": count},
+            )
+        except ImportErrorWithCode:
+            # This account may lack the material API; surface what we have.
+            break
+        total_count = int(result.get("total_count") or 0)
+        batch = result.get("item") or []
+        if not isinstance(batch, list):
+            raise ImportErrorWithCode("永久素材列表格式异常")
+        items.extend(item for item in batch if isinstance(item, dict))
+        if not batch or len(items) >= total_count:
+            break
+        offset += len(batch)
+    return total_count, items[:max_items]
+
+
+def _group_titles(group: Dict[str, object]) -> set:
+    content = group.get("content") or {}
+    if not isinstance(content, dict):
+        return set()
+    news_items = content.get("news_item") or []
+    if not isinstance(news_items, list):
+        return set()
+    return {
+        _normalize_title(item)
+        for item in news_items
+        if isinstance(item, dict) and _normalize_title(item)
+    }
+
+
+def _normalize_title(item: Dict[str, object]) -> str:
+    """Normalize a news-item title for cross-API dedup comparison."""
+    raw = str(item.get("title") or "").strip()
+    return " ".join(raw.split()) if raw else ""
+
+
+def _group_identifier(group: Dict[str, object]) -> str:
+    """Return a stable identifier for a group — prefer article_id, else media_id."""
+    article_id = str(group.get("article_id") or "").strip()
+    if article_id:
+        return article_id
+    media_id = str(group.get("media_id") or "").strip()
+    return media_id
+
+
+def merge_article_groups(
+    freepublish_groups: List[Dict[str, object]],
+    material_groups: List[Dict[str, object]],
+) -> List[Dict[str, object]]:
+    """Merge groups from freepublish and material APIs, dedup by normalized title.
+
+    Material API (batchget_material) is the authoritative source because it
+    returns ALL permanent news — including articles that were mass-broadcast
+    (群发), which freepublish/batchget hides. freepublish is kept as a
+    supplement and for groups that already have ``article_id``.
+
+    Each merged group carries a ``_source`` tag (``"freepublish"`` or
+    ``"material"``) so :func:`fetch` knows how to resolve full content.
+    """
+    # First pass: material is primary
+    seen_titles: set = set()
+    merged: List[Dict[str, object]] = []
+    for group in material_groups:
+        tagged = dict(group)
+        tagged["_source"] = "material"
+        merged.append(tagged)
+        seen_titles.update(_group_titles(group))
+
+    # Second pass: freepublish supplements, skip any whose titles we already have
+    for group in freepublish_groups:
+        group_titles = _group_titles(group)
+        if group_titles & seen_titles:
+            continue
+        seen_titles.update(group_titles)
+        tagged = dict(group)
+        tagged["_source"] = "freepublish"
+        merged.append(tagged)
+
+    # Sort newest-first by update_time
+    merged.sort(
+        key=lambda g: int(g.get("update_time") or 0),
+        reverse=True,
+    )
+    return merged
 
 
 def safe_slug(value: str) -> str:
@@ -451,8 +553,19 @@ def fetch(args: argparse.Namespace) -> int:
 
     credentials = read_env(env_file)
     token = get_access_token(credentials)
-    total_count, groups = list_published_groups(token, args.max_groups)
-    print(f"公众号连接成功：共有 {total_count} 组已发布内容。")
+
+    # Source 1: freepublish/batchget — only returns "未开启群发通知" articles.
+    freepublish_count, freepublish_groups = list_published_groups(token, args.max_groups)
+    # Source 2: material/batchget_material (type=news) — ALL permanent news,
+    # including mass-broadcast (群发) articles that source 1 intentionally omits.
+    material_count, material_groups = list_material_news(token, args.max_groups)
+
+    groups = merge_article_groups(freepublish_groups, material_groups)
+    print(
+        "公众号连接成功：freepublish {} 组，material(永久图文) {} 组，合并后 {} 组。".format(
+            freepublish_count, material_count, len(groups)
+        )
+    )
 
     state = load_state(state_file)
     state_articles = state["articles"]
@@ -462,17 +575,32 @@ def fetch(args: argparse.Namespace) -> int:
     skipped = 0
 
     for group in groups:
-        article_id = str(group.get("article_id") or "").strip()
-        if not article_id:
+        stable_id = _group_identifier(group)
+        if not stable_id:
             continue
-        if article_id in state_articles and not args.force:
+        if stable_id in state_articles and not args.force:
             skipped += 1
             continue
 
-        detail = get_published_group(token, article_id)
-        news_items = detail.get("news_item") or []
-        if not isinstance(news_items, list) or not news_items:
-            raise ImportErrorWithCode(f"文章 {article_id} 没有返回图文内容")
+        source = group.get("_source") or "freepublish"
+        if source == "freepublish":
+            article_id = stable_id
+            detail = get_published_group(token, article_id)
+            news_items = detail.get("news_item") or []
+            if not isinstance(news_items, list) or not news_items:
+                raise ImportErrorWithCode(
+                    "文章 {} (freepublish) 没有返回图文内容".format(article_id)
+                )
+        else:
+            # material API already includes news_item inline in the list response.
+            content = group.get("content") or {}
+            news_items = content.get("news_item") or []
+            if not isinstance(news_items, list) or not news_items:
+                raise ImportErrorWithCode(
+                    "素材组 {} 没有图文内容".format(stable_id)
+                )
+            # material API items don't carry article_id; use stable_id as fallback
+            article_id = stable_id
 
         group_records: List[Dict[str, object]] = []
         group_ok = True
@@ -494,7 +622,9 @@ def fetch(args: argparse.Namespace) -> int:
                 group_ok = False
 
         if group_ok:
-            state_articles[article_id] = {
+            state_articles[stable_id] = {
+                "article_id": article_id,
+                "source": source,
                 "update_time": group.get("update_time"),
                 "bundles": [record["bundle_name"] for record in group_records],
                 "fetched_at": datetime.now(CHINA_TZ).isoformat(),
@@ -503,7 +633,8 @@ def fetch(args: argparse.Namespace) -> int:
     summary = {
         "schema_version": 1,
         "fetched_at": datetime.now(CHINA_TZ).isoformat(),
-        "total_published_groups": total_count,
+        "total_freepublish_groups": freepublish_count,
+        "total_material_groups": material_count,
         "checked_groups": len(groups),
         "imported_items": len(imported),
         "skipped_groups": skipped,
@@ -523,12 +654,12 @@ def fetch(args: argparse.Namespace) -> int:
     write_json(state_file, state)
     archive = create_export(data_dir, imported_bundles)
 
-    print(f"本次新增 {len(imported)} 篇，跳过已抓取内容 {skipped} 组。")
+    print("本次新增 {} 篇，跳过已抓取内容 {} 组。".format(len(imported), skipped))
     for record in imported:
         status = "待审核" if record["ready_for_review"] else "图片不完整"
-        print(f"- [{status}] {record['title']}")
+        print("- [{}] {}".format(status, record["title"]))
     if archive:
-        print(f"审核包：{archive}")
+        print("审核包：{}".format(archive))
     else:
         print("没有新文章，不生成新的审核包。")
     return 0 if all(record["ready_for_review"] for record in imported) else 2
