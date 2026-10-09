@@ -489,7 +489,7 @@ def render_article_html(draft: Dict[str, object], next_article: Dict[str, object
       <nav class="article-nav" aria-label="文章切换"><span></span><a href="./{next_id}.html"><span>下一篇</span><strong>{next_title}</strong></a></nav>
       <div class="article-back"><a class="button secondary" href="../news.html">返回品牌资讯</a></div>
     </main>
-    <script src="../media/news/news-translations.js?v=20260918" defer></script>
+    <script src="../media/news/news-translations.js?v={trans_v}" defer></script>
     <script src="../site.js?v=20260903-3" defer></script>
   </body>
 </html>
@@ -500,6 +500,7 @@ def render_article_html(draft: Dict[str, object], next_article: Dict[str, object
         body="\n".join(blocks),
         next_id=html.escape(str(next_article["id"]), quote=True),
         next_title=html.escape(str(next_article["title"])),
+        trans_v=datetime.now().strftime("%Y%m%d"),
     )
 
 
