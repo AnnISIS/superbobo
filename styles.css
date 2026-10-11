@@ -126,7 +126,7 @@ img {
   position: absolute;
   top: calc(100% + 12px);
   right: 0;
-  width: 340px;
+  width: 220px;
   padding: 16px;
   border: 1px solid rgba(20, 32, 51, 0.1);
   border-radius: 8px;
@@ -141,7 +141,7 @@ img {
 .app-platform-qr-grid {
   margin-top: 12px;
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 12px;
 }
 
@@ -4663,9 +4663,10 @@ html[lang="en"] .article-header h1 {
 }
 
 .contact-app-options {
-  margin-top: 14px;
+  margin: 14px auto 0;
+  max-width: 280px;
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 14px;
 }
 

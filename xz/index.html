@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#fff9f5" />
-    <meta name="description" content="选择 iOS 或 Android，扫码下载超级球球 APP。" />
+    <meta name="description" content="安卓 Android 与苹果 iOS 同码，扫码即可下载超级球球 APP。" />
     <title>下载超级球球 APP</title>
     <link rel="icon" href="../media/logo-superqiuqiu.png" />
     <link rel="stylesheet" href="./xz.css?v=20260826-1" />
@@ -18,32 +18,13 @@
 
         <div class="download-copy">
           <h1 id="download-title">扫码下载 APP</h1>
-          <p>请选择你的手机系统</p>
         </div>
 
-        <div class="platform-switch" role="tablist" aria-label="选择手机系统">
-          <button class="platform-button is-active" type="button" role="tab" aria-selected="true" aria-controls="ios-panel" id="ios-tab" data-platform="ios">
-            <span class="platform-icon" aria-hidden="true">●</span>
-            苹果 iOS
-          </button>
-          <button class="platform-button" type="button" role="tab" aria-selected="false" aria-controls="android-panel" id="android-tab" data-platform="android">
-            <span class="platform-icon android-icon" aria-hidden="true">●</span>
-            安卓 Android
-          </button>
-        </div>
-
-        <div class="qr-panel" id="ios-panel" role="tabpanel" aria-labelledby="ios-tab">
+        <div class="qr-panel">
           <div class="qr-frame">
-            <img src="../media/qr-app-ios.png" alt="超级球球苹果 iOS APP 下载二维码" />
+            <img src="../media/qr-app-ios.png" alt="超级球球 APP 下载二维码（安卓 Android 与苹果 iOS 同码）" />
           </div>
-          <span>苹果 iOS 下载</span>
-        </div>
-
-        <div class="qr-panel" id="android-panel" role="tabpanel" aria-labelledby="android-tab" hidden>
-          <div class="qr-frame">
-            <img src="../media/qr-app-android.png?v=20260909-2" alt="超级球球安卓 Android APP 下载二维码" />
-          </div>
-          <span>安卓 Android 下载</span>
+          <span>安卓 Android · 苹果 iOS 同码</span>
         </div>
 
         <div class="device-hint">
@@ -52,30 +33,5 @@
         </div>
       </section>
     </main>
-    <script>
-      const platformButtons = document.querySelectorAll(".platform-button");
-      const platformPanels = document.querySelectorAll('[role="tabpanel"]');
-
-      function selectPlatform(selectedPlatform) {
-          platformButtons.forEach((item) => {
-            const isSelected = item.dataset.platform === selectedPlatform;
-            item.classList.toggle("is-active", isSelected);
-            item.setAttribute("aria-selected", String(isSelected));
-          });
-
-          platformPanels.forEach((panel) => {
-            panel.hidden = panel.id !== `${selectedPlatform}-panel`;
-          });
-      }
-
-      platformButtons.forEach((button) => {
-        button.addEventListener("click", () => {
-          selectPlatform(button.dataset.platform);
-        });
-      });
-
-      const requestedPlatform = new URLSearchParams(window.location.search).get("platform");
-      selectPlatform(requestedPlatform === "android" ? "android" : "ios");
-    </script>
   </body>
 </html>

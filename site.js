@@ -309,7 +309,12 @@
     "何昌耀微信二维码": "CHANGYAO HEのWeChat QRコード",
     "APP 下载": "アプリをダウンロード",
     "扫码下载 Chio Chio APP。": "QRコードからChio Chioアプリをダウンロードできます。",
-    "你也可以通过官方店铺了解产品、下单购买或关注新品动态。": "公式ストアでも、製品情報の確認、購入、新製品情報のフォローができます。"
+    "你也可以通过官方店铺了解产品、下单购买或关注新品动态。": "公式ストアでも、製品情報の確認、購入、新製品情報のフォローができます。",
+    "安卓 · iOS 同码": "Android・iOS共通コード",
+    "扫码即可下载": "スキャンするだけでダウンロード",
+    "安卓 Android · 苹果 iOS 同码，扫码即可下载": "Android・Apple iOS共通のQRコードです。スキャンするだけでダウンロードできます。",
+    "安卓 Android · 苹果 iOS": "Android · Apple iOS",
+    "超级球球 APP 下载二维码（安卓 Android 与苹果 iOS 同码）": "Chio Chioアプリダウンロード用QRコード（Android・Apple iOS共通）"
   };
   const TEXT_DA = {
     "首页": "Forside",
@@ -614,7 +619,12 @@
     "何昌耀微信二维码": "QR-kode til CHANGYAO HE på WeChat",
     "APP 下载": "Hent appen",
     "扫码下载 Chio Chio APP。": "Scan QR-koden for at hente Chio Chio-appen.",
-    "你也可以通过官方店铺了解产品、下单购买或关注新品动态。": "Du kan også læse om produkterne, bestille og følge med i nye lanceringer i de officielle butikker."
+    "你也可以通过官方店铺了解产品、下单购买或关注新品动态。": "Du kan også læse om produkterne, bestille og følge med i nye lanceringer i de officielle butikker.",
+    "安卓 · iOS 同码": "Én kode til Android og iOS",
+    "扫码即可下载": "Scan blot for at downloade",
+    "安卓 Android · 苹果 iOS 同码，扫码即可下载": "Én QR-kode gælder for både Android og Apple iOS — scan blot for at downloade.",
+    "安卓 Android · 苹果 iOS": "Android · Apple iOS",
+    "超级球球 APP 下载二维码（安卓 Android 与苹果 iOS 同码）": "Chio Chio-app download QR-kode (samme kode til Android og Apple iOS)"
   };
 
   const TEXT_EN = {
@@ -1065,7 +1075,12 @@
     "浏览量 69": "Views 69",
     "浏览量 68": "Views 68",
     "浏览量 66": "Views 66",
-    "浏览量 62": "Views 62"
+    "浏览量 62": "Views 62",
+    "安卓 · iOS 同码": "One Code for Android & iOS",
+    "扫码即可下载": "Just scan to download",
+    "安卓 Android · 苹果 iOS 同码，扫码即可下载": "One QR code works for both Android and Apple iOS — just scan to download.",
+    "安卓 Android · 苹果 iOS": "Android · Apple iOS",
+    "超级球球 APP 下载二维码（安卓 Android 与苹果 iOS 同码）": "Chio Chio app download QR code (same code for Android and Apple iOS)"
   };
 
   Object.assign(TEXT_EN, {
