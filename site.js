@@ -1526,7 +1526,7 @@
   function applyArticle(lang) {
     const id = getArticleId();
     const data = id ? (dynamicArticle(lang)[id] || (lang === "en" ? ARTICLE_EN[id] : null)) : null;
-    if (!id || !data) return;
+    if (!id) return;
     const body = document.querySelector(".article-body");
     if (body && !body.dataset.zhHtml) body.dataset.zhHtml = body.innerHTML;
     const title = document.querySelector(".article-header h1");
@@ -1539,22 +1539,24 @@
     if (heroImg && !heroImg.dataset.zhAlt) heroImg.dataset.zhAlt = heroImg.alt;
     if (!document.documentElement.dataset.zhTitle) document.documentElement.dataset.zhTitle = document.title;
 
-    if (lang !== "zh" && data) {
-      if (title) title.textContent = data.title;
-      if (lead) lead.textContent = data.summary;
-      if (crumb) crumb.textContent = data.title;
-      if (heroImg) heroImg.alt = data.title;
-      renderTranslatedArticleBody(body, data, lang);
-      const newsLabel = lang === "ja" ? "ブランドニュース" : lang === "da" ? "Nyheder" : "News";
-      document.title = `${data.title} | ${newsLabel} | Chio Chio`;
-    } else {
+    if (lang === "zh") {
       if (title?.dataset.zhText) title.textContent = title.dataset.zhText;
       if (lead?.dataset.zhText) lead.textContent = lead.dataset.zhText;
       if (crumb?.dataset.zhText) crumb.textContent = crumb.dataset.zhText;
       if (heroImg?.dataset.zhAlt) heroImg.alt = heroImg.dataset.zhAlt;
       if (body?.dataset.zhHtml) body.innerHTML = body.dataset.zhHtml;
       if (document.documentElement.dataset.zhTitle) document.title = document.documentElement.dataset.zhTitle;
+      return;
     }
+    if (!data) return;
+
+    if (title) title.textContent = data.title;
+    if (lead) lead.textContent = data.summary;
+    if (crumb) crumb.textContent = data.title;
+    if (heroImg) heroImg.alt = data.title;
+    renderTranslatedArticleBody(body, data, lang);
+    const newsLabel = lang === "ja" ? "ブランドニュース" : lang === "da" ? "Nyheder" : "News";
+    document.title = `${data.title} | ${newsLabel} | Chio Chio`;
   }
 
   function translateArticleNav(lang) {
