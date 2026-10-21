@@ -471,7 +471,7 @@ def render_article_html(draft: Dict[str, object], next_article: Dict[str, object
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title} | 品牌资讯 | 超级有爱</title>
-    <link rel="stylesheet" href="../styles.css?v=20260918" />
+    <link rel="stylesheet" href="../styles.css?v=20261010" />
   </head>
   <body class="article-page{long_class}">
     <main class="article-shell">
@@ -490,7 +490,7 @@ def render_article_html(draft: Dict[str, object], next_article: Dict[str, object
       <div class="article-back"><a class="button secondary" href="../news.html">返回品牌资讯</a></div>
     </main>
     <script src="../media/news/news-translations.js?v={trans_v}" defer></script>
-    <script src="../site.js?v=20260903-3" defer></script>
+    <script src="../site.js?v=20261010" defer></script>
   </body>
 </html>
 """.format(
